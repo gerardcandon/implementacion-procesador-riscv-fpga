@@ -1,0 +1,90 @@
+
+char_sort.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text.inici:
+
+00000000 <entry>:
+   0:	00030117          	auipc	x2,0x30
+   4:	00010113          	addi	x2,x2,0 # 30000 <__mem_top__>
+   8:	00030117          	auipc	x2,0x30
+   c:	ff810113          	addi	x2,x2,-8 # 30000 <__mem_top__>
+  10:	fe010113          	addi	x2,x2,-32
+  14:	0ec000ef          	jal	x1,100 <main>
+  18:	00000013          	addi	x0,x0,0
+  1c:	00000013          	addi	x0,x0,0
+  20:	00000013          	addi	x0,x0,0
+  24:	00000013          	addi	x0,x0,0
+  28:	00000013          	addi	x0,x0,0
+  2c:	00100073          	ebreak
+
+Disassembly of section .text:
+
+00000100 <main>:
+ 100:	fe010113          	addi	x2,x2,-32
+ 104:	00812e23          	sw	x8,28(x2)
+ 108:	02010413          	addi	x8,x2,32
+ 10c:	fe042623          	sw	x0,-20(x8)
+ 110:	004007b7          	lui	x15,0x400
+ 114:	01400713          	addi	x14,x0,20
+ 118:	06e7a223          	sw	x14,100(x15) # 400064 <__heap>
+ 11c:	fe042223          	sw	x0,-28(x8)
+ 120:	fe042423          	sw	x0,-24(x8)
+ 124:	0b00006f          	jal	x0,1d4 <main+0xd4>
+ 128:	004007b7          	lui	x15,0x400
+ 12c:	00078713          	addi	x14,x15,0 # 400000 <vector>
+ 130:	fe842783          	lw	x15,-24(x8)
+ 134:	00f707b3          	add	x15,x14,x15
+ 138:	0007c703          	lbu	x14,0(x15)
+ 13c:	fe842783          	lw	x15,-24(x8)
+ 140:	00178693          	addi	x13,x15,1
+ 144:	004007b7          	lui	x15,0x400
+ 148:	00078793          	addi	x15,x15,0 # 400000 <vector>
+ 14c:	00f687b3          	add	x15,x13,x15
+ 150:	0007c783          	lbu	x15,0(x15)
+ 154:	06e7fa63          	bgeu	x15,x14,1c8 <main+0xc8>
+ 158:	004007b7          	lui	x15,0x400
+ 15c:	00078713          	addi	x14,x15,0 # 400000 <vector>
+ 160:	fe842783          	lw	x15,-24(x8)
+ 164:	00f707b3          	add	x15,x14,x15
+ 168:	0007c783          	lbu	x15,0(x15)
+ 16c:	fef42023          	sw	x15,-32(x8)
+ 170:	fe842783          	lw	x15,-24(x8)
+ 174:	00178713          	addi	x14,x15,1
+ 178:	004007b7          	lui	x15,0x400
+ 17c:	00078793          	addi	x15,x15,0 # 400000 <vector>
+ 180:	00f707b3          	add	x15,x14,x15
+ 184:	0007c703          	lbu	x14,0(x15)
+ 188:	004007b7          	lui	x15,0x400
+ 18c:	00078693          	addi	x13,x15,0 # 400000 <vector>
+ 190:	fe842783          	lw	x15,-24(x8)
+ 194:	00f687b3          	add	x15,x13,x15
+ 198:	00e78023          	sb	x14,0(x15)
+ 19c:	fe842783          	lw	x15,-24(x8)
+ 1a0:	00178693          	addi	x13,x15,1
+ 1a4:	fe042783          	lw	x15,-32(x8)
+ 1a8:	0ff7f713          	andi	x14,x15,255
+ 1ac:	004007b7          	lui	x15,0x400
+ 1b0:	00078793          	addi	x15,x15,0 # 400000 <vector>
+ 1b4:	00f687b3          	add	x15,x13,x15
+ 1b8:	00e78023          	sb	x14,0(x15)
+ 1bc:	fe442783          	lw	x15,-28(x8)
+ 1c0:	00178793          	addi	x15,x15,1
+ 1c4:	fef42223          	sw	x15,-28(x8)
+ 1c8:	fe842783          	lw	x15,-24(x8)
+ 1cc:	00178793          	addi	x15,x15,1
+ 1d0:	fef42423          	sw	x15,-24(x8)
+ 1d4:	004007b7          	lui	x15,0x400
+ 1d8:	0647a703          	lw	x14,100(x15) # 400064 <__heap>
+ 1dc:	fec42783          	lw	x15,-20(x8)
+ 1e0:	40f707b3          	sub	x15,x14,x15
+ 1e4:	fff78793          	addi	x15,x15,-1
+ 1e8:	fe842703          	lw	x14,-24(x8)
+ 1ec:	f2f74ee3          	blt	x14,x15,128 <main+0x28>
+ 1f0:	fec42783          	lw	x15,-20(x8)
+ 1f4:	00178793          	addi	x15,x15,1
+ 1f8:	fef42623          	sw	x15,-20(x8)
+ 1fc:	fe442783          	lw	x15,-28(x8)
+ 200:	f0079ee3          	bne	x15,x0,11c <main+0x1c>
+ 204:	00000073          	ecall
+ 208:	0000006f          	jal	x0,208 <main+0x108>

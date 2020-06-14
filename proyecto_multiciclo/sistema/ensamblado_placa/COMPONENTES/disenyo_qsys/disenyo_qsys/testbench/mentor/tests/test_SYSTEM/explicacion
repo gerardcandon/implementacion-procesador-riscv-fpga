@@ -1,0 +1,15 @@
+Este test comprueba el correcto funcionamiento del conjunto de instrucciones SYSTEM.
+
+lui r1, 0x00001
+csrrw r2, mstatus, r1
+csrrwi r3, mstatus, 3
+halt
+
+COMPROBACION:
+El test se ha superado si los registros contienen los siguientes valores:
+
+mstatus: 0x00000003
+r2: 0x00000080
+r3: 0x00001000
+
+

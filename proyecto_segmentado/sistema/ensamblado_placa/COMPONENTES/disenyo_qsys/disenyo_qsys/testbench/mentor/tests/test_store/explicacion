@@ -1,0 +1,9 @@
+store
+
+Este test comprueba el correcto funcionamiento del conjunto de instrucciones store. Se comprueban todas las granularidades
+
+El test se ha superado si el contenido de la memoria es el siguiente:
+
+0x0: 0x04030201
+0x4: 0x02010201
+0x8: 0x01010101

@@ -1,0 +1,18 @@
+
+store.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00000000 <main>:
+   0:	040300b7          	lui	x1,0x4030
+   4:	20108093          	addi	x1,x1,513 # 4030201 <__mem_top__+0x4000201>
+   8:	00102023          	sw	x1,0(x0) # 0 <main>
+   c:	00101223          	sh	x1,4(x0) # 4 <main+0x4>
+  10:	00101323          	sh	x1,6(x0) # 6 <main+0x6>
+  14:	001005a3          	sb	x1,11(x0) # b <main+0xb>
+  18:	00100523          	sb	x1,10(x0) # a <main+0xa>
+  1c:	001004a3          	sb	x1,9(x0) # 9 <main+0x9>
+  20:	00100423          	sb	x1,8(x0) # 8 <main+0x8>
+  24:	00000793          	addi	x15,x0,0
+  28:	00078513          	addi	x10,x15,0

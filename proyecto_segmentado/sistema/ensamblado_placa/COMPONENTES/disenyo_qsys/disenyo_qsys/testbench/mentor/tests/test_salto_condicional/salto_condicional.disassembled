@@ -1,0 +1,27 @@
+
+salto_condicional.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00000000 <main>:
+   0:	80000937          	lui	x18,0x80000
+   4:	00100493          	addi	x9,x0,1
+   8:	00100993          	addi	x19,x0,1
+   c:	0124d463          	bge	x9,x18,14 <main+0x14>
+  10:	0ffff137          	lui	x2,0xffff
+  14:	00090713          	addi	x14,x18,0 # 80000000 <__mem_top__+0x7ffd0000>
+  18:	00048793          	addi	x15,x9,0
+  1c:	00f77463          	bgeu	x14,x15,24 <main+0x24>
+  20:	0ffff137          	lui	x2,0xffff
+  24:	01348463          	beq	x9,x19,2c <main+0x2c>
+  28:	0ffff137          	lui	x2,0xffff
+  2c:	00995c63          	bge	x18,x9,44 <main+0x44>
+  30:	00090713          	addi	x14,x18,0
+  34:	00048793          	addi	x15,x9,0
+  38:	00e7f663          	bgeu	x15,x14,44 <main+0x44>
+  3c:	01349463          	bne	x9,x19,44 <main+0x44>
+  40:	0000006f          	jal	x0,40 <main+0x40>
+  44:	0ffff137          	lui	x2,0xffff
+  48:	00000793          	addi	x15,x0,0
+  4c:	00078513          	addi	x10,x15,0

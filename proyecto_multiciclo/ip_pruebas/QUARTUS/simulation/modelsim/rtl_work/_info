@@ -1,0 +1,2054 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/simulation/modelsim
+Ealu
+Z1 w1590149226
+Z2 DPx4 work 5 tipos 0 22 ?RZ:aRIeXUzkLg[7TNfff2
+Z3 DPx4 work 8 retardos 0 22 ZaHNn1I9N8GBMXe45Pl[J3
+Z4 DPx4 work 10 constantes 0 22 Dki4@=HdkI9TGMcZJJ1_72
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/ALU.vhd
+Z9 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/ALU.vhd
+l0
+L13
+V>SElNk[Qi41V9KGgTPM>G2
+!s100 n[RQbV57BNjKhDP0hDN^23
+Z10 OV;C;10.5b;63
+31
+Z11 !s110 1592055627
+!i10b 1
+Z12 !s108 1592055627.000000
+Z13 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/ALU.vhd|
+Z14 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/ALU.vhd|
+!i113 1
+Z15 o-93 -work work
+Z16 tExplicit 1 CvgOpt 0
+Acompor
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 3 alu 0 22 >SElNk[Qi41V9KGgTPM>G2
+l24
+L22
+V`^iQBkDna91kBCm2<;aT[1
+!s100 3l_cf`6Q4NHA>jZRzzBMi1
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ealu_csr
+Z17 w1590149530
+R3
+R2
+R4
+R5
+R6
+R7
+R0
+Z18 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/COMPONENTES/ALU_CSR.vhd
+Z19 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/COMPONENTES/ALU_CSR.vhd
+l0
+L14
+V3nW_LRai[E7gMT]=M`EBS2
+!s100 f=;WZiY5b8aBK7F?fAEBo2
+R10
+31
+R11
+!i10b 1
+R12
+Z20 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/COMPONENTES/ALU_CSR.vhd|
+Z21 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/COMPONENTES/ALU_CSR.vhd|
+!i113 1
+R15
+R16
+Acompor
+R3
+R2
+R4
+R5
+R6
+R7
+DEx4 work 7 alu_csr 0 22 3nW_LRai[E7gMT]=M`EBS2
+l23
+L22
+VQlc:VPaN7?4P@zVaV0]UJ0
+!s100 IG8@faM;<_3LTeC1C[T;O0
+R10
+31
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Eautomata_estado
+Z22 w1590149439
+Z23 DPx4 work 34 automata_estado_procedimientos_pkg 0 22 ncOGPlQSg]LRAPco@^O751
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z24 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado.vhd
+Z25 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado.vhd
+l0
+L15
+VT`SE@DT=@lzAJEHZ@eAHb0
+!s100 [lNbH?o=H`zgE<XSI?g@_0
+R10
+31
+Z26 !s110 1592055628
+!i10b 1
+Z27 !s108 1592055628.000000
+Z28 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado.vhd|
+Z29 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado.vhd|
+!i113 1
+R15
+R16
+Acompor
+R23
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 15 automata_estado 0 22 T`SE@DT=@lzAJEHZ@eAHb0
+l34
+L29
+V8JH=8C3^XLBJAIC8hOIlz1
+!s100 JH[0bNmUA>fJcB^84Mazj1
+R10
+31
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R15
+R16
+Pautomata_estado_procedimientos_pkg
+R4
+R2
+R6
+R7
+Z30 w1590149444
+R0
+Z31 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado_procedimientos_pkg.vhd
+Z32 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado_procedimientos_pkg.vhd
+l0
+L11
+VncOGPlQSg]LRAPco@^O751
+!s100 V:2BC<Z=Ah7<4i=lc?=zm1
+R10
+31
+b1
+R11
+!i10b 1
+R12
+Z33 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado_procedimientos_pkg.vhd|
+Z34 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado_procedimientos_pkg.vhd|
+!i113 1
+R15
+R16
+Bbody
+R23
+R4
+R2
+R6
+R7
+l0
+L17
+VGR>5M[^9nnQ5e0Ql34m5R0
+!s100 l_3>iDe^XaTBTNZRlF4IA3
+R10
+31
+R11
+!i10b 1
+R12
+R33
+R34
+!i113 1
+R15
+R16
+Eautomata_estado_sys
+Z35 w1590149561
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z36 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/automata_estado_SYS/automata_estado_SYS.vhd
+Z37 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/automata_estado_SYS/automata_estado_SYS.vhd
+l0
+L13
+VfF8m`TW<2SR?49lL1cHeQ2
+!s100 Uh?H>_3PdPUQ6X1@bBgUA1
+R10
+31
+Z38 !s110 1592055626
+!i10b 1
+Z39 !s108 1592055626.000000
+Z40 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/automata_estado_SYS/automata_estado_SYS.vhd|
+Z41 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/automata_estado_SYS/automata_estado_SYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 19 automata_estado_sys 0 22 fF8m`TW<2SR?49lL1cHeQ2
+l27
+L22
+VQM=FB[<=f_G]Z1fIXPjBb1
+!s100 d5LCAf`=O^OeMJ<j?Lo902
+R10
+31
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R15
+R16
+Ebr
+Z42 w1590149406
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z43 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/BR.vhd
+Z44 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/BR.vhd
+l0
+L14
+VGTNJHHTcVP<bEU<BOTg<_0
+!s100 TWln<z`kQhjYCZ=Km2D462
+R10
+31
+R11
+!i10b 1
+R12
+Z45 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/BR.vhd|
+Z46 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/BR.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 2 br 0 22 GTNJHHTcVP<bEU<BOTg<_0
+l30
+L26
+VlKj56]W0=J@RbNO6JBQA]3
+!s100 GNbM>TIioGJS=1PO:U[5S3
+R10
+31
+R11
+!i10b 1
+R12
+R45
+R46
+!i113 1
+R15
+R16
+Ebr_csr
+Z47 w1590663990
+Z48 DPx4 work 25 br_csr_procedimientos_pkg 0 22 41;9?b@CSXVM8?`M=D89M0
+R3
+R2
+R4
+Z49 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z50 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R5
+R6
+R7
+R0
+Z51 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR.vhd
+Z52 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR.vhd
+l0
+L16
+Vom=Vhf=O_geUPl6IG=5:n3
+!s100 L@bV@JY=Dd]N<8gEXcmzI2
+R10
+31
+R26
+!i10b 1
+R27
+Z53 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR.vhd|
+Z54 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR.vhd|
+!i113 1
+R15
+R16
+Acompor
+R48
+R3
+R2
+R4
+R49
+R50
+R5
+R6
+R7
+DEx4 work 6 br_csr 0 22 om=Vhf=O_geUPl6IG=5:n3
+l57
+L43
+VGm5S7=M8;]jOdk2MkS9_i2
+!s100 GjcN^in1`XS>^Q@Q74HMU0
+R10
+31
+R26
+!i10b 1
+R27
+R53
+R54
+!i113 1
+R15
+R16
+Pbr_csr_procedimientos_pkg
+R2
+R4
+R6
+R7
+Z55 w1590149516
+R0
+Z56 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR_procedimientos.vhd
+Z57 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR_procedimientos.vhd
+l0
+L11
+V41;9?b@CSXVM8?`M=D89M0
+!s100 FzFLXF1X:FDiYgZQ72ZIV1
+R10
+31
+b1
+R11
+!i10b 1
+R12
+Z58 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR_procedimientos.vhd|
+Z59 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR_procedimientos.vhd|
+!i113 1
+R15
+R16
+Bbody
+R48
+R2
+R4
+R6
+R7
+l0
+L22
+VAT>5Ol5CC:JP2:RNFFZiI1
+!s100 >8<H@8Vn`HJkLFdEB1QSW0
+R10
+31
+R11
+!i10b 1
+R12
+R58
+R59
+!i113 1
+R15
+R16
+Ecamino_sys
+Z60 w1590149524
+Z61 DPx4 work 22 componentes_camino_sys 0 22 C?OMOG2BIB<RM@fWBCC0F3
+R2
+R4
+R5
+R6
+R7
+R0
+Z62 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/camino_SYS.vhd
+Z63 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/camino_SYS.vhd
+l0
+L15
+Vf0RdS@Tl0F79Vl<UHVoBP0
+!s100 n^AW44WQ[7=V;C5F_C4?Q3
+R10
+31
+R26
+!i10b 1
+R27
+Z64 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/camino_SYS.vhd|
+Z65 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/camino_SYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R61
+R2
+R4
+R5
+R6
+R7
+DEx4 work 10 camino_sys 0 22 f0RdS@Tl0F79Vl<UHVoBP0
+l26
+L24
+V3MLINSEoNB2`J034?z?1L2
+!s100 kHBoSo=@`j82]jl2NVgQj3
+R10
+31
+R26
+!i10b 1
+R27
+R64
+R65
+!i113 1
+R15
+R16
+Pcomponentes_camino_sys
+R4
+R2
+R6
+R7
+w1590149527
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/componentes_camino_SYS.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/componentes_camino_SYS.vhd
+l0
+L11
+VC?OMOG2BIB<RM@fWBCC0F3
+!s100 ck0DdKeF0Q`CBhS4[XV_J1
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/componentes_camino_SYS.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/componentes_camino_SYS.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_control_sys
+R4
+R2
+R6
+R7
+w1590149552
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/componentes_control_SYS.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/componentes_control_SYS.vhd
+l0
+L11
+VJTBM6CXW7FL1YCzhFCSF]3
+!s100 He^[6CK1F[bjgLlzIZQRK2
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/componentes_control_SYS.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/componentes_control_SYS.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_decoder
+R4
+R2
+R6
+R7
+w1590149450
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/componentes_decoder.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/componentes_decoder.vhd
+l0
+L11
+V>zGEgLY6CCQEML;6b6E^k1
+!s100 6B;I`k5dYO=7=:oZWaBE62
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/componentes_decoder.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/componentes_decoder.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_decosys
+R4
+R2
+R6
+R7
+w1590149580
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/componentes_decoSYS.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/componentes_decoSYS.vhd
+l0
+L11
+V]4O5MRd7V>Ie[VR2]=zK>1
+!s100 WMBdeJG?E1k7Aa?:RlY9a2
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/componentes_decoSYS.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/componentes_decoSYS.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_procesador
+R4
+R2
+R6
+R7
+w1590149358
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_procesador.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_procesador.vhd
+l0
+L11
+V@I??SeSj:B0WVH2OG=:z83
+!s100 DH7g5lHF2?ggnzgneg]mS1
+R10
+31
+R38
+!i10b 1
+R39
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_procesador.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_procesador.vhd|
+!i113 1
+R15
+R16
+Pcomponentesuc
+R4
+R2
+R6
+R7
+w1590149426
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/componentesUC.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/componentesUC.vhd
+l0
+L11
+VX@9IG64dEnA4a6a3BII5<1
+!s100 Y9N5W>G`74zJ7QmlDKM3=2
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/componentesUC.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/componentesUC.vhd|
+!i113 1
+R15
+R16
+Pcomponentesup
+R4
+R2
+R6
+R7
+w1590149393
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/componentesUP.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/componentesUP.vhd
+l0
+L11
+VGkG:YEOjOoHI]db:SMi]_0
+!s100 :?0JRH4@dnBE;2Sd1=U6f3
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/componentesUP.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/componentesUP.vhd|
+!i113 1
+R15
+R16
+Pcomponentesusys
+R4
+R2
+R6
+R7
+w1590149499
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/componentesSYS.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/componentesSYS.vhd
+l0
+L11
+V4GjBLN48:U^2cd9<h?8[;0
+!s100 :P]CV=g^V_Oc^W_PYNf_M3
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/componentesSYS.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/componentesSYS.vhd|
+!i113 1
+R15
+R16
+Pconstantes
+R6
+R7
+w1590227810
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/constantes.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/constantes.vhd
+l0
+L8
+VDki4@=HdkI9TGMcZJJ1_72
+!s100 M`0RkP70X?8mfkn[cFiGO2
+R10
+31
+R38
+!i10b 1
+R39
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/constantes.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/constantes.vhd|
+!i113 1
+R15
+R16
+Econtrol_sys
+Z66 w1590149554
+Z67 DPx4 work 23 componentes_control_sys 0 22 JTBM6CXW7FL1YCzhFCSF]3
+R2
+R3
+R4
+R6
+R7
+R0
+Z68 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/control_SYS.vhd
+Z69 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/control_SYS.vhd
+l0
+L19
+V:XMgdQTozl:Z^E=KN8?Z?1
+!s100 K7znkFGe3hP_Sa>m`d>`S2
+R10
+31
+R26
+!i10b 1
+R27
+Z70 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/control_SYS.vhd|
+Z71 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/control_SYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R67
+R2
+R3
+R4
+R6
+R7
+DEx4 work 11 control_sys 0 22 :XMgdQTozl:Z^E=KN8?Z?1
+l35
+L32
+VeLHAW?Ml8fTOKz]ReCAJc2
+!s100 =Wl164fJBAmhZZ?i_M_ML2
+R10
+31
+R26
+!i10b 1
+R27
+R70
+R71
+!i113 1
+R15
+R16
+Edecocamino
+Z72 w1590149471
+Z73 DPx4 work 26 decoder_procedimientos_pkg 0 22 XI5>N;=0mY4MXUV0=Bgl00
+R4
+R2
+R5
+R6
+R7
+R0
+Z74 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decocamino.vhd
+Z75 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decocamino.vhd
+l0
+L13
+VcT1Wc3JhnX<VGV3c4:E]N1
+!s100 F2KB@0oO]gWaXcg`JU6FQ2
+R10
+31
+R26
+!i10b 1
+R27
+Z76 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decocamino.vhd|
+Z77 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decocamino.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R73
+R4
+R2
+R5
+R6
+R7
+DEx4 work 10 decocamino 0 22 cT1Wc3JhnX<VGV3c4:E]N1
+l25
+L23
+VPehaD8:cz17ETn[AQAiz21
+!s100 Jd7V_;FL56`>aYDa3k1]21
+R10
+31
+R26
+!i10b 1
+R27
+R76
+R77
+!i113 1
+R15
+R16
+Edecocamino_sys
+Z78 w1590149587
+R3
+R2
+R4
+R5
+R6
+R7
+R0
+Z79 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoCamino_SYS.vhd
+Z80 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoCamino_SYS.vhd
+l0
+L13
+V_72_KIJVaLNPSVoTgC?c_0
+!s100 AREh]=TbA_[9V<3DDO`nJ3
+R10
+31
+R11
+!i10b 1
+R39
+Z81 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoCamino_SYS.vhd|
+Z82 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoCamino_SYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R3
+R2
+R4
+R5
+R6
+R7
+DEx4 work 14 decocamino_sys 0 22 _72_KIJVaLNPSVoTgC?c_0
+l25
+L24
+V?MaBo0Oi@IYB4hXZ_XCba2
+!s100 9l89]`SJ]?A:]liRA6QKa3
+R10
+31
+R11
+!i10b 1
+R39
+R81
+R82
+!i113 1
+R15
+R16
+Edecoder
+Z83 w1590149457
+Z84 DPx4 work 19 componentes_decoder 0 22 >zGEgLY6CCQEML;6b6E^k1
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z85 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder.vhd
+Z86 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder.vhd
+l0
+L14
+VPXi;gz?cA4]=oDDf<bljz1
+!s100 _CdGKnYz8b>YOJdF?@BLk0
+R10
+31
+R26
+!i10b 1
+R27
+Z87 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder.vhd|
+Z88 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder.vhd|
+!i113 1
+R15
+R16
+Acompor
+R84
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 7 decoder 0 22 PXi;gz?cA4]=oDDf<bljz1
+l88
+L58
+VhdQ3NPZG2GRZaaGY:IzM82
+!s100 ZVjaXhDd4h7MASBDABZF]3
+R10
+31
+R26
+!i10b 1
+R27
+R87
+R88
+!i113 1
+R15
+R16
+Pdecoder_procedimientos_pkg
+R4
+R2
+R6
+R7
+Z89 w1590149463
+R0
+Z90 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder_procedimientos_pkg.vhd
+Z91 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder_procedimientos_pkg.vhd
+l0
+L11
+VXI5>N;=0mY4MXUV0=Bgl00
+!s100 cBoRU9T[:Xz[_WBW;8VH92
+R10
+31
+b1
+R11
+!i10b 1
+R12
+Z92 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder_procedimientos_pkg.vhd|
+Z93 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder_procedimientos_pkg.vhd|
+!i113 1
+R15
+R16
+Bbody
+R73
+R4
+R2
+R6
+R7
+l0
+L34
+V_9_PlaiO;I`CHmRPe87^62
+!s100 4`gPO=h=Tlb<KLm_[jA3I0
+R10
+31
+R11
+!i10b 1
+R12
+R92
+R93
+!i113 1
+R15
+R16
+Edecoexcep
+Z94 w1590149475
+R73
+R4
+R2
+R5
+R6
+R7
+R0
+Z95 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoExcep.vhd
+Z96 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoExcep.vhd
+l0
+L13
+V35=adWCG;aA0]^2ZJ5n832
+!s100 D9R`jhg;IAEnVk?UN;OVg3
+R10
+31
+R26
+!i10b 1
+R27
+Z97 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoExcep.vhd|
+Z98 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoExcep.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R73
+R4
+R2
+R5
+R6
+R7
+DEx4 work 9 decoexcep 0 22 35=adWCG;aA0]^2ZJ5n832
+l27
+L25
+VDim_Cn_GzG`U;Vd6_R]o;2
+!s100 LgNn]nKgJ5^zXdIeKn>OS0
+R10
+31
+R26
+!i10b 1
+R27
+R97
+R98
+!i113 1
+R15
+R16
+Edecoexcep_sys
+Z99 w1590149590
+R2
+R4
+R5
+R6
+R7
+R0
+Z100 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoExcep_SYS.vhd
+Z101 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoExcep_SYS.vhd
+l0
+L12
+VEaK_EFAAA<oNTVA`Pcck<0
+!s100 []dHNUkK77iU;8A3A?DTR3
+R10
+31
+R38
+!i10b 1
+R39
+Z102 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoExcep_SYS.vhd|
+Z103 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoExcep_SYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R4
+R5
+R6
+R7
+DEx4 work 13 decoexcep_sys 0 22 EaK_EFAAA<oNTVA`Pcck<0
+l23
+L22
+V2j_[d`^fF>L]QnJGLVMnA1
+!s100 X9K]5S^JmQ3MHZSTNNci03
+R10
+31
+R38
+!i10b 1
+R39
+R102
+R103
+!i113 1
+R15
+R16
+Edecofmt
+Z104 w1590149478
+R73
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z105 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoFMT.vhd
+Z106 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoFMT.vhd
+l0
+L14
+VDGFX<k>g7eV3c92aSe9:Y3
+!s100 _ZM37?DS0JT_a4lj1lRoX1
+R10
+31
+R26
+!i10b 1
+R27
+Z107 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoFMT.vhd|
+Z108 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoFMT.vhd|
+!i113 1
+R15
+R16
+Acompor
+R73
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 7 decofmt 0 22 DGFX<k>g7eV3c92aSe9:Y3
+l38
+L26
+VbOJRSheVh6nKFLcgF;R?B2
+!s100 Si]kKT9nEd7nG?FPzSY1[2
+R10
+31
+R26
+!i10b 1
+R27
+R107
+R108
+!i113 1
+R15
+R16
+Edecomem
+Z109 w1590149482
+R73
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z110 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoMem.vhd
+Z111 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoMem.vhd
+l0
+L15
+VmJG>1Vn77J39ofFe<>h9?1
+!s100 [;EAcn7mgEC4?3T@Lna291
+R10
+31
+R26
+!i10b 1
+R27
+Z112 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoMem.vhd|
+Z113 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoMem.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R73
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 7 decomem 0 22 mJG>1Vn77J39ofFe<>h9?1
+l26
+L24
+VaLi>;7gR>=cl=KlK3REd23
+!s100 3cU87c_XkoADjga?<`KXT2
+R10
+31
+R26
+!i10b 1
+R27
+R112
+R113
+!i113 1
+R15
+R16
+Edecoopalu
+Z114 w1590149485
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z115 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoopALU.vhd
+Z116 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoopALU.vhd
+l0
+L13
+VfCCe7g>Hz99o9[9NS9]:60
+!s100 ?1P:fihB0SUk<:SMgV=:22
+R10
+31
+R11
+!i10b 1
+R12
+Z117 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoopALU.vhd|
+Z118 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoopALU.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 9 decoopalu 0 22 fCCe7g>Hz99o9[9NS9]:60
+l27
+L19
+VV>W3ZGc1L`6b;n4@zEbl20
+!s100 0^l^Y<_6Z6lA[ZK8o6ceL0
+R10
+31
+R11
+!i10b 1
+R12
+R117
+R118
+!i113 1
+R15
+R16
+Edecosec
+Z119 w1590149488
+R73
+R4
+R2
+R5
+R6
+R7
+R0
+Z120 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoSec.vhd
+Z121 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoSec.vhd
+l0
+L14
+VTgR=5PXB@b1gAn;NVD58`2
+!s100 JP1G3^o:PQ1>0[JSVT6Ad1
+R10
+31
+R26
+!i10b 1
+R27
+Z122 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoSec.vhd|
+Z123 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoSec.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R73
+R4
+R2
+R5
+R6
+R7
+DEx4 work 7 decosec 0 22 TgR=5PXB@b1gAn;NVD58`2
+l26
+L24
+VDJ8Zk[C6XgV2_RYfOb_WD1
+!s100 >;bKLOFmCUI];Lo5C@GNo0
+R10
+31
+R26
+!i10b 1
+R27
+R122
+R123
+!i113 1
+R15
+R16
+Edecosys
+Z124 w1590149582
+Z125 DPx4 work 19 componentes_decosys 0 22 ]4O5MRd7V>Ie[VR2]=zK>1
+R2
+R4
+R5
+R6
+R7
+R0
+Z126 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/decoSYS.vhd
+Z127 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/decoSYS.vhd
+l0
+L13
+VfA^Po8gz49cV^X8Kk?Dz;1
+!s100 J=oCbdVdB5aDD<X@k;MVS1
+R10
+31
+R26
+!i10b 1
+R27
+Z128 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/decoSYS.vhd|
+Z129 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/decoSYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R125
+R2
+R4
+R5
+R6
+R7
+DEx4 work 7 decosys 0 22 fA^Po8gz49cV^X8Kk?Dz;1
+l29
+L27
+VgH684Mz7UCA_7cVC0:oID1
+!s100 VmPXFE>DdSzV_;7V`KCe20
+R10
+31
+R26
+!i10b 1
+R27
+R128
+R129
+!i113 1
+R15
+R16
+Eensamblado_modelsim
+Z130 w1592051448
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+Z131 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/ensamblado_modelsim.vhd
+Z132 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/ensamblado_modelsim.vhd
+l0
+L13
+VHL3fYc]H=K7oROkB4`dW03
+!s100 3P34U5R;DQzARZcY5d@N:1
+R10
+31
+R26
+!i10b 1
+R27
+Z133 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/ensamblado_modelsim.vhd|
+Z134 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/ensamblado_modelsim.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 19 ensamblado_modelsim 0 22 HL3fYc]H=K7oROkB4`dW03
+l63
+L21
+VeBH3lQd=VbMc:Y2zAQLQf0
+!s100 D<l7A^]SoN8J:jFX`>WRV1
+R10
+31
+R26
+!i10b 1
+R27
+R133
+R134
+!i113 1
+R15
+R16
+Eensamblado_procesador
+Z135 w1590149365
+Z136 DPx4 work 22 componentes_procesador 0 22 @I??SeSj:B0WVH2OG=:z83
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+Z137 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/ensamblado_procesador.vhd
+Z138 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/ensamblado_procesador.vhd
+l0
+L15
+VR01[Q3d[Z<Iz?=[WLm=d40
+!s100 Ae;_A=hndMlV5A>mz;odU0
+R10
+31
+R26
+!i10b 1
+R27
+Z139 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/ensamblado_procesador.vhd|
+Z140 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/ensamblado_procesador.vhd|
+!i113 1
+R15
+R16
+Acompor
+R136
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 21 ensamblado_procesador 0 22 R01[Q3d[Z<Iz?=[WLm=d40
+l48
+L29
+VD46n9V]`WIl;>2H8bJ3B]3
+!s100 ^g_e4MH`DJ7mf3k;GL]mV2
+R10
+31
+R26
+!i10b 1
+R27
+R139
+R140
+!i113 1
+R15
+R16
+Eensambladouc
+Z141 w1590149429
+Z142 DPx4 work 13 componentesuc 0 22 X@9IG64dEnA4a6a3BII5<1
+R2
+R3
+R4
+R6
+R7
+R0
+Z143 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd
+Z144 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd
+l0
+L14
+VN]dOiC?Em2Nc3P>D[>8GW2
+!s100 _:3KOi[oO=V1E?K8iODIB0
+R10
+31
+R26
+!i10b 1
+R27
+Z145 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd|
+Z146 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd|
+!i113 1
+R15
+R16
+Acompor
+R142
+R2
+R3
+R4
+R6
+R7
+DEx4 work 12 ensambladouc 0 22 N]dOiC?Em2Nc3P>D[>8GW2
+l65
+L58
+V88=f2KMlJXJjRDf36Saf>3
+!s100 ;P@FNY=RZhAjJQ_XM[;el3
+R10
+31
+R26
+!i10b 1
+R27
+R145
+R146
+!i113 1
+R15
+R16
+Eensambladoup
+Z147 w1590149399
+Z148 DPx4 work 13 componentesup 0 22 GkG:YEOjOoHI]db:SMi]_0
+R2
+R3
+R4
+R6
+R7
+R0
+Z149 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd
+Z150 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd
+l0
+L14
+VB8`m>o5?zKO?AzN;Cgd1i1
+!s100 HWWeP?<Uoc?58NoGBIUKE2
+R10
+31
+R26
+!i10b 1
+R27
+Z151 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd|
+Z152 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd|
+!i113 1
+R15
+R16
+Acompor
+R148
+R2
+R3
+R4
+R6
+R7
+DEx4 work 12 ensambladoup 0 22 B8`m>o5?zKO?AzN;Cgd1i1
+l124
+L54
+Vfk3C?TEXRI;8EmI<2Y^320
+!s100 <kMT8[7UfPOM<VEo4W6oa3
+R10
+31
+R26
+!i10b 1
+R27
+R151
+R152
+!i113 1
+R15
+R16
+Eensambladousys
+Z153 w1590149501
+Z154 DPx4 work 15 componentesusys 0 22 4GjBLN48:U^2cd9<h?8[;0
+R2
+R3
+R4
+R6
+R7
+R0
+Z155 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/ensambladoSYS.vhd
+Z156 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/ensambladoSYS.vhd
+l0
+L14
+VXbKLOYIEHm`fD<Hf;Kd^50
+!s100 @Qm`CgEPUl]I;1VTTzW<`3
+R10
+31
+R26
+!i10b 1
+R27
+Z157 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/ensambladoSYS.vhd|
+Z158 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/ensambladoSYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R154
+R2
+R3
+R4
+R6
+R7
+DEx4 work 14 ensambladousys 0 22 XbKLOYIEHm`fD<Hf;Kd^50
+l50
+L41
+VJHKGgIQM;QO6BA=jEAa^13
+!s100 ^3i?mQ=RU4Yb8]ZFP>2mS2
+R10
+31
+R26
+!i10b 1
+R27
+R157
+R158
+!i113 1
+R15
+R16
+Efmte
+Z159 w1590149409
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z160 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTE.vhd
+Z161 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTE.vhd
+l0
+L13
+VS`h[m<<aOaQiH6XdA88:j1
+!s100 P5nC[`kPUmO`TBBe>Z3hQ2
+R10
+31
+R11
+!i10b 1
+R12
+Z162 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTE.vhd|
+Z163 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTE.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 4 fmte 0 22 S`h[m<<aOaQiH6XdA88:j1
+l22
+L20
+V@z<IX5I93gRSAa:8H^PTG1
+!s100 0O06AMK`k]3k;j4m;R`m33
+R10
+31
+R11
+!i10b 1
+R12
+R162
+R163
+!i113 1
+R15
+R16
+Efmti
+Z164 w1590149411
+R3
+R4
+R2
+R6
+R7
+R0
+Z165 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTI.vhd
+Z166 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTI.vhd
+l0
+L12
+V>3^c31kXLZ25cFHX5F0[Y1
+!s100 DAJ?NbOANV>l>kbza=Qcb3
+R10
+31
+R11
+!i10b 1
+R12
+Z167 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTI.vhd|
+Z168 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTI.vhd|
+!i113 1
+R15
+R16
+Acompor
+R3
+R4
+R2
+R6
+R7
+DEx4 work 4 fmti 0 22 >3^c31kXLZ25cFHX5F0[Y1
+l19
+L18
+VCgTe]Cl4chB3l3RX>WXiR2
+!s100 La:j;GBei[nUj]2_lEDKV0
+R10
+31
+R11
+!i10b 1
+R12
+R167
+R168
+!i113 1
+R15
+R16
+Efmtl
+Z169 w1590149417
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z170 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTL.vhd
+Z171 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTL.vhd
+l0
+L13
+V>b^hUFKPYB1n9ho06V:zB3
+!s100 3=emo^9DdNhUazaC@VSFg0
+R10
+31
+R11
+!i10b 1
+R12
+Z172 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTL.vhd|
+Z173 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTL.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 4 fmtl 0 22 >b^hUFKPYB1n9ho06V:zB3
+l23
+L21
+VF1o0@95[?idh^^K4Sa[222
+!s100 WD][e:hMb=CVD5FlLQc@03
+R10
+31
+R11
+!i10b 1
+R12
+R172
+R173
+!i113 1
+R15
+R16
+Efuerza_bit_0
+Z174 w1590149420
+R2
+R3
+R4
+R6
+R7
+R0
+Z175 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/fuerza_bit_0.vhd
+Z176 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/fuerza_bit_0.vhd
+l0
+L12
+Vk2BcX0WiTOLYNT>93^QIX2
+!s100 5zzzTFG7agdJJX`k:O]2^1
+R10
+31
+R11
+!i10b 1
+R12
+Z177 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/fuerza_bit_0.vhd|
+Z178 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/fuerza_bit_0.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R6
+R7
+DEx4 work 12 fuerza_bit_0 0 22 k2BcX0WiTOLYNT>93^QIX2
+l21
+L20
+VgAA?jEYzWGj`GYTKHlZB_2
+!s100 @[<FYUbSEHOWSej0:TUNX0
+R10
+31
+R11
+!i10b 1
+R12
+R177
+R178
+!i113 1
+R15
+R16
+Emem
+Z179 w1590149285
+R2
+R4
+Z180 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R49
+R50
+R5
+R6
+R7
+R0
+Z181 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd
+Z182 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd
+l0
+L16
+VB6SoC=a`8JoPm?6TmlbNa0
+!s100 8ZBU:QnYCzLG;XTa`:VL62
+R10
+31
+R26
+!i10b 1
+R27
+Z183 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd|
+Z184 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R4
+R180
+R49
+R50
+R5
+R6
+R7
+DEx4 work 3 mem 0 22 B6SoC=a`8JoPm?6TmlbNa0
+l50
+L30
+VCG<6bFf9=6CA==4RgYHni0
+!s100 dSj_Oe8WQe9??]f2m<:ga2
+R10
+31
+R26
+!i10b 1
+R27
+R183
+R184
+!i113 1
+R15
+R16
+Emux2_32
+Z185 w1590149377
+R3
+R2
+R4
+R5
+R6
+R7
+R0
+Z186 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux2_32.vhd
+Z187 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux2_32.vhd
+l0
+L13
+VbgMi;GGBMfKH7XSISc<9Q0
+!s100 O0Sb[]l7RXJ]6`6>YgXoL0
+R10
+31
+R26
+!i10b 1
+R27
+Z188 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux2_32.vhd|
+Z189 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux2_32.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R3
+R2
+R4
+R5
+R6
+R7
+DEx4 work 7 mux2_32 0 22 bgMi;GGBMfKH7XSISc<9Q0
+l20
+L19
+VGVgB6Hag]@mST80dE2YcO3
+!s100 KFJYz0nI0zQeYkc6@4^=b3
+R10
+31
+R26
+!i10b 1
+R27
+R188
+R189
+!i113 1
+R15
+R16
+Emux3_32
+Z190 w1590149380
+R3
+R2
+R4
+R5
+R6
+R7
+R0
+Z191 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux3_32.vhd
+Z192 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux3_32.vhd
+l0
+L13
+VO6LzbhoW>fj;R@ZVKz:Zh1
+!s100 7VXEEJQcCWgAH0SBLi]fA3
+R10
+31
+R26
+!i10b 1
+R12
+Z193 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux3_32.vhd|
+Z194 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux3_32.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R3
+R2
+R4
+R5
+R6
+R7
+DEx4 work 7 mux3_32 0 22 O6LzbhoW>fj;R@ZVKz:Zh1
+l20
+L19
+VO24nbc8[UW;KfG@=268jZ1
+!s100 dg:bAR:]>jGfd@<3:heY]1
+R10
+31
+R26
+!i10b 1
+R12
+R193
+R194
+!i113 1
+R15
+R16
+Eram
+Z195 w1592055620
+R2
+R4
+R180
+R49
+R50
+R5
+R6
+R7
+R0
+Z196 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd
+Z197 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd
+l0
+L41
+VJ6h07CHOz;TK1Ukka=C^l2
+!s100 g4Y=C1RS_dWJEm`Ikj2cO0
+R10
+31
+R26
+!i10b 1
+R27
+Z198 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd|
+Z199 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R4
+R180
+R49
+R50
+R5
+R6
+R7
+DEx4 work 3 ram 0 22 J6h07CHOz;TK1Ukka=C^l2
+l75
+L53
+V[e^oN=7bz8m9?AHngTzk=2
+!s100 PfH`kGLzJ5LJLNAYVLbmg3
+R10
+31
+R26
+!i10b 1
+R27
+R198
+R199
+!i113 1
+R15
+R16
+Erecolectoreventos
+Z200 w1590149598
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z201 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/recolectorEventos/recolectorEventos.vhd
+Z202 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/recolectorEventos/recolectorEventos.vhd
+l0
+L13
+VccSKi_]XnKhIAPC^b1f`10
+!s100 DD<FozW]G>ZPJj[]BW8200
+R10
+31
+R38
+!i10b 1
+R39
+Z203 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/recolectorEventos/recolectorEventos.vhd|
+Z204 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/recolectorEventos/recolectorEventos.vhd|
+!i113 1
+R15
+R16
+Acompor
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 17 recolectoreventos 0 22 ccSKi_]XnKhIAPC^b1f`10
+l25
+L23
+VQLzeJPlbjAlaH5dIZ?GB_3
+!s100 aMdGlo>]JHC4mi[Kc4AO71
+R10
+31
+R38
+!i10b 1
+R39
+R203
+R204
+!i113 1
+R15
+R16
+Ereg32
+Z205 w1590149385
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z206 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32.vhd
+Z207 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32.vhd
+l0
+L13
+VLNE]0^GO@R[]Vbg>zTcnc3
+!s100 iR=N61<=mm2nLDjoPzahF0
+R10
+31
+R11
+!i10b 1
+R12
+Z208 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32.vhd|
+Z209 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 5 reg32 0 22 LNE]0^GO@R[]Vbg>zTcnc3
+l20
+L19
+V8flXKEZnGjP^obC;DliMG0
+!s100 ;=`h1``FA:=B66mRF19mg3
+R10
+31
+R11
+!i10b 1
+R12
+R208
+R209
+!i113 1
+R15
+R16
+Ereg32pe
+Z210 w1590149388
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z211 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32pe.vhd
+Z212 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32pe.vhd
+l0
+L13
+VP>:`YS_X_o?V:i>Rc;Pb12
+!s100 @VHP26djcO^OXe?;GA7^j0
+R10
+31
+R11
+!i10b 1
+R12
+Z213 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32pe.vhd|
+Z214 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32pe.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 7 reg32pe 0 22 P>:`YS_X_o?V:i>Rc;Pb12
+l21
+L20
+VB:LH;DD<hTQbB^cZ@N[KC1
+!s100 >6AGOZQP^@:B1QKQc=U1[1
+R10
+31
+R11
+!i10b 1
+R12
+R213
+R214
+!i113 1
+R15
+R16
+Pretardos
+R4
+R6
+R7
+w1590664457
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/retardos.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/retardos.vhd
+l0
+L9
+VZaHNn1I9N8GBMXe45Pl[J3
+!s100 :58f@kLCRda=F]_kdODgU0
+R10
+31
+R38
+!i10b 1
+R39
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/retardos.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/retardos.vhd|
+!i113 1
+R15
+R16
+Etestbench
+Z215 w1592050569
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z216 8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/testbench.vhd
+Z217 F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/testbench.vhd
+l0
+L13
+V54;VRn2PRLjz4D<jkVLd`2
+!s100 2@=Jff]49>h:6i9UnE<f@1
+R10
+31
+R26
+!i10b 1
+R27
+Z218 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/testbench.vhd|
+Z219 !s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/testbench.vhd|
+!i113 1
+R15
+R16
+Aprueba
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 9 testbench 0 22 54;VRn2PRLjz4D<jkVLd`2
+l34
+L18
+VS_4`3QWn<:[iDNT9DfLji2
+!s100 zmmlb@SKm77Iz7ER3[Xhm1
+R10
+31
+R26
+!i10b 1
+R27
+R218
+R219
+!i113 1
+R15
+R16
+Ptipos
+R4
+R6
+R7
+w1590149342
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/tipos.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/tipos.vhd
+l0
+L9
+V?RZ:aRIeXUzkLg[7TNfff2
+!s100 G<U0DK157BWGf;V2d:DPM2
+R10
+31
+R38
+!i10b 1
+R39
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/tipos.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/tipos.vhd|
+!i113 1
+R15
+R16

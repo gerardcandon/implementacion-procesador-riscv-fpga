@@ -1,0 +1,62 @@
+
+suma_longlong64.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text.inici:
+
+00000000 <entry>:
+   0:	00030117          	auipc	x2,0x30
+   4:	00010113          	addi	x2,x2,0 # 30000 <__mem_top__>
+   8:	00030117          	auipc	x2,0x30
+   c:	ff810113          	addi	x2,x2,-8 # 30000 <__mem_top__>
+  10:	fe010113          	addi	x2,x2,-32
+  14:	0ec000ef          	jal	x1,100 <main>
+  18:	00000013          	addi	x0,x0,0
+  1c:	00000013          	addi	x0,x0,0
+  20:	00000013          	addi	x0,x0,0
+  24:	00000013          	addi	x0,x0,0
+  28:	00000013          	addi	x0,x0,0
+  2c:	00100073          	ebreak
+
+Disassembly of section .text:
+
+00000100 <main>:
+ 100:	fe010113          	addi	x2,x2,-32
+ 104:	00812e23          	sw	x8,28(x2)
+ 108:	02010413          	addi	x8,x2,32
+ 10c:	004007b7          	lui	x15,0x400
+ 110:	00000693          	addi	x13,x0,0
+ 114:	00000713          	addi	x14,x0,0
+ 118:	04d7a823          	sw	x13,80(x15) # 400050 <__heap>
+ 11c:	04e7aa23          	sw	x14,84(x15)
+ 120:	fe042623          	sw	x0,-20(x8)
+ 124:	0640006f          	jal	x0,188 <main+0x88>
+ 128:	004007b7          	lui	x15,0x400
+ 12c:	fec42703          	lw	x14,-20(x8)
+ 130:	00371713          	slli	x14,x14,0x3
+ 134:	00078793          	addi	x15,x15,0 # 400000 <x>
+ 138:	00f707b3          	add	x15,x14,x15
+ 13c:	0047a803          	lw	x16,4(x15)
+ 140:	0007a783          	lw	x15,0(x15)
+ 144:	00400737          	lui	x14,0x400
+ 148:	05072583          	lw	x11,80(x14) # 400050 <__heap>
+ 14c:	05472603          	lw	x12,84(x14)
+ 150:	00b786b3          	add	x13,x15,x11
+ 154:	00068513          	addi	x10,x13,0
+ 158:	00f53533          	sltu	x10,x10,x15
+ 15c:	00c80733          	add	x14,x16,x12
+ 160:	00e507b3          	add	x15,x10,x14
+ 164:	00078713          	addi	x14,x15,0
+ 168:	00068793          	addi	x15,x13,0
+ 16c:	00070813          	addi	x16,x14,0
+ 170:	00400737          	lui	x14,0x400
+ 174:	04f72823          	sw	x15,80(x14) # 400050 <__heap>
+ 178:	05072a23          	sw	x16,84(x14)
+ 17c:	fec42783          	lw	x15,-20(x8)
+ 180:	00178793          	addi	x15,x15,1
+ 184:	fef42623          	sw	x15,-20(x8)
+ 188:	fec42703          	lw	x14,-20(x8)
+ 18c:	00900793          	addi	x15,x0,9
+ 190:	f8e7dce3          	bge	x15,x14,128 <main+0x28>
+ 194:	00000073          	ecall
+ 198:	0000006f          	jal	x0,198 <main+0x98>

@@ -1,0 +1,153 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# Date created = 13:36:17  enero 02, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ensamblado_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+
+#set_global_assignment -name TOP_LEVEL_ENTITY ensamblado_modelsim
+set_global_assignment -name TOP_LEVEL_ENTITY ensamblado_procesador
+
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:36:17  ENERO 02, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH testbench -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ../PRUEBAS/formato_ventanas.do -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME testbench -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id testbench
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME testbench -section_id testbench
+
+#set_global_assignment -name VHDL_FILE ../PRUEBAS/ensamblado_modelsim/ensamblado_modelsim.vhd
+#set_global_assignment -name VHDL_FILE ../PRUEBAS/MEM/mem.vhd
+
+
+#set_global_assignment -name VHDL_FILE ../../ip/mm_reloj/mm_reloj.vhd
+
+
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_NAME testbench_LIB -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id testbench_LIB
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME testbench_LIB -section_id testbench_LIB
+set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS/MEM/mem.vhd -section_id testbench
+set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS/MEM/ram.vhd -section_id testbench
+set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS/testbench/testbench.vhd -section_id testbench
+set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS/ensamblado_modelsim/ensamblado_modelsim.vhd -section_id testbench
+set_global_assignment -name EDA_TEST_BENCH_FILE ../../ip/mm_reloj/mm_reloj.vhd -section_id testbench
+set_global_assignment -name EDA_TEST_BENCH_FILE ../PRUEBAS/testbench/testbench_LIB.vhd -section_id testbench_LIB
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoMem_DL.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoFMT_DL.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decocamino.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_procedimientos_pkg.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/componentes_decoder_DL.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoSec.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoMem_A.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoFMT_A.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/componentes_decoder_A.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/componentes_camino_control.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/riesgo_datos.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/LIB.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_M.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_CP.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_A.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/ensambladoUC.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UC/componentesUC.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/COMPONENTES/FMTL.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/componentes_etapaF.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/etapaM.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/componentes_etapaM.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/fuerza_bit_0.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/FMTE.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/EVAL.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/ALU.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/componentes_etapaA.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/FMTI.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/control_cortocircuitos.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/componentes_etapaDL.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/COMPONENTES/fifo.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/etapaB.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/componentes_etapaB.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/COMPONENTES/sumador4.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/etapaCP.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/componentes_etapaCP.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/componentesUP.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/COMPONENTES/UP/ensambladoUP.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/ensamblado_procesador.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_procesador.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/regNpe.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/regN.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/reg32pe.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/reg32.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/reg5pe.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/reg5.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/reg1pe.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/reg1.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/mux4_32.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/mux3_32.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/mux2_32.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/mux2_4.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/componentes_elementales/mux2_1.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/parametros/tipos.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/parametros/retardos.vhd
+set_global_assignment -name VHDL_FILE ../../ip/procesador/parametros/constantes.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

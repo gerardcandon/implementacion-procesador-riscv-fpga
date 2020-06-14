@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/gerard/Desktop/clase/TFG/proyecto/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+vdisenyo_qsys_mm_interconnect_0
+!s110 1592056251
+!i10b 1
+!s100 NKLLoMK21gJO>f]IG`7ab2
+I1FYlL9flX_e:QzUA[0MR`1
+VDg1SIo80bB@j0V0VzS_@n1
+d/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+w1592055745
+8./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_mm_interconnect_0.v
+F./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_mm_interconnect_0.v
+L0 9
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1592056251.000000
+!s107 ./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_mm_interconnect_0.v|
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_mm_interconnect_0.v|-work|mm_interconnect_0|
+!i113 1
+o-work mm_interconnect_0
+tCvgOpt 0

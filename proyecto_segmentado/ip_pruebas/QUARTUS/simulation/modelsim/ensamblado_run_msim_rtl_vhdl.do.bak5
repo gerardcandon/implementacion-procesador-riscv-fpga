@@ -1,0 +1,32 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/definiciones/constantes.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/definiciones/tipos.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/definiciones/retardos.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/UP/COMPONENTES/MEM/CODIGO/mem.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/UP/COMPONENTES/BR/CODIGO/BR.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/UP/COMPONENTES/ALU/CODIGO/ALU.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/UP/ENSAMBLADO/CODIGO/componentesUP.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/UC/DECODER/COMPONENTES/decoSec.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/UC/DECODER/COMPONENTES/decoopALU.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/UC/DECODER/COMPONENTES/decoMem.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/UC/DECODER/COMPONENTES/decocamino.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/UC/DECODER/CODIGO/componentes_decoder.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/COMPONENTES/reg32pe.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/COMPONENTES/reg32.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/COMPONENTES/mux3_32.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/COMPONENTES/mux2_32.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/CODIGO/ensamblado.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/UP/ENSAMBLADO/CODIGO/ensambladoUP.vhd}
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/COMPONENTES/UC/DECODER/CODIGO/decoder.vhd}
+
+vcom -93 -work work {/home/gerard/Desktop/clase/TFG/PROYECTO/../PRUEBAS/ensamblado_pruebas.vhd}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  ensamblado_pruebas
+
+do /home/gerard/Desktop/clase/TFG/PROYECTO/../PRUEBAS/formato_ventanas.do

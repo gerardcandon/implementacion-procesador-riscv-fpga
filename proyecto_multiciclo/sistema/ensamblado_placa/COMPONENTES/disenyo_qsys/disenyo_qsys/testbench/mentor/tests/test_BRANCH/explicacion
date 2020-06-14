@@ -1,0 +1,26 @@
+Este test comprueba el correcto funcionamiento del conjunto de instrucciones BRANCH.
+
+lui r1, 0x00001
+lui r2, 0x01000
+blt 0x008 r2, r1
+blt 0x008 r1, r2
+nop
+blt 0xffc r1, r2
+
+
+COMPROBACION:
+El test se ha superado si la secuencia de insrucciones ha sido la siguiente:
+
+lui r1, 0x00001
+lui r2, 0x01000
+blt 0x008 r2, r1
+blt 0x008 r1, r2
+blt 0xffc r1, r2
+nop
+blt 0xffc r1, r2
+nop
+blt 0xffc r1, r2
+nop
+blt 0xffc r1, r2
+...
+

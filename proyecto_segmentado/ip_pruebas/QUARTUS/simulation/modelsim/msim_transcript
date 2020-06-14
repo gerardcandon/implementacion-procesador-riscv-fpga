@@ -1,0 +1,951 @@
+# do ensamblado_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying /home/gerard/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/../modelsim.ini
+# 
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/constantes.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/constantes.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package constantes
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/tipos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/tipos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Compiling package tipos
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/retardos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/retardos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Compiling package retardos
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regN.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity regN
+# -- Compiling architecture comportamiento of regN
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity reg5
+# -- Compiling architecture comportamiento of reg5
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity reg1
+# -- Compiling architecture comportamiento of reg1
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/riesgo_datos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/riesgo_datos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity riesgo_datos
+# -- Compiling architecture compor of riesgo_datos
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/fuerza_bit_0.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/fuerza_bit_0.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity fuerza_bit_0
+# -- Compiling architecture compor of fuerza_bit_0
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity decoopALU
+# -- Compiling architecture compor of decoopALU
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_procedimientos_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_procedimientos_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package decoder_procedimientos_pkg
+# -- Compiling package body decoder_procedimientos_pkg
+# -- Loading package decoder_procedimientos_pkg
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/componentes_decoder_DL.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/componentes_decoder_DL.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_decoder_DL
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/LIB/LIB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/LIB/LIB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity LIB
+# -- Compiling architecture compor of LIB
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regNpe.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regNpe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity regNpe
+# -- Compiling architecture comportamiento of regNpe
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity mux2_1
+# -- Compiling architecture comportamiento of mux2_1
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/componentes_etapaCP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/componentes_etapaCP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_etapaCP
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/componentes_etapaB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/componentes_etapaB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_etapaB
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/componentes_etapaDL.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/componentes_etapaDL.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_etapaDL
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/componentes_etapaA.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/componentes_etapaA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_etapaA
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/componentes_etapaM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/componentes_etapaM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_etapaM
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/componentes_etapaF.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/componentes_etapaF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_etapaF
+# End time: 11:28:56 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/COMPONENTES/FMTL.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:56 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/COMPONENTES/FMTL.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity FMTL
+# -- Compiling architecture comportamiento of FMTL
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/FMTI.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/FMTI.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity FMTI
+# -- Compiling architecture compor of FMTI
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity BR
+# -- Compiling architecture compor of BR
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/FMTE.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/FMTE.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity FMTE
+# -- Compiling architecture comportamiento of FMTE
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity ALU
+# -- Compiling architecture compor of ALU
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5pe.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5pe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity reg5pe
+# -- Compiling architecture comportamiento of reg5pe
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/componentesUP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/componentesUP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentesUP
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/componentesUC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/componentesUC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentesUC
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32pe.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32pe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity reg32pe
+# -- Compiling architecture comportamiento of reg32pe
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity reg32
+# -- Compiling architecture comportamiento of reg32
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux4_32.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux4_32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling entity mux4_32
+# -- Compiling architecture comportamiento of mux4_32
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_32.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity mux2_32
+# -- Compiling architecture comportamiento of mux2_32
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/componentes_procesador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/componentes_procesador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_procesador
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/COMPONENTES/sumador4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/COMPONENTES/sumador4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity sumador4
+# -- Compiling architecture compor of sumador4
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/EVAL.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/EVAL.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity EVAL
+# -- Compiling architecture compor of EVAL
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/componentes_camino_control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/componentes_camino_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_camino_control
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1pe.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1pe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity reg1pe
+# -- Compiling architecture comportamiento of reg1pe
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/componentes_decoder_A.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/componentes_decoder_A.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_decoder_A
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_M.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_M.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity bloqueo_M
+# -- Compiling architecture compor of bloqueo_M
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity BR_y_corto
+# -- Compiling architecture compor of BR_y_corto
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/fifo.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/fifo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity fifo
+# -- Compiling architecture compor of fifo
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_A.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_A.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity bloqueo_A
+# -- Compiling architecture compor of bloqueo_A
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_CP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_CP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity bloqueo_CP
+# -- Compiling architecture compor of bloqueo_CP
+# End time: 11:28:57 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/control_cortocircuitos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:57 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/control_cortocircuitos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity control_cortocircuitos
+# -- Compiling architecture compor of control_cortocircuitos
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoSec.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoSec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package decoder_procedimientos_pkg
+# -- Compiling entity decoSec
+# -- Compiling architecture comportamiento of decoSec
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoMem_DL.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoMem_DL.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package decoder_procedimientos_pkg
+# -- Compiling entity decoMem_DL
+# -- Compiling architecture comportamiento of decoMem_DL
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoFMT_DL.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoFMT_DL.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package decoder_procedimientos_pkg
+# -- Compiling entity decoFMT_DL
+# -- Compiling architecture compor of decoFMT_DL
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decocamino.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decocamino.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package decoder_procedimientos_pkg
+# -- Compiling entity decocamino
+# -- Compiling architecture comportamiento of decocamino
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package componentes_decoder_DL
+# -- Compiling entity decoder_DL
+# -- Compiling architecture compor of decoder_DL
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package componentes_camino_control
+# -- Compiling entity camino_control
+# -- Compiling architecture compor of camino_control
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentesUP
+# -- Compiling entity ensambladoUP
+# -- Compiling architecture compor of ensambladoUP
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/ensambladoUC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/ensambladoUC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentesUC
+# -- Compiling entity ensambladoUC
+# -- Compiling architecture compor of ensambladoUC
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/ensamblado_procesador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/ensamblado_procesador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentes_procesador
+# -- Compiling entity ensamblado_procesador
+# -- Compiling architecture compor of ensamblado_procesador
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/etapaCP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/etapaCP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentes_etapaCP
+# -- Compiling entity etapaCP
+# -- Compiling architecture compor of etapaCP
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/etapaB.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/etapaB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentes_etapaB
+# -- Compiling entity etapaB
+# -- Compiling architecture compor of etapaB
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentes_etapaDL
+# -- Compiling entity etapaDL
+# -- Compiling architecture compor of etapaDL
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentes_etapaA
+# -- Compiling entity etapaA
+# -- Compiling architecture compor of etapaA
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/etapaM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/etapaM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentes_etapaM
+# -- Compiling entity etapaM
+# -- Compiling architecture compor of etapaM
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentes_etapaF
+# -- Compiling entity etapaF
+# -- Compiling architecture compor of etapaF
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package componentes_decoder_A
+# -- Compiling entity decoder_A
+# -- Compiling architecture compor of decoder_A
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoMem_A.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoMem_A.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package decoder_procedimientos_pkg
+# -- Compiling entity decoMem_A
+# -- Compiling architecture comportamiento of decoMem_A
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoFMT_A.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoFMT_A.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package decoder_procedimientos_pkg
+# -- Compiling entity decoFMT_A
+# -- Compiling architecture compor of decoFMT_A
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling entity mem
+# -- Compiling architecture compor of mem
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling entity ram
+# -- Compiling architecture compor of ram
+# End time: 11:28:58 on May 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/testbench/testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:28:58 on May 28,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/testbench/testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity testbench
+# -- Compiling architecture prueba of testbench
+# ** Error: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/testbench/testbench.vhd(24): (vcom-1136) Unknown identifier "st_irq".
+# ** Error: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/testbench/testbench.vhd(31): (vcom-1136) Unknown identifier "st_irq".
+# ** Error: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/testbench/testbench.vhd(82): VHDL Compiler exiting
+# End time: 11:28:59 on May 28,2020, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# ** Error: /home/gerard/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/vcom failed.
+# Error in macro ./ensamblado_run_msim_rtl_vhdl.do line 73
+# /home/gerard/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/testbench/testbench.vhd}"
+# 
+# stdin: <EOF>

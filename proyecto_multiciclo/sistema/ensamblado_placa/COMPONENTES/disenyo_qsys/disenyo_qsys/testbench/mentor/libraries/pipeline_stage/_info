@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/gerard/Desktop/clase/TFG/proyecto/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+valtera_avalon_st_pipeline_base
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1592056248
+!i10b 1
+!s100 IZ246NSd;dW2a7WAUFMLa1
+IM:zkzoKoomSz0[W?m:ohk2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 altera_avalon_st_pipeline_base_v_unit
+S1
+Z3 d/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Z4 w1592055745
+8./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v
+F./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v
+Z5 L0 22
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1592056248.000000
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v|-work|pipeline_stage|
+!i113 1
+Z8 o-sv -work pipeline_stage
+Z9 tCvgOpt 0
+valtera_avalon_st_pipeline_stage
+R0
+R1
+!i10b 1
+!s100 0[eR^H<[LF9R7ZA?d`HaW2
+I6IBiQWniY?93JRcoe?1Q=0
+R2
+!s105 altera_avalon_st_pipeline_stage_sv_unit
+S1
+R3
+R4
+8./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+F./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv|-work|pipeline_stage|
+!i113 1
+R8
+R9

@@ -1,0 +1,50 @@
+
+suma_uint16.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text.inici:
+
+00000000 <entry>:
+   0:	00030117          	auipc	x2,0x30
+   4:	00010113          	addi	x2,x2,0 # 30000 <__mem_top__>
+   8:	00030117          	auipc	x2,0x30
+   c:	ff810113          	addi	x2,x2,-8 # 30000 <__mem_top__>
+  10:	fe010113          	addi	x2,x2,-32
+  14:	0ec000ef          	jal	x1,100 <main>
+  18:	00000013          	addi	x0,x0,0
+  1c:	00000013          	addi	x0,x0,0
+  20:	00000013          	addi	x0,x0,0
+  24:	00000013          	addi	x0,x0,0
+  28:	00000013          	addi	x0,x0,0
+  2c:	00100073          	ebreak
+
+Disassembly of section .text:
+
+00000100 <main>:
+ 100:	fe010113          	addi	x2,x2,-32
+ 104:	00812e23          	sw	x8,28(x2)
+ 108:	02010413          	addi	x8,x2,32
+ 10c:	004007b7          	lui	x15,0x400
+ 110:	0007aa23          	sw	x0,20(x15) # 400014 <__heap>
+ 114:	fe042623          	sw	x0,-20(x8)
+ 118:	0400006f          	jal	x0,158 <main+0x58>
+ 11c:	004007b7          	lui	x15,0x400
+ 120:	fec42703          	lw	x14,-20(x8)
+ 124:	00171713          	slli	x14,x14,0x1
+ 128:	00078793          	addi	x15,x15,0 # 400000 <x>
+ 12c:	00f707b3          	add	x15,x14,x15
+ 130:	0007d783          	lhu	x15,0(x15)
+ 134:	00078713          	addi	x14,x15,0
+ 138:	004007b7          	lui	x15,0x400
+ 13c:	0147a783          	lw	x15,20(x15) # 400014 <__heap>
+ 140:	00f70733          	add	x14,x14,x15
+ 144:	004007b7          	lui	x15,0x400
+ 148:	00e7aa23          	sw	x14,20(x15) # 400014 <__heap>
+ 14c:	fec42783          	lw	x15,-20(x8)
+ 150:	00178793          	addi	x15,x15,1
+ 154:	fef42623          	sw	x15,-20(x8)
+ 158:	fec42703          	lw	x14,-20(x8)
+ 15c:	00900793          	addi	x15,x0,9
+ 160:	fae7dee3          	bge	x15,x14,11c <main+0x1c>
+ 164:	00000073          	ecall
+ 168:	0000006f          	jal	x0,168 <main+0x68>

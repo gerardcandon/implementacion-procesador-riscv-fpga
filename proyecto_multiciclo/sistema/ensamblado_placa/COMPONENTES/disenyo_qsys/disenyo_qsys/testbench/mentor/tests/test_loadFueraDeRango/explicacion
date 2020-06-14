@@ -1,0 +1,10 @@
+Este test comprueba la excepción por load fuera del espacio lógico.
+
+lui r1, 0x08400
+lw r1, 0(r1)
+
+COMPROBACION:
+El test se ha superado si ha saltado una excepción de instrucción fuera de rango (mcause = 0x00000007) al intentar interpretar el load.
+
+
+

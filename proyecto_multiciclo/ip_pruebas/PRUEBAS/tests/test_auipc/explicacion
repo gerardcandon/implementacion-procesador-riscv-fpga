@@ -1,0 +1,9 @@
+Este test comprueba el correcto funcionamiento de la instrucción auipc.
+
+auipc r1, 0xFFF00
+halt
+
+COMPROBACION:
+El test se ha superado si el contenido de los registros es:
+
+r1: 0xfff00000

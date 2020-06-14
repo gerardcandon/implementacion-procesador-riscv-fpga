@@ -1,0 +1,10 @@
+Este test comprueba la excepción por load no alineado
+
+lui r1, 0x0
+lw r1, 1(r1)
+
+COMPROBACION:
+El test se ha superado si ha saltado una excepción de load no alineado (mcause = 0x00000006) al intentar interpretar el load.
+
+
+

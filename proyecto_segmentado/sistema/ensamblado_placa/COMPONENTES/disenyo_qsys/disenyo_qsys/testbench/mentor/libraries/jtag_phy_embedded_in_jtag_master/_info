@@ -1,0 +1,265 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/gerard/Desktop/clase/TFG/proyecto/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+valtera_avalon_st_clock_crosser
+Z0 !s110 1591017513
+!i10b 1
+!s100 YbU`iK^TYJ_9Hz`CZekjQ3
+IhYGV9_1T>njFkWoXn<]La0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Z3 w1591017494
+8./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_clock_crosser.v
+F./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_clock_crosser.v
+Z4 L0 22
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1591017513.000000
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_clock_crosser.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+Z7 o-work jtag_phy_embedded_in_jtag_master
+Z8 tCvgOpt 0
+valtera_avalon_st_idle_inserter
+R0
+!i10b 1
+!s100 S71b16BnCfDWcoZ^EEZTn1
+IBjNI69j8[[IXJC2]>a8j63
+R1
+R2
+R3
+8./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_idle_inserter.v
+F./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_idle_inserter.v
+Z9 L0 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_idle_inserter.v|
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_idle_inserter.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_idle_remover
+R0
+!i10b 1
+!s100 MZJlUT2CY>hnV]FQIb=S]1
+I;WN>J]c9A;0h=IeWUgoSZ3
+R1
+R2
+R3
+8./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_idle_remover.v
+F./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_idle_remover.v
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_idle_remover.v|
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_idle_remover.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_jtag_interface
+!s110 1591017512
+!i10b 1
+!s100 N7o^ddA[oe3RDKPC5>UZG1
+I@3DAljCI0e6jRG>DUjPZX3
+R1
+R2
+R3
+8./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_jtag_interface.v
+F./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_jtag_interface.v
+L0 20
+R5
+r1
+!s85 0
+31
+Z10 !s108 1591017512.000000
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_jtag_interface.v|
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_jtag_interface.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_pipeline_base
+R0
+!i10b 1
+!s100 SP[<U8JVkW?]RHOS`DzPF1
+I9oZER6oSh6ad<Q=N>Fnhh1
+R1
+R2
+R3
+8./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v
+F./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_avalon_st_pipeline_stage
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R0
+!i10b 1
+!s100 0[eR^H<[LF9R7ZA?d`HaW2
+IV>M6m@Tfz@9LCBXH:4egl3
+R1
+!s105 altera_avalon_st_pipeline_stage_sv_unit
+S1
+R2
+R3
+8./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+F./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+o-sv -work jtag_phy_embedded_in_jtag_master
+R8
+valtera_jtag_control_signal_crosser
+R0
+!i10b 1
+!s100 `=i;H1E7lBV>R_3e4D5452
+IPBLAB^84Xklin_[Y2_R4G0
+R1
+R2
+R3
+Z11 8./../disenyo_qsys_tb/simulation/submodules/altera_jtag_dc_streaming.v
+Z12 F./../disenyo_qsys_tb/simulation/submodules/altera_jtag_dc_streaming.v
+L0 30
+R5
+r1
+!s85 0
+31
+R10
+Z13 !s107 ./../disenyo_qsys_tb/simulation/submodules/altera_jtag_dc_streaming.v|
+Z14 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/altera_jtag_dc_streaming.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_jtag_dc_streaming
+R0
+!i10b 1
+!s100 EWdjgenNzZZ[1:h1cb56?0
+IWj7zi@;Qg_C7f[>j6kUQ[3
+R1
+R2
+R3
+R11
+R12
+L0 135
+R5
+r1
+!s85 0
+31
+R10
+R13
+R14
+!i113 1
+R7
+R8
+valtera_jtag_sld_node
+R0
+!i10b 1
+!s100 3n0e<ZJ7D0L][I>bEF?Oi2
+IP`M@E]R_d^m1AIZceO6c;2
+R1
+R2
+R3
+8./../disenyo_qsys_tb/simulation/submodules/altera_jtag_sld_node.v
+F./../disenyo_qsys_tb/simulation/submodules/altera_jtag_sld_node.v
+L0 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_jtag_sld_node.v|
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/altera_jtag_sld_node.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_jtag_src_crosser
+R0
+!i10b 1
+!s100 4?GOPZ8SJm>`nd35FBFXc3
+IIHKAlaKemcMWD3lFXDczP2
+R1
+R2
+R3
+R11
+R12
+L0 72
+R5
+r1
+!s85 0
+31
+R10
+R13
+R14
+!i113 1
+R7
+R8
+valtera_jtag_streaming
+R0
+!i10b 1
+!s100 ge70D<WS<=FgooM5G8W@b0
+I63H_ZbjeK`MconR?O7?QF3
+R1
+R2
+R3
+8./../disenyo_qsys_tb/simulation/submodules/altera_jtag_streaming.v
+F./../disenyo_qsys_tb/simulation/submodules/altera_jtag_streaming.v
+L0 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_jtag_streaming.v|
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/altera_jtag_streaming.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8
+valtera_std_synchronizer_nocut
+R0
+!i10b 1
+!s100 b8zV2<79GgkNg0GC<P[GJ2
+IZ6mFnih9R^>a[_9Y@UNV01
+R1
+R2
+R3
+8./../disenyo_qsys_tb/simulation/submodules/altera_std_synchronizer_nocut.v
+F./../disenyo_qsys_tb/simulation/submodules/altera_std_synchronizer_nocut.v
+L0 44
+R5
+r1
+!s85 0
+31
+R6
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/altera_std_synchronizer_nocut.v|-work|jtag_phy_embedded_in_jtag_master|
+!i113 1
+R7
+R8

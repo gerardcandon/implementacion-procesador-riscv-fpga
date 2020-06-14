@@ -1,0 +1,346 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/gerard/Desktop/clase/TFG/proyecto/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+valtera_avalon_st_pipeline_base
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1592056249
+!i10b 1
+!s100 IZ246NSd;dW2a7WAUFMLa1
+ImZEF7_B8Y@nJ6aObNo;`f1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 altera_avalon_st_pipeline_base_v_unit
+S1
+Z3 d/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Z4 w1592055745
+8./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v
+F./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v
+Z5 L0 22
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1592056249.000000
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_base.v|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+Z8 o-sv -work sram_0_avalon_sram_slave_burst_adapter
+Z9 tCvgOpt 0
+valtera_avalon_st_pipeline_stage
+R0
+R1
+!i10b 1
+!s100 0[eR^H<[LF9R7ZA?d`HaW2
+I5QMJhZD_k7lCNKI9hk80e1
+R2
+!s105 altera_avalon_st_pipeline_stage_sv_unit
+S1
+R3
+R4
+8./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+F./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_default_burst_converter
+R0
+R1
+!i10b 1
+!s100 EmN7^KGFmnmba?3NNCWgU0
+I6Y5E2VNPDn;YmV6<KP4_b2
+R2
+!s105 altera_default_burst_converter_sv_unit
+S1
+R3
+Z10 w1592055746
+8./../disenyo_qsys_tb/simulation/submodules/altera_default_burst_converter.sv
+F./../disenyo_qsys_tb/simulation/submodules/altera_default_burst_converter.sv
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_default_burst_converter.sv|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_default_burst_converter.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_incr_burst_converter
+R0
+R1
+!i10b 1
+!s100 9gP0R0To835oQO4JK^zb<3
+I4l42U=MRjOQii6B:Z:[HT3
+R2
+!s105 altera_incr_burst_converter_sv_unit
+S1
+R3
+R10
+8./../disenyo_qsys_tb/simulation/submodules/altera_incr_burst_converter.sv
+F./../disenyo_qsys_tb/simulation/submodules/altera_incr_burst_converter.sv
+L0 28
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_incr_burst_converter.sv|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_incr_burst_converter.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_address_alignment
+R0
+R1
+!i10b 1
+!s100 ;A9^i^d]cR@BAQXEG>h_<3
+IFzdZL3[PQg>Z34LbVG>Ag3
+R2
+!s105 altera_merlin_address_alignment_sv_unit
+S1
+R3
+R10
+8./../disenyo_qsys_tb/simulation/submodules/altera_merlin_address_alignment.sv
+F./../disenyo_qsys_tb/simulation/submodules/altera_merlin_address_alignment.sv
+L0 26
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_merlin_address_alignment.sv|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_merlin_address_alignment.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter
+R0
+R1
+!i10b 1
+!s100 OCc70X^k:B?GW6i71n`L_3
+IgW]5]3:T@W>2Z@>P3cSU<2
+R2
+!s105 altera_merlin_burst_adapter_sv_unit
+S1
+R3
+R10
+8./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter.sv
+F./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter.sv
+L0 21
+R6
+r1
+!s85 0
+31
+!s108 1592056248.000000
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter.sv|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_13_1
+R0
+R1
+!i10b 1
+!s100 iQDJAL[b9z>XeokOb35D]1
+Ie[SGzoU?<b9_ka2`OjD5>2
+R2
+Z11 !s105 altera_merlin_burst_adapter_13_1_sv_unit
+S1
+R3
+R10
+Z12 8./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_13_1.sv
+Z13 F./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_13_1.sv
+L0 264
+R6
+r1
+!s85 0
+31
+R7
+Z14 !s107 ./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_13_1.sv|
+Z15 !s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_13_1.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_adder
+R0
+R1
+!i10b 1
+!s100 cJB8e]Mn>T^mE[9iEE1jk1
+I2VN5NOL;<VhfZ2@CM2Alo2
+R2
+R11
+S1
+R3
+R10
+R12
+R13
+L0 55
+R6
+r1
+!s85 0
+31
+R7
+R14
+R15
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_burstwrap_increment
+R0
+R1
+!i10b 1
+!s100 ILP^RoOQ^]Ef]XAJeF<SX0
+ICZBLiRJR4hFd4]_nicnCg2
+R2
+R11
+S1
+R3
+R10
+R12
+R13
+L0 40
+R6
+r1
+!s85 0
+31
+R7
+R14
+R15
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_min
+R0
+R1
+!i10b 1
+!s100 5OK?oF?>S0i7IYQi<IKhS1
+I7bFf?coOZz09DR;jB7Y[j1
+R2
+R11
+S1
+R3
+R10
+R12
+R13
+L0 98
+R6
+r1
+!s85 0
+31
+R7
+R14
+R15
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_new
+R0
+R1
+!i10b 1
+!s100 eY?@Ti=8ZUfaj_BZGBf:M0
+ICBQQ2W;I4I4z7:g4W]l^D1
+R2
+!s105 altera_merlin_burst_adapter_new_sv_unit
+S1
+R3
+R10
+8./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv
+F./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv
+L0 25
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_subtractor
+R0
+R1
+!i10b 1
+!s100 3nMfY`gC_:azzfSULAX8f2
+InZo?<m;6MjdE6>J89GlLU0
+R2
+R11
+S1
+R3
+R10
+R12
+R13
+L0 77
+R6
+r1
+!s85 0
+31
+R7
+R14
+R15
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_uncompressed_only
+R0
+R1
+!i10b 1
+!s100 STH]BdUM[JDMJZNJGXCd>0
+IAN1AaLKoMgD^^]?D:[TkO0
+R2
+!s105 altera_merlin_burst_adapter_uncmpr_sv_unit
+S1
+R3
+R10
+8./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv
+F./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv
+L0 39
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_wrap_burst_converter
+R0
+R1
+!i10b 1
+!s100 NPBYN=]<L:km?aGk_2fQE3
+IU`5]?2m^Z6ZX^9VD?RQao1
+R2
+!s105 altera_wrap_burst_converter_sv_unit
+S1
+R3
+R10
+8./../disenyo_qsys_tb/simulation/submodules/altera_wrap_burst_converter.sv
+F./../disenyo_qsys_tb/simulation/submodules/altera_wrap_burst_converter.sv
+L0 27
+R6
+r1
+!s85 0
+31
+R7
+!s107 ./../disenyo_qsys_tb/simulation/submodules/altera_wrap_burst_converter.sv|
+!s90 -reportprogress|300|-sv|./../disenyo_qsys_tb/simulation/submodules/altera_wrap_burst_converter.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9

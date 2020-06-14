@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gerard/Desktop/clase/TFG/proyecto/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Pconstantes
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 w1584898769
+R0
+8./../disenyo_qsys_tb/simulation/submodules/constantes.vhd
+F./../disenyo_qsys_tb/simulation/submodules/constantes.vhd
+l0
+L4
+V>REXXeGHgjmU6463T;X1a2
+!s100 AL;`nGU:m4VDMKUko:0^Z2
+Z4 OV;C;10.5b;63
+32
+Z5 !s110 1585479599
+!i10b 1
+Z6 !s108 1585479599.000000
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/constantes.vhd|-work|mm_reloj_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/constantes.vhd|
+!i113 1
+Z7 o-work mm_reloj_0
+Z8 tExplicit 1 CvgOpt 0
+Emm_reloj
+R3
+Z9 DPx4 work 5 tipos 0 22 2GEDb3Wj@0XXKVkzTddad0
+Z10 DPx4 work 10 constantes 0 22 >REXXeGHgjmU6463T;X1a2
+Z11 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z12 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z13 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R0
+Z14 8./../disenyo_qsys_tb/simulation/submodules/mm_reloj.vhd
+Z15 F./../disenyo_qsys_tb/simulation/submodules/mm_reloj.vhd
+l0
+L9
+V1LbOZonbJYN2hJH8k=`U41
+!s100 [1iK73ZZXPgfSeZFHZ1WF1
+R4
+32
+R5
+!i10b 1
+R6
+Z16 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/mm_reloj.vhd|-work|mm_reloj_0|
+Z17 !s107 ./../disenyo_qsys_tb/simulation/submodules/mm_reloj.vhd|
+!i113 1
+R7
+R8
+Acompor
+R9
+R10
+R11
+R12
+R13
+R1
+R2
+Z18 DEx4 work 8 mm_reloj 0 22 1LbOZonbJYN2hJH8k=`U41
+l29
+L24
+Z19 V_A]VnbaGLjG^5LfCn>eVa1
+Z20 !s100 0b3DABg2OXnnaX]fXN2ko3
+R4
+32
+R5
+!i10b 1
+R6
+R16
+R17
+!i113 1
+R7
+R8
+Ptipos
+R10
+R1
+R2
+R3
+R0
+8./../disenyo_qsys_tb/simulation/submodules/tipos.vhd
+F./../disenyo_qsys_tb/simulation/submodules/tipos.vhd
+l0
+L5
+V2GEDb3Wj@0XXKVkzTddad0
+!s100 Z>@BZ2d7WM7N[Z14Kgm;51
+R4
+32
+R5
+!i10b 1
+R6
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/tipos.vhd|-work|mm_reloj_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/tipos.vhd|
+!i113 1
+R7
+R8

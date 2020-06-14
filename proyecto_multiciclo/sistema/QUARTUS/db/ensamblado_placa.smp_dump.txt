@@ -1,0 +1,138 @@
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|disenyo_qsys_video_dma_controller_0:video_dma_controller_0|altera_up_video_dma_to_stream:From_Memory_to_Stream|s_dma_to_stream
+Name s_dma_to_stream.STATE_3_MAX_PENDING_READS_STALL s_dma_to_stream.STATE_2_READ_BUFFER s_dma_to_stream.STATE_1_WAIT_FOR_LAST_PIXEL s_dma_to_stream.STATE_0_IDLE 
+s_dma_to_stream.STATE_0_IDLE 0 0 0 0 
+s_dma_to_stream.STATE_1_WAIT_FOR_LAST_PIXEL 0 0 1 1 
+s_dma_to_stream.STATE_2_READ_BUFFER 0 1 0 1 
+s_dma_to_stream.STATE_3_MAX_PENDING_READS_STALL 1 0 0 1 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|disenyo_qsys_ps2_0:ps2_0|altera_up_ps2:PS2_Serial_Port|s_ps2_transceiver
+Name s_ps2_transceiver.PS2_STATE_3_END_TRANSFER s_ps2_transceiver.PS2_STATE_2_COMMAND_OUT s_ps2_transceiver.PS2_STATE_1_DATA_IN s_ps2_transceiver.PS2_STATE_0_IDLE s_ps2_transceiver.PS2_STATE_4_END_DELAYED 
+s_ps2_transceiver.PS2_STATE_0_IDLE 0 0 0 0 0 
+s_ps2_transceiver.PS2_STATE_1_DATA_IN 0 0 1 1 0 
+s_ps2_transceiver.PS2_STATE_2_COMMAND_OUT 0 1 0 1 0 
+s_ps2_transceiver.PS2_STATE_3_END_TRANSFER 1 0 0 1 0 
+s_ps2_transceiver.PS2_STATE_4_END_DELAYED 0 0 0 1 1 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|disenyo_qsys_ps2_0:ps2_0|altera_up_ps2:PS2_Serial_Port|altera_up_ps2_command_out:PS2_Command_Out|s_ps2_transmitter
+Name s_ps2_transmitter.PS2_STATE_7_TRANSMISSION_ERROR s_ps2_transmitter.PS2_STATE_6_COMMAND_WAS_SENT s_ps2_transmitter.PS2_STATE_5_RECEIVE_ACK_BIT s_ps2_transmitter.PS2_STATE_4_TRANSMIT_STOP_BIT s_ps2_transmitter.PS2_STATE_3_TRANSMIT_DATA s_ps2_transmitter.PS2_STATE_2_WAIT_FOR_CLOCK s_ps2_transmitter.PS2_STATE_1_INITIATE_COMMUNICATION s_ps2_transmitter.PS2_STATE_0_IDLE 
+s_ps2_transmitter.PS2_STATE_0_IDLE 0 0 0 0 0 0 0 0 
+s_ps2_transmitter.PS2_STATE_1_INITIATE_COMMUNICATION 0 0 0 0 0 0 1 1 
+s_ps2_transmitter.PS2_STATE_2_WAIT_FOR_CLOCK 0 0 0 0 0 1 0 1 
+s_ps2_transmitter.PS2_STATE_3_TRANSMIT_DATA 0 0 0 0 1 0 0 1 
+s_ps2_transmitter.PS2_STATE_4_TRANSMIT_STOP_BIT 0 0 0 1 0 0 0 1 
+s_ps2_transmitter.PS2_STATE_5_RECEIVE_ACK_BIT 0 0 1 0 0 0 0 1 
+s_ps2_transmitter.PS2_STATE_6_COMMAND_WAS_SENT 0 1 0 0 0 0 0 1 
+s_ps2_transmitter.PS2_STATE_7_TRANSMISSION_ERROR 1 0 0 0 0 0 0 1 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|disenyo_qsys_ps2_0:ps2_0|altera_up_ps2:PS2_Serial_Port|altera_up_ps2_data_in:PS2_Data_In|s_ps2_receiver
+Name s_ps2_receiver.PS2_STATE_3_PARITY_IN s_ps2_receiver.PS2_STATE_2_DATA_IN s_ps2_receiver.PS2_STATE_1_WAIT_FOR_DATA s_ps2_receiver.PS2_STATE_0_IDLE s_ps2_receiver.PS2_STATE_4_STOP_IN 
+s_ps2_receiver.PS2_STATE_0_IDLE 0 0 0 0 0 
+s_ps2_receiver.PS2_STATE_1_WAIT_FOR_DATA 0 0 1 1 0 
+s_ps2_receiver.PS2_STATE_2_DATA_IN 0 1 0 1 0 
+s_ps2_receiver.PS2_STATE_3_PARITY_IN 1 0 0 1 0 
+s_ps2_receiver.PS2_STATE_4_STOP_IN 0 0 0 1 1 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|disenyo_qsys_new_sdram_controller_0:new_sdram_controller_0|m_next
+Name m_next.010000000 m_next.000010000 m_next.000001000 m_next.000000001 
+m_next.000000001 0 0 0 0 
+m_next.000001000 0 0 1 1 
+m_next.000010000 0 1 0 1 
+m_next.010000000 1 0 0 1 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|disenyo_qsys_new_sdram_controller_0:new_sdram_controller_0|m_state
+Name m_state.100000000 m_state.010000000 m_state.001000000 m_state.000100000 m_state.000010000 m_state.000001000 m_state.000000100 m_state.000000010 m_state.000000001 
+m_state.000000001 0 0 0 0 0 0 0 0 0 
+m_state.000000010 0 0 0 0 0 0 0 1 1 
+m_state.000000100 0 0 0 0 0 0 1 0 1 
+m_state.000001000 0 0 0 0 0 1 0 0 1 
+m_state.000010000 0 0 0 0 1 0 0 0 1 
+m_state.000100000 0 0 0 1 0 0 0 0 1 
+m_state.001000000 0 0 1 0 0 0 0 0 1 
+m_state.010000000 0 1 0 0 0 0 0 0 1 
+m_state.100000000 1 0 0 0 0 0 0 0 1 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|disenyo_qsys_new_sdram_controller_0:new_sdram_controller_0|i_next
+Name i_next.111 i_next.101 i_next.010 i_next.000 
+i_next.000 0 0 0 0 
+i_next.010 0 0 1 1 
+i_next.101 0 1 0 1 
+i_next.111 1 0 0 1 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|disenyo_qsys_new_sdram_controller_0:new_sdram_controller_0|i_state
+Name i_state.111 i_state.101 i_state.011 i_state.010 i_state.001 i_state.000 
+i_state.000 0 0 0 0 0 0 
+i_state.001 0 0 0 0 1 1 
+i_state.010 0 0 0 1 0 1 
+i_state.011 0 0 1 0 0 1 
+i_state.101 0 1 0 0 0 1 
+i_state.111 1 0 0 0 0 1 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|disenyo_qsys_master_0:master_0|altera_avalon_packets_to_master:transacto|packets_to_master:p2m|state
+Name state.READ_SEND_WAIT state.READ_SEND_ISSUE state.READ_DATA_WAIT state.READ_CMD_WAIT state.READ_ASSERT state.RETURN_PACKET state.WRITE_WAIT state.GET_WRITE_DATA state.GET_ADDR4 state.GET_ADDR3 state.GET_ADDR2 state.GET_ADDR1 state.GET_SIZE2 state.GET_SIZE1 state.GET_EXTRA state.0000 
+state.0000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.GET_EXTRA 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.GET_SIZE1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.GET_SIZE2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.GET_ADDR1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.GET_ADDR2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.GET_ADDR3 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.GET_ADDR4 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.GET_WRITE_DATA 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.WRITE_WAIT 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.RETURN_PACKET 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.READ_ASSERT 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_CMD_WAIT 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_DATA_WAIT 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_ISSUE 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_WAIT 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|disenyo_qsys_master_0:master_0|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_dc_streaming:normal.jtag_dc_streaming|altera_jtag_streaming:jtag_streaming|read_state
+Name read_state.ST_HEADER read_state.ST_READ_DATA read_state.ST_PADDED 
+read_state.ST_HEADER 0 0 0 
+read_state.ST_PADDED 1 0 1 
+read_state.ST_READ_DATA 1 1 0 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|disenyo_qsys_master_0:master_0|altera_avalon_st_jtag_interface:jtag_phy_embedded_in_jtag_master|altera_jtag_dc_streaming:normal.jtag_dc_streaming|altera_jtag_streaming:jtag_streaming|write_state
+Name write_state.ST_WRITE_DATA write_state.ST_HEADER_2 write_state.ST_HEADER_1 write_state.ST_BYPASS 
+write_state.ST_BYPASS 0 0 0 0 
+write_state.ST_HEADER_1 0 0 1 1 
+write_state.ST_HEADER_2 0 1 0 1 
+write_state.ST_WRITE_DATA 1 0 0 1 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|ensamblado_procesador:ensamblado_procesador_0|ensambladoUSYS:USYS|control_SYS:contSYS|automata_estado_SYS:aeSYS|\rlj:v_estadoSYS
+Name \rlj:v_estadoSYS.CSRRCI \rlj:v_estadoSYS.CSRRSI \rlj:v_estadoSYS.CSRRWI \rlj:v_estadoSYS.CSRRC \rlj:v_estadoSYS.CSRRS \rlj:v_estadoSYS.CSRRW \rlj:v_estadoSYS.MRET \rlj:v_estadoSYS.DECODE \rlj:v_estadoSYS.ESPERA \rlj:v_estadoSYS.RESTART 
+\rlj:v_estadoSYS.RESTART 0 0 0 0 0 0 0 0 0 0 
+\rlj:v_estadoSYS.ESPERA 0 0 0 0 0 0 0 0 1 1 
+\rlj:v_estadoSYS.DECODE 0 0 0 0 0 0 0 1 0 1 
+\rlj:v_estadoSYS.MRET 0 0 0 0 0 0 1 0 0 1 
+\rlj:v_estadoSYS.CSRRW 0 0 0 0 0 1 0 0 0 1 
+\rlj:v_estadoSYS.CSRRS 0 0 0 0 1 0 0 0 0 1 
+\rlj:v_estadoSYS.CSRRC 0 0 0 1 0 0 0 0 0 1 
+\rlj:v_estadoSYS.CSRRWI 0 0 1 0 0 0 0 0 0 1 
+\rlj:v_estadoSYS.CSRRSI 0 1 0 0 0 0 0 0 0 1 
+\rlj:v_estadoSYS.CSRRCI 1 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ensamblado_placa|disenyo_qsys:ensam|ensamblado_procesador:ensamblado_procesador_0|ensambladoUC:UC|automata_estado:ae|\rlj:v_estado
+Name \rlj:v_estado.PARAR \rlj:v_estado.SYS \rlj:v_estado.JALR_CP \rlj:v_estado.JALR_RD \rlj:v_estado.JAL_CP \rlj:v_estado.JAL_RD \rlj:v_estado.BRANCH_EVAL \rlj:v_estado.AUIPC_ALU \rlj:v_estado.LUI_FMT \rlj:v_estado.STORE_ST \rlj:v_estado.STORE_DIR \rlj:v_estado.LOAD_FMT \rlj:v_estado.LOAD_LD \rlj:v_estado.LOAD_DIR \rlj:v_estado.OP_IMM_ALU \rlj:v_estado.OP_ALU \rlj:v_estado.DECODE \rlj:v_estado.FETCH \rlj:v_estado.ESPERA \rlj:v_estado.INI \rlj:v_estado.RESTART 
+\rlj:v_estado.RESTART 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+\rlj:v_estado.INI 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+\rlj:v_estado.ESPERA 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+\rlj:v_estado.FETCH 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+\rlj:v_estado.DECODE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+\rlj:v_estado.OP_ALU 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+\rlj:v_estado.OP_IMM_ALU 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+\rlj:v_estado.LOAD_DIR 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+\rlj:v_estado.LOAD_LD 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+\rlj:v_estado.LOAD_FMT 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.STORE_DIR 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.STORE_ST 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.LUI_FMT 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.AUIPC_ALU 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.BRANCH_EVAL 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.JAL_RD 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.JAL_CP 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.JALR_RD 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.JALR_CP 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.SYS 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.PARAR 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

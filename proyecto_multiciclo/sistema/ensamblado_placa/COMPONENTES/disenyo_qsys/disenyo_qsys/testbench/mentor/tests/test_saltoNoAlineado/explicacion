@@ -1,0 +1,13 @@
+Este test comprueba que la detección de una excepción por dirección de salto no alineada es correcta.
+
+lui r1, 0x00001
+lui r2, 0x01000
+blt 0xFFC, r1, r2
+
+COMPROBACION:
+El test se ha superado si ha saltado una excepción, y el contenido los registros tras procesarla es el siguiente:
+
+mcause: 0x00000002
+mepc: 0x00000008
+
+

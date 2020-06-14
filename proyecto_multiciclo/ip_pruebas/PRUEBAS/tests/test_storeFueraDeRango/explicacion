@@ -1,0 +1,10 @@
+Este test comprueba la excepción por store fuera de rango.
+
+lui r1, 0x08400
+sw r0, 0(r1)
+
+COMPROBACION:
+El test se ha superado si ha saltado una excepción de store fuera de rango (mcause = 0x0000000a) al intentar interpretar el store.
+
+
+

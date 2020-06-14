@@ -1,0 +1,3 @@
+todo_alu_y_salto
+
+Este test comprueba que se realice correctamente una ráfaga de instrucciones OP con riesgos de datos y que, al terminar, se realice una instrucción de salto que vuelva al inicio. Los registros han de contener los 30 primeros términos de la secuencia de Fibonacci al terminar el test. El registro 31 contiene el número de veces que se ha realizado el bucle.

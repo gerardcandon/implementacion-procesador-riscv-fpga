@@ -1,0 +1,32 @@
+
+State Machine - |ensamblado_modelsim|ensamblado_UC_UP:ensam|ensambladoUI:UI|automata_estado_int:aei|\rlj:v_estadoI
+Name \rlj:v_estadoI.MRET \rlj:v_estadoI.NO_INT \rlj:v_estadoI.INI \rlj:v_estadoI.RESTART 
+\rlj:v_estadoI.RESTART 0 0 0 0 
+\rlj:v_estadoI.INI 0 0 1 1 
+\rlj:v_estadoI.NO_INT 0 1 0 1 
+\rlj:v_estadoI.MRET 1 0 0 1 
+
+State Machine - |ensamblado_modelsim|ensamblado_UC_UP:ensam|ensambladoUC:UC|automata_estado:ae|\rlj:v_estado
+Name \rlj:v_estado.PARAR \rlj:v_estado.SYS \rlj:v_estado.JALR_CP \rlj:v_estado.JALR_RD \rlj:v_estado.JAL_CP \rlj:v_estado.JAL_RD \rlj:v_estado.BRANCH_EVAL \rlj:v_estado.BRANCH_DIR \rlj:v_estado.AUIPC_ALU \rlj:v_estado.LUI_FMT \rlj:v_estado.STORE_ST \rlj:v_estado.STORE_DIR \rlj:v_estado.LOAD_FMT \rlj:v_estado.LOAD_LD \rlj:v_estado.LOAD_DIR \rlj:v_estado.OP_IMM_ALU \rlj:v_estado.OP_ALU \rlj:v_estado.DECODE \rlj:v_estado.FETCH2 \rlj:v_estado.FETCH1 \rlj:v_estado.INI \rlj:v_estado.RESTART 
+\rlj:v_estado.RESTART 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+\rlj:v_estado.INI 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+\rlj:v_estado.FETCH1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+\rlj:v_estado.FETCH2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+\rlj:v_estado.DECODE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+\rlj:v_estado.OP_ALU 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+\rlj:v_estado.OP_IMM_ALU 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+\rlj:v_estado.LOAD_DIR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+\rlj:v_estado.LOAD_LD 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+\rlj:v_estado.LOAD_FMT 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.STORE_DIR 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.STORE_ST 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.LUI_FMT 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.AUIPC_ALU 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.BRANCH_DIR 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.BRANCH_EVAL 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.JAL_RD 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.JAL_CP 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.JALR_RD 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.JALR_CP 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.SYS 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+\rlj:v_estado.PARAR 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

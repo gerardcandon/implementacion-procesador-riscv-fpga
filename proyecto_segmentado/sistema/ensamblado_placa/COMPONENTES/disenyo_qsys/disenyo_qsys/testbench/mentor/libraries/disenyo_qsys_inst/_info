@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/gerard/Desktop/clase/TFG/proyecto/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Edisenyo_qsys
+Z0 w1591017492
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 d/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Z5 8./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys.vhd
+Z6 F./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys.vhd
+l0
+L9
+VBMNU^KB5Z8^z_oa]Hb^820
+!s100 2fBcRz<J0JY<0AVWHl=FU2
+Z7 OV;C;10.5b;63
+32
+!s110 1591017516
+!i10b 1
+Z8 !s108 1591017516.000000
+Z9 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys.vhd|-work|disenyo_qsys_inst|
+Z10 !s107 ./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys.vhd|
+!i113 1
+Z11 o-work disenyo_qsys_inst
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+DEx4 work 12 disenyo_qsys 0 22 BMNU^KB5Z8^z_oa]Hb^820
+l318
+L26
+VYaeSg^n1ATg>Ob@I2CUI`0
+!s100 ?[S=95]5I>>PlB@EYQcFf1
+R7
+32
+Z13 !s110 1591017517
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edisenyo_qsys_rst_controller
+R0
+R1
+R2
+R3
+R4
+Z14 8./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller.vhd
+Z15 F./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller.vhd
+l0
+L9
+V243BjHo1c8=>0cgGloIX80
+!s100 bdY@><f]N]dML5GANVbJi0
+R7
+32
+R13
+!i10b 1
+Z16 !s108 1591017517.000000
+Z17 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller.vhd|-work|disenyo_qsys_inst|
+Z18 !s107 ./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R3
+DEx4 work 27 disenyo_qsys_rst_controller 0 22 243BjHo1c8=>0cgGloIX80
+l142
+L75
+V9=MC16D3[6cUBO4R=4HjQ3
+!s100 <m9=0z@_^cZdY<E8aF[OS1
+R7
+32
+R13
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Edisenyo_qsys_rst_controller_001
+Z19 w1587902761
+R1
+R2
+R3
+Z20 d/home/gerard/Desktop/clase/TFG/proyecto_segmentado/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Z21 8./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller_001.vhd
+Z22 F./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller_001.vhd
+l0
+L9
+VC0Z`mX_ezeg=`<Q9c68?Z0
+!s100 iRgZD9BGZczh4cB0boMe;0
+R7
+32
+Z23 !s110 1588064132
+!i10b 1
+Z24 !s108 1588064132.000000
+Z25 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller_001.vhd|-work|disenyo_qsys_inst|
+Z26 !s107 ./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller_001.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R3
+DEx4 work 31 disenyo_qsys_rst_controller_001 0 22 C0Z`mX_ezeg=`<Q9c68?Z0
+l142
+L75
+V`g8LQgO?IPHM@58@P?Qa]0
+!s100 mz7oWI[WRoIgPdcR7gAlO3
+R7
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Edisenyo_qsys_rst_controller_002
+R0
+R1
+R2
+R3
+R4
+Z27 8./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller_002.vhd
+Z28 F./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller_002.vhd
+l0
+L9
+V>2WDf6zKAdZLk^J9PhDD`1
+!s100 LVzK3FoKj[aYQ4g]OcWSj0
+R7
+32
+R13
+!i10b 1
+R16
+Z29 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller_002.vhd|-work|disenyo_qsys_inst|
+Z30 !s107 ./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_rst_controller_002.vhd|
+!i113 1
+R11
+R12
+Artl
+R1
+R2
+R3
+Z31 DEx4 work 31 disenyo_qsys_rst_controller_002 0 22 >2WDf6zKAdZLk^J9PhDD`1
+l142
+L75
+Z32 VUi?K>OOgR:T`OX^SMdzJ>0
+Z33 !s100 IeM3oESk3bAz3Bk^_LjRV0
+R7
+32
+R13
+!i10b 1
+R16
+R29
+R30
+!i113 1
+R11
+R12

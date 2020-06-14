@@ -1,0 +1,19 @@
+Este test comprueba el correcto funcionamiento del conjunto de instrucciones store. Se comprueban todas las granularidades.
+
+lui r1, 0x0403
+addi r1, r1, 0x201
+sw r1, 0(r0)
+sh r1, 4(r0)
+sh r1, 6(r0)
+sb r1, 11(r0)
+sb r1, 10(r0)
+sb r1, 9(r0)
+sb r1, 8(r0)
+halt
+
+COMPROBACION:
+El test se ha superado si el contenido de la memoria es el siguiente:
+
+0x0: 0x04030201
+0x4: 0x02010201
+0x8: 0x01010101

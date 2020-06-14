@@ -1,0 +1,15 @@
+Este test comprueba el correcto funcionamiento del conjunto de instrucciones OP.
+
+lui r1, 0x00001
+lui r2, 0x01000
+add r3, r1, r2
+sub r4, r1, r2
+sub r5, r2, r1
+halt
+
+COMPROBACION:
+El test se ha superado si el contenido de los registros es:
+
+r3: 0x01001000
+r4: 0xff001000
+r5: 0x00fff000

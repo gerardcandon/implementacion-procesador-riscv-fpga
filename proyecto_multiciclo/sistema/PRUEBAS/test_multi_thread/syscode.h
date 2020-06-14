@@ -1,0 +1,12 @@
+void entry_trap(void) __attribute((naked));
+void handle_trap(void);
+void handle_interrupcion(int causa);
+void handle_excepcion(int causa);
+void cambio_thread(void);
+void pinta_pantalla(unsigned int valor);
+inline int read_csr(const int csr_num) __attribute((always_inline));
+inline void write_mstatus(int dato_escritura) __attribute((always_inline));
+inline void write_mepc(int dato_escritura) __attribute((always_inline));
+inline void write_mscratch(int dato_escritura) __attribute((always_inline));
+inline void guardar_registros(void) __attribute((always_inline));
+inline void restaurar_registros(void) __attribute((always_inline));

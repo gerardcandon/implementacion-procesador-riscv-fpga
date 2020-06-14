@@ -1,0 +1,38 @@
+Este test comprueba el correcto funcionamiento del conjunto de instrucciones load. Se comprueban todas las granularidades, tanto con extensión de signo como sin ella.
+
+lw r1, 60(r0)
+lhu r2, 60(r0)
+lhu r3, 62(r0)
+lh r4, 60(r0)
+lh r5, 62(r0)
+lbu r6, 60(r0)
+lbu r7, 61(r0)
+lbu r8, 62(r0)
+lbu r9, 63(r0)
+lb r10, 60(r0)
+lb r11, 61(r0)
+lb r12, 62(r0)
+lb r13, 63(r0)
+halt
+
+La memoria en la dirección 0x60 es
+0x60: 00000001
+0x61: 10000010
+0x62: 10000011
+0x63: 00000100
+
+COMPROBACION:
+El test se ha superado si el contenido del banco de registros es:
+r1:  0x04838201
+r2:  0x00008201
+r3:  0x00000483
+r4:  0xffff8201
+r5:  0x00000483
+r6:  0x00000001
+r7:  0x00000082
+r8:  0x00000083
+r9:  0x00000004
+r10: 0x00000001
+r11: 0xffffff82
+r12: 0xffffff83
+r13: 0x00000004

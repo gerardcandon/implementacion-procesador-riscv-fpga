@@ -1,0 +1,13 @@
+Este test comprueba que la detección de una excepción por codigo de operación ilegal es correcta.
+
+nop
+illegalOp
+
+COMPROBACION:
+El test se ha superado si ha saltado una excepción, y el contenido los registros tras procesarla es el siguiente:
+
+mcause: 0x00000001
+mepc:   0x00000004
+CP:     0x04000000
+
+

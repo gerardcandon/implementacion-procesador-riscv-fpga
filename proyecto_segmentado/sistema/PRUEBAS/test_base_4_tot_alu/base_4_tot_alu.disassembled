@@ -1,0 +1,106 @@
+
+base_4_tot_alu.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text.inici:
+
+00000000 <entry>:
+   0:	00030117          	auipc	x2,0x30
+   4:	00010113          	addi	x2,x2,0 # 30000 <__mem_top__>
+   8:	00030117          	auipc	x2,0x30
+   c:	ff810113          	addi	x2,x2,-8 # 30000 <__mem_top__>
+  10:	fe010113          	addi	x2,x2,-32
+  14:	1d8000ef          	jal	x1,1ec <main>
+  18:	00000013          	addi	x0,x0,0
+  1c:	00000013          	addi	x0,x0,0
+  20:	00000013          	addi	x0,x0,0
+  24:	00000013          	addi	x0,x0,0
+  28:	00000013          	addi	x0,x0,0
+  2c:	00100073          	ebreak
+
+Disassembly of section .text:
+
+00000100 <mult>:
+ 100:	fc010113          	addi	x2,x2,-64
+ 104:	02812e23          	sw	x8,60(x2)
+ 108:	04010413          	addi	x8,x2,64
+ 10c:	fca42623          	sw	x10,-52(x8)
+ 110:	fcb42423          	sw	x11,-56(x8)
+ 114:	fcc42703          	lw	x14,-52(x8)
+ 118:	000107b7          	lui	x15,0x10
+ 11c:	fff78793          	addi	x15,x15,-1 # ffff <__stack_size__+0xfbff>
+ 120:	00f777b3          	and	x15,x14,x15
+ 124:	fef42023          	sw	x15,-32(x8)
+ 128:	fe042783          	lw	x15,-32(x8)
+ 12c:	00e79793          	slli	x15,x15,0xe
+ 130:	fef42023          	sw	x15,-32(x8)
+ 134:	fc842703          	lw	x14,-56(x8)
+ 138:	000107b7          	lui	x15,0x10
+ 13c:	fff78793          	addi	x15,x15,-1 # ffff <__stack_size__+0xfbff>
+ 140:	00f777b3          	and	x15,x14,x15
+ 144:	fef42623          	sw	x15,-20(x8)
+ 148:	fe042223          	sw	x0,-28(x8)
+ 14c:	0800006f          	jal	x0,1cc <mult+0xcc>
+ 150:	fec42783          	lw	x15,-20(x8)
+ 154:	0017f793          	andi	x15,x15,1
+ 158:	fcf42e23          	sw	x15,-36(x8)
+ 15c:	fec42783          	lw	x15,-20(x8)
+ 160:	0017d793          	srli	x15,x15,0x1
+ 164:	0017f793          	andi	x15,x15,1
+ 168:	fcf42c23          	sw	x15,-40(x8)
+ 16c:	fec42783          	lw	x15,-20(x8)
+ 170:	0027d793          	srli	x15,x15,0x2
+ 174:	fef42623          	sw	x15,-20(x8)
+ 178:	fe042423          	sw	x0,-24(x8)
+ 17c:	fdc42703          	lw	x14,-36(x8)
+ 180:	00100793          	addi	x15,x0,1
+ 184:	00f71663          	bne	x14,x15,190 <mult+0x90>
+ 188:	fe042783          	lw	x15,-32(x8)
+ 18c:	fef42423          	sw	x15,-24(x8)
+ 190:	fd842703          	lw	x14,-40(x8)
+ 194:	00100793          	addi	x15,x0,1
+ 198:	00f71c63          	bne	x14,x15,1b0 <mult+0xb0>
+ 19c:	fe042783          	lw	x15,-32(x8)
+ 1a0:	00179793          	slli	x15,x15,0x1
+ 1a4:	fe842703          	lw	x14,-24(x8)
+ 1a8:	00f707b3          	add	x15,x14,x15
+ 1ac:	fef42423          	sw	x15,-24(x8)
+ 1b0:	fec42703          	lw	x14,-20(x8)
+ 1b4:	fe842783          	lw	x15,-24(x8)
+ 1b8:	00f707b3          	add	x15,x14,x15
+ 1bc:	fef42623          	sw	x15,-20(x8)
+ 1c0:	fe442783          	lw	x15,-28(x8)
+ 1c4:	00178793          	addi	x15,x15,1
+ 1c8:	fef42223          	sw	x15,-28(x8)
+ 1cc:	fe442703          	lw	x14,-28(x8)
+ 1d0:	00700793          	addi	x15,x0,7
+ 1d4:	f6e7dee3          	bge	x15,x14,150 <mult+0x50>
+ 1d8:	fec42783          	lw	x15,-20(x8)
+ 1dc:	00078513          	addi	x10,x15,0
+ 1e0:	03c12403          	lw	x8,60(x2)
+ 1e4:	04010113          	addi	x2,x2,64
+ 1e8:	00008067          	jalr	x0,0(x1)
+
+000001ec <main>:
+ 1ec:	ff010113          	addi	x2,x2,-16
+ 1f0:	00112623          	sw	x1,12(x2)
+ 1f4:	00812423          	sw	x8,8(x2)
+ 1f8:	01010413          	addi	x8,x2,16
+ 1fc:	004007b7          	lui	x15,0x400
+ 200:	08000713          	addi	x14,x0,128
+ 204:	00e7a223          	sw	x14,4(x15) # 400004 <multiplicando>
+ 208:	004007b7          	lui	x15,0x400
+ 20c:	00200713          	addi	x14,x0,2
+ 210:	00e7a423          	sw	x14,8(x15) # 400008 <multiplicador>
+ 214:	004007b7          	lui	x15,0x400
+ 218:	0047a703          	lw	x14,4(x15) # 400004 <multiplicando>
+ 21c:	004007b7          	lui	x15,0x400
+ 220:	0087a783          	lw	x15,8(x15) # 400008 <multiplicador>
+ 224:	00078593          	addi	x11,x15,0
+ 228:	00070513          	addi	x10,x14,0
+ 22c:	ed5ff0ef          	jal	x1,100 <mult>
+ 230:	00050713          	addi	x14,x10,0
+ 234:	004007b7          	lui	x15,0x400
+ 238:	00e7a023          	sw	x14,0(x15) # 400000 <resultado>
+ 23c:	00000073          	ecall
+ 240:	0000006f          	jal	x0,240 <main+0x54>

@@ -1,0 +1,115 @@
+## Generated SDC file "ensamblado_placa.out.sdc"
+
+## Copyright (C) 2019  Intel Corporation. All rights reserved.
+## Your use of Intel Corporation's design tools, logic functions 
+## and other software and tools, and any partner logic 
+## functions, and any output files from any of the foregoing 
+## (including device programming or simulation files), and any 
+## associated documentation or information are expressly subject 
+## to the terms and conditions of the Intel Program License 
+## Subscription Agreement, the Intel Quartus Prime License Agreement,
+## the Intel FPGA IP License Agreement, or other applicable license
+## agreement, including, without limitation, that your use is for
+## the sole purpose of programming logic devices manufactured by
+## Intel and sold by Intel or its authorized distributors.  Please
+## refer to the applicable agreement for further details, at
+## https://fpgasoftware.intel.com/eula.
+
+
+## VENDOR  "Altera"
+## PROGRAM "Quartus Prime"
+## VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+
+## DATE    "Sun Mar 15 16:44:27 2020"
+
+##
+## DEVICE  "EP4CE115F29C7"
+##
+
+
+#**************************************************************
+# Time Information
+#**************************************************************
+
+set_time_format -unit ns -decimal_places 3
+
+
+
+#**************************************************************
+# Create Clock
+#**************************************************************
+
+create_clock -name {altera_reserved_tck} -period 100.000 -waveform { 0.000 50.000 } [get_ports {altera_reserved_tck}]
+create_clock -name {CLOCK_50} -period 20.000 -waveform { 0.000 10.000 } [get_ports {CLOCK_50}]
+
+#**************************************************************
+# Create Generated Clock
+#**************************************************************
+
+
+
+#**************************************************************
+# Set Clock Latency
+#**************************************************************
+
+
+
+#**************************************************************
+# Set Clock Uncertainty
+#**************************************************************
+
+
+
+#**************************************************************
+# Set Input Delay
+#**************************************************************
+
+
+
+#**************************************************************
+# Set Output Delay
+#**************************************************************
+
+
+
+#**************************************************************
+# Set Clock Groups
+#**************************************************************
+
+set_clock_groups -asynchronous -group [get_clocks {altera_reserved_tck}] 
+set_clock_groups -asynchronous -group [get_clocks {altera_reserved_tck}] 
+
+
+#**************************************************************
+# Set False Path
+#**************************************************************
+
+set_false_path -to [get_keepers {*altera_std_synchronizer:*|din_s1}]
+set_false_path -from [get_keepers {*rdptr_g*}] -to [get_keepers {*ws_dgrp|dffpipe_2v8:dffpipe16|dffe17a*}]
+set_false_path -from [get_keepers {*delayed_wrptr_g*}] -to [get_keepers {*rs_dgwp|dffpipe_1v8:dffpipe12|dffe13a*}]
+set_false_path -from [get_registers {*altera_jtag_src_crosser:*|sink_data_buffer*}] -to [get_registers {*altera_jtag_src_crosser:*|src_data*}]
+set_false_path -to [get_pins -nocase -compatibility_mode {*|alt_rst_sync_uq1|altera_reset_synchronizer_int_chain*|clrn}]
+
+
+#**************************************************************
+# Set Multicycle Path
+#**************************************************************
+
+
+
+#**************************************************************
+# Set Maximum Delay
+#**************************************************************
+
+
+
+#**************************************************************
+# Set Minimum Delay
+#**************************************************************
+
+
+
+#**************************************************************
+# Set Input Transition
+#**************************************************************
+

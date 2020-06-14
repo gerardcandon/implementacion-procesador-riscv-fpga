@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Jun  2 11:52:22 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : ensamblado_placa
+Top-level Entity Name : ensamblado_placa
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 8,596 / 114,480 ( 8 % )
+    Total combinational functions : 4,658 / 114,480 ( 4 % )
+    Dedicated logic registers : 6,563 / 114,480 ( 6 % )
+Total registers : 6682
+Total pins : 63 / 529 ( 12 % )
+Total virtual pins : 0
+Total memory bits : 355,840 / 3,981,312 ( 9 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

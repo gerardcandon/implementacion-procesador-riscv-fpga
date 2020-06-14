@@ -1,0 +1,9 @@
+Este test comprueba el correcto funcionamiento de la instrucción lui.
+
+lui r1, 0xFFF00
+halt
+
+COMPROBACION:
+El test se ha superado si el contenido del banco de registros es el siguiente:
+
+r1: 0xfff00000

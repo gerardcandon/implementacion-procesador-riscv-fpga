@@ -1,0 +1,3915 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gerard/Desktop/clase/TFG/proyecto/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Eacceso_b
+Z1 w1589801515
+Z2 DPx4 work 5 tipos 0 22 F09IWKgXYL^:ZL46N_h]b3
+Z3 DPx4 work 8 retardos 0 22 5mmWFY>Y>0B:3V0a6J>mV0
+Z4 DPx4 work 10 constantes 0 22 _RGlU_hLEcX6cjOiAg8O82
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 d/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Z8 8./../disenyo_qsys_tb/simulation/submodules/acceso_B.vhd
+Z9 F./../disenyo_qsys_tb/simulation/submodules/acceso_B.vhd
+l0
+L8
+VD5;eVdhaAe7W]WZChEV[e2
+!s100 cH3SFeD1LBaP^nLTS0F_e0
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1589801559
+!i10b 1
+Z12 !s108 1589801559.000000
+Z13 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/acceso_B.vhd|-work|ensamblado_procesador_0|
+Z14 !s107 ./../disenyo_qsys_tb/simulation/submodules/acceso_B.vhd|
+!i113 1
+Z15 o-work ensamblado_procesador_0
+Z16 tExplicit 1 CvgOpt 0
+Acompor
+R2
+R3
+R4
+R5
+R6
+DEx4 work 8 acceso_b 0 22 D5;eVdhaAe7W]WZChEV[e2
+l19
+L17
+Vn8CPkG54hKCN;kbkP73kO3
+!s100 E6AZJmQW=B3WK[GmaB`bc0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eacceso_m
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z17 8./../disenyo_qsys_tb/simulation/submodules/acceso_M.vhd
+Z18 F./../disenyo_qsys_tb/simulation/submodules/acceso_M.vhd
+l0
+L8
+VjZJVhhUBdcPMbU_3SmB?X3
+!s100 `^1U4lPH::;Q=7CRP`MHF1
+R10
+32
+R11
+!i10b 1
+R12
+Z19 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/acceso_M.vhd|-work|ensamblado_procesador_0|
+Z20 !s107 ./../disenyo_qsys_tb/simulation/submodules/acceso_M.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R5
+R6
+DEx4 work 8 acceso_m 0 22 jZJVhhUBdcPMbU_3SmB?X3
+l18
+L16
+VgF@B[K_fZWS03bDCbJnN^3
+!s100 iUG4Ie:?ZH>OT0DUGdl=`3
+R10
+32
+R11
+!i10b 1
+R12
+R19
+R20
+!i113 1
+R15
+R16
+Ealu
+Z21 w1591017492
+Z22 DPx4 work 5 tipos 0 22 `2]zmHo8Q@jU68oZo4Q[72
+Z23 DPx4 work 8 retardos 0 22 PWY=]baj1d`B23GZehJDa1
+Z24 DPx4 work 10 constantes 0 22 l5TzgIib;`b@Hm0?8]MzC0
+Z25 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R5
+R6
+R7
+Z26 8./../disenyo_qsys_tb/simulation/submodules/ALU.vhd
+Z27 F./../disenyo_qsys_tb/simulation/submodules/ALU.vhd
+l0
+L13
+V`kHBfK<?3;MNImDfO;0Ij0
+!s100 ZN9dezGoY`EXZmzIcBUaJ1
+R10
+32
+Z28 !s110 1591017515
+!i10b 1
+Z29 !s108 1591017515.000000
+Z30 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/ALU.vhd|-work|ensamblado_procesador_0|
+Z31 !s107 ./../disenyo_qsys_tb/simulation/submodules/ALU.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R25
+R5
+R6
+DEx4 work 3 alu 0 22 `kHBfK<?3;MNImDfO;0Ij0
+l22
+L20
+VS0Y32A`Y_EEl2^o6=:R1S1
+!s100 Ch[CcM6<Hl`HLHSn@TFLI0
+R10
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R15
+R16
+Ealu_csr
+Z32 w1584898769
+Z33 DPx4 work 8 retardos 0 22 J7?14J2P=4g<W5gfjA]:]1
+R2
+Z34 DPx4 work 10 constantes 0 22 :GdXKd3A;@Uf[]jLQFX7?0
+R25
+R5
+R6
+R0
+Z35 8./../disenyo_qsys_tb/simulation/submodules/ALU_CSR.vhd
+Z36 F./../disenyo_qsys_tb/simulation/submodules/ALU_CSR.vhd
+l0
+L10
+VZCUz03k?Gf=Dnf[7QKDec3
+!s100 [A5bNX<T07]PZQh;HDY2I0
+R10
+32
+Z37 !s110 1585479601
+!i10b 1
+Z38 !s108 1585479601.000000
+Z39 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/ALU_CSR.vhd|-work|ensamblado_procesador_0|
+Z40 !s107 ./../disenyo_qsys_tb/simulation/submodules/ALU_CSR.vhd|
+!i113 1
+R15
+R16
+Acompor
+R33
+R2
+R34
+R25
+R5
+R6
+DEx4 work 7 alu_csr 0 22 ZCUz03k?Gf=Dnf[7QKDec3
+l19
+L18
+V`JdC4JEH^AVSY?;nnH24B3
+!s100 I=;^[>_VXYOBW`PZ7I=F@2
+R10
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R15
+R16
+Eautomata_estado
+R32
+Z41 DPx4 work 34 automata_estado_procedimientos_pkg 0 22 _YF@3CYVNoIQ_G[j@Kaf^1
+R33
+R34
+R2
+R25
+R5
+R6
+R0
+Z42 8./../disenyo_qsys_tb/simulation/submodules/automata_estado.vhd
+Z43 F./../disenyo_qsys_tb/simulation/submodules/automata_estado.vhd
+l0
+L11
+V8cmmMk62@@ao62QmU<ob=3
+!s100 >L0bG2232`cAHKRV=NCS?2
+R10
+32
+Z44 !s110 1585479600
+!i10b 1
+Z45 !s108 1585479600.000000
+Z46 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/automata_estado.vhd|-work|ensamblado_procesador_0|
+Z47 !s107 ./../disenyo_qsys_tb/simulation/submodules/automata_estado.vhd|
+!i113 1
+R15
+R16
+Acompor
+R41
+R33
+R34
+R2
+R25
+R5
+R6
+DEx4 work 15 automata_estado 0 22 8cmmMk62@@ao62QmU<ob=3
+l30
+L25
+VQS:jW5oXOTJ1ELkekAnC]2
+!s100 VD3?=KiRXAz?a0ZRDmYQK2
+R10
+32
+R44
+!i10b 1
+R45
+R46
+R47
+!i113 1
+R15
+R16
+Pautomata_estado_procedimientos_pkg
+R34
+R2
+R5
+R6
+R32
+R0
+Z48 8./../disenyo_qsys_tb/simulation/submodules/automata_estado_procedimientos_pkg.vhd
+Z49 F./../disenyo_qsys_tb/simulation/submodules/automata_estado_procedimientos_pkg.vhd
+l0
+L7
+V_YF@3CYVNoIQ_G[j@Kaf^1
+!s100 cLjdHgZc@lKTRLPKlod<F1
+R10
+32
+b1
+R44
+!i10b 1
+R45
+Z50 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/automata_estado_procedimientos_pkg.vhd|-work|ensamblado_procesador_0|
+Z51 !s107 ./../disenyo_qsys_tb/simulation/submodules/automata_estado_procedimientos_pkg.vhd|
+!i113 1
+R15
+R16
+Bbody
+R41
+R34
+R2
+R5
+R6
+l0
+L13
+Viz=e_5cOg6Qmo]bkI0k=M0
+!s100 SgWh]R`MaDY1O80CcW8gn1
+R10
+32
+R44
+!i10b 1
+R45
+R50
+R51
+!i113 1
+R15
+R16
+Eautomata_estado_sys
+R32
+R33
+R34
+R2
+R25
+R5
+R6
+R0
+Z52 8./../disenyo_qsys_tb/simulation/submodules/automata_estado_SYS.vhd
+Z53 F./../disenyo_qsys_tb/simulation/submodules/automata_estado_SYS.vhd
+l0
+L9
+VXRi3?[MFgd6j60i5h=_Ob1
+!s100 zHo0CTM89<Bk;89LhPanN3
+R10
+32
+R37
+!i10b 1
+R38
+Z54 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/automata_estado_SYS.vhd|-work|ensamblado_procesador_0|
+Z55 !s107 ./../disenyo_qsys_tb/simulation/submodules/automata_estado_SYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R33
+R34
+R2
+R25
+R5
+R6
+DEx4 work 19 automata_estado_sys 0 22 XRi3?[MFgd6j60i5h=_Ob1
+l23
+L18
+VSF`PjhBG070Si>I@;Km4n3
+!s100 _7j:VEBM?5EK1Q@?jPn1F2
+R10
+32
+R37
+!i10b 1
+R38
+R54
+R55
+!i113 1
+R15
+R16
+Ebloq_reg
+Z56 w1587489064
+R2
+R3
+Z57 DPx4 work 10 constantes 0 22 _WfkIP=ZCkYli30oGaVP80
+R5
+R6
+Z58 d/home/gerard/Desktop/clase/TFG/proyecto_segmentado/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Z59 8./../disenyo_qsys_tb/simulation/submodules/bloq_reg.vhd
+Z60 F./../disenyo_qsys_tb/simulation/submodules/bloq_reg.vhd
+l0
+L8
+VSYJi;AD[7m8SHU21]I@NM1
+!s100 iMojXBO5M8:OMRbci69R_1
+R10
+32
+Z61 !s110 1587489079
+!i10b 1
+Z62 !s108 1587489079.000000
+Z63 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/bloq_reg.vhd|-work|ensamblado_procesador_0|
+Z64 !s107 ./../disenyo_qsys_tb/simulation/submodules/bloq_reg.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R57
+R5
+R6
+DEx4 work 8 bloq_reg 0 22 SYJi;AD[7m8SHU21]I@NM1
+l19
+L16
+Vo^N0R7Pa5H5kL6j]lLQ>k1
+!s100 k?NmaianN9=EFzNPHahLB1
+R10
+32
+R61
+!i10b 1
+R62
+R63
+R64
+!i113 1
+R15
+R16
+Ebloqueo_a
+R21
+R22
+R23
+R24
+R5
+R6
+R7
+Z65 8./../disenyo_qsys_tb/simulation/submodules/bloqueo_A.vhd
+Z66 F./../disenyo_qsys_tb/simulation/submodules/bloqueo_A.vhd
+l0
+L12
+Vl3U4cM3ndW1ChGWk4]HS^1
+!s100 WnB;QF9><CK9n;fQfPgTg2
+R10
+32
+R28
+!i10b 1
+R29
+Z67 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/bloqueo_A.vhd|-work|ensamblado_procesador_0|
+Z68 !s107 ./../disenyo_qsys_tb/simulation/submodules/bloqueo_A.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R5
+R6
+DEx4 work 9 bloqueo_a 0 22 l3U4cM3ndW1ChGWk4]HS^1
+l21
+L19
+VG`z:ga]W[<lIINimNR?b[0
+!s100 cH6VkSSE7h:j1gmQ_9LFz0
+R10
+32
+R28
+!i10b 1
+R29
+R67
+R68
+!i113 1
+R15
+R16
+Ebloqueo_b
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z69 8./../disenyo_qsys_tb/simulation/submodules/bloqueo_B.vhd
+Z70 F./../disenyo_qsys_tb/simulation/submodules/bloqueo_B.vhd
+l0
+L8
+Vim9B@_;4`UI6NLX<TeVej2
+!s100 9QkaO38Jkod:[XLAGR=]>3
+R10
+32
+R11
+!i10b 1
+R12
+Z71 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/bloqueo_B.vhd|-work|ensamblado_procesador_0|
+Z72 !s107 ./../disenyo_qsys_tb/simulation/submodules/bloqueo_B.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R5
+R6
+DEx4 work 9 bloqueo_b 0 22 im9B@_;4`UI6NLX<TeVej2
+l16
+L15
+V;lz0[O^eNfHU^hERR?7lj0
+!s100 :[M4I76K`>o6bh9B?negM0
+R10
+32
+R11
+!i10b 1
+R12
+R71
+R72
+!i113 1
+R15
+R16
+Ebloqueo_cp
+R21
+R22
+R23
+R24
+R5
+R6
+R7
+Z73 8./../disenyo_qsys_tb/simulation/submodules/bloqueo_CP.vhd
+Z74 F./../disenyo_qsys_tb/simulation/submodules/bloqueo_CP.vhd
+l0
+L12
+V^=0;kX8[PIKURaJOK1Rb12
+!s100 jXGUHWUKIgOSla2XN_[FE0
+R10
+32
+Z75 !s110 1591017516
+!i10b 1
+R29
+Z76 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/bloqueo_CP.vhd|-work|ensamblado_procesador_0|
+Z77 !s107 ./../disenyo_qsys_tb/simulation/submodules/bloqueo_CP.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R5
+R6
+DEx4 work 10 bloqueo_cp 0 22 ^=0;kX8[PIKURaJOK1Rb12
+l20
+L19
+VlMnN7>WzN5GBnb4;U36Ho2
+!s100 >PbKS2z;Go8KG@439?NXg3
+R10
+32
+R75
+!i10b 1
+R29
+R76
+R77
+!i113 1
+R15
+R16
+Ebloqueo_m
+R21
+R22
+R23
+R24
+R5
+R6
+R7
+Z78 8./../disenyo_qsys_tb/simulation/submodules/bloqueo_M.vhd
+Z79 F./../disenyo_qsys_tb/simulation/submodules/bloqueo_M.vhd
+l0
+L12
+VA<XJdR_]2NIjzDDBfBcln0
+!s100 QR^f2H4UzDK[IM;jXGzNn2
+R10
+32
+R75
+!i10b 1
+Z80 !s108 1591017516.000000
+Z81 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/bloqueo_M.vhd|-work|ensamblado_procesador_0|
+Z82 !s107 ./../disenyo_qsys_tb/simulation/submodules/bloqueo_M.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R5
+R6
+DEx4 work 9 bloqueo_m 0 22 A<XJdR_]2NIjzDDBfBcln0
+l20
+L19
+VH[2FOH?4j@<Ek6k>>m7EJ1
+!s100 [DEJ0ki8:Q21e7537N5^20
+R10
+32
+R75
+!i10b 1
+R80
+R81
+R82
+!i113 1
+R15
+R16
+Ebr
+R21
+R22
+R24
+R23
+R25
+R5
+R6
+R7
+Z83 8./../disenyo_qsys_tb/simulation/submodules/BR.vhd
+Z84 F./../disenyo_qsys_tb/simulation/submodules/BR.vhd
+l0
+L13
+VU_OAbo3J3AOV^;>4[RJ513
+!s100 zNBTSP[[^kEkD11b`^YcL2
+R10
+32
+R28
+!i10b 1
+R29
+Z85 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/BR.vhd|-work|ensamblado_procesador_0|
+Z86 !s107 ./../disenyo_qsys_tb/simulation/submodules/BR.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R24
+R23
+R25
+R5
+R6
+DEx4 work 2 br 0 22 U_OAbo3J3AOV^;>4[RJ513
+l29
+L25
+VQW5icj=fO7AFPiH3e5Jg70
+!s100 <O0YXJN6e^`_cYV0O=9N<3
+R10
+32
+R28
+!i10b 1
+R29
+R85
+R86
+!i113 1
+R15
+R16
+Ebr_csr
+R32
+Z87 DPx4 work 25 br_csr_procedimientos_pkg 0 22 O>z][hI7RM>M0f9XT@ed@2
+R33
+R2
+R34
+Z88 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z89 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R25
+R5
+R6
+R0
+Z90 8./../disenyo_qsys_tb/simulation/submodules/BR_CSR.vhd
+Z91 F./../disenyo_qsys_tb/simulation/submodules/BR_CSR.vhd
+l0
+L12
+V5:h9Mkg4dKf4]fXj]]8fk3
+!s100 AX`on[WmOom94fBO[EB^42
+R10
+32
+R37
+!i10b 1
+R38
+Z92 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/BR_CSR.vhd|-work|ensamblado_procesador_0|
+Z93 !s107 ./../disenyo_qsys_tb/simulation/submodules/BR_CSR.vhd|
+!i113 1
+R15
+R16
+Acompor
+R87
+R33
+R2
+R34
+R88
+R89
+R25
+R5
+R6
+DEx4 work 6 br_csr 0 22 5:h9Mkg4dKf4]fXj]]8fk3
+l53
+L39
+V=kg80S0I@6AP`l0[iBhj^0
+!s100 iIY4QSTh:Uh1KIS_C1CFS0
+R10
+32
+R37
+!i10b 1
+R38
+R92
+R93
+!i113 1
+R15
+R16
+Pbr_csr_procedimientos_pkg
+R2
+R34
+R5
+R6
+R32
+R0
+Z94 8./../disenyo_qsys_tb/simulation/submodules/BR_CSR_procedimientos.vhd
+Z95 F./../disenyo_qsys_tb/simulation/submodules/BR_CSR_procedimientos.vhd
+l0
+L7
+VO>z][hI7RM>M0f9XT@ed@2
+!s100 g2dRLZ48>@;ogRE?BQUB]1
+R10
+32
+b1
+R37
+!i10b 1
+R38
+Z96 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/BR_CSR_procedimientos.vhd|-work|ensamblado_procesador_0|
+Z97 !s107 ./../disenyo_qsys_tb/simulation/submodules/BR_CSR_procedimientos.vhd|
+!i113 1
+R15
+R16
+Bbody
+R87
+R2
+R34
+R5
+R6
+l0
+L18
+VS=XHAX4I`788>cnEQ4;@33
+!s100 ^1^<9QzmQM0UHdAgR=P4W1
+R10
+32
+R37
+!i10b 1
+R38
+R96
+R97
+!i113 1
+R15
+R16
+Ebr_y_corto
+R21
+R22
+R23
+R24
+R5
+R6
+R7
+Z98 8./../disenyo_qsys_tb/simulation/submodules/BR_y_corto.vhd
+Z99 F./../disenyo_qsys_tb/simulation/submodules/BR_y_corto.vhd
+l0
+L12
+VK>_E?VNP5hh:Z[3dIKlH^3
+!s100 dmY1=jj0IVL4^JCX72m3A3
+R10
+32
+R28
+!i10b 1
+R29
+Z100 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/BR_y_corto.vhd|-work|ensamblado_procesador_0|
+Z101 !s107 ./../disenyo_qsys_tb/simulation/submodules/BR_y_corto.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R5
+R6
+DEx4 work 10 br_y_corto 0 22 K>_E?VNP5hh:Z[3dIKlH^3
+l61
+L24
+V7L25=k=n@aKcILL8<gE?20
+!s100 6ljj=J`fVL=b=G;<k[4G12
+R10
+32
+R28
+!i10b 1
+R29
+R100
+R101
+!i113 1
+R15
+R16
+Ecamino_control
+R21
+Z102 DPx4 work 26 componentes_camino_control 0 22 glBUic_5]ojPTl]FJ_nH10
+R23
+R24
+R22
+R25
+R5
+R6
+R7
+Z103 8./../disenyo_qsys_tb/simulation/submodules/camino_control.vhd
+Z104 F./../disenyo_qsys_tb/simulation/submodules/camino_control.vhd
+l0
+L14
+V^GVGK`1de3TEDo?NDA]6B3
+!s100 Gl4RS4S<Jz`[Y?4USB0k40
+R10
+32
+R75
+!i10b 1
+R80
+Z105 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/camino_control.vhd|-work|ensamblado_procesador_0|
+Z106 !s107 ./../disenyo_qsys_tb/simulation/submodules/camino_control.vhd|
+!i113 1
+R15
+R16
+Acompor
+R102
+R23
+R24
+R22
+R25
+R5
+R6
+DEx4 work 14 camino_control 0 22 ^GVGK`1de3TEDo?NDA]6B3
+l64
+L45
+V9jHR?o48L7=LNkaL7?R8A1
+!s100 kB:WDmY8RgL<?^f3Wjgkb2
+R10
+32
+R75
+!i10b 1
+R80
+R105
+R106
+!i113 1
+R15
+R16
+Ecamino_sys
+R32
+Z107 DPx4 work 22 componentes_camino_sys 0 22 MXS2PNm@OXDLOGCXBTNZ<0
+R2
+R34
+R25
+R5
+R6
+R0
+Z108 8./../disenyo_qsys_tb/simulation/submodules/camino_SYS.vhd
+Z109 F./../disenyo_qsys_tb/simulation/submodules/camino_SYS.vhd
+l0
+L11
+Vzi4lL243zLX7NBU?ERe_40
+!s100 kl@nVDF9lYSIK@GM2QHUG1
+R10
+32
+R37
+!i10b 1
+R38
+Z110 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/camino_SYS.vhd|-work|ensamblado_procesador_0|
+Z111 !s107 ./../disenyo_qsys_tb/simulation/submodules/camino_SYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R107
+R2
+R34
+R25
+R5
+R6
+DEx4 work 10 camino_sys 0 22 zi4lL243zLX7NBU?ERe_40
+l22
+L20
+VT5i42geiI@DIYK3nKl[1B1
+!s100 VD<eETmo^8AmAa<mCQW];3
+R10
+32
+R37
+!i10b 1
+R38
+R110
+R111
+!i113 1
+R15
+R16
+Pcomponentes_camino_control
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentes_camino_control.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_camino_control.vhd
+l0
+L11
+VglBUic_5]ojPTl]FJ_nH10
+!s100 OQV5UJX6A2<jd8NIaV2?D1
+R10
+32
+R75
+!i10b 1
+R80
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_camino_control.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_camino_control.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_camino_sys
+R34
+R2
+R5
+R6
+R32
+R0
+8./../disenyo_qsys_tb/simulation/submodules/componentes_camino_SYS.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_camino_SYS.vhd
+l0
+L7
+VMXS2PNm@OXDLOGCXBTNZ<0
+!s100 8mz0_UF_hl0@llYL<AEV23
+R10
+32
+R37
+!i10b 1
+R38
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_camino_SYS.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_camino_SYS.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_control_sys
+R34
+R2
+R5
+R6
+R32
+R0
+8./../disenyo_qsys_tb/simulation/submodules/componentes_control_SYS.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_control_SYS.vhd
+l0
+L7
+V5B8:8CYVH;G1@d6@ZjjSU1
+!s100 AOXPWnhM]HI3M7F4;GiCU2
+R10
+32
+R37
+!i10b 1
+R38
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_control_SYS.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_control_SYS.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_decoder
+Z112 DPx4 work 10 constantes 0 22 `U]VHUM9<>EJ]9f`g2dPR2
+R2
+R5
+R6
+Z113 w1587120257
+R58
+8./../disenyo_qsys_tb/simulation/submodules/componentes_decoder.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_decoder.vhd
+l0
+L7
+VWU5O3Gh;_j[BWZJM?aazA2
+!s100 DfbL<J;3>Y=XM6QJn:4>h2
+R10
+32
+Z114 !s110 1587120289
+!i10b 1
+Z115 !s108 1587120289.000000
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_decoder.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_decoder.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_decoder_a
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentes_decoder_A.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_decoder_A.vhd
+l0
+L11
+VH2_iNDMQ`Y8Oh@6nM2a750
+!s100 G<gIAZ9Kc4inM760V5<z<1
+R10
+32
+R75
+!i10b 1
+R80
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_decoder_A.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_decoder_A.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_decoder_dl
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentes_decoder_DL.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_decoder_DL.vhd
+l0
+L11
+Vh7M<JSIBLS<WH=nKNFH_c2
+!s100 @nDNElPVkLd86S:VnW78D0
+R10
+32
+R75
+!i10b 1
+R80
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_decoder_DL.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_decoder_DL.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_decosys
+R34
+R2
+R5
+R6
+R32
+R0
+8./../disenyo_qsys_tb/simulation/submodules/componentes_decoSYS.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_decoSYS.vhd
+l0
+L7
+V5`PIL5jgC0U@K_@e4KoEJ2
+!s100 o7kWKhP0kbJoNJXL91FW62
+R10
+32
+R37
+!i10b 1
+R38
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_decoSYS.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_decoSYS.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapaa
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentes_etapaA.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_etapaA.vhd
+l0
+L11
+VL2DVkezlNgAU9Qm3MhE970
+!s100 5Q?Y6@R<QFdAV[]]K;@zC3
+R10
+32
+R28
+!i10b 1
+R29
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_etapaA.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_etapaA.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapab
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentes_etapaB.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_etapaB.vhd
+l0
+L11
+V8fU8znSEddWgz>5Pec8mj1
+!s100 BZeEn3z0gKjOiJlKcHl8T0
+R10
+32
+Z116 !s110 1591017514
+!i10b 1
+Z117 !s108 1591017514.000000
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_etapaB.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_etapaB.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapacp
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentes_etapaCP.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_etapaCP.vhd
+l0
+L11
+V9JJY<ZboDL;VmZD8V>XMP2
+!s100 R0`mP0lQ_CFVDWjc<;TD81
+R10
+32
+R116
+!i10b 1
+R117
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_etapaCP.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_etapaCP.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapadl
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentes_etapaDL.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_etapaDL.vhd
+l0
+L11
+VBHDg1M_Aeahn9CEm>m]=H3
+!s100 CQ:`GiY64hGWANObTLzW]3
+R10
+32
+R28
+!i10b 1
+R29
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_etapaDL.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_etapaDL.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapaf
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentes_etapaF.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_etapaF.vhd
+l0
+L11
+VoNJOkB^z^2OYfaB?0R]T82
+!s100 aJm`eF]^g1A926VLDiScD3
+R10
+32
+R28
+!i10b 1
+R29
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_etapaF.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_etapaF.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapam
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentes_etapaM.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_etapaM.vhd
+l0
+L11
+V;[ScFhaMGi;a`LKIzMa[H3
+!s100 bAPG2fY]AWzG`K7XN;aQZ0
+R10
+32
+R28
+!i10b 1
+R29
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_etapaM.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_etapaM.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_lib
+R57
+R2
+R5
+R6
+R56
+R58
+8./../disenyo_qsys_tb/simulation/submodules/componentes_LIB.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_LIB.vhd
+l0
+L7
+VmHjD9:^5ISWLnkhg:Y4]e3
+!s100 OZTCHj[o5`dWlZRco[<mM1
+R10
+32
+R61
+!i10b 1
+R62
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_LIB.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_LIB.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_procesador
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentes_procesador.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentes_procesador.vhd
+l0
+L11
+V_zEUHUoC^?a0O6Y8GdCI<3
+!s100 5ONbnC5mi;24Caml86fRF2
+R10
+32
+R116
+!i10b 1
+R117
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentes_procesador.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentes_procesador.vhd|
+!i113 1
+R15
+R16
+Pcomponentesuc
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentesUC.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentesUC.vhd
+l0
+L11
+VSFCmK7Yi^3<S0[klXWk8`2
+!s100 RJIo?I_L<EXdFUW53E?ig3
+R10
+32
+R28
+!i10b 1
+R29
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentesUC.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentesUC.vhd|
+!i113 1
+R15
+R16
+Pcomponentesup
+R24
+R22
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/componentesUP.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentesUP.vhd
+l0
+L11
+VK8B=ihihLZG8o=Z3e0LD=3
+!s100 5j<iAH::Y=mI;`kGl2k5^1
+R10
+32
+R116
+!i10b 1
+R117
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentesUP.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentesUP.vhd|
+!i113 1
+R15
+R16
+Pcomponentesusys
+R34
+R2
+R5
+R6
+R32
+R0
+8./../disenyo_qsys_tb/simulation/submodules/componentesSYS.vhd
+F./../disenyo_qsys_tb/simulation/submodules/componentesSYS.vhd
+l0
+L7
+VADbC5BU5NFYz2d;MmA?613
+!s100 ID;SJlaidd>V21j0RCAz=1
+R10
+32
+R37
+!i10b 1
+R38
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/componentesSYS.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/componentesSYS.vhd|
+!i113 1
+R15
+R16
+Pconstantes
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/constantes.vhd
+F./../disenyo_qsys_tb/simulation/submodules/constantes.vhd
+l0
+L8
+Vl5TzgIib;`b@Hm0?8]MzC0
+!s100 H::0kS7j<Ic<kWaAkRHY]1
+R10
+32
+Z118 !s110 1591017513
+!i10b 1
+Z119 !s108 1591017513.000000
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/constantes.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/constantes.vhd|
+!i113 1
+R15
+R16
+Econtrol_cortocircuitos
+R21
+R22
+R23
+R24
+R5
+R6
+R7
+Z120 8./../disenyo_qsys_tb/simulation/submodules/control_cortocircuitos.vhd
+Z121 F./../disenyo_qsys_tb/simulation/submodules/control_cortocircuitos.vhd
+l0
+L12
+VJUk9F?m<IXbeoPXbmP8D93
+!s100 jejI5n^bl`7<h3ZkN`:Dc2
+R10
+32
+R28
+!i10b 1
+R29
+Z122 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/control_cortocircuitos.vhd|-work|ensamblado_procesador_0|
+Z123 !s107 ./../disenyo_qsys_tb/simulation/submodules/control_cortocircuitos.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R5
+R6
+DEx4 work 22 control_cortocircuitos 0 22 JUk9F?m<IXbeoPXbmP8D93
+l38
+L21
+VPVoN1^C`ISdJFjJg^GDLU0
+!s100 <d7foo7GQ[PIC:d36UDie0
+R10
+32
+R28
+!i10b 1
+R29
+R122
+R123
+!i113 1
+R15
+R16
+Econtrol_sys
+R32
+Z124 DPx4 work 23 componentes_control_sys 0 22 5B8:8CYVH;G1@d6@ZjjSU1
+R2
+R33
+R34
+R5
+R6
+R0
+Z125 8./../disenyo_qsys_tb/simulation/submodules/control_SYS.vhd
+Z126 F./../disenyo_qsys_tb/simulation/submodules/control_SYS.vhd
+l0
+L15
+Vl1>cDk4@ZJEcFAF]0gb]i1
+!s100 JTGzAN<LcZM16d]CY9dXn3
+R10
+32
+R37
+!i10b 1
+R38
+Z127 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/control_SYS.vhd|-work|ensamblado_procesador_0|
+Z128 !s107 ./../disenyo_qsys_tb/simulation/submodules/control_SYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R124
+R2
+R33
+R34
+R5
+R6
+DEx4 work 11 control_sys 0 22 l1>cDk4@ZJEcFAF]0gb]i1
+l31
+L28
+V<D2D[DDoAWmNQ59PR^6lX2
+!s100 ]Sdd3jGO2MA?NZRBV1QcQ3
+R10
+32
+R37
+!i10b 1
+R38
+R127
+R128
+!i113 1
+R15
+R16
+Edecocamino
+R21
+Z129 DPx4 work 26 decoder_procedimientos_pkg 0 22 Oa1^UKIhRj=YdWiC?ef3_2
+R24
+R22
+R25
+R5
+R6
+R7
+Z130 8./../disenyo_qsys_tb/simulation/submodules/decocamino.vhd
+Z131 F./../disenyo_qsys_tb/simulation/submodules/decocamino.vhd
+l0
+L13
+VDoFNXRhh=KR74P7abmlBR3
+!s100 c2le][:4nHWDH@d8zORZn2
+R10
+32
+R75
+!i10b 1
+R80
+Z132 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decocamino.vhd|-work|ensamblado_procesador_0|
+Z133 !s107 ./../disenyo_qsys_tb/simulation/submodules/decocamino.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R129
+R24
+R22
+R25
+R5
+R6
+DEx4 work 10 decocamino 0 22 DoFNXRhh=KR74P7abmlBR3
+l27
+L25
+Vl2@?:?_;TW6RRB=6ALgBA3
+!s100 @ciHnkAGOOU`IG2eNacj92
+R10
+32
+R75
+!i10b 1
+R80
+R132
+R133
+!i113 1
+R15
+R16
+Edecocamino_sys
+R32
+R33
+R2
+R34
+R25
+R5
+R6
+R0
+Z134 8./../disenyo_qsys_tb/simulation/submodules/decoCamino_SYS.vhd
+Z135 F./../disenyo_qsys_tb/simulation/submodules/decoCamino_SYS.vhd
+l0
+L9
+V<;>abl^P]]>`8RSmjj_lh2
+!s100 >n;a8ZGe;6hg9[U=L?1H50
+R10
+32
+R37
+!i10b 1
+R38
+Z136 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoCamino_SYS.vhd|-work|ensamblado_procesador_0|
+Z137 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoCamino_SYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R33
+R2
+R34
+R25
+R5
+R6
+DEx4 work 14 decocamino_sys 0 22 <;>abl^P]]>`8RSmjj_lh2
+l21
+L20
+V]R1Q?k:c=^Ob414nRn5[b3
+!s100 A^55[KC[fNX=L=PMg87[S3
+R10
+32
+R37
+!i10b 1
+R38
+R136
+R137
+!i113 1
+R15
+R16
+Edecoder
+R113
+Z138 DPx4 work 19 componentes_decoder 0 22 WU5O3Gh;_j[BWZJM?aazA2
+R3
+R112
+R2
+R25
+R5
+R6
+R58
+Z139 8./../disenyo_qsys_tb/simulation/submodules/decoder.vhd
+Z140 F./../disenyo_qsys_tb/simulation/submodules/decoder.vhd
+l0
+L10
+VbMVlPf`mjIKdmGoKnJRFZ2
+!s100 =;^Bzm]S5;D_[Y@hZK3Y@3
+R10
+32
+R114
+!i10b 1
+R115
+Z141 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoder.vhd|-work|ensamblado_procesador_0|
+Z142 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoder.vhd|
+!i113 1
+R15
+R16
+Acompor
+R138
+R3
+R112
+R2
+R25
+R5
+R6
+DEx4 work 7 decoder 0 22 bMVlPf`mjIKdmGoKnJRFZ2
+l67
+L49
+VfK;V[eJ3Rof7IPbzi?ce^2
+!s100 QV;Hi146bI2OXoRmOkQGI2
+R10
+32
+R114
+!i10b 1
+R115
+R141
+R142
+!i113 1
+R15
+R16
+Edecoder_a
+R21
+Z143 DPx4 work 21 componentes_decoder_a 0 22 H2_iNDMQ`Y8Oh@6nM2a750
+R23
+R24
+R22
+R25
+R5
+R6
+R7
+Z144 8./../disenyo_qsys_tb/simulation/submodules/decoder_A.vhd
+Z145 F./../disenyo_qsys_tb/simulation/submodules/decoder_A.vhd
+l0
+L14
+VW^9G8bS0SVD?QP1omJfB;1
+!s100 O?3_eGXgf35ZZc^VJBQXO0
+R10
+32
+R75
+!i10b 1
+R80
+Z146 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoder_A.vhd|-work|ensamblado_procesador_0|
+Z147 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoder_A.vhd|
+!i113 1
+R15
+R16
+Acompor
+R143
+R23
+R24
+R22
+R25
+R5
+R6
+DEx4 work 9 decoder_a 0 22 W^9G8bS0SVD?QP1omJfB;1
+l48
+L40
+VP]hjalVQSL05m8STnMFSY2
+!s100 IAPboYel2gUc5A21cPGK52
+R10
+32
+R75
+!i10b 1
+R80
+R146
+R147
+!i113 1
+R15
+R16
+Edecoder_dl
+R21
+Z148 DPx4 work 22 componentes_decoder_dl 0 22 h7M<JSIBLS<WH=nKNFH_c2
+R23
+R24
+R22
+R25
+R5
+R6
+R7
+Z149 8./../disenyo_qsys_tb/simulation/submodules/decoder_DL.vhd
+Z150 F./../disenyo_qsys_tb/simulation/submodules/decoder_DL.vhd
+l0
+L14
+Vf?BNb0SSDXPaSNOinbPA=1
+!s100 JbL1A[18K9<b;O]3?noX62
+R10
+32
+R75
+!i10b 1
+R80
+Z151 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoder_DL.vhd|-work|ensamblado_procesador_0|
+Z152 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoder_DL.vhd|
+!i113 1
+R15
+R16
+Acompor
+R148
+R23
+R24
+R22
+R25
+R5
+R6
+DEx4 work 10 decoder_dl 0 22 f?BNb0SSDXPaSNOinbPA=1
+l57
+L44
+VINfRF^XNLXEChab7F@:Q81
+!s100 z3<NCb0hD_J9iTUP_m9I10
+R10
+32
+R75
+!i10b 1
+R80
+R151
+R152
+!i113 1
+R15
+R16
+Pdecoder_procedimientos_pkg
+R24
+R22
+R5
+R6
+R21
+R7
+Z153 8./../disenyo_qsys_tb/simulation/submodules/decoder_procedimientos_pkg.vhd
+Z154 F./../disenyo_qsys_tb/simulation/submodules/decoder_procedimientos_pkg.vhd
+l0
+L11
+VOa1^UKIhRj=YdWiC?ef3_2
+!s100 UgI2HgO3lE7U]n4b8BGgD3
+R10
+32
+b1
+R75
+!i10b 1
+R80
+Z155 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoder_procedimientos_pkg.vhd|-work|ensamblado_procesador_0|
+Z156 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoder_procedimientos_pkg.vhd|
+!i113 1
+R15
+R16
+Bbody
+R129
+R24
+R22
+R5
+R6
+l0
+L29
+V7f@oUVF:L5BhA;W[8M8@d2
+!s100 dIS;8[24DZJFY7J6engQb1
+R10
+32
+R75
+!i10b 1
+R80
+R155
+R156
+!i113 1
+R15
+R16
+Edecoexcep
+R32
+Z157 DPx4 work 26 decoder_procedimientos_pkg 0 22 TPl44ibgJLMJ:kaN<mCW00
+R34
+R2
+R25
+R5
+R6
+R0
+Z158 8./../disenyo_qsys_tb/simulation/submodules/decoExcep.vhd
+Z159 F./../disenyo_qsys_tb/simulation/submodules/decoExcep.vhd
+l0
+L9
+VaL1zLVk_IGED;h9Jm>hWj2
+!s100 Kmbz;ajQj?nB]dDm`E3?n1
+R10
+32
+R44
+!i10b 1
+R45
+Z160 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoExcep.vhd|-work|ensamblado_procesador_0|
+Z161 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoExcep.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R157
+R34
+R2
+R25
+R5
+R6
+DEx4 work 9 decoexcep 0 22 aL1zLVk_IGED;h9Jm>hWj2
+l23
+L21
+VUK[O4o]ZDoN@U7XCQHAV=3
+!s100 eBIGQPRQA9ROPMZ=Y=jfN3
+R10
+32
+R44
+!i10b 1
+R45
+R160
+R161
+!i113 1
+R15
+R16
+Edecoexcep_sys
+R32
+R2
+R34
+R25
+R5
+R6
+R0
+Z162 8./../disenyo_qsys_tb/simulation/submodules/decoExcep_SYS.vhd
+Z163 F./../disenyo_qsys_tb/simulation/submodules/decoExcep_SYS.vhd
+l0
+L8
+VSgnZ6]M?<D01AKEMD4L><3
+!s100 =MWdA>mFb3TfY`onZV4DN0
+R10
+32
+R37
+!i10b 1
+R38
+Z164 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoExcep_SYS.vhd|-work|ensamblado_procesador_0|
+Z165 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoExcep_SYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R34
+R25
+R5
+R6
+DEx4 work 13 decoexcep_sys 0 22 SgnZ6]M?<D01AKEMD4L><3
+l19
+L18
+VKLRE^P`dW><i[P91BN?B93
+!s100 _jaa8WV6VjmGd@81zBA?X2
+R10
+32
+R37
+!i10b 1
+R38
+R164
+R165
+!i113 1
+R15
+R16
+Edecofmt
+R113
+Z166 DPx4 work 26 decoder_procedimientos_pkg 0 22 ciI8PLO^jmLAB^KKUeNX50
+R3
+R112
+R2
+R25
+R5
+R6
+R58
+Z167 8./../disenyo_qsys_tb/simulation/submodules/decoFMT.vhd
+Z168 F./../disenyo_qsys_tb/simulation/submodules/decoFMT.vhd
+l0
+L10
+VP760:n0>z[CKj:FN=W@ID2
+!s100 5D;Pd281A<KGR<nozRdSd1
+R10
+32
+R114
+!i10b 1
+R115
+Z169 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoFMT.vhd|-work|ensamblado_procesador_0|
+Z170 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoFMT.vhd|
+!i113 1
+R15
+R16
+Acompor
+R166
+R3
+R112
+R2
+R25
+R5
+R6
+DEx4 work 7 decofmt 0 22 P760:n0>z[CKj:FN=W@ID2
+l22
+L20
+V63@[9nbgAX_IXb3;KGPC11
+!s100 ;ISFdejRccNd_A0]eD?hS3
+R10
+32
+R114
+!i10b 1
+R115
+R169
+R170
+!i113 1
+R15
+R16
+Edecofmt_a
+R21
+R129
+R23
+R24
+R22
+R25
+R5
+R6
+R7
+Z171 8./../disenyo_qsys_tb/simulation/submodules/decoFMT_A.vhd
+Z172 F./../disenyo_qsys_tb/simulation/submodules/decoFMT_A.vhd
+l0
+L14
+VTMDLPU6jfYD_ibWlUi;>S1
+!s100 5eb<PLdaG]emWO<zV@0NA2
+R10
+32
+R75
+!i10b 1
+R80
+Z173 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoFMT_A.vhd|-work|ensamblado_procesador_0|
+Z174 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoFMT_A.vhd|
+!i113 1
+R15
+R16
+Acompor
+R129
+R23
+R24
+R22
+R25
+R5
+R6
+DEx4 work 9 decofmt_a 0 22 TMDLPU6jfYD_ibWlUi;>S1
+l26
+L24
+VQVVXZ9MO7YP=NjU8c_D[L1
+!s100 Ge2P62=?2Oo>^nJ>iK90>1
+R10
+32
+R75
+!i10b 1
+R80
+R173
+R174
+!i113 1
+R15
+R16
+Edecofmt_dl
+R21
+R129
+R23
+R24
+R22
+R25
+R5
+R6
+R7
+Z175 8./../disenyo_qsys_tb/simulation/submodules/decoFMT_DL.vhd
+Z176 F./../disenyo_qsys_tb/simulation/submodules/decoFMT_DL.vhd
+l0
+L14
+VY:`EfAThDG8<D_o0Y5=bZ0
+!s100 L8:YzQfggBmAN:XQoUdQo3
+R10
+32
+R75
+!i10b 1
+R80
+Z177 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoFMT_DL.vhd|-work|ensamblado_procesador_0|
+Z178 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoFMT_DL.vhd|
+!i113 1
+R15
+R16
+Acompor
+R129
+R23
+R24
+R22
+R25
+R5
+R6
+DEx4 work 10 decofmt_dl 0 22 Y:`EfAThDG8<D_o0Y5=bZ0
+l24
+L22
+V:?=9>JOe8^:<:4n?BQ@>>3
+!s100 YM`]VWch]a6UgL]<T@Hi>2
+R10
+32
+R75
+!i10b 1
+R80
+R177
+R178
+!i113 1
+R15
+R16
+Edecomem
+R113
+R166
+R3
+R112
+R2
+R25
+R5
+R6
+R58
+Z179 8./../disenyo_qsys_tb/simulation/submodules/decoMem.vhd
+Z180 F./../disenyo_qsys_tb/simulation/submodules/decoMem.vhd
+l0
+L10
+VWAN2Xin9>5>ab7:cX3[F`2
+!s100 ]bBT>=i^571KgkW[A=TNA3
+R10
+32
+R114
+!i10b 1
+R115
+Z181 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoMem.vhd|-work|ensamblado_procesador_0|
+Z182 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoMem.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R166
+R3
+R112
+R2
+R25
+R5
+R6
+DEx4 work 7 decomem 0 22 WAN2Xin9>5>ab7:cX3[F`2
+l21
+L19
+VUMgmB17>PiO0QZ[Uz@Cez3
+!s100 UZ`2kBDhG[?;ULOez0zR`3
+R10
+32
+R114
+!i10b 1
+R115
+R181
+R182
+!i113 1
+R15
+R16
+Edecomem_a
+R21
+R129
+R23
+R24
+R22
+R25
+R5
+R6
+R7
+Z183 8./../disenyo_qsys_tb/simulation/submodules/decoMem_A.vhd
+Z184 F./../disenyo_qsys_tb/simulation/submodules/decoMem_A.vhd
+l0
+L14
+VGQ`0<?dDHB90>GOL<^Mhm1
+!s100 8D@GBCaaoF0<K0mYm2z^P3
+R10
+32
+R75
+!i10b 1
+R80
+Z185 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoMem_A.vhd|-work|ensamblado_procesador_0|
+Z186 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoMem_A.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R129
+R23
+R24
+R22
+R25
+R5
+R6
+DEx4 work 9 decomem_a 0 22 GQ`0<?dDHB90>GOL<^Mhm1
+l24
+L22
+V[PfUW=aGe]B9bhMdP?Lf12
+!s100 Bmkef_?<6K?NIKL@8hSTS3
+R10
+32
+R75
+!i10b 1
+R80
+R185
+R186
+!i113 1
+R15
+R16
+Edecomem_dl
+R21
+R129
+R23
+R24
+R22
+R25
+R5
+R6
+R7
+Z187 8./../disenyo_qsys_tb/simulation/submodules/decoMem_DL.vhd
+Z188 F./../disenyo_qsys_tb/simulation/submodules/decoMem_DL.vhd
+l0
+L14
+VkznW@ol`zD;YD69_iORSX3
+!s100 [iHSm5VSI@1O1cQ;U57h`2
+R10
+32
+R75
+!i10b 1
+R80
+Z189 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoMem_DL.vhd|-work|ensamblado_procesador_0|
+Z190 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoMem_DL.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R129
+R23
+R24
+R22
+R25
+R5
+R6
+DEx4 work 10 decomem_dl 0 22 kznW@ol`zD;YD69_iORSX3
+l24
+L22
+VSZLNlHmM[?;hOLeThYEVG2
+!s100 OX9T?]7:AXQkPA;;8kRH<0
+R10
+32
+R75
+!i10b 1
+R80
+R189
+R190
+!i113 1
+R15
+R16
+Edecoopalu
+R21
+R22
+R24
+R23
+R25
+R5
+R6
+R7
+Z191 8./../disenyo_qsys_tb/simulation/submodules/decoopALU.vhd
+Z192 F./../disenyo_qsys_tb/simulation/submodules/decoopALU.vhd
+l0
+L13
+VSZe8hE^4c5hG1gLL8@YFc3
+!s100 M?lQi^0lbQ2][:c^d>8i;2
+R10
+32
+R75
+!i10b 1
+R80
+Z193 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoopALU.vhd|-work|ensamblado_procesador_0|
+Z194 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoopALU.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R24
+R23
+R25
+R5
+R6
+Z195 DEx4 work 9 decoopalu 0 22 SZe8hE^4c5hG1gLL8@YFc3
+l27
+L19
+Z196 VGbJmY9=Sf1nb4b=h0C@dT0
+Z197 !s100 gWRDYL;nl^KRI@[MmhH;i1
+R10
+32
+R75
+!i10b 1
+R80
+R193
+R194
+!i113 1
+R15
+R16
+Edecosec
+R21
+R129
+R24
+R22
+R25
+R5
+R6
+R7
+Z198 8./../disenyo_qsys_tb/simulation/submodules/decoSec.vhd
+Z199 F./../disenyo_qsys_tb/simulation/submodules/decoSec.vhd
+l0
+L14
+Vzc3IkTz^A5hE16D9^n5>Q2
+!s100 V^U8g^I<APE]2HFEnP`YN2
+R10
+32
+R75
+!i10b 1
+R80
+Z200 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoSec.vhd|-work|ensamblado_procesador_0|
+Z201 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoSec.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R129
+R24
+R22
+R25
+R5
+R6
+DEx4 work 7 decosec 0 22 zc3IkTz^A5hE16D9^n5>Q2
+l25
+L24
+VhgAgYY[Fo@ZTnS1N2=CI72
+!s100 zhb5chQmI]O;?_n7UCi3D0
+R10
+32
+R75
+!i10b 1
+R80
+R200
+R201
+!i113 1
+R15
+R16
+Edecosys
+R32
+Z202 DPx4 work 19 componentes_decosys 0 22 5`PIL5jgC0U@K_@e4KoEJ2
+R2
+R34
+R25
+R5
+R6
+R0
+Z203 8./../disenyo_qsys_tb/simulation/submodules/decoSYS.vhd
+Z204 F./../disenyo_qsys_tb/simulation/submodules/decoSYS.vhd
+l0
+L9
+VO2FB5<VcmFmaLGlf3`@VR3
+!s100 ;aJ1ooFe:gO<Gn0R;R7TD3
+R10
+32
+R37
+!i10b 1
+R38
+Z205 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/decoSYS.vhd|-work|ensamblado_procesador_0|
+Z206 !s107 ./../disenyo_qsys_tb/simulation/submodules/decoSYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R202
+R2
+R34
+R25
+R5
+R6
+DEx4 work 7 decosys 0 22 O2FB5<VcmFmaLGlf3`@VR3
+l25
+L23
+VQJ=X9:^?6@JikCg8U>hLW3
+!s100 75E@AP>5S34cM?FgOa[8z0
+R10
+32
+R37
+!i10b 1
+R38
+R205
+R206
+!i113 1
+R15
+R16
+Eensamblado_procesador
+R21
+Z207 DPx4 work 22 componentes_procesador 0 22 _zEUHUoC^?a0O6Y8GdCI<3
+R22
+R23
+R24
+R25
+R5
+R6
+R7
+Z208 8./../disenyo_qsys_tb/simulation/submodules/ensamblado_procesador.vhd
+Z209 F./../disenyo_qsys_tb/simulation/submodules/ensamblado_procesador.vhd
+l0
+L15
+V;MllA>QRF49b7aNZ11mdD3
+!s100 gPF_>YW1cPCbVg`U^lfkn1
+R10
+32
+R116
+!i10b 1
+R117
+Z210 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/ensamblado_procesador.vhd|-work|ensamblado_procesador_0|
+Z211 !s107 ./../disenyo_qsys_tb/simulation/submodules/ensamblado_procesador.vhd|
+!i113 1
+R15
+R16
+Acompor
+R207
+R22
+R23
+R24
+R25
+R5
+R6
+DEx4 work 21 ensamblado_procesador 0 22 ;MllA>QRF49b7aNZ11mdD3
+l47
+L28
+VEaDI3A3`lnSHhH80zF1gN3
+!s100 GWkY?nafPXm;j9O4:LDd50
+R10
+32
+R116
+!i10b 1
+R117
+R210
+R211
+!i113 1
+R15
+R16
+Eensambladouc
+R21
+Z212 DPx4 work 13 componentesuc 0 22 SFCmK7Yi^3<S0[klXWk8`2
+R22
+R23
+R24
+R5
+R6
+R7
+Z213 8./../disenyo_qsys_tb/simulation/submodules/ensambladoUC.vhd
+Z214 F./../disenyo_qsys_tb/simulation/submodules/ensambladoUC.vhd
+l0
+L14
+Vlj`1B]Kh7=1:GoGaN:@c>0
+!s100 LRzCUUad9j6V:^EenB?6Q2
+R10
+32
+R28
+!i10b 1
+R29
+Z215 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/ensambladoUC.vhd|-work|ensamblado_procesador_0|
+Z216 !s107 ./../disenyo_qsys_tb/simulation/submodules/ensambladoUC.vhd|
+!i113 1
+R15
+R16
+Acompor
+R212
+R22
+R23
+R24
+R5
+R6
+DEx4 work 12 ensambladouc 0 22 lj`1B]Kh7=1:GoGaN:@c>0
+l81
+L58
+Vo]A`03c9hAQgGQOHO1GNh0
+!s100 95Q>Io?cDMaUa0lgA?UAo1
+R10
+32
+R28
+!i10b 1
+R29
+R215
+R216
+!i113 1
+R15
+R16
+Eensambladoup
+R21
+Z217 DPx4 work 13 componentesup 0 22 K8B=ihihLZG8o=Z3e0LD=3
+R22
+R23
+R24
+R5
+R6
+R7
+Z218 8./../disenyo_qsys_tb/simulation/submodules/ensambladoUP.vhd
+Z219 F./../disenyo_qsys_tb/simulation/submodules/ensambladoUP.vhd
+l0
+L14
+V`CR?L@?kdn0X<[N44]2Oh1
+!s100 OMELCTB[59i3P1M9:[lb30
+R10
+32
+R116
+!i10b 1
+R117
+Z220 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/ensambladoUP.vhd|-work|ensamblado_procesador_0|
+Z221 !s107 ./../disenyo_qsys_tb/simulation/submodules/ensambladoUP.vhd|
+!i113 1
+R15
+R16
+Acompor
+R217
+R22
+R23
+R24
+R5
+R6
+DEx4 work 12 ensambladoup 0 22 `CR?L@?kdn0X<[N44]2Oh1
+l69
+L58
+V?]@d`?CZm;dh2IT]G>Phd1
+!s100 Fc@fnfkgV3Sggl6@:PUWC1
+R10
+32
+R116
+!i10b 1
+R117
+R220
+R221
+!i113 1
+R15
+R16
+Eensambladousys
+R32
+Z222 DPx4 work 15 componentesusys 0 22 ADbC5BU5NFYz2d;MmA?613
+R2
+R33
+R34
+R5
+R6
+R0
+Z223 8./../disenyo_qsys_tb/simulation/submodules/ensambladoSYS.vhd
+Z224 F./../disenyo_qsys_tb/simulation/submodules/ensambladoSYS.vhd
+l0
+L10
+V`5ET>EbVEnT>eJ>o?`oWQ0
+!s100 [B`A2i7;`4oNNR^dZ7Lo;0
+R10
+32
+R37
+!i10b 1
+R38
+Z225 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/ensambladoSYS.vhd|-work|ensamblado_procesador_0|
+Z226 !s107 ./../disenyo_qsys_tb/simulation/submodules/ensambladoSYS.vhd|
+!i113 1
+R15
+R16
+Acompor
+R222
+R2
+R33
+R34
+R5
+R6
+DEx4 work 14 ensambladousys 0 22 `5ET>EbVEnT>eJ>o?`oWQ0
+l46
+L37
+V[UECMKPMBJ9j;3J;h2M<l2
+!s100 zB_Gc6cIc@JW@0OHVMl2`2
+R10
+32
+R37
+!i10b 1
+R38
+R225
+R226
+!i113 1
+R15
+R16
+Eetapaa
+R21
+Z227 DPx4 work 18 componentes_etapaa 0 22 L2DVkezlNgAU9Qm3MhE970
+R22
+R23
+R24
+R5
+R6
+R7
+Z228 8./../disenyo_qsys_tb/simulation/submodules/etapaA.vhd
+Z229 F./../disenyo_qsys_tb/simulation/submodules/etapaA.vhd
+l0
+L13
+V_=0QO5`Gmi5`2NJAcIZ570
+!s100 0UQS^<YLL7N;D5MJ4;0Gk3
+R10
+32
+R28
+!i10b 1
+R29
+Z230 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/etapaA.vhd|-work|ensamblado_procesador_0|
+Z231 !s107 ./../disenyo_qsys_tb/simulation/submodules/etapaA.vhd|
+!i113 1
+R15
+R16
+Acompor
+R227
+R22
+R23
+R24
+R5
+R6
+DEx4 work 6 etapaa 0 22 _=0QO5`Gmi5`2NJAcIZ570
+l30
+L27
+V:9`F1OZRX6hI17VOlJ9ll0
+!s100 hDoedj7__cWL::JlLCi2a3
+R10
+32
+R28
+!i10b 1
+R29
+R230
+R231
+!i113 1
+R15
+R16
+Eetapab
+R21
+Z232 DPx4 work 18 componentes_etapab 0 22 8fU8znSEddWgz>5Pec8mj1
+R22
+R23
+R24
+R5
+R6
+R7
+Z233 8./../disenyo_qsys_tb/simulation/submodules/etapaB.vhd
+Z234 F./../disenyo_qsys_tb/simulation/submodules/etapaB.vhd
+l0
+L13
+VTEc4dG5c^OnQmI;BmVocf2
+!s100 UEe6eNRfPgSdkNNRN[>cD2
+R10
+32
+R116
+!i10b 1
+R117
+Z235 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/etapaB.vhd|-work|ensamblado_procesador_0|
+Z236 !s107 ./../disenyo_qsys_tb/simulation/submodules/etapaB.vhd|
+!i113 1
+R15
+R16
+Acompor
+R232
+R22
+R23
+R24
+R5
+R6
+DEx4 work 6 etapab 0 22 TEc4dG5c^OnQmI;BmVocf2
+l31
+L26
+VLfXhm@>4KhPBJ:@GRZnNX1
+!s100 VU@Ikm9^;n=MEniD7ZLVD3
+R10
+32
+R116
+!i10b 1
+R117
+R235
+R236
+!i113 1
+R15
+R16
+Eetapacp
+R21
+Z237 DPx4 work 19 componentes_etapacp 0 22 9JJY<ZboDL;VmZD8V>XMP2
+R22
+R23
+R24
+R5
+R6
+R7
+Z238 8./../disenyo_qsys_tb/simulation/submodules/etapaCP.vhd
+Z239 F./../disenyo_qsys_tb/simulation/submodules/etapaCP.vhd
+l0
+L13
+V?d10@VFW3dn21amRik7i@0
+!s100 PLI4<83K]d7W35WTCMZEf3
+R10
+32
+R116
+!i10b 1
+R117
+Z240 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/etapaCP.vhd|-work|ensamblado_procesador_0|
+Z241 !s107 ./../disenyo_qsys_tb/simulation/submodules/etapaCP.vhd|
+!i113 1
+R15
+R16
+Acompor
+R237
+R22
+R23
+R24
+R5
+R6
+DEx4 work 7 etapacp 0 22 ?d10@VFW3dn21amRik7i@0
+l29
+L24
+VaboZKHLH]WEAb]ozCMeh^1
+!s100 5_A@[36=6aCgAZWOWOnSK1
+R10
+32
+R116
+!i10b 1
+R117
+R240
+R241
+!i113 1
+R15
+R16
+Eetapadl
+R21
+Z242 DPx4 work 19 componentes_etapadl 0 22 BHDg1M_Aeahn9CEm>m]=H3
+R22
+R23
+R24
+R5
+R6
+R7
+Z243 8./../disenyo_qsys_tb/simulation/submodules/etapaDL.vhd
+Z244 F./../disenyo_qsys_tb/simulation/submodules/etapaDL.vhd
+l0
+L13
+VcjfOPNbKck]SLK3AV:8lZ3
+!s100 5^RbS8PbCJaKLOco[dHdQ0
+R10
+32
+R28
+!i10b 1
+R29
+Z245 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/etapaDL.vhd|-work|ensamblado_procesador_0|
+Z246 !s107 ./../disenyo_qsys_tb/simulation/submodules/etapaDL.vhd|
+!i113 1
+R15
+R16
+Acompor
+R242
+R22
+R23
+R24
+R5
+R6
+DEx4 work 7 etapadl 0 22 cjfOPNbKck]SLK3AV:8lZ3
+l30
+L26
+Va_<l4`_;7A>c?<?Fj4ncE3
+!s100 n0k2fhYdW:;LjJ`0bb@P92
+R10
+32
+R28
+!i10b 1
+R29
+R245
+R246
+!i113 1
+R15
+R16
+Eetapaf
+R21
+Z247 DPx4 work 18 componentes_etapaf 0 22 oNJOkB^z^2OYfaB?0R]T82
+R22
+R23
+R24
+R5
+R6
+R7
+Z248 8./../disenyo_qsys_tb/simulation/submodules/etapaF.vhd
+Z249 F./../disenyo_qsys_tb/simulation/submodules/etapaF.vhd
+l0
+L13
+VP6T2lCg:InIZPIZ[GCiL42
+!s100 XJ_o5khJ]b41b9e50>>X42
+R10
+32
+R28
+!i10b 1
+R29
+Z250 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/etapaF.vhd|-work|ensamblado_procesador_0|
+Z251 !s107 ./../disenyo_qsys_tb/simulation/submodules/etapaF.vhd|
+!i113 1
+R15
+R16
+Acompor
+R247
+R22
+R23
+R24
+R5
+R6
+DEx4 work 6 etapaf 0 22 P6T2lCg:InIZPIZ[GCiL42
+l26
+L24
+VGLe=ZP]@72zQhQiEBmP^`0
+!s100 JDfda5l2hSRANbaO>c1:H3
+R10
+32
+R28
+!i10b 1
+R29
+R250
+R251
+!i113 1
+R15
+R16
+Eetapam
+R21
+Z252 DPx4 work 18 componentes_etapam 0 22 ;[ScFhaMGi;a`LKIzMa[H3
+R22
+R23
+R24
+R5
+R6
+R7
+Z253 8./../disenyo_qsys_tb/simulation/submodules/etapaM.vhd
+Z254 F./../disenyo_qsys_tb/simulation/submodules/etapaM.vhd
+l0
+L13
+V9cU>3Hcli95aMo?ZK;z<91
+!s100 0;iXYco2Yf1V;G8e22YjG0
+R10
+32
+R28
+!i10b 1
+R29
+Z255 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/etapaM.vhd|-work|ensamblado_procesador_0|
+Z256 !s107 ./../disenyo_qsys_tb/simulation/submodules/etapaM.vhd|
+!i113 1
+R15
+R16
+Acompor
+R252
+R22
+R23
+R24
+R5
+R6
+DEx4 work 6 etapam 0 22 9cU>3Hcli95aMo?ZK;z<91
+l26
+L22
+V^WC@iUH:Ce1oLemWmm`=30
+!s100 ncDa0GVnPN[FJB>XT2fXE2
+R10
+32
+R28
+!i10b 1
+R29
+R255
+R256
+!i113 1
+R15
+R16
+Eeval
+R21
+R22
+R23
+R24
+R25
+R5
+R6
+R7
+Z257 8./../disenyo_qsys_tb/simulation/submodules/EVAL.vhd
+Z258 F./../disenyo_qsys_tb/simulation/submodules/EVAL.vhd
+l0
+L13
+VeCWQ>RDn<Rl?iJn[OjMhP2
+!s100 FUPamV32SgZ9YeP?UUaSF2
+R10
+32
+R28
+!i10b 1
+R29
+Z259 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/EVAL.vhd|-work|ensamblado_procesador_0|
+Z260 !s107 ./../disenyo_qsys_tb/simulation/submodules/EVAL.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R25
+R5
+R6
+DEx4 work 4 eval 0 22 eCWQ>RDn<Rl?iJn[OjMhP2
+l20
+L18
+V=0NG?FZV7e4lS?ZDeWG6a1
+!s100 >^^;eVX^d616=cM]0SZnf1
+R10
+32
+R28
+!i10b 1
+R29
+R259
+R260
+!i113 1
+R15
+R16
+Efifo
+R21
+R22
+R23
+R24
+R25
+R88
+R89
+R5
+R6
+R7
+Z261 8./../disenyo_qsys_tb/simulation/submodules/fifo.vhd
+Z262 F./../disenyo_qsys_tb/simulation/submodules/fifo.vhd
+l0
+L14
+VR2KBH]1INSo:d5AW9@cNA2
+!s100 [`gW6C;1b8nDHTZN7L^^b3
+R10
+32
+R28
+!i10b 1
+R117
+Z263 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/fifo.vhd|-work|ensamblado_procesador_0|
+Z264 !s107 ./../disenyo_qsys_tb/simulation/submodules/fifo.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R25
+R88
+R89
+R5
+R6
+DEx4 work 4 fifo 0 22 R2KBH]1INSo:d5AW9@cNA2
+l31
+L24
+Vh<JP4RN:V[9VP]f;Q6KA?0
+!s100 U=CYH^OQ6_7F1=aL?XCad2
+R10
+32
+R28
+!i10b 1
+R117
+R263
+R264
+!i113 1
+R15
+R16
+Efmte
+R21
+R23
+R24
+R22
+R25
+R5
+R6
+R7
+Z265 8./../disenyo_qsys_tb/simulation/submodules/FMTE.vhd
+Z266 F./../disenyo_qsys_tb/simulation/submodules/FMTE.vhd
+l0
+L13
+VQ7fFJ:9ARCA^a[O7?e=>f3
+!s100 P5nC[`kPUmO`TBBe>Z3hQ2
+R10
+32
+R28
+!i10b 1
+R29
+Z267 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/FMTE.vhd|-work|ensamblado_procesador_0|
+Z268 !s107 ./../disenyo_qsys_tb/simulation/submodules/FMTE.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R23
+R24
+R22
+R25
+R5
+R6
+DEx4 work 4 fmte 0 22 Q7fFJ:9ARCA^a[O7?e=>f3
+l22
+L20
+V7:MV=T1lg`H:eGW3Q3@GY1
+!s100 0O06AMK`k]3k;j4m;R`m33
+R10
+32
+R28
+!i10b 1
+R29
+R267
+R268
+!i113 1
+R15
+R16
+Efmti
+R21
+R23
+R24
+R22
+R5
+R6
+R7
+Z269 8./../disenyo_qsys_tb/simulation/submodules/FMTI.vhd
+Z270 F./../disenyo_qsys_tb/simulation/submodules/FMTI.vhd
+l0
+L12
+V@:f?:CPVIXda@kg`cXf4_2
+!s100 DAJ?NbOANV>l>kbza=Qcb3
+R10
+32
+R28
+!i10b 1
+R29
+Z271 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/FMTI.vhd|-work|ensamblado_procesador_0|
+Z272 !s107 ./../disenyo_qsys_tb/simulation/submodules/FMTI.vhd|
+!i113 1
+R15
+R16
+Acompor
+R23
+R24
+R22
+R5
+R6
+DEx4 work 4 fmti 0 22 @:f?:CPVIXda@kg`cXf4_2
+l19
+L18
+V=8DZUa=33alGJ6USIG_Jb2
+!s100 La:j;GBei[nUj]2_lEDKV0
+R10
+32
+R28
+!i10b 1
+R29
+R271
+R272
+!i113 1
+R15
+R16
+Efmtl
+R21
+R23
+R24
+R22
+R25
+R5
+R6
+R7
+Z273 8./../disenyo_qsys_tb/simulation/submodules/FMTL.vhd
+Z274 F./../disenyo_qsys_tb/simulation/submodules/FMTL.vhd
+l0
+L13
+VZkGoc1ajleYgT883HC5?j3
+!s100 3=emo^9DdNhUazaC@VSFg0
+R10
+32
+R28
+!i10b 1
+R29
+Z275 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/FMTL.vhd|-work|ensamblado_procesador_0|
+Z276 !s107 ./../disenyo_qsys_tb/simulation/submodules/FMTL.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R23
+R24
+R22
+R25
+R5
+R6
+DEx4 work 4 fmtl 0 22 ZkGoc1ajleYgT883HC5?j3
+l23
+L21
+V0enMJ7DWCVRaUUT?bN1J;3
+!s100 WD][e:hMb=CVD5FlLQc@03
+R10
+32
+R28
+!i10b 1
+R29
+R275
+R276
+!i113 1
+R15
+R16
+Efuerza_bit_0
+R21
+R22
+R23
+R24
+R5
+R6
+R7
+Z277 8./../disenyo_qsys_tb/simulation/submodules/fuerza_bit_0.vhd
+Z278 F./../disenyo_qsys_tb/simulation/submodules/fuerza_bit_0.vhd
+l0
+L12
+V1_LUQjQV3Id^LnP@bF:<f2
+!s100 5zzzTFG7agdJJX`k:O]2^1
+R10
+32
+R28
+!i10b 1
+R29
+Z279 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/fuerza_bit_0.vhd|-work|ensamblado_procesador_0|
+Z280 !s107 ./../disenyo_qsys_tb/simulation/submodules/fuerza_bit_0.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R5
+R6
+DEx4 work 12 fuerza_bit_0 0 22 1_LUQjQV3Id^LnP@bF:<f2
+l21
+L20
+V@=__E==PB6Oa=II@I:nkG0
+!s100 @[<FYUbSEHOWSej0:TUNX0
+R10
+32
+R28
+!i10b 1
+R29
+R279
+R280
+!i113 1
+R15
+R16
+Elatch1r
+R32
+R2
+R34
+R33
+R25
+R5
+R6
+R0
+Z281 8./../disenyo_qsys_tb/simulation/submodules/latch1r.vhd
+Z282 F./../disenyo_qsys_tb/simulation/submodules/latch1r.vhd
+l0
+L9
+V0bPHBFm0J0XMFJVEOzl6H2
+!s100 U?UCaBTO<gSK4C5IAQbSS2
+R10
+32
+Z283 !s110 1585479599
+!i10b 1
+Z284 !s108 1585479599.000000
+Z285 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/latch1r.vhd|-work|ensamblado_procesador_0|
+Z286 !s107 ./../disenyo_qsys_tb/simulation/submodules/latch1r.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R34
+R33
+R25
+R5
+R6
+DEx4 work 7 latch1r 0 22 0bPHBFm0J0XMFJVEOzl6H2
+l16
+L15
+VclSKzS@LLL6LeiiMoSTB42
+!s100 jk;g18DIo^FY;QjLz3>bL1
+R10
+32
+R283
+!i10b 1
+R284
+R285
+R286
+!i113 1
+R15
+R16
+Elib
+R21
+R22
+R23
+R24
+R5
+R6
+R7
+Z287 8./../disenyo_qsys_tb/simulation/submodules/LIB.vhd
+Z288 F./../disenyo_qsys_tb/simulation/submodules/LIB.vhd
+l0
+L12
+V;4hBP<IKUR;2VSaOjZd`i2
+!s100 eH;@B`dON8<4MFkSJ4YVD3
+R10
+32
+R28
+!i10b 1
+R29
+Z289 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/LIB.vhd|-work|ensamblado_procesador_0|
+Z290 !s107 ./../disenyo_qsys_tb/simulation/submodules/LIB.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R5
+R6
+DEx4 work 3 lib 0 22 ;4hBP<IKUR;2VSaOjZd`i2
+l22
+L20
+V=LDc^^iPcMg;zPVPJCT7J0
+!s100 EHgaPP`oHN19O?PZXAGnP2
+R10
+32
+R28
+!i10b 1
+R29
+R289
+R290
+!i113 1
+R15
+R16
+Emayorque
+R32
+R2
+R34
+R33
+R25
+R5
+R6
+R0
+Z291 8./../disenyo_qsys_tb/simulation/submodules/mayorque.vhd
+Z292 F./../disenyo_qsys_tb/simulation/submodules/mayorque.vhd
+l0
+L9
+V>j0;`OEn=fJkODVVY3J7V0
+!s100 YOQSXgQL9o2gSD:Gmm<Ic2
+R10
+32
+R283
+!i10b 1
+R284
+Z293 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/mayorque.vhd|-work|ensamblado_procesador_0|
+Z294 !s107 ./../disenyo_qsys_tb/simulation/submodules/mayorque.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R34
+R33
+R25
+R5
+R6
+DEx4 work 8 mayorque 0 22 >j0;`OEn=fJkODVVY3J7V0
+l17
+L16
+VXQPHmTfR^zhK0jUdkL=Y:1
+!s100 :A2NnN3=7P7GMWM::QJSK2
+R10
+32
+R283
+!i10b 1
+R284
+R293
+R294
+!i113 1
+R15
+R16
+Emux2_1
+R21
+R23
+R22
+R24
+R25
+R5
+R6
+R7
+Z295 8./../disenyo_qsys_tb/simulation/submodules/mux2_1.vhd
+Z296 F./../disenyo_qsys_tb/simulation/submodules/mux2_1.vhd
+l0
+L13
+VlK@^?nT1PP^;aJlob8[U41
+!s100 Z4lOmNK3[bRjNeXB;cZkP0
+R10
+32
+R118
+!i10b 1
+R119
+Z297 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/mux2_1.vhd|-work|ensamblado_procesador_0|
+Z298 !s107 ./../disenyo_qsys_tb/simulation/submodules/mux2_1.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R23
+R22
+R24
+R25
+R5
+R6
+DEx4 work 6 mux2_1 0 22 lK@^?nT1PP^;aJlob8[U41
+l20
+L19
+V4]f?=OnR7Nk@Nn<=D[m5o0
+!s100 :DNJmcK@3SVa66ZT2<OjR0
+R10
+32
+R118
+!i10b 1
+R119
+R297
+R298
+!i113 1
+R15
+R16
+Emux2_32
+R21
+R23
+R22
+R24
+R25
+R5
+R6
+R7
+Z299 8./../disenyo_qsys_tb/simulation/submodules/mux2_32.vhd
+Z300 F./../disenyo_qsys_tb/simulation/submodules/mux2_32.vhd
+l0
+L13
+V5UMgREM<CEe3;BH]f1zm80
+!s100 O0Sb[]l7RXJ]6`6>YgXoL0
+R10
+32
+R118
+!i10b 1
+R119
+Z301 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/mux2_32.vhd|-work|ensamblado_procesador_0|
+Z302 !s107 ./../disenyo_qsys_tb/simulation/submodules/mux2_32.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R23
+R22
+R24
+R25
+R5
+R6
+DEx4 work 7 mux2_32 0 22 5UMgREM<CEe3;BH]f1zm80
+l20
+L19
+V99R<5]CP2d^o3_jOMdQ2Q1
+!s100 KFJYz0nI0zQeYkc6@4^=b3
+R10
+32
+R118
+!i10b 1
+R119
+R301
+R302
+!i113 1
+R15
+R16
+Emux2_4
+R21
+R23
+R22
+R24
+R25
+R5
+R6
+R7
+Z303 8./../disenyo_qsys_tb/simulation/submodules/mux2_4.vhd
+Z304 F./../disenyo_qsys_tb/simulation/submodules/mux2_4.vhd
+l0
+L13
+VDfkWC[C]m1h=8kC`YhDNF2
+!s100 kFLf1A29[Y?6K`6;Ygg653
+R10
+32
+R116
+!i10b 1
+R119
+Z305 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/mux2_4.vhd|-work|ensamblado_procesador_0|
+Z306 !s107 ./../disenyo_qsys_tb/simulation/submodules/mux2_4.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R23
+R22
+R24
+R25
+R5
+R6
+DEx4 work 6 mux2_4 0 22 DfkWC[C]m1h=8kC`YhDNF2
+l20
+L19
+VaQ3MZW93OVTJCDWdP:J[[0
+!s100 13ALkhXDDDK35[2O5FIB41
+R10
+32
+R116
+!i10b 1
+R119
+R305
+R306
+!i113 1
+R15
+R16
+Emux3_32
+R21
+R23
+R22
+R24
+R25
+R5
+R6
+R7
+Z307 8./../disenyo_qsys_tb/simulation/submodules/mux3_32.vhd
+Z308 F./../disenyo_qsys_tb/simulation/submodules/mux3_32.vhd
+l0
+L13
+V37P<ZUe8TLiVRWnLjOE`W3
+!s100 7VXEEJQcCWgAH0SBLi]fA3
+R10
+32
+R116
+!i10b 1
+R117
+Z309 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/mux3_32.vhd|-work|ensamblado_procesador_0|
+Z310 !s107 ./../disenyo_qsys_tb/simulation/submodules/mux3_32.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R23
+R22
+R24
+R25
+R5
+R6
+DEx4 work 7 mux3_32 0 22 37P<ZUe8TLiVRWnLjOE`W3
+l20
+L19
+VYlf2LTZ5Mh>mNEC7Wg6^31
+!s100 dg:bAR:]>jGfd@<3:heY]1
+R10
+32
+R116
+!i10b 1
+R117
+R309
+R310
+!i113 1
+R15
+R16
+Emux4_32
+R21
+R22
+R24
+R25
+R5
+R6
+R7
+Z311 8./../disenyo_qsys_tb/simulation/submodules/mux4_32.vhd
+Z312 F./../disenyo_qsys_tb/simulation/submodules/mux4_32.vhd
+l0
+L12
+VVk::[HSfDQZ[>6HkRFRMd1
+!s100 QV97VcDoUZG83Hihf6VRf1
+R10
+32
+R116
+!i10b 1
+R117
+Z313 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/mux4_32.vhd|-work|ensamblado_procesador_0|
+Z314 !s107 ./../disenyo_qsys_tb/simulation/submodules/mux4_32.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R22
+R24
+R25
+R5
+R6
+DEx4 work 7 mux4_32 0 22 Vk::[HSfDQZ[>6HkRFRMd1
+l19
+L18
+VAT4Bd^Q1coESXQGkoNCo]3
+!s100 1Og78]=:KYXhW1353Z[X21
+R10
+32
+R116
+!i10b 1
+R117
+R313
+R314
+!i113 1
+R15
+R16
+Erecolectoreventos
+R32
+R33
+R34
+R2
+R25
+R5
+R6
+R0
+Z315 8./../disenyo_qsys_tb/simulation/submodules/recolectorEventos.vhd
+Z316 F./../disenyo_qsys_tb/simulation/submodules/recolectorEventos.vhd
+l0
+L9
+VVI79R:mC460HNV^z2X16A2
+!s100 S;7P_hdUQKUW`PPM8gF`@2
+R10
+32
+R37
+!i10b 1
+R38
+Z317 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/recolectorEventos.vhd|-work|ensamblado_procesador_0|
+Z318 !s107 ./../disenyo_qsys_tb/simulation/submodules/recolectorEventos.vhd|
+!i113 1
+R15
+R16
+Acompor
+R33
+R34
+R2
+R25
+R5
+R6
+DEx4 work 17 recolectoreventos 0 22 VI79R:mC460HNV^z2X16A2
+l21
+L19
+VzW12:M_YGaZjUchIR?E5F3
+!s100 XhzeN[l`IZ7fW4gCHnWH;3
+R10
+32
+R37
+!i10b 1
+R38
+R317
+R318
+!i113 1
+R15
+R16
+Ereg1
+R21
+R22
+R24
+R23
+R25
+R5
+R6
+R7
+Z319 8./../disenyo_qsys_tb/simulation/submodules/reg1.vhd
+Z320 F./../disenyo_qsys_tb/simulation/submodules/reg1.vhd
+l0
+L13
+V<0l_<NHE`:gJTF5F6BW802
+!s100 eR;5gD`WC5i`Vj6_S?TZ50
+R10
+32
+R116
+!i10b 1
+R117
+Z321 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/reg1.vhd|-work|ensamblado_procesador_0|
+Z322 !s107 ./../disenyo_qsys_tb/simulation/submodules/reg1.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R22
+R24
+R23
+R25
+R5
+R6
+DEx4 work 4 reg1 0 22 <0l_<NHE`:gJTF5F6BW802
+l20
+L19
+VHle?1DmIhc^ccCNogk_kP3
+!s100 TSBdPR4]LlfbQ@lUla?j03
+R10
+32
+R116
+!i10b 1
+R117
+R321
+R322
+!i113 1
+R15
+R16
+Ereg1pe
+R21
+R22
+R24
+R23
+R25
+R5
+R6
+R7
+Z323 8./../disenyo_qsys_tb/simulation/submodules/reg1pe.vhd
+Z324 F./../disenyo_qsys_tb/simulation/submodules/reg1pe.vhd
+l0
+L13
+V@lD_?8F:5AGH?^iRa8k`]2
+!s100 [hmfZ3P1hEjdK@0omU4^g0
+R10
+32
+R116
+!i10b 1
+R117
+Z325 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/reg1pe.vhd|-work|ensamblado_procesador_0|
+Z326 !s107 ./../disenyo_qsys_tb/simulation/submodules/reg1pe.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R22
+R24
+R23
+R25
+R5
+R6
+DEx4 work 6 reg1pe 0 22 @lD_?8F:5AGH?^iRa8k`]2
+l21
+L20
+Vjb[`^GFa:SH2<jh9@cDdO2
+!s100 _KNc_@beiSNY9Bb:0CW1?0
+R10
+32
+R116
+!i10b 1
+R117
+R325
+R326
+!i113 1
+R15
+R16
+Ereg32
+R21
+R22
+R24
+R23
+R25
+R5
+R6
+R7
+Z327 8./../disenyo_qsys_tb/simulation/submodules/reg32.vhd
+Z328 F./../disenyo_qsys_tb/simulation/submodules/reg32.vhd
+l0
+L13
+V>kG<PD3SHJYliJ47YSnUL1
+!s100 iR=N61<=mm2nLDjoPzahF0
+R10
+32
+R116
+!i10b 1
+R117
+Z329 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/reg32.vhd|-work|ensamblado_procesador_0|
+Z330 !s107 ./../disenyo_qsys_tb/simulation/submodules/reg32.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R22
+R24
+R23
+R25
+R5
+R6
+DEx4 work 5 reg32 0 22 >kG<PD3SHJYliJ47YSnUL1
+l20
+L19
+VTeR[BXI2lcY>XjHV`nzgA1
+!s100 ;=`h1``FA:=B66mRF19mg3
+R10
+32
+R116
+!i10b 1
+R117
+R329
+R330
+!i113 1
+R15
+R16
+Ereg32pe
+R21
+R22
+R24
+R23
+R25
+R5
+R6
+R7
+Z331 8./../disenyo_qsys_tb/simulation/submodules/reg32pe.vhd
+Z332 F./../disenyo_qsys_tb/simulation/submodules/reg32pe.vhd
+l0
+L13
+Va`bkmPW;4:VcamBH2fZCn3
+!s100 @VHP26djcO^OXe?;GA7^j0
+R10
+32
+R116
+!i10b 1
+R117
+Z333 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/reg32pe.vhd|-work|ensamblado_procesador_0|
+Z334 !s107 ./../disenyo_qsys_tb/simulation/submodules/reg32pe.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R22
+R24
+R23
+R25
+R5
+R6
+DEx4 work 7 reg32pe 0 22 a`bkmPW;4:VcamBH2fZCn3
+l21
+L20
+VZ7CF^VCHY6OD>T1?::Ufb2
+!s100 >6AGOZQP^@:B1QKQc=U1[1
+R10
+32
+R116
+!i10b 1
+R117
+R333
+R334
+!i113 1
+R15
+R16
+Ereg5
+R21
+R22
+R24
+R23
+R25
+R5
+R6
+R7
+Z335 8./../disenyo_qsys_tb/simulation/submodules/reg5.vhd
+Z336 F./../disenyo_qsys_tb/simulation/submodules/reg5.vhd
+l0
+L13
+VJ9SliC5HzRUWhf3kB6Snk3
+!s100 JUVjLUI80IY33E1YU6n5O2
+R10
+32
+R116
+!i10b 1
+R117
+Z337 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/reg5.vhd|-work|ensamblado_procesador_0|
+Z338 !s107 ./../disenyo_qsys_tb/simulation/submodules/reg5.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R22
+R24
+R23
+R25
+R5
+R6
+DEx4 work 4 reg5 0 22 J9SliC5HzRUWhf3kB6Snk3
+l20
+L19
+V[hYIbjb8SDY6^?B`9SSfW3
+!s100 91BhJ0@0U:bjH_nmKj8Q73
+R10
+32
+R116
+!i10b 1
+R117
+R337
+R338
+!i113 1
+R15
+R16
+Ereg5pe
+R21
+R22
+R24
+R23
+R25
+R5
+R6
+R7
+Z339 8./../disenyo_qsys_tb/simulation/submodules/reg5pe.vhd
+Z340 F./../disenyo_qsys_tb/simulation/submodules/reg5pe.vhd
+l0
+L13
+V=RW;8<Q4=[ZSY9g:^177D3
+!s100 269lcPb>IT_4PNzZV=3j_0
+R10
+32
+R116
+!i10b 1
+R117
+Z341 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/reg5pe.vhd|-work|ensamblado_procesador_0|
+Z342 !s107 ./../disenyo_qsys_tb/simulation/submodules/reg5pe.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R22
+R24
+R23
+R25
+R5
+R6
+DEx4 work 6 reg5pe 0 22 =RW;8<Q4=[ZSY9g:^177D3
+l21
+L20
+VLma92OMK>b4jO`lofCA902
+!s100 YH@DnbheRlO_GhTA<[8z@3
+R10
+32
+R116
+!i10b 1
+R117
+R341
+R342
+!i113 1
+R15
+R16
+Eregn
+R21
+R22
+R24
+R23
+R25
+R5
+R6
+R7
+Z343 8./../disenyo_qsys_tb/simulation/submodules/regN.vhd
+Z344 F./../disenyo_qsys_tb/simulation/submodules/regN.vhd
+l0
+L13
+VhYOL6>1?XbeUdTl;m^Xhn2
+!s100 13M:8U:JJCiY:Ye>k^V4M2
+R10
+32
+R116
+!i10b 1
+R117
+Z345 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/regN.vhd|-work|ensamblado_procesador_0|
+Z346 !s107 ./../disenyo_qsys_tb/simulation/submodules/regN.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R22
+R24
+R23
+R25
+R5
+R6
+DEx4 work 4 regn 0 22 hYOL6>1?XbeUdTl;m^Xhn2
+l22
+L21
+VLiDF>;CDDCkgR3iVBF?@N2
+!s100 aLRVH?1SNfMgmBnR2iX862
+R10
+32
+R116
+!i10b 1
+R117
+R345
+R346
+!i113 1
+R15
+R16
+Eregnpe
+R21
+R22
+R24
+R23
+R25
+R5
+R6
+R7
+Z347 8./../disenyo_qsys_tb/simulation/submodules/regNpe.vhd
+Z348 F./../disenyo_qsys_tb/simulation/submodules/regNpe.vhd
+l0
+L13
+V^]VLzUbboAjBk^F04DPeR0
+!s100 i=FCM9bJK]oTLzFG^aCZC3
+R10
+32
+R116
+!i10b 1
+R117
+Z349 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/regNpe.vhd|-work|ensamblado_procesador_0|
+Z350 !s107 ./../disenyo_qsys_tb/simulation/submodules/regNpe.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R22
+R24
+R23
+R25
+R5
+R6
+DEx4 work 6 regnpe 0 22 ^]VLzUbboAjBk^F04DPeR0
+l23
+L22
+VIDdHFoaS^b7W^2iRfZWVW0
+!s100 Ie;K5190CiPLEfRn?i=?Y3
+R10
+32
+R116
+!i10b 1
+R117
+R349
+R350
+!i113 1
+R15
+R16
+Pretardos
+R24
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/retardos.vhd
+F./../disenyo_qsys_tb/simulation/submodules/retardos.vhd
+l0
+L9
+VPWY=]baj1d`B23GZehJDa1
+!s100 Nd^:6SjaCzOdUU<WcDoK^1
+R10
+32
+R118
+!i10b 1
+R119
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/retardos.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/retardos.vhd|
+!i113 1
+R15
+R16
+Eriesgo_datos
+R21
+R22
+R23
+R24
+R5
+R6
+R7
+Z351 8./../disenyo_qsys_tb/simulation/submodules/riesgo_datos.vhd
+Z352 F./../disenyo_qsys_tb/simulation/submodules/riesgo_datos.vhd
+l0
+L12
+Vafe<73mV>QeN96>Uj^MfC3
+!s100 gfcI<H;2ULdM:1z5ACX:g0
+R10
+32
+R75
+!i10b 1
+R80
+Z353 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/riesgo_datos.vhd|-work|ensamblado_procesador_0|
+Z354 !s107 ./../disenyo_qsys_tb/simulation/submodules/riesgo_datos.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R5
+R6
+DEx4 work 12 riesgo_datos 0 22 afe<73mV>QeN96>Uj^MfC3
+l23
+L20
+VeDc]@j@anE0_?nZTPOH1M3
+!s100 F`NXI2OXbKdfF;Lm96_^91
+R10
+32
+R75
+!i10b 1
+R80
+R353
+R354
+!i113 1
+R15
+R16
+Esumador4
+R21
+R22
+R23
+R24
+R88
+R89
+R5
+R6
+R7
+Z355 8./../disenyo_qsys_tb/simulation/submodules/sumador4.vhd
+Z356 F./../disenyo_qsys_tb/simulation/submodules/sumador4.vhd
+l0
+L13
+Vjm_DfFZ_>IIof^AjW3:jb2
+!s100 ?O;Z[G^HoF925GfRAO9lm1
+R10
+32
+R116
+!i10b 1
+R117
+Z357 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/sumador4.vhd|-work|ensamblado_procesador_0|
+Z358 !s107 ./../disenyo_qsys_tb/simulation/submodules/sumador4.vhd|
+!i113 1
+R15
+R16
+Acompor
+R22
+R23
+R24
+R88
+R89
+R5
+R6
+DEx4 work 8 sumador4 0 22 jm_DfFZ_>IIof^AjW3:jb2
+l21
+L20
+VX2R:Jd14Hl>D?iA6cZOU_1
+!s100 bSJ0Q4jTRP2Sa=ABNI?=g3
+R10
+32
+R116
+!i10b 1
+R117
+R357
+R358
+!i113 1
+R15
+R16
+Ptipos
+R24
+R5
+R6
+R21
+R7
+8./../disenyo_qsys_tb/simulation/submodules/tipos.vhd
+F./../disenyo_qsys_tb/simulation/submodules/tipos.vhd
+l0
+L9
+V`2]zmHo8Q@jU68oZo4Q[72
+!s100 8hF?c=ULOc3j?CGeSXKO[2
+R10
+32
+R118
+!i10b 1
+R119
+!s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/tipos.vhd|-work|ensamblado_procesador_0|
+!s107 ./../disenyo_qsys_tb/simulation/submodules/tipos.vhd|
+!i113 1
+R15
+R16
+Evaciado_segmentacion
+R1
+R4
+R2
+R25
+R5
+R6
+R7
+Z359 8./../disenyo_qsys_tb/simulation/submodules/vaciado_segmentacion.vhd
+Z360 F./../disenyo_qsys_tb/simulation/submodules/vaciado_segmentacion.vhd
+l0
+L8
+VlF3eYeo?f@9^8zZgUaa5N0
+!s100 cS[zC@WcYAG0G0]8HLd`Y2
+R10
+32
+Z361 !s110 1589801560
+!i10b 1
+Z362 !s108 1589801560.000000
+Z363 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/vaciado_segmentacion.vhd|-work|ensamblado_procesador_0|
+Z364 !s107 ./../disenyo_qsys_tb/simulation/submodules/vaciado_segmentacion.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R4
+R2
+R25
+R5
+R6
+DEx4 work 20 vaciado_segmentacion 0 22 lF3eYeo?f@9^8zZgUaa5N0
+l16
+L15
+V6?[?B_zcF3<fR4id_I85K2
+!s100 6VJz[CZ852DAZYPO3>I6>3
+R10
+32
+R361
+!i10b 1
+R362
+R363
+R364
+!i113 1
+R15
+R16

@@ -1,0 +1,8 @@
+Este test comprueba el correcto funcionamiento de la instrucción ECALL
+
+ecall
+
+COMPROBACION:
+El test se ha superado si ha saltado una excepción de syscall (mcause = 0x0000000c) tras intentar interpretar la instrucción ecall, 
+se ha guardado 0xC en mepc y se ha saltado a la rutina de gestión de eventos.
+

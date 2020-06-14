@@ -1,0 +1,4099 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/simulation/modelsim
+valtera_avalon_packets_to_master
+Z1 !s110 1582979418
+!i10b 1
+!s100 lb8?6UKeHL0fO:A`Bb0Il1
+IQbSlSc1AIJ[5Uh6[IY2WP3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1582833368
+Z4 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_packets_to_master.v
+Z5 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_packets_to_master.v
+Z6 L0 22
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1582979418.000000
+Z9 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_packets_to_master.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_packets_to_master.v|
+!i113 1
+Z11 o-vlog01compat -work disenyo_qsys
+Z12 !s92 -vlog01compat -work disenyo_qsys +incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules
+Z13 tCvgOpt 0
+valtera_avalon_sc_fifo
+Z14 !s110 1582979419
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IFI>0S>^T3?JkV2W@[__z80
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_sc_fifo.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_sc_fifo.v
+Z15 L0 21
+R7
+r1
+!s85 0
+31
+Z16 !s108 1582979419.000000
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+R11
+R12
+R13
+valtera_avalon_st_bytes_to_packets
+R1
+!i10b 1
+!s100 ;<iYFY8LSk5SY9lfnK0]32
+IbhjYbX@SoXMM76eXg5Jm92
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_bytes_to_packets.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_bytes_to_packets.v
+Z17 L0 19
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_bytes_to_packets.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_bytes_to_packets.v|
+!i113 1
+R11
+R12
+R13
+valtera_avalon_st_clock_crosser
+Z18 !s110 1582979420
+!i10b 1
+!s100 YbU`iK^TYJ_9Hz`CZekjQ3
+IJdGE8]?<_HA[C<z>iVTXW2
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_clock_crosser.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_clock_crosser.v
+R6
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_clock_crosser.v|
+!i113 1
+R11
+R12
+R13
+valtera_avalon_st_handshake_clock_crosser
+R18
+!i10b 1
+!s100 3f<J9K;e[9FU@JKn0^PK?0
+IP2eoJT2jJOc4Lz;Z?mfCm2
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_handshake_clock_crosser.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_handshake_clock_crosser.v
+Z19 L0 24
+R7
+r1
+!s85 0
+31
+Z20 !s108 1582979420.000000
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!i113 1
+R11
+R12
+R13
+valtera_avalon_st_idle_inserter
+R1
+!i10b 1
+!s100 S71b16BnCfDWcoZ^EEZTn1
+Ieaa8gYC[9iig2?TEh^2]h0
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_idle_inserter.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_idle_inserter.v
+R17
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_idle_inserter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_idle_inserter.v|
+!i113 1
+R11
+R12
+R13
+valtera_avalon_st_idle_remover
+R1
+!i10b 1
+!s100 MZJlUT2CY>hnV]FQIb=S]1
+IS_PA5m8RJG<dGmTnPl;ZV1
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_idle_remover.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_idle_remover.v
+R17
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_idle_remover.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_idle_remover.v|
+!i113 1
+R11
+R12
+R13
+valtera_avalon_st_jtag_interface
+R1
+!i10b 1
+!s100 N7o^ddA[oe3RDKPC5>UZG1
+IV<XAdnHcz>3cUDoS2Te_a0
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_jtag_interface.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_jtag_interface.v
+L0 20
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_jtag_interface.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_jtag_interface.v|
+!i113 1
+R11
+R12
+R13
+valtera_avalon_st_packets_to_bytes
+R1
+!i10b 1
+!s100 OaagHT1fhIanF4eRR]VLL0
+IzVMT^2AVEYm=e0comWk>;1
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_packets_to_bytes.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_packets_to_bytes.v
+R17
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_packets_to_bytes.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_packets_to_bytes.v|
+!i113 1
+R11
+R12
+R13
+valtera_avalon_st_pipeline_base
+R18
+!i10b 1
+!s100 SP[<U8JVkW?]RHOS`DzPF1
+IZ8>_GzSIh4ML=Ln8d7zgV3
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_pipeline_base.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_pipeline_base.v
+R6
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_avalon_st_pipeline_base.v|
+!i113 1
+R11
+R12
+R13
+valtera_jtag_control_signal_crosser
+R1
+!i10b 1
+!s100 `=i;H1E7lBV>R_3e4D5452
+IgV=eiL@nI[j?N[OKAUU6:2
+R2
+R0
+R3
+Z21 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_dc_streaming.v
+Z22 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_dc_streaming.v
+Z23 L0 30
+R7
+r1
+!s85 0
+31
+R8
+Z24 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_dc_streaming.v|
+Z25 !s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_dc_streaming.v|
+!i113 1
+R11
+R12
+R13
+valtera_jtag_dc_streaming
+R1
+!i10b 1
+!s100 EWdjgenNzZZ[1:h1cb56?0
+IjOge8Af11le5R@_YP=Wz03
+R2
+R0
+R3
+R21
+R22
+L0 135
+R7
+r1
+!s85 0
+31
+R8
+R24
+R25
+!i113 1
+R11
+R12
+R13
+valtera_jtag_sld_node
+R1
+!i10b 1
+!s100 3n0e<ZJ7D0L][I>bEF?Oi2
+I9SCQ_5Vf69AQJ1kXW_b>C0
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_sld_node.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_sld_node.v
+L0 17
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_sld_node.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_sld_node.v|
+!i113 1
+R11
+R12
+R13
+valtera_jtag_src_crosser
+R1
+!i10b 1
+!s100 4?GOPZ8SJm>`nd35FBFXc3
+I^V5_gk_Po6zjVLfgI3UeQ2
+R2
+R0
+R3
+R21
+R22
+L0 72
+R7
+r1
+!s85 0
+31
+R8
+R24
+R25
+!i113 1
+R11
+R12
+R13
+valtera_jtag_streaming
+R1
+!i10b 1
+!s100 ge70D<WS<=FgooM5G8W@b0
+IW_o1hBoUf_[Fk8hcMb<7b1
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_streaming.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_streaming.v
+L0 18
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_streaming.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_jtag_streaming.v|
+!i113 1
+R11
+R12
+R13
+valtera_merlin_arb_adder
+Z26 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+R18
+!i10b 1
+!s100 1Jn[a;@5nZmTN?DFKQNzj2
+I<3Pg7deX__@Gc0j^0Y10C0
+R2
+Z27 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R0
+R3
+Z28 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_arbitrator.sv
+Z29 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_arbitrator.sv
+L0 228
+R7
+r1
+!s85 0
+31
+R20
+Z30 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_arbitrator.sv|
+Z31 !s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+Z32 o-sv -work disenyo_qsys
+Z33 !s92 -sv -work disenyo_qsys +incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules
+R13
+valtera_merlin_arbitrator
+R26
+R18
+!i10b 1
+!s100 NQTehjm2fNQROUMUzShGa1
+IgZ:3Ak2dT1;d`?CEmg4?]2
+R2
+R27
+S1
+R0
+R3
+R28
+R29
+L0 103
+R7
+r1
+!s85 0
+31
+R20
+R30
+R31
+!i113 1
+R32
+R33
+R13
+valtera_merlin_burst_adapter
+R26
+R18
+!i10b 1
+!s100 OCc70X^k:B?GW6i71n`L_3
+IQCP:i2g64MEaXbPL`^N;i0
+R2
+!s105 altera_merlin_burst_adapter_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_adapter.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_adapter.sv
+R15
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_adapter.sv|
+!i113 1
+R32
+R33
+R13
+valtera_merlin_burst_adapter_uncompressed_only
+R26
+R18
+!i10b 1
+!s100 STH]BdUM[JDMJZNJGXCd>0
+IEzdOj68_oK3alLl8YK`mY1
+R2
+!s105 altera_merlin_burst_adapter_uncmpr_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_adapter_uncmpr.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_adapter_uncmpr.sv
+L0 39
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!i113 1
+R32
+R33
+R13
+valtera_merlin_burst_uncompressor
+R26
+R18
+!i10b 1
+!s100 f1?Rb<=9U?R9LJoHl;7>T3
+IVPnVVb44Vl]8EjZ8gBTg[3
+R2
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_uncompressor.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R32
+R33
+R13
+valtera_merlin_master_agent
+R26
+R18
+!i10b 1
+!s100 _CJm:YX=>U2LQKH;8=@cb0
+I3iX0Q[Nn3D8d2?mGi85cG0
+R2
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_master_agent.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_master_agent.sv
+Z34 L0 28
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_master_agent.sv|
+!i113 1
+R32
+R33
+R13
+valtera_merlin_master_translator
+R26
+R18
+!i10b 1
+!s100 NdRk@]3fC2C@V7Rm;dQM31
+In]DiJnJ0@X`TU7S4V6KSB0
+R2
+!s105 altera_merlin_master_translator_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_master_translator.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_master_translator.sv
+L0 32
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_master_translator.sv|
+!i113 1
+R32
+R33
+R13
+valtera_merlin_slave_agent
+R26
+R18
+!i10b 1
+!s100 ePZN1d?B062J`OBb?blff3
+Igdm?Q3Jnekh8oiMjekIc[1
+R2
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_slave_agent.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_slave_agent.sv
+L0 34
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_slave_agent.sv|
+!i113 1
+R32
+R33
+R13
+valtera_merlin_slave_translator
+R26
+R18
+!i10b 1
+!s100 k`9[YAn_dLTkg;GE`mOb61
+IK]9h48QT@J1W:E]KOA@aP2
+R2
+!s105 altera_merlin_slave_translator_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_slave_translator.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_slave_translator.sv
+L0 35
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_slave_translator.sv|
+!i113 1
+R32
+R33
+R13
+valtera_merlin_traffic_limiter
+R26
+R18
+!i10b 1
+!s100 0h4;DR_^c13j]SXILa7d?1
+I6U:f85>[6G5XjhQ]WTZLe2
+R2
+!s105 altera_merlin_traffic_limiter_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_traffic_limiter.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_traffic_limiter.sv
+L0 49
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_traffic_limiter.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_traffic_limiter.sv|
+!i113 1
+R32
+R33
+R13
+valtera_merlin_width_adapter
+R26
+R18
+!i10b 1
+!s100 QzdA5DP6CReOTH<9QzODa3
+I@@7Ic<3C9Gk73>z3O`F[o3
+R2
+!s105 altera_merlin_width_adapter_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_width_adapter.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_width_adapter.sv
+L0 25
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_width_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_merlin_width_adapter.sv|
+!i113 1
+R32
+R33
+R13
+valtera_reset_controller
+R1
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+Ic0CfcISkfczWG8L?6WGBJ2
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_reset_controller.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_reset_controller.v
+L0 42
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_reset_controller.v|
+!i113 1
+R11
+R12
+R13
+valtera_reset_synchronizer
+R1
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+ICT>zB0Fjh_ma?fj7eUkIR3
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_reset_synchronizer.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_reset_synchronizer.v
+R19
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_reset_synchronizer.v|
+!i113 1
+R11
+R12
+R13
+valtera_std_synchronizer_nocut
+R18
+!i10b 1
+!s100 b8zV2<79GgkNg0GC<P[GJ2
+I?M`H3f@b>oWiIcRJKZe5M3
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_std_synchronizer_nocut.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_std_synchronizer_nocut.v
+L0 44
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_std_synchronizer_nocut.v|
+!i113 1
+R11
+R12
+R13
+valtera_up_altpll
+R1
+!i10b 1
+!s100 3PZe942kH7SOdRl<kU04K3
+I;?dFgS0<`QYg<;h36iUYO1
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_altpll.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_altpll.v
+Z35 L0 29
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_altpll.v|
+!i113 1
+R11
+R12
+R13
+valtera_up_avalon_reset_from_locked_signal
+R14
+!i10b 1
+!s100 21LY9FTb`4C4iU[D9:fdD3
+ILj?h6g;fkUdANg6_Fi_W50
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_avalon_reset_from_locked_signal.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_avalon_reset_from_locked_signal.v
+R34
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_avalon_reset_from_locked_signal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_avalon_reset_from_locked_signal.v|
+!i113 1
+R11
+R12
+R13
+valtera_up_avalon_video_vga_timing
+R14
+!i10b 1
+!s100 f77gT?TV7S[KXD:O7VH0H1
+Izbf9@CWI@k7NRLF;S:BFi0
+R2
+R0
+Z36 w1582833367
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_avalon_video_vga_timing.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_avalon_video_vga_timing.v
+R34
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_avalon_video_vga_timing.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_avalon_video_vga_timing.v|
+!i113 1
+R11
+R12
+R13
+valtera_up_ps2
+R14
+!i10b 1
+!s100 BNJ9PWbfYeh]<zPFJno7b1
+IMmc7eN7]<GNdL0`Rg^;_`2
+R2
+R0
+Z37 w1582833366
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2.v
+R34
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2.v|
+!i113 1
+R11
+R12
+R13
+valtera_up_ps2_command_out
+R14
+!i10b 1
+!s100 HfC1k^?]f`^`K0RcO33<_2
+IE[43:jTN9]2DNK_VlHF@73
+R2
+R0
+R37
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2_command_out.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2_command_out.v
+R35
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2_command_out.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2_command_out.v|
+!i113 1
+R11
+R12
+R13
+valtera_up_ps2_data_in
+R14
+!i10b 1
+!s100 m7BoKlDTRn9lm:OI[ZJHf2
+I9^BS5lW:c3JAUM:NQb2[:0
+R2
+R0
+R37
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2_data_in.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2_data_in.v
+R35
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2_data_in.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_ps2_data_in.v|
+!i113 1
+R11
+R12
+R13
+valtera_up_video_dma_control_slave
+R14
+!i10b 1
+!s100 c`E68mKBja6g2Co@;@Bkc3
+IDVl2N0M=UYN5Z81ImFBoV0
+R2
+R0
+R36
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_video_dma_control_slave.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_video_dma_control_slave.v
+R6
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_video_dma_control_slave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_video_dma_control_slave.v|
+!i113 1
+R11
+R12
+R13
+valtera_up_video_dma_to_stream
+R14
+!i10b 1
+!s100 z[kaY=1DgHUE1dzV_BkUT0
+IzAhKjLmiIaclcE:g_>di_1
+R2
+R0
+R36
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_video_dma_to_stream.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_video_dma_to_stream.v
+R6
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_video_dma_to_stream.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/altera_up_video_dma_to_stream.v|
+!i113 1
+R11
+R12
+R13
+Ealu
+R37
+Z38 DPx4 work 5 tipos 0 22 P9?ioL;XW[CTTm@K3Q8nz0
+Z39 DPx4 work 8 retardos 0 22 b<<j8BAjOQFEAG@K4:[8X3
+Z40 DPx4 work 10 constantes 0 22 dYzET8IOFSDOJEYkd_aW02
+Z41 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z42 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z43 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z44 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ALU.vhd
+Z45 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ALU.vhd
+l0
+L9
+VjCVU`=:WX<[jOhzneleFI2
+!s100 zbmMCj2FOBTb=Pj[@Ill]1
+Z46 OV;C;10.5b;63
+31
+Z47 !s110 1582979421
+!i10b 1
+Z48 !s108 1582979421.000000
+Z49 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ALU.vhd|
+Z50 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ALU.vhd|
+!i113 1
+Z51 o-93 -work disenyo_qsys
+Z52 tExplicit 1 CvgOpt 0
+Acompor
+R38
+R39
+R40
+R41
+R42
+R43
+DEx4 work 3 alu 0 22 jCVU`=:WX<[jOhzneleFI2
+l20
+L18
+V:_:gM_>5MzHUYiGK7`BLW3
+!s100 MlBZ<Pif50lY:mmiT[K[90
+R46
+31
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R51
+R52
+Ealu_csr
+R37
+R38
+R40
+R41
+R42
+R43
+R0
+Z53 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ALU_CSR.vhd
+Z54 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ALU_CSR.vhd
+l0
+L9
+VOkg^nXY`e]b3HIEJTEzBS0
+!s100 OU<P5Oo2i:]HjP`19a9e43
+R46
+31
+R47
+!i10b 1
+R48
+Z55 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ALU_CSR.vhd|
+Z56 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ALU_CSR.vhd|
+!i113 1
+R51
+R52
+Acompor
+R38
+R40
+R41
+R42
+R43
+DEx4 work 7 alu_csr 0 22 Okg^nXY`e]b3HIEJTEzBS0
+l18
+L17
+VKlNOIEK;11I_kebLlT<^Z2
+!s100 M4ZaOD47PQC0>?_ogSLRn3
+R46
+31
+R47
+!i10b 1
+R48
+R55
+R56
+!i113 1
+R51
+R52
+Eautomata_estado
+R37
+Z57 DPx4 work 34 automata_estado_procedimientos_pkg 0 22 BkW3K64`ZWnMTP=7ZNNgG2
+R39
+R40
+R38
+R41
+R42
+R43
+R0
+Z58 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado.vhd
+Z59 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado.vhd
+l0
+L11
+Ve8Uc:H;A9_3Uf3OeXNWS>0
+!s100 3WmJG^KRN]:c;lVh4bCGe3
+R46
+31
+Z60 !s110 1582979423
+!i10b 1
+Z61 !s108 1582979423.000000
+Z62 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado.vhd|
+Z63 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado.vhd|
+!i113 1
+R51
+R52
+Acompor
+R57
+R39
+R40
+R38
+R41
+R42
+R43
+DEx4 work 15 automata_estado 0 22 e8Uc:H;A9_3Uf3OeXNWS>0
+l30
+L25
+VEQkOiSe5[j4VO;GaN_bnR3
+!s100 XKQY6aHJL@nI5;;2TnieQ1
+R46
+31
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R51
+R52
+Pautomata_estado_procedimientos_pkg
+R40
+R38
+R42
+R43
+R37
+R0
+Z64 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado_procedimientos_pkg.vhd
+Z65 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado_procedimientos_pkg.vhd
+l0
+L7
+VBkW3K64`ZWnMTP=7ZNNgG2
+!s100 cLjdHgZc@lKTRLPKlod<F1
+R46
+31
+b1
+Z66 !s110 1582979422
+!i10b 1
+Z67 !s108 1582979422.000000
+Z68 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado_procedimientos_pkg.vhd|
+Z69 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado_procedimientos_pkg.vhd|
+!i113 1
+R51
+R52
+Bbody
+R57
+R40
+R38
+R42
+R43
+l0
+L13
+VVnJND<SaR^UT0lifP1WR20
+!s100 1SA9JSSEDamT<PCnDJAzL0
+R46
+31
+R66
+!i10b 1
+R67
+R68
+R69
+!i113 1
+R51
+R52
+Eautomata_estado_sys
+R37
+R39
+R40
+R38
+R41
+R42
+R43
+R0
+Z70 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado_SYS.vhd
+Z71 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado_SYS.vhd
+l0
+L9
+VdGk`c1BTjmUEhJnPO?SGH3
+!s100 zHo0CTM89<Bk;89LhPanN3
+R46
+31
+R66
+!i10b 1
+R67
+Z72 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado_SYS.vhd|
+Z73 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/automata_estado_SYS.vhd|
+!i113 1
+R51
+R52
+Acompor
+R39
+R40
+R38
+R41
+R42
+R43
+DEx4 work 19 automata_estado_sys 0 22 dGk`c1BTjmUEhJnPO?SGH3
+l23
+L18
+V_`@9NP2ogM0lB9h@cNJiP3
+!s100 _7j:VEBM?5EK1Q@?jPn1F2
+R46
+31
+R66
+!i10b 1
+R67
+R72
+R73
+!i113 1
+R51
+R52
+Ebr
+R37
+R38
+R40
+R39
+R41
+R42
+R43
+R0
+Z74 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR.vhd
+Z75 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR.vhd
+l0
+L10
+Vl@L5>BS231JV2imBcoHO`1
+!s100 aAF?Ij6aPo8bPIfX46IET3
+R46
+31
+R47
+!i10b 1
+R48
+Z76 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR.vhd|
+Z77 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR.vhd|
+!i113 1
+R51
+R52
+Acompor
+R38
+R40
+R39
+R41
+R42
+R43
+DEx4 work 2 br 0 22 l@L5>BS231JV2imBcoHO`1
+l26
+L22
+Vj?J3_UJeSSYTPcfPnMP?z1
+!s100 aRJ7bmhlUBchSDS8oSgAb0
+R46
+31
+R47
+!i10b 1
+R48
+R76
+R77
+!i113 1
+R51
+R52
+Ebr_csr
+R37
+Z78 DPx4 work 25 br_csr_procedimientos_pkg 0 22 naL39UXa1a=1:9A`>=I3e3
+R38
+R40
+Z79 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z80 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R41
+R42
+R43
+R0
+Z81 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR_CSR.vhd
+Z82 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR_CSR.vhd
+l0
+L11
+VBJmWKLAP4gdzR[CXbDST]0
+!s100 QRf[C`WjCRIj>RQmQ>9aM3
+R46
+31
+R60
+!i10b 1
+R61
+Z83 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR_CSR.vhd|
+Z84 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR_CSR.vhd|
+!i113 1
+R51
+R52
+Acompor
+R78
+R38
+R40
+R79
+R80
+R41
+R42
+R43
+DEx4 work 6 br_csr 0 22 BJmWKLAP4gdzR[CXbDST]0
+l63
+L41
+VzLMQ9AK8TcTd`P?RSe2>40
+!s100 1JY0=JM@jS968_^DM[9a=3
+R46
+31
+R60
+!i10b 1
+R61
+R83
+R84
+!i113 1
+R51
+R52
+Pbr_csr_procedimientos_pkg
+R38
+R40
+R42
+R43
+R37
+R0
+Z85 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR_CSR_procedimientos.vhd
+Z86 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR_CSR_procedimientos.vhd
+l0
+L7
+VnaL39UXa1a=1:9A`>=I3e3
+!s100 75GUM0o1SDSi:2YXJKgM<3
+R46
+31
+b1
+R47
+!i10b 1
+R48
+Z87 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR_CSR_procedimientos.vhd|
+Z88 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/BR_CSR_procedimientos.vhd|
+!i113 1
+R51
+R52
+Bbody
+R78
+R38
+R40
+R42
+R43
+l0
+L14
+V41Rbl?nYQi2K^Z24d;4>72
+!s100 5__ggdh<R;3Zn_J1QS6:a3
+R46
+31
+R47
+!i10b 1
+R48
+R87
+R88
+!i113 1
+R51
+R52
+Ecamino_sys
+R37
+Z89 DPx4 work 22 componentes_camino_sys 0 22 DL_O;YWdTSM7f0T_DeUT73
+R38
+R40
+R41
+R42
+R43
+R0
+Z90 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/camino_SYS.vhd
+Z91 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/camino_SYS.vhd
+l0
+L11
+VL1TE2SQA8AeSlSV1bazSA1
+!s100 kl@nVDF9lYSIK@GM2QHUG1
+R46
+31
+R60
+!i10b 1
+R61
+Z92 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/camino_SYS.vhd|
+Z93 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/camino_SYS.vhd|
+!i113 1
+R51
+R52
+Acompor
+R89
+R38
+R40
+R41
+R42
+R43
+DEx4 work 10 camino_sys 0 22 L1TE2SQA8AeSlSV1bazSA1
+l22
+L20
+VI:@2gUNA^UK22h9>aPR2Q3
+!s100 VD<eETmo^8AmAa<mCQW];3
+R46
+31
+R60
+!i10b 1
+R61
+R92
+R93
+!i113 1
+R51
+R52
+Eclint
+R37
+R38
+R40
+R42
+R43
+R0
+Z94 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/CLINT.vhd
+Z95 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/CLINT.vhd
+l0
+L7
+V05fOTMYSW^>PTbk^7TkSV3
+!s100 M_o`QY1f>bGf1:`D^=dd90
+R46
+31
+R47
+!i10b 1
+R48
+Z96 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/CLINT.vhd|
+Z97 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/CLINT.vhd|
+!i113 1
+R51
+R52
+Acompor
+R38
+R40
+R42
+R43
+DEx4 work 5 clint 0 22 05fOTMYSW^>PTbk^7TkSV3
+l16
+L15
+V?QgRReX5HFUn3g41AbfFO1
+!s100 2NOR@[eA95b^om7HUKEjn2
+R46
+31
+R47
+!i10b 1
+R48
+R96
+R97
+!i113 1
+R51
+R52
+Pcomponentes_camino_sys
+R40
+R38
+R42
+R43
+R37
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_camino_SYS.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_camino_SYS.vhd
+l0
+L7
+VDL_O;YWdTSM7f0T_DeUT73
+!s100 8mz0_UF_hl0@llYL<AEV23
+R46
+31
+R66
+!i10b 1
+R67
+!s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_camino_SYS.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_camino_SYS.vhd|
+!i113 1
+R51
+R52
+Pcomponentes_control_sys
+R40
+R38
+R42
+R43
+R37
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_control_SYS.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_control_SYS.vhd
+l0
+L7
+V[ml@ohhojMB0PWF:gZ;aH1
+!s100 G;EGZOTllKT^^Zf@cZ7U@2
+R46
+31
+R66
+!i10b 1
+R67
+!s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_control_SYS.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_control_SYS.vhd|
+!i113 1
+R51
+R52
+Pcomponentes_decoder
+R40
+R38
+R42
+R43
+R37
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_decoder.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_decoder.vhd
+l0
+L7
+V6n]f2Wi^H<PEhNOSGUKgl0
+!s100 ]1`Zo0AlnMONJ2`bT5Q3d0
+R46
+31
+R66
+!i10b 1
+R67
+!s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_decoder.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_decoder.vhd|
+!i113 1
+R51
+R52
+Pcomponentes_decosys
+R40
+R38
+R42
+R43
+R37
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_decoSYS.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_decoSYS.vhd
+l0
+L7
+V7ePPe<8Kh<mhK`ZYe5E:e3
+!s100 EY^CfCo7^>ZK^GVfI5HB11
+R46
+31
+R66
+!i10b 1
+R67
+!s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_decoSYS.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_decoSYS.vhd|
+!i113 1
+R51
+R52
+Pcomponentes_procesador
+R40
+R38
+R42
+R43
+R37
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_procesador.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_procesador.vhd
+l0
+L7
+V3oAEAVUT]FnS8HMGz4mg:0
+!s100 dKT`b>febY>lHfYPkchHV3
+R46
+31
+R66
+!i10b 1
+R67
+!s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_procesador.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentes_procesador.vhd|
+!i113 1
+R51
+R52
+Pcomponentesuc
+R40
+R38
+R42
+R43
+R37
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesUC.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesUC.vhd
+l0
+L7
+V4kXLiH0AAVKVIbM?X>z5A2
+!s100 0@nJSGLIem[3U0<J>BYTh1
+R46
+31
+R66
+!i10b 1
+R67
+!s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesUC.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesUC.vhd|
+!i113 1
+R51
+R52
+Pcomponentesup
+R40
+R38
+R42
+R43
+R37
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesUP.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesUP.vhd
+l0
+L7
+VA;E[az>ibNDXha5_FG0EJ3
+!s100 YHF3e7e@FFz?Y89g1>Z:H1
+R46
+31
+R66
+!i10b 1
+R67
+!s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesUP.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesUP.vhd|
+!i113 1
+R51
+R52
+Pcomponentesusys
+R40
+R38
+R42
+R43
+R37
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesSYS.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesSYS.vhd
+l0
+L7
+VlgL<:>K<J`Yaio]9:?6ma0
+!s100 GENa`0fHlW@Oza^;;HSHg0
+R46
+31
+R66
+!i10b 1
+R67
+!s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesSYS.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/componentesSYS.vhd|
+!i113 1
+R51
+R52
+Pconstantes
+R42
+R43
+R37
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/constantes.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/constantes.vhd
+l0
+L4
+VdYzET8IOFSDOJEYkd_aW02
+!s100 [=UHbeBEBoj`nfE^NUA>j3
+R46
+31
+R47
+!i10b 1
+R48
+!s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/constantes.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/constantes.vhd|
+!i113 1
+R51
+R52
+Econtrol_sys
+R37
+Z98 DPx4 work 23 componentes_control_sys 0 22 [ml@ohhojMB0PWF:gZ;aH1
+R38
+R39
+R40
+R42
+R43
+R0
+Z99 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/control_SYS.vhd
+Z100 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/control_SYS.vhd
+l0
+L15
+V5oaSP6ie2i5j6B[a[FLVC0
+!s100 MGSAYZcj_nTZV1hDHQh:b1
+R46
+31
+R60
+!i10b 1
+R61
+Z101 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/control_SYS.vhd|
+Z102 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/control_SYS.vhd|
+!i113 1
+R51
+R52
+Acompor
+R98
+R38
+R39
+R40
+R42
+R43
+DEx4 work 11 control_sys 0 22 5oaSP6ie2i5j6B[a[FLVC0
+l30
+L27
+VJCjOmG3aXV?TcHU51L=kb2
+!s100 EZGgRn8GA:>5m5Y6e>eoU1
+R46
+31
+R60
+!i10b 1
+R61
+R101
+R102
+!i113 1
+R51
+R52
+Edecocamino
+R37
+Z103 DPx4 work 26 decoder_procedimientos_pkg 0 22 iUGJaL^i`V?0[AK@nBdm?1
+R40
+R38
+R41
+R42
+R43
+R0
+Z104 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decocamino.vhd
+Z105 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decocamino.vhd
+l0
+L9
+VMCZ5J2X6SO]?CFa@L6kAY3
+!s100 iIMYK_>LMe_R<4QiEPYW;0
+R46
+31
+R60
+!i10b 1
+R61
+Z106 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decocamino.vhd|
+Z107 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decocamino.vhd|
+!i113 1
+R51
+R52
+Acomportamiento
+R103
+R40
+R38
+R41
+R42
+R43
+DEx4 work 10 decocamino 0 22 MCZ5J2X6SO]?CFa@L6kAY3
+l21
+L19
+VS62eef]JIoc:[3dhLCA973
+!s100 Ckl:Jf9E4cm=n]A98?HiJ2
+R46
+31
+R60
+!i10b 1
+R61
+R106
+R107
+!i113 1
+R51
+R52
+Edecocamino_sys
+R37
+R39
+R38
+R40
+R41
+R42
+R43
+R0
+Z108 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoCamino_SYS.vhd
+Z109 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoCamino_SYS.vhd
+l0
+L9
+VYDbAX]l^L=U@ALnFY@I?81
+!s100 ECA?]a>[ZV>MCBOe0QTT;1
+R46
+31
+R66
+!i10b 1
+R67
+Z110 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoCamino_SYS.vhd|
+Z111 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoCamino_SYS.vhd|
+!i113 1
+R51
+R52
+Acompor
+R39
+R38
+R40
+R41
+R42
+R43
+DEx4 work 14 decocamino_sys 0 22 YDbAX]l^L=U@ALnFY@I?81
+l21
+L20
+V`38KloFCHW9653_PFM_Ul3
+!s100 G7D7iVVRf<;?m<HfQ?SGN1
+R46
+31
+R66
+!i10b 1
+R67
+R110
+R111
+!i113 1
+R51
+R52
+Edecoder
+R37
+Z112 DPx4 work 19 componentes_decoder 0 22 6n]f2Wi^H<PEhNOSGUKgl0
+R39
+R40
+R38
+R41
+R42
+R43
+R0
+Z113 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoder.vhd
+Z114 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoder.vhd
+l0
+L10
+VcBzZATd>RG5zk47o;BDgP2
+!s100 B2VDOG3g3QCQB1enh_oMz1
+R46
+31
+R60
+!i10b 1
+R61
+Z115 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoder.vhd|
+Z116 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoder.vhd|
+!i113 1
+R51
+R52
+Acompor
+R112
+R39
+R40
+R38
+R41
+R42
+R43
+DEx4 work 7 decoder 0 22 cBzZATd>RG5zk47o;BDgP2
+l85
+L53
+VRHG5NoZdB1EzkZekG2VIW3
+!s100 4HfA<o;i80Qa[7aZHUWUk2
+R46
+31
+R60
+!i10b 1
+R61
+R115
+R116
+!i113 1
+R51
+R52
+Pdecoder_procedimientos_pkg
+R40
+R38
+R42
+R43
+R37
+R0
+Z117 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoder_procedimientos_pkg.vhd
+Z118 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoder_procedimientos_pkg.vhd
+l0
+L7
+ViUGJaL^i`V?0[AK@nBdm?1
+!s100 :@oIbBJMOoXj?`A3A9LUz3
+R46
+31
+b1
+R66
+!i10b 1
+R67
+Z119 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoder_procedimientos_pkg.vhd|
+Z120 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoder_procedimientos_pkg.vhd|
+!i113 1
+R51
+R52
+Bbody
+R103
+R40
+R38
+R42
+R43
+l0
+L27
+VjBRLOj?FNAN?9z2z;Z2]V1
+!s100 UIGNMBb`1YPUcD;C4=Ig12
+R46
+31
+R66
+!i10b 1
+R67
+R119
+R120
+!i113 1
+R51
+R52
+Edecoexcep
+R37
+R40
+R38
+R41
+R42
+R43
+R0
+Z121 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoExcep.vhd
+Z122 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoExcep.vhd
+l0
+L8
+V?HKPlXoeOI3YbT_FfdILF2
+!s100 c=JE6^Q3_PkAfdC4>?m:Q2
+R46
+31
+R66
+!i10b 1
+R67
+Z123 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoExcep.vhd|
+Z124 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoExcep.vhd|
+!i113 1
+R51
+R52
+Acomportamiento
+R40
+R38
+R41
+R42
+R43
+DEx4 work 9 decoexcep 0 22 ?HKPlXoeOI3YbT_FfdILF2
+l20
+L18
+Vgf^2B]OBh@eL_PaYc0ND33
+!s100 KkHBN:Uo948FEogAUI3oJ2
+R46
+31
+R66
+!i10b 1
+R67
+R123
+R124
+!i113 1
+R51
+R52
+Edecoexcep_sys
+R37
+R38
+R40
+R41
+R42
+R43
+R0
+Z125 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoExcep_SYS.vhd
+Z126 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoExcep_SYS.vhd
+l0
+L8
+VnVA=;iTOLAElMgi^FG3=g2
+!s100 @0^gHMLooRK^_Vze@5Mg81
+R46
+31
+R66
+!i10b 1
+R67
+Z127 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoExcep_SYS.vhd|
+Z128 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoExcep_SYS.vhd|
+!i113 1
+R51
+R52
+Acompor
+R38
+R40
+R41
+R42
+R43
+DEx4 work 13 decoexcep_sys 0 22 nVA=;iTOLAElMgi^FG3=g2
+l18
+L17
+VemMNW16K7i^?ae>AcKNkg0
+!s100 GjZg@iYAD_cGAOhec0XO31
+R46
+31
+R66
+!i10b 1
+R67
+R127
+R128
+!i113 1
+R51
+R52
+Edecofmt
+R37
+R103
+R39
+R40
+R38
+R41
+R42
+R43
+R0
+Z129 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoFMT.vhd
+Z130 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoFMT.vhd
+l0
+L10
+V]hWh8[]Xo`Hce0WC@3o3h0
+!s100 ^b^7iGE2BNZKhSIiM<QGl3
+R46
+31
+R60
+!i10b 1
+R61
+Z131 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoFMT.vhd|
+Z132 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoFMT.vhd|
+!i113 1
+R51
+R52
+Acompor
+R103
+R39
+R40
+R38
+R41
+R42
+R43
+DEx4 work 7 decofmt 0 22 ]hWh8[]Xo`Hce0WC@3o3h0
+l34
+L22
+VF`<5VdHd8Fjl>>[om_XHV2
+!s100 @58_b]kbE89hZChlZ3kb40
+R46
+31
+R60
+!i10b 1
+R61
+R131
+R132
+!i113 1
+R51
+R52
+Edecomem
+R37
+R103
+R39
+R40
+R38
+R41
+R42
+R43
+R0
+Z133 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoMem.vhd
+Z134 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoMem.vhd
+l0
+L11
+VED;GGh47DE8j:7cW6n1YX2
+!s100 MUQc_m>]_3X;22m;]HY:80
+R46
+31
+R60
+!i10b 1
+R61
+Z135 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoMem.vhd|
+Z136 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoMem.vhd|
+!i113 1
+R51
+R52
+Acomportamiento
+R103
+R39
+R40
+R38
+R41
+R42
+R43
+DEx4 work 7 decomem 0 22 ED;GGh47DE8j:7cW6n1YX2
+l22
+L20
+V:64l:hO5?jYjkGSfl0Z_72
+!s100 Y10g_Bi3:P1<69:25T`oP0
+R46
+31
+R60
+!i10b 1
+R61
+R135
+R136
+!i113 1
+R51
+R52
+Edecoopalu
+R37
+R38
+R40
+R39
+R41
+R42
+R43
+R0
+Z137 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoopALU.vhd
+Z138 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoopALU.vhd
+l0
+L9
+VNK^=on>aHN;P2NC4hmPk?0
+!s100 NHhW[P5:ZkT2d;TSC@CN70
+R46
+31
+R66
+!i10b 1
+R67
+Z139 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoopALU.vhd|
+Z140 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoopALU.vhd|
+!i113 1
+R51
+R52
+Acompor
+R38
+R40
+R39
+R41
+R42
+R43
+DEx4 work 9 decoopalu 0 22 NK^=on>aHN;P2NC4hmPk?0
+l23
+L15
+VIC0Y2@J<ec1_f^jB6>1NY3
+!s100 jaj]_G]XzQc>fI6k<0WGE2
+R46
+31
+R66
+!i10b 1
+R67
+R139
+R140
+!i113 1
+R51
+R52
+Edecosec
+R37
+R103
+R40
+R38
+R41
+R42
+R43
+R0
+Z141 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoSec.vhd
+Z142 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoSec.vhd
+l0
+L10
+VAi8>jJE2D^QIB;KkYAz]Z2
+!s100 AS:2TYI8MS<R0:nGN<FjR1
+R46
+31
+R60
+!i10b 1
+R61
+Z143 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoSec.vhd|
+Z144 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoSec.vhd|
+!i113 1
+R51
+R52
+Acomportamiento
+R103
+R40
+R38
+R41
+R42
+R43
+DEx4 work 7 decosec 0 22 Ai8>jJE2D^QIB;KkYAz]Z2
+l22
+L20
+V5_R2IlnFQ5N6mS^X8mToN1
+!s100 ;[h?dm9B5>`U[EYdVH`R22
+R46
+31
+R60
+!i10b 1
+R61
+R143
+R144
+!i113 1
+R51
+R52
+Edecosys
+R37
+Z145 DPx4 work 19 componentes_decosys 0 22 7ePPe<8Kh<mhK`ZYe5E:e3
+R38
+R40
+R41
+R42
+R43
+R0
+Z146 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoSYS.vhd
+Z147 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoSYS.vhd
+l0
+L9
+VjH4IXcH6]hebdKmcARU:W1
+!s100 _@A=GinE:3?`:cNQZINl72
+R46
+31
+R60
+!i10b 1
+R61
+Z148 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoSYS.vhd|
+Z149 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/decoSYS.vhd|
+!i113 1
+R51
+R52
+Acompor
+R145
+R38
+R40
+R41
+R42
+R43
+DEx4 work 7 decosys 0 22 jH4IXcH6]hebdKmcARU:W1
+l24
+L22
+VPRmCSlg0IfM=T8j`<OMZe1
+!s100 d<4K9L_o@b9XGSJ>m^W_Q1
+R46
+31
+R60
+!i10b 1
+R61
+R148
+R149
+!i113 1
+R51
+R52
+vdisenyo_qsys
+R1
+!i10b 1
+!s100 zPgkjGB295@_2b94bZ01Y1
+Ii]>`c=Tda3nbh:iHUFEAz3
+R2
+R0
+w1582833364
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/disenyo_qsys.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/disenyo_qsys.v
+L0 6
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/disenyo_qsys.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/disenyo_qsys.v|
+!i113 1
+R11
+!s92 -vlog01compat -work disenyo_qsys +incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys
+R13
+vdisenyo_qsys_altpll_0
+R14
+!i10b 1
+!s100 X7F_ha_W7Q7BXNe:<f`:02
+IUJlU;K_NJV9J[^1zL=oF^1
+R2
+R0
+R37
+Z150 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_altpll_0.v
+Z151 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_altpll_0.v
+L0 214
+R7
+r1
+!s85 0
+31
+R16
+Z152 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_altpll_0.v|
+Z153 !s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_altpll_0.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_altpll_0_altpll_m342
+R14
+!i10b 1
+!s100 aVO[?CW4oTamU1]]hlj?K3
+IoTeB[e1G0W53gMI9igKI00
+R2
+R0
+R37
+R150
+R151
+L0 131
+R7
+r1
+!s85 0
+31
+R16
+R152
+R153
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_altpll_0_dffpipe_l2c
+R14
+!i10b 1
+!s100 MZPf=;Ngk6PDKdCR=dnoG3
+IIl>1I@>f`2eFM=e8W1Pm70
+R2
+R0
+R37
+R150
+R151
+Z154 L0 38
+R7
+r1
+!s85 0
+31
+R16
+R152
+R153
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_altpll_0_stdsync_sv6
+R14
+!i10b 1
+!s100 75ci0gG[6h<ZX62VUia7F0
+IO`a<dlYfn7;kZ;MH7PEoZ0
+R2
+R0
+R37
+R150
+R151
+L0 99
+R7
+r1
+!s85 0
+31
+R16
+R152
+R153
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_irq_mapper
+R26
+R18
+!i10b 1
+!s100 XF[hT@l:M>1_cWhDZa;XY2
+IjfSX_6A=5FJj[>kN9^kdk0
+R2
+!s105 disenyo_qsys_irq_mapper_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_irq_mapper.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_irq_mapper.sv
+Z155 L0 31
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_irq_mapper.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_master_0
+R14
+!i10b 1
+!s100 J8`b2:mAXY<TGQQ_T8XS72
+IZnNd;IA]M3GT2DEdFFiFz3
+R2
+R0
+R37
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0.v
+L0 9
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_master_0_b2p_adapter
+R26
+R18
+!i10b 1
+!s100 l7ZjKo`z<Xn5j>G@JP40A3
+I8mfX8=>5:FT=zKkk2HRH03
+R2
+!s105 disenyo_qsys_master_0_b2p_adapter_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_b2p_adapter.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_b2p_adapter.sv
+Z156 L0 55
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_b2p_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_b2p_adapter.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_master_0_p2b_adapter
+R26
+R18
+!i10b 1
+!s100 VzH^KolSOa4b]Q9;6e`J81
+I_<YWZMjV6L;jkfKE`ImLM0
+R2
+!s105 disenyo_qsys_master_0_p2b_adapter_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_p2b_adapter.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_p2b_adapter.sv
+R156
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_p2b_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_p2b_adapter.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_master_0_timing_adt
+R26
+R18
+!i10b 1
+!s100 OSS@JRbCCilL5:AQY;lY50
+Ia1nfa505`K012R6Q]dmFC0
+R2
+!s105 disenyo_qsys_master_0_timing_adt_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_timing_adt.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_timing_adt.sv
+L0 60
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_timing_adt.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_master_0_timing_adt.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0
+R14
+!i10b 1
+!s100 X00EFHAF6CR@9P`U9I2cc2
+IGi[TD_15mbRa1B]QV2Q=f1
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0.v
+L0 9
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_mm_interconnect_0_avalon_st_adapter
+R14
+!i10b 1
+!s100 9h6CEGb51B:6RYNQQcoD62
+IlOn<9GA0D0]WWKcFLWZIK1
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_mm_interconnect_0_avalon_st_adapter_001
+R14
+!i10b 1
+!s100 KeV^ehD]TJ_j[egLRX1Ne1
+Ilhnf<bal=[J?Sm_eTEOjF3
+R2
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_001.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_001.v
+L0 9
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_001.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_001.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0
+R26
+R18
+!i10b 1
+!s100 e@KRKf_2N0OLz30Lidk<91
+I>YD86SUGXWTCU1bBK;XE11
+R2
+!s105 disenyo_qsys_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv
+Z157 L0 66
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R26
+R18
+!i10b 1
+!s100 A9eTIKY`98Q`O6QBD3f9P1
+IQma6IGd3U8fZI]=QF:i3j2
+R2
+!s105 disenyo_qsys_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+R157
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_cmd_demux
+R26
+R47
+!i10b 1
+!s100 Q;dNkeH9AKY9[A9TATb=n2
+Ilf1I`DAZXzTA@[94mHJiS0
+R2
+!s105 disenyo_qsys_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_demux.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_demux.sv
+Z158 L0 43
+R7
+r1
+!s85 0
+31
+R20
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_cmd_demux_001
+R26
+R47
+!i10b 1
+!s100 DSN1fO<B;KEL9UF9]=WMA1
+I1AdG8A`H:L?A95XWoI0oz2
+R2
+!s105 disenyo_qsys_mm_interconnect_0_cmd_demux_001_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_demux_001.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_demux_001.sv
+R158
+R7
+r1
+!s85 0
+31
+R48
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_demux_001.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_cmd_mux
+R26
+R47
+!i10b 1
+!s100 Q?1`X`1?6bTVSdEFUjJI70
+If8>QO@KIbodQXB]PRZZ3T0
+R2
+!s105 disenyo_qsys_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_mux.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_mux.sv
+Z159 L0 51
+R7
+r1
+!s85 0
+31
+R48
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_cmd_mux_001
+R26
+R47
+!i10b 1
+!s100 DYSJmYc@XE>6N6CBzdiXa0
+Id1DI6?lNkgi2J[`WmNPX]0
+R2
+!s105 disenyo_qsys_mm_interconnect_0_cmd_mux_001_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_mux_001.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_mux_001.sv
+R159
+R7
+r1
+!s85 0
+31
+R48
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_cmd_mux_001.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_router
+R26
+R47
+!i10b 1
+!s100 RaRHTB8TMh1N<=aH`MKDH3
+I^edPz6ObOC:TJBRz:YBSL0
+R2
+Z160 !s105 disenyo_qsys_mm_interconnect_0_router_sv_unit
+S1
+R0
+R3
+Z161 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router.sv
+Z162 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router.sv
+Z163 L0 84
+R7
+r1
+!s85 0
+31
+R48
+Z164 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router.sv|
+Z165 !s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_router_001
+R26
+R47
+!i10b 1
+!s100 [?l`NGD;zZW151J2hA_:L0
+IhTE`CbGjoQjzLSMa8dNnZ3
+R2
+Z166 !s105 disenyo_qsys_mm_interconnect_0_router_001_sv_unit
+S1
+R0
+R3
+Z167 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_001.sv
+Z168 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_001.sv
+R163
+R7
+r1
+!s85 0
+31
+R48
+Z169 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_001.sv|
+Z170 !s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_001.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_router_001_default_decode
+R26
+R47
+!i10b 1
+!s100 U^IFn=k?gaHEa:i:n9kFM1
+I;b;VLA<mW6jb?nk4a;5k=0
+R2
+R166
+S1
+R0
+R3
+R167
+R168
+Z171 L0 45
+R7
+r1
+!s85 0
+31
+R48
+R169
+R170
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_router_002
+R26
+Z172 !s110 1579979391
+!i10b 1
+!s100 :OKJEC0;Vdb6l8`<l6DRe2
+IM8nZUe4SCGHK2SD?6Ezif3
+R2
+Z173 !s105 disenyo_qsys_mm_interconnect_0_router_002_sv_unit
+S1
+R0
+Z174 w1579977355
+Z175 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_002.sv
+Z176 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_002.sv
+R163
+R7
+r1
+!s85 0
+31
+Z177 !s108 1579979391.000000
+Z178 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_002.sv|
+Z179 !s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_002.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_router_002_default_decode
+R26
+R172
+!i10b 1
+!s100 9F6c:R12[]Z[W5z1V3GDb3
+I?00iiQaQZi]TfX[UUU_DF1
+R2
+R173
+S1
+R0
+R174
+R175
+R176
+R171
+R7
+r1
+!s85 0
+31
+R177
+R178
+R179
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_router_003
+R26
+R47
+!i10b 1
+!s100 VV:DVoHfeOfA;z`kz5mhW1
+ILXO41f60RAdI2EnkABR7S0
+R2
+Z180 !s105 disenyo_qsys_mm_interconnect_0_router_003_sv_unit
+S1
+R0
+R3
+Z181 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_003.sv
+Z182 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_003.sv
+R163
+R7
+r1
+!s85 0
+31
+R48
+Z183 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_003.sv|
+Z184 !s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_003.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_router_003_default_decode
+R26
+R47
+!i10b 1
+!s100 `M>>97FCFb85NQY;DiSTc1
+I3LK6NeeR@lz[PiA>P3?EO0
+R2
+R180
+S1
+R0
+R3
+R181
+R182
+R171
+R7
+r1
+!s85 0
+31
+R48
+R183
+R184
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_router_004
+R26
+R47
+!i10b 1
+!s100 4aG<99jj3B<?WC;ak@P[<1
+I0h_o_^SDeED84<NfLYUf03
+R2
+Z185 !s105 disenyo_qsys_mm_interconnect_0_router_004_sv_unit
+S1
+R0
+R3
+Z186 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_004.sv
+Z187 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_004.sv
+R163
+R7
+r1
+!s85 0
+31
+R48
+Z188 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_004.sv|
+Z189 !s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_router_004.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_router_004_default_decode
+R26
+R47
+!i10b 1
+!s100 X_;JdF@K]98aRd]WV;ECc0
+ImA`gU^Q4oL^24F1V9QSFk3
+R2
+R185
+S1
+R0
+R3
+R186
+R187
+R171
+R7
+r1
+!s85 0
+31
+R48
+R188
+R189
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_router_default_decode
+R26
+R47
+!i10b 1
+!s100 :]SgcJZ=G[EKRieMD3HhR1
+I[`<dZW0LPTg^AIhAiZ;4X3
+R2
+R160
+S1
+R0
+R3
+R161
+R162
+R171
+R7
+r1
+!s85 0
+31
+R48
+R164
+R165
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_rsp_demux
+R26
+R47
+!i10b 1
+!s100 7RHNUeE[ngVfEe9fgBgmG2
+I6lDJgiNbI0HNJFVf4DZIA3
+R2
+!s105 disenyo_qsys_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_demux.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_demux.sv
+R158
+R7
+r1
+!s85 0
+31
+R48
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_rsp_demux_001
+R26
+R47
+!i10b 1
+!s100 :HJ_7P=zz0JIIZ<ZEIk;a1
+I9iIFD0XZ0:;adLV67TWl^3
+R2
+!s105 disenyo_qsys_mm_interconnect_0_rsp_demux_001_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_demux_001.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_demux_001.sv
+R158
+R7
+r1
+!s85 0
+31
+R48
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_demux_001.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_rsp_mux
+R26
+R47
+!i10b 1
+!s100 F>=n=W=mYKY]QQb[Lc5DN0
+I?`M@`LQco?EF4Ae:e^JP21
+R2
+!s105 disenyo_qsys_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_mux.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_mux.sv
+R159
+R7
+r1
+!s85 0
+31
+R48
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_mm_interconnect_0_rsp_mux_001
+R26
+R47
+!i10b 1
+!s100 FGEca9?b24=QK_:KbYWSG1
+I;IGlZaQhOjg4:H9FZkoQi1
+R2
+!s105 disenyo_qsys_mm_interconnect_0_rsp_mux_001_sv_unit
+S1
+R0
+R3
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_mux_001.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_mux_001.sv
+R159
+R7
+r1
+!s85 0
+31
+R48
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_mm_interconnect_0_rsp_mux_001.sv|
+!i113 1
+R32
+R33
+R13
+vdisenyo_qsys_new_sdram_controller_0
+R14
+!i10b 1
+!s100 a@7A=B?O:CaCPb6MlQN]X3
+Ic[BJzUh;EVb]7mW[O@UJO1
+R2
+R0
+R37
+Z190 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_new_sdram_controller_0.v
+Z191 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_new_sdram_controller_0.v
+L0 159
+R7
+r1
+!s85 0
+31
+R16
+Z192 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_new_sdram_controller_0.v|
+Z193 !s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_new_sdram_controller_0.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_new_sdram_controller_0_input_efifo_module
+R14
+!i10b 1
+!s100 E^k6X8gQ0R?0SK4h^`8e>3
+IX4P@ig;gncBfOanPW_^E42
+R2
+R0
+R37
+R190
+R191
+R15
+R7
+r1
+!s85 0
+31
+R16
+R192
+R193
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_ps2_0
+R14
+!i10b 1
+!s100 Dbc6=?c7<dZCgEbMjKzdP3
+IT3;5Y^MLV4B]NA@HLak`m3
+R2
+R0
+R37
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_ps2_0.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_ps2_0.v
+R154
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_ps2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_ps2_0.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_sram_0
+R14
+!i10b 1
+!s100 @<7BJnLKPB?oK`[];z;e10
+I][1=K5^RQ2UHP18NYfYi70
+R2
+R0
+R37
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_sram_0.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_sram_0.v
+R23
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_sram_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_sram_0.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_sys_sdram_pll_0
+R14
+!i10b 1
+!s100 =fi]6OaH?[gNT`QGBP1692
+IIaM6hfH6F;Q?^CWncmaa92
+R2
+R0
+R37
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_sys_sdram_pll_0.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_sys_sdram_pll_0.v
+L0 9
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_sys_sdram_pll_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_sys_sdram_pll_0.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_video_dma_controller_0
+R14
+!i10b 1
+!s100 bK?T]WT;V]9DiWmIoJ56T2
+I7ePCP?I5jMYFON0:]ANnk3
+R2
+R0
+R36
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_dma_controller_0.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_dma_controller_0.v
+R155
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_dma_controller_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_dma_controller_0.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_video_dual_clock_buffer_0
+R14
+!i10b 1
+!s100 lWS5X4F=namoJWTPa:9]b2
+I2ZSRZJPZA2U@7NAbi8FN03
+R2
+R0
+R36
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_dual_clock_buffer_0.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_dual_clock_buffer_0.v
+R35
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_dual_clock_buffer_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_dual_clock_buffer_0.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_video_pll_0
+R14
+!i10b 1
+!s100 ]@<>ZOj0Bb[0SY>bX^YLF1
+IR5WoA7ZQ03hW^_7dLVElK0
+R2
+R0
+R36
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_pll_0.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_pll_0.v
+L0 9
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_pll_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_pll_0.v|
+!i113 1
+R11
+R12
+R13
+vdisenyo_qsys_video_vga_controller_0
+R14
+!i10b 1
+!s100 QQhA;67]>hVoMWdG:aR8e2
+IOJXW<T8lILX`>egW<YWZ`2
+R2
+R0
+R36
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_vga_controller_0.v
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_vga_controller_0.v
+R34
+R7
+r1
+!s85 0
+31
+R16
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_vga_controller_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|disenyo_qsys|+incdir+/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/disenyo_qsys_video_vga_controller_0.v|
+!i113 1
+R11
+R12
+R13
+Eensamblado_procesador
+R37
+Z194 DPx4 work 22 componentes_procesador 0 22 3oAEAVUT]FnS8HMGz4mg:0
+R38
+R39
+R40
+R41
+R42
+R43
+R0
+Z195 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensamblado_procesador.vhd
+Z196 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensamblado_procesador.vhd
+l0
+L11
+VOb6^hPPLA`Zk>NfAcaI2Y3
+!s100 IbSQHg_;k8PgnOS6omka;1
+R46
+31
+R60
+!i10b 1
+R61
+Z197 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensamblado_procesador.vhd|
+Z198 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensamblado_procesador.vhd|
+!i113 1
+R51
+R52
+Acompor
+R194
+R38
+R39
+R40
+R41
+R42
+R43
+Z199 DEx4 work 21 ensamblado_procesador 0 22 Ob6^hPPLA`Zk>NfAcaI2Y3
+l44
+L25
+Z200 VB;_EjWgIGnCD_N<;LXCa72
+Z201 !s100 X<GB[MDkX[C^GXLU8hoYd0
+R46
+31
+R60
+!i10b 1
+R61
+R197
+R198
+!i113 1
+R51
+R52
+Eensamblado_uc_up
+Z202 w1579977354
+Z203 DPx4 work 5 tipos 0 22 DjiZW3^:Bc[C?XZ_D4Vh03
+Z204 DPx4 work 8 retardos 0 22 =eTcg08E2nQE`Z^X<Y@NT0
+Z205 DPx4 work 10 constantes 0 22 2^KzG<;1D1=Vb8@zCEZfB3
+R41
+R42
+R43
+R0
+Z206 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensamblado_UC_UP.vhd
+Z207 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensamblado_UC_UP.vhd
+l0
+L9
+VJJz2h5bIcUD<oL:fFjBAB1
+!s100 eI@o>AI2zH4Rn5KT^czFg0
+R46
+31
+Z208 !s110 1579979392
+!i10b 1
+Z209 !s108 1579979392.000000
+Z210 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensamblado_UC_UP.vhd|
+Z211 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensamblado_UC_UP.vhd|
+!i113 1
+R51
+R52
+Acompor
+R203
+R204
+R205
+R41
+R42
+R43
+DEx4 work 16 ensamblado_uc_up 0 22 JJz2h5bIcUD<oL:fFjBAB1
+l100
+L23
+VMi0TT99>n8a9lDV<c^b3c3
+!s100 l[72GHBH:CYDDHgialaHf3
+R46
+31
+R208
+!i10b 1
+R209
+R210
+R211
+!i113 1
+R51
+R52
+Eensambladouc
+R37
+Z212 DPx4 work 13 componentesuc 0 22 4kXLiH0AAVKVIbM?X>z5A2
+R38
+R39
+R40
+R42
+R43
+R0
+Z213 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoUC.vhd
+Z214 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoUC.vhd
+l0
+L10
+V]O?gN2fYZ?Jn9h2Pi:6TA0
+!s100 kW?Yzc@ciDQ2S;8o`o0lm3
+R46
+31
+R60
+!i10b 1
+R61
+Z215 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoUC.vhd|
+Z216 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoUC.vhd|
+!i113 1
+R51
+R52
+Acompor
+R212
+R38
+R39
+R40
+R42
+R43
+DEx4 work 12 ensambladouc 0 22 ]O?gN2fYZ?Jn9h2Pi:6TA0
+l60
+L53
+V?NR0ffPNj=5REka;_`N=H0
+!s100 ]5fSIb:3b:BkWXB_^Nm:73
+R46
+31
+R60
+!i10b 1
+R61
+R215
+R216
+!i113 1
+R51
+R52
+Eensambladoup
+R37
+Z217 DPx4 work 13 componentesup 0 22 A;E[az>ibNDXha5_FG0EJ3
+R38
+R39
+R40
+R42
+R43
+R0
+Z218 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoUP.vhd
+Z219 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoUP.vhd
+l0
+L10
+V3ai4YzDVjRz^P^8NN9kD41
+!s100 =[T>6cQU`=X^CAIH3DkSk1
+R46
+31
+R60
+!i10b 1
+R61
+Z220 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoUP.vhd|
+Z221 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoUP.vhd|
+!i113 1
+R51
+R52
+Acompor
+R217
+R38
+R39
+R40
+R42
+R43
+DEx4 work 12 ensambladoup 0 22 3ai4YzDVjRz^P^8NN9kD41
+l126
+L53
+V4D`5SoNLEJG^I=_@9Le_]2
+!s100 flQQ1RacR3GZ8hlDK`=EO0
+R46
+31
+R60
+!i10b 1
+R61
+R220
+R221
+!i113 1
+R51
+R52
+Eensambladousys
+R37
+Z222 DPx4 work 15 componentesusys 0 22 lgL<:>K<J`Yaio]9:?6ma0
+R38
+R39
+R40
+R42
+R43
+R0
+Z223 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoSYS.vhd
+Z224 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoSYS.vhd
+l0
+L10
+VTVo:dioUeE_nJNE6i[??M0
+!s100 h]1f_cBiXSSCfl:I7WOPB2
+R46
+31
+R60
+!i10b 1
+R61
+Z225 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoSYS.vhd|
+Z226 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/ensambladoSYS.vhd|
+!i113 1
+R51
+R52
+Acompor
+R222
+R38
+R39
+R40
+R42
+R43
+DEx4 work 14 ensambladousys 0 22 TVo:dioUeE_nJNE6i[??M0
+l51
+L42
+VaLJ;;3@ez7=Scg83^f4982
+!s100 X58UgfB@E8^8RlG^jHj5o1
+R46
+31
+R60
+!i10b 1
+R61
+R225
+R226
+!i113 1
+R51
+R52
+vfifo_buffer
+R1
+!i10b 1
+!s100 DMV9zRnPjWDbzTRVo^2TT0
+IAZe6bA6c_gS9@RTj?dY3Z0
+R2
+R0
+R3
+R4
+R5
+L0 627
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vfifo_buffer_scfifo_with_controls
+R1
+!i10b 1
+!s100 zmOh<:bil5=WKFX;=j_Af2
+Id=R;g0ll@R:cSKg5>2>8;2
+R2
+R0
+R3
+R4
+R5
+L0 573
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vfifo_buffer_single_clock_fifo
+R1
+!i10b 1
+!s100 l?APnUI8_=1IUOC<`QGGJ3
+Io?k]G4GAjB0Tmo5B]1Lag1
+R2
+R0
+R3
+R4
+R5
+L0 512
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vfifo_to_packet
+R1
+!i10b 1
+!s100 TbDMFiLf3D=`0Ekh08_[C1
+IUf;6YbSM`BZZRQPm]e7W02
+R2
+R0
+R3
+R4
+R5
+L0 697
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+Efmte
+R37
+R40
+R38
+R41
+R42
+R43
+R0
+Z227 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTE.vhd
+Z228 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTE.vhd
+l0
+L8
+V>To8Olbgj4QTz?l8YJ4TS1
+!s100 Lm0Albk`AGM1Nl9NNHlEa3
+R46
+31
+R66
+!i10b 1
+R48
+Z229 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTE.vhd|
+Z230 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTE.vhd|
+!i113 1
+R51
+R52
+Acomportamiento
+R40
+R38
+R41
+R42
+R43
+DEx4 work 4 fmte 0 22 >To8Olbgj4QTz?l8YJ4TS1
+l17
+L15
+V<X23lKklL@aPg4=U]bT@z1
+!s100 kUBG]b;8loH_G>PnQU5dB0
+R46
+31
+R66
+!i10b 1
+R48
+R229
+R230
+!i113 1
+R51
+R52
+Efmti
+R37
+R39
+R40
+R38
+R42
+R43
+R0
+Z231 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTI.vhd
+Z232 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTI.vhd
+l0
+L8
+V@ELI``KlF341R;bOFUYXL0
+!s100 `Q6cG<FTC<a5:2BR_VC2K3
+R46
+31
+R66
+!i10b 1
+R67
+Z233 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTI.vhd|
+Z234 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTI.vhd|
+!i113 1
+R51
+R52
+Acompor
+R39
+R40
+R38
+R42
+R43
+DEx4 work 4 fmti 0 22 @ELI``KlF341R;bOFUYXL0
+l15
+L14
+VI6<42zkDoSafflL3Oc2?`1
+!s100 3=kTe?QnEGooS1X@>0iVL1
+R46
+31
+R66
+!i10b 1
+R67
+R233
+R234
+!i113 1
+R51
+R52
+Efmtl
+R37
+R40
+R38
+R41
+R42
+R43
+R0
+Z235 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTL.vhd
+Z236 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTL.vhd
+l0
+L8
+V[YimYW;`d5@:CboRObEDg3
+!s100 CmmbjKo8D9I=mK^Aih3@X2
+R46
+31
+R66
+!i10b 1
+R67
+Z237 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTL.vhd|
+Z238 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/FMTL.vhd|
+!i113 1
+R51
+R52
+Acomportamiento
+R40
+R38
+R41
+R42
+R43
+DEx4 work 4 fmtl 0 22 [YimYW;`d5@:CboRObEDg3
+l18
+L16
+VWkEd9UdR_7;=dS54L<2UM1
+!s100 go@QnHDQbjiHNzkUc`Wlk0
+R46
+31
+R66
+!i10b 1
+R67
+R237
+R238
+!i113 1
+R51
+R52
+Efuerza_bit_0
+R37
+R38
+R39
+R40
+R42
+R43
+R0
+Z239 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/fuerza_bit_0.vhd
+Z240 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/fuerza_bit_0.vhd
+l0
+L8
+V?4N>;Yj4dhFBeIoGN77N93
+!s100 `L:`00XRk<8km850WlLZ83
+R46
+31
+R66
+!i10b 1
+R67
+Z241 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/fuerza_bit_0.vhd|
+Z242 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/fuerza_bit_0.vhd|
+!i113 1
+R51
+R52
+Acompor
+R38
+R39
+R40
+R42
+R43
+DEx4 work 12 fuerza_bit_0 0 22 ?4N>;Yj4dhFBeIoGN77N93
+l17
+L16
+V:zHfL:]Y>eH`J8>Bm2gYz0
+!s100 H^z`[YPlR:oYII8PJ4GHX1
+R46
+31
+R66
+!i10b 1
+R67
+R241
+R242
+!i113 1
+R51
+R52
+Egateway
+Z243 w1581783818
+Z244 DPx4 work 5 tipos 0 22 >BHAdT6C`UDNF9`H4IG2V3
+Z245 DPx4 work 10 constantes 0 22 QZU6>:MHc=O[1eC<RAKe61
+R80
+R79
+R42
+R43
+R0
+Z246 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/gateway.vhd
+Z247 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/gateway.vhd
+l0
+L9
+VflMFSO;h:9oiP9R2eLgbL1
+!s100 5XhC6=zMG32=:c6>P<;W]2
+R46
+31
+Z248 !s110 1581785240
+!i10b 1
+Z249 !s108 1581785240.000000
+Z250 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/gateway.vhd|
+Z251 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/gateway.vhd|
+!i113 1
+R51
+R52
+Acompor
+R244
+R245
+R80
+R79
+R42
+R43
+DEx4 work 7 gateway 0 22 flMFSO;h:9oiP9R2eLgbL1
+l21
+L17
+VZG]j?Heb`01Jo;@=0<kIX2
+!s100 L4Qo?PV4N:a[AVQCWi1BD1
+R46
+31
+R248
+!i10b 1
+R249
+R250
+R251
+!i113 1
+R51
+R52
+Egestoreventos
+R37
+R39
+R40
+R38
+R41
+R42
+R43
+R0
+Z252 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/gestorEventos.vhd
+Z253 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/gestorEventos.vhd
+l0
+L9
+Vdgd=Z^JX2W<m`K>iWFl=g0
+!s100 dKRCR36>iSLQTPHB4Ke_J1
+R46
+31
+R66
+!i10b 1
+R67
+Z254 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/gestorEventos.vhd|
+Z255 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/gestorEventos.vhd|
+!i113 1
+R51
+R52
+Acompor
+R39
+R40
+R38
+R41
+R42
+R43
+DEx4 work 13 gestoreventos 0 22 dgd=Z^JX2W<m`K>iWFl=g0
+l22
+L20
+Vb2G88k:?]=fMfzgDd@gLm2
+!s100 `iTT4TPR^_Lf6LbI2iJ_O2
+R46
+31
+R66
+!i10b 1
+R67
+R254
+R255
+!i113 1
+R51
+R52
+Emux2_32
+R37
+R38
+R40
+R41
+R42
+R43
+R0
+Z256 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/mux2_32.vhd
+Z257 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/mux2_32.vhd
+l0
+L8
+VS7H7Ae[So8=3W[m37KXeJ1
+!s100 XE6=e1nXOSN7_Z]0_U7gH0
+R46
+31
+R66
+!i10b 1
+R67
+Z258 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/mux2_32.vhd|
+Z259 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/mux2_32.vhd|
+!i113 1
+R51
+R52
+Acomportamiento
+R38
+R40
+R41
+R42
+R43
+DEx4 work 7 mux2_32 0 22 S7H7Ae[So8=3W[m37KXeJ1
+l15
+L14
+V6[K?HTnADINbY@HWQH;cQ1
+!s100 U9;B=NVbZ1M6MfABEcm1I0
+R46
+31
+R66
+!i10b 1
+R67
+R258
+R259
+!i113 1
+R51
+R52
+Emux3_32
+R37
+R38
+R40
+R41
+R42
+R43
+R0
+Z260 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/mux3_32.vhd
+Z261 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/mux3_32.vhd
+l0
+L8
+VA5h6TIMk5nnVR0EG?Rz<90
+!s100 >U8FDid[mci`J4hSdfZPT3
+R46
+31
+R60
+!i10b 1
+R67
+Z262 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/mux3_32.vhd|
+Z263 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/mux3_32.vhd|
+!i113 1
+R51
+R52
+Acomportamiento
+R38
+R40
+R41
+R42
+R43
+DEx4 work 7 mux3_32 0 22 A5h6TIMk5nnVR0EG?Rz<90
+l15
+L14
+VR39hR:f5G=_VHb6zbR]?H1
+!s100 ]k6gfAKWlM;WmNH@<5cNh3
+R46
+31
+R60
+!i10b 1
+R67
+R262
+R263
+!i113 1
+R51
+R52
+vpackets_to_fifo
+R1
+!i10b 1
+!s100 ]MF>U8bo@HjJhzaW6aNB[2
+IMoDi?8NzQ2DYZEX>F>`d01
+R2
+R0
+R3
+R4
+R5
+L0 142
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+vpackets_to_master
+R1
+!i10b 1
+!s100 m[YiF06PnnS]oE=1iCkXI1
+Io0^4G9@S>9<2:z<ZW0ZeO1
+R2
+R0
+R3
+R4
+R5
+L0 851
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+Eplic
+R243
+R244
+R245
+R80
+R79
+R42
+R43
+R0
+Z264 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC.vhd
+Z265 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC.vhd
+l0
+L9
+VfNga_@<CI4LQaz7^l:FM31
+!s100 R_;:X8IRIgPc5IHLmJz0f3
+R46
+31
+Z266 !s110 1581785239
+!i10b 1
+Z267 !s108 1581785239.000000
+Z268 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC.vhd|
+Z269 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC.vhd|
+!i113 1
+R51
+R52
+Acompor
+R244
+R245
+R80
+R79
+R42
+R43
+DEx4 work 4 plic 0 22 fNga_@<CI4LQaz7^l:FM31
+l42
+L20
+V24QAPE[Q22OOlHmn>dNh[1
+!s100 [8HJ6XRhobH_MSahKnT=M2
+R46
+31
+R266
+!i10b 1
+R267
+R268
+R269
+!i113 1
+R51
+R52
+Eplic_core
+R243
+R244
+R245
+R41
+R80
+R79
+R42
+R43
+R0
+Z270 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC_core.vhd
+Z271 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC_core.vhd
+l0
+L11
+V70abl@CcOYn`6<6?lgSaQ3
+!s100 9Pmf1BG?E>Pgoj6Ol39mL0
+R46
+31
+R266
+!i10b 1
+R267
+Z272 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC_core.vhd|
+Z273 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC_core.vhd|
+!i113 1
+R51
+R52
+Acompor
+R244
+R245
+R41
+R80
+R79
+R42
+R43
+DEx4 work 9 plic_core 0 22 70abl@CcOYn`6<6?lgSaQ3
+l49
+L21
+VHGkCfWnMUoX1=_JCJkBNG1
+!s100 ;54iH0h9Oh6J9gRF2k^G22
+R46
+31
+R266
+!i10b 1
+R267
+R272
+R273
+!i113 1
+R51
+R52
+Eplic_gateway
+R243
+R244
+R245
+R80
+R79
+R42
+R43
+R0
+Z274 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC_gateway.vhd
+Z275 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC_gateway.vhd
+l0
+L9
+V`RD2Q]5G^GXiaU[8bK`Gi2
+!s100 2_JhBG?W<W7Lg4]TclNdn1
+R46
+31
+R266
+!i10b 1
+R267
+Z276 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC_gateway.vhd|
+Z277 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/PLIC_gateway.vhd|
+!i113 1
+R51
+R52
+Acompor
+R244
+R245
+R80
+R79
+R42
+R43
+DEx4 work 12 plic_gateway 0 22 `RD2Q]5G^GXiaU[8bK`Gi2
+l27
+L17
+VE?C7:m6Y8^AUci4fUM?_J0
+!s100 N0zloCOcm4G[2RO]GR1[N1
+R46
+31
+R266
+!i10b 1
+R267
+R276
+R277
+!i113 1
+R51
+R52
+Ereg32
+R37
+R38
+R40
+R39
+R41
+R42
+R43
+R0
+Z278 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/reg32.vhd
+Z279 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/reg32.vhd
+l0
+L9
+V[VjUzh?EBnfjWd_W[_SNG1
+!s100 R;M1l<SG5c8K`OlePlgZj0
+R46
+31
+R60
+!i10b 1
+R61
+Z280 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/reg32.vhd|
+Z281 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/reg32.vhd|
+!i113 1
+R51
+R52
+Acomportamiento
+R38
+R40
+R39
+R41
+R42
+R43
+DEx4 work 5 reg32 0 22 [VjUzh?EBnfjWd_W[_SNG1
+l16
+L15
+VD[?9UmO381BiLIajNzaEc1
+!s100 H3D2bPDi?:U7af7AUkP713
+R46
+31
+R60
+!i10b 1
+R61
+R280
+R281
+!i113 1
+R51
+R52
+Ereg32pe
+R37
+R38
+R40
+R39
+R41
+R42
+R43
+R0
+Z282 8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/reg32pe.vhd
+Z283 F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/reg32pe.vhd
+l0
+L9
+VZ3Yn[l59S0OhQP:JIa9GS1
+!s100 Lc>mRfZd<lcV1:8H0?=MF0
+R46
+31
+R60
+!i10b 1
+R61
+Z284 !s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/reg32pe.vhd|
+Z285 !s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/reg32pe.vhd|
+!i113 1
+R51
+R52
+Acomportamiento
+R38
+R40
+R39
+R41
+R42
+R43
+DEx4 work 7 reg32pe 0 22 Z3Yn[l59S0OhQP:JIa9GS1
+l17
+L16
+Van8gENhAf2^gn;AG]jGNV0
+!s100 :FYaMT3CF]`92E[4_M>=B1
+R46
+31
+R60
+!i10b 1
+R61
+R284
+R285
+!i113 1
+R51
+R52
+Pretardos
+R40
+R42
+R43
+R37
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/retardos.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/retardos.vhd
+l0
+L5
+Vb<<j8BAjOQFEAG@K4:[8X3
+!s100 c]D=AG8a<3K_EZUf17]6B3
+R46
+31
+R47
+!i10b 1
+R48
+!s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/retardos.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/retardos.vhd|
+!i113 1
+R51
+R52
+Ptipos
+R40
+R42
+R43
+R37
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/tipos.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/tipos.vhd
+l0
+L5
+VP9?ioL;XW[CTTm@K3Q8nz0
+!s100 Z>@BZ2d7WM7N[Z14Kgm;51
+R46
+31
+R47
+!i10b 1
+R48
+!s90 -reportprogress|300|-93|-work|disenyo_qsys|/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/tipos.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/db/ip/disenyo_qsys/submodules/tipos.vhd|
+!i113 1
+R51
+R52

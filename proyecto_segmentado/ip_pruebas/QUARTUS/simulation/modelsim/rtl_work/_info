@@ -1,0 +1,2686 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/simulation/modelsim
+Ealu
+Z1 w1590150021
+Z2 DPx4 work 5 tipos 0 22 >c5PBk;9ZKGVRk[ee[I0R3
+Z3 DPx4 work 8 retardos 0 22 >SgKT?5e2=LTBF2VVdcQN2
+Z4 DPx4 work 10 constantes 0 22 A2eXK[ded;GU[dLQAC[nS1
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/ALU.vhd
+Z9 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/ALU.vhd
+l0
+L13
+VQS;9UP4:MTF<13RnBT_?i1
+!s100 ZN9dezGoY`EXZmzIcBUaJ1
+Z10 OV;C;10.5b;63
+31
+Z11 !s110 1590658137
+!i10b 1
+Z12 !s108 1590658137.000000
+Z13 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/ALU.vhd|
+Z14 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/ALU.vhd|
+!i113 1
+Z15 o-93 -work work
+Z16 tExplicit 1 CvgOpt 0
+Acompor
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 3 alu 0 22 QS;9UP4:MTF<13RnBT_?i1
+l22
+L20
+VnDd@>]i5EY0Pn<gL@B=k[0
+!s100 Ch[CcM6<Hl`HLHSn@TFLI0
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ebloqueo_a
+Z17 w1590150108
+R2
+R3
+R4
+R6
+R7
+R0
+Z18 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_A.vhd
+Z19 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_A.vhd
+l0
+L12
+VBiliDG0H>cn9;VfE9Yf6C0
+!s100 WnB;QF9><CK9n;fQfPgTg2
+R10
+31
+R11
+!i10b 1
+R12
+Z20 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_A.vhd|
+Z21 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_A.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R6
+R7
+DEx4 work 9 bloqueo_a 0 22 BiliDG0H>cn9;VfE9Yf6C0
+l21
+L19
+VWWSHI7b4i;ODJj`BRXd[[1
+!s100 cH6VkSSE7h:j1gmQ_9LFz0
+R10
+31
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Ebloqueo_cp
+Z22 w1590150110
+R2
+R3
+R4
+R6
+R7
+R0
+Z23 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_CP.vhd
+Z24 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_CP.vhd
+l0
+L12
+VnRL9moVMbSazloGR5RLa23
+!s100 jXGUHWUKIgOSla2XN_[FE0
+R10
+31
+R11
+!i10b 1
+R12
+Z25 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_CP.vhd|
+Z26 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_CP.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R6
+R7
+DEx4 work 10 bloqueo_cp 0 22 nRL9moVMbSazloGR5RLa23
+l20
+L19
+V8<99N3kYJ7BXdV9Cb;Y8a3
+!s100 >PbKS2z;Go8KG@439?NXg3
+R10
+31
+R11
+!i10b 1
+R12
+R25
+R26
+!i113 1
+R15
+R16
+Ebloqueo_m
+Z27 w1590150112
+R2
+R3
+R4
+R6
+R7
+R0
+Z28 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_M.vhd
+Z29 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_M.vhd
+l0
+L12
+VfoHYD8@9J0V>8K2>KgfA<2
+!s100 QR^f2H4UzDK[IM;jXGzNn2
+R10
+31
+R11
+!i10b 1
+R12
+Z30 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_M.vhd|
+Z31 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_M.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R6
+R7
+DEx4 work 9 bloqueo_m 0 22 foHYD8@9J0V>8K2>KgfA<2
+l20
+L19
+VM9;imQ3mcYmEIN`87gQDX1
+!s100 [DEJ0ki8:Q21e7537N5^20
+R10
+31
+R11
+!i10b 1
+R12
+R30
+R31
+!i113 1
+R15
+R16
+Ebr
+Z32 w1590150066
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z33 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR.vhd
+Z34 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR.vhd
+l0
+L13
+V5ZZS`0Y6<i^Qmdk=1fJ2h2
+!s100 zNBTSP[[^kEkD11b`^YcL2
+R10
+31
+R11
+!i10b 1
+R12
+Z35 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR.vhd|
+Z36 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 2 br 0 22 5ZZS`0Y6<i^Qmdk=1fJ2h2
+l29
+L25
+VJmJ1cT@QdgGhb?Rig[Y<90
+!s100 <O0YXJN6e^`_cYV0O=9N<3
+R10
+31
+R11
+!i10b 1
+R12
+R35
+R36
+!i113 1
+R15
+R16
+Ebr_y_corto
+Z37 w1590151670
+R2
+R3
+R4
+R6
+R7
+R0
+Z38 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd
+Z39 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd
+l0
+L12
+V5DOmgj=FW?h?ATiRm>Ym`3
+!s100 dmY1=jj0IVL4^JCX72m3A3
+R10
+31
+R11
+!i10b 1
+R12
+Z40 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd|
+Z41 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R6
+R7
+DEx4 work 10 br_y_corto 0 22 5DOmgj=FW?h?ATiRm>Ym`3
+l61
+L24
+Ve1n9HZ?6D^O2e3_oNcgR=0
+!s100 6ljj=J`fVL=b=G;<k[4G12
+R10
+31
+R11
+!i10b 1
+R12
+R40
+R41
+!i113 1
+R15
+R16
+Ecamino_control
+Z42 w1590150120
+Z43 DPx4 work 26 componentes_camino_control 0 22 z=[DlU`2G5JQ>FS<I7IH01
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z44 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd
+Z45 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd
+l0
+L14
+Vai:NPa2k[zTfJ3d7h^@C@3
+!s100 Gl4RS4S<Jz`[Y?4USB0k40
+R10
+31
+Z46 !s110 1590658138
+!i10b 1
+Z47 !s108 1590658138.000000
+Z48 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd|
+Z49 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd|
+!i113 1
+R15
+R16
+Acompor
+R43
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 14 camino_control 0 22 ai:NPa2k[zTfJ3d7h^@C@3
+l64
+L45
+V<4VCJUfOzR@7AiE0?KL;f2
+!s100 kB:WDmY8RgL<?^f3Wjgkb2
+R10
+31
+R46
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R15
+R16
+Pcomponentes_camino_control
+R4
+R2
+R6
+R7
+w1590150123
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/componentes_camino_control.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/componentes_camino_control.vhd
+l0
+L11
+Vz=[DlU`2G5JQ>FS<I7IH01
+!s100 OQV5UJX6A2<jd8NIaV2?D1
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/componentes_camino_control.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/componentes_camino_control.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_decoder_a
+R4
+R2
+R6
+R7
+w1590150127
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/componentes_decoder_A.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/componentes_decoder_A.vhd
+l0
+L11
+Vn1J1hgB0QAJ;Q@hCko`n81
+!s100 G<gIAZ9Kc4inM760V5<z<1
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/componentes_decoder_A.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/componentes_decoder_A.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_decoder_dl
+R4
+R2
+R6
+R7
+w1590150148
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/componentes_decoder_DL.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/componentes_decoder_DL.vhd
+l0
+L11
+VVAE>h[_N:h8AXSdEf6HFe2
+!s100 @nDNElPVkLd86S:VnW78D0
+R10
+31
+Z50 !s110 1590658136
+!i10b 1
+Z51 !s108 1590658136.000000
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/componentes_decoder_DL.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/componentes_decoder_DL.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapaa
+R4
+R2
+R6
+R7
+w1590150014
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/componentes_etapaA.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/componentes_etapaA.vhd
+l0
+L11
+Vc?Y7KbHI_cb@ON7Mf;U?:0
+!s100 5Q?Y6@R<QFdAV[]]K;@zC3
+R10
+31
+R50
+!i10b 1
+R51
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/componentes_etapaA.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/componentes_etapaA.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapab
+R4
+R2
+R6
+R7
+w1590150038
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/componentes_etapaB.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/componentes_etapaB.vhd
+l0
+L11
+V@CBz]M_eQ9[n0Y5bH@6a@0
+!s100 BZeEn3z0gKjOiJlKcHl8T0
+R10
+31
+R50
+!i10b 1
+R51
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/componentes_etapaB.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/componentes_etapaB.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapacp
+R4
+R2
+R6
+R7
+w1590150049
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/componentes_etapaCP.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/componentes_etapaCP.vhd
+l0
+L11
+Vf<biPV9nI17]SfSB4gO6G3
+!s100 R0`mP0lQ_CFVDWjc<;TD81
+R10
+31
+R50
+!i10b 1
+R51
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/componentes_etapaCP.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/componentes_etapaCP.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapadl
+R4
+R2
+R6
+R7
+w1590151371
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/componentes_etapaDL.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/componentes_etapaDL.vhd
+l0
+L11
+VWk`9^6=X1;eB^bRYK>H3e2
+!s100 CQ:`GiY64hGWANObTLzW]3
+R10
+31
+R50
+!i10b 1
+R51
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/componentes_etapaDL.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/componentes_etapaDL.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapaf
+R4
+R2
+R6
+R7
+w1590150079
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/componentes_etapaF.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/componentes_etapaF.vhd
+l0
+L11
+VFWe?N2mh6zV`=gdC2@04E2
+!s100 aJm`eF]^g1A926VLDiScD3
+R10
+31
+R50
+!i10b 1
+R51
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/componentes_etapaF.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/componentes_etapaF.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_etapam
+R4
+R2
+R6
+R7
+w1590150090
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/componentes_etapaM.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/componentes_etapaM.vhd
+l0
+L11
+V1ifmOfgICXD<=I[^XaEWl0
+!s100 bAPG2fY]AWzG`K7XN;aQZ0
+R10
+31
+R50
+!i10b 1
+R51
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/componentes_etapaM.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/componentes_etapaM.vhd|
+!i113 1
+R15
+R16
+Pcomponentes_procesador
+R4
+R2
+R6
+R7
+w1590151447
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/componentes_procesador.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/componentes_procesador.vhd
+l0
+L11
+VF3bSUYTacmP`Q@>]BbfGL3
+!s100 5ONbnC5mi;24Caml86fRF2
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/componentes_procesador.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/componentes_procesador.vhd|
+!i113 1
+R15
+R16
+Pcomponentesuc
+R4
+R2
+R6
+R7
+w1590151537
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/componentesUC.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/componentesUC.vhd
+l0
+L11
+V54f:cE7z[9D13>ni>;gz_1
+!s100 RJIo?I_L<EXdFUW53E?ig3
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/componentesUC.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/componentesUC.vhd|
+!i113 1
+R15
+R16
+Pcomponentesup
+R4
+R2
+R6
+R7
+w1590151400
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/componentesUP.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/componentesUP.vhd
+l0
+L11
+V4`CX6GmndU[A]S7J>AeB=3
+!s100 5j<iAH::Y=mI;`kGl2k5^1
+R10
+31
+R11
+!i10b 1
+R12
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/componentesUP.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/componentesUP.vhd|
+!i113 1
+R15
+R16
+Pconstantes
+R6
+R7
+w1590149748
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/constantes.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/constantes.vhd
+l0
+L8
+VA2eXK[ded;GU[dLQAC[nS1
+!s100 H::0kS7j<Ic<kWaAkRHY]1
+R10
+31
+R50
+!i10b 1
+R51
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/constantes.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/constantes.vhd|
+!i113 1
+R15
+R16
+Econtrol_cortocircuitos
+Z52 w1590152422
+R2
+R3
+R4
+R6
+R7
+R0
+Z53 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/control_cortocircuitos.vhd
+Z54 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/control_cortocircuitos.vhd
+l0
+L12
+VRM<]9WJ_b;6]:SdLKzHEb3
+!s100 jejI5n^bl`7<h3ZkN`:Dc2
+R10
+31
+R46
+!i10b 1
+R12
+Z55 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/control_cortocircuitos.vhd|
+Z56 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/control_cortocircuitos.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R6
+R7
+DEx4 work 22 control_cortocircuitos 0 22 RM<]9WJ_b;6]:SdLKzHEb3
+l38
+L21
+Voh5Wko[?hK^`W?9MTY38z2
+!s100 <d7foo7GQ[PIC:d36UDie0
+R10
+31
+R46
+!i10b 1
+R12
+R55
+R56
+!i113 1
+R15
+R16
+Edecocamino
+Z57 w1590150157
+Z58 DPx4 work 26 decoder_procedimientos_pkg 0 22 @jWkc0Dmh3ND2>bKBE1SK1
+R4
+R2
+R5
+R6
+R7
+R0
+Z59 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decocamino.vhd
+Z60 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decocamino.vhd
+l0
+L13
+VQmn0mkQJRZ6EhOf_98[^M1
+!s100 c2le][:4nHWDH@d8zORZn2
+R10
+31
+R46
+!i10b 1
+R47
+Z61 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decocamino.vhd|
+Z62 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decocamino.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R58
+R4
+R2
+R5
+R6
+R7
+DEx4 work 10 decocamino 0 22 Qmn0mkQJRZ6EhOf_98[^M1
+l27
+L25
+Vb`fYALQ6T70dMiMzlcoT]2
+!s100 @ciHnkAGOOU`IG2eNacj92
+R10
+31
+R46
+!i10b 1
+R47
+R61
+R62
+!i113 1
+R15
+R16
+Edecoder_a
+Z63 w1590150130
+Z64 DPx4 work 21 componentes_decoder_a 0 22 n1J1hgB0QAJ;Q@hCko`n81
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z65 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd
+Z66 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd
+l0
+L14
+V4_UChaI;LmH113TRcX^IG2
+!s100 O?3_eGXgf35ZZc^VJBQXO0
+R10
+31
+R46
+!i10b 1
+R47
+Z67 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd|
+Z68 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd|
+!i113 1
+R15
+R16
+Acompor
+R64
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 9 decoder_a 0 22 4_UChaI;LmH113TRcX^IG2
+l48
+L40
+VlZ2eZBZ`J0Q6gaJaKYO<O1
+!s100 IAPboYel2gUc5A21cPGK52
+R10
+31
+R46
+!i10b 1
+R47
+R67
+R68
+!i113 1
+R15
+R16
+Edecoder_dl
+Z69 w1590150150
+Z70 DPx4 work 22 componentes_decoder_dl 0 22 VAE>h[_N:h8AXSdEf6HFe2
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z71 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd
+Z72 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd
+l0
+L14
+VoX?EDMXS=FSb@fGnMMPzN2
+!s100 JbL1A[18K9<b;O]3?noX62
+R10
+31
+R46
+!i10b 1
+R47
+Z73 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd|
+Z74 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd|
+!i113 1
+R15
+R16
+Acompor
+R70
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 10 decoder_dl 0 22 oX?EDMXS=FSb@fGnMMPzN2
+l57
+L44
+VeJYHbNZ[9Hm9PN3zQUnzA2
+!s100 z3<NCb0hD_J9iTUP_m9I10
+R10
+31
+R46
+!i10b 1
+R47
+R73
+R74
+!i113 1
+R15
+R16
+Pdecoder_procedimientos_pkg
+R4
+R2
+R6
+R7
+Z75 w1590150153
+R0
+Z76 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_procedimientos_pkg.vhd
+Z77 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_procedimientos_pkg.vhd
+l0
+L11
+V@jWkc0Dmh3ND2>bKBE1SK1
+!s100 UgI2HgO3lE7U]n4b8BGgD3
+R10
+31
+b1
+R50
+!i10b 1
+R51
+Z78 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_procedimientos_pkg.vhd|
+Z79 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_procedimientos_pkg.vhd|
+!i113 1
+R15
+R16
+Bbody
+R58
+R4
+R2
+R6
+R7
+l0
+L29
+VMe]S^:cMc[;Bao9L<=6iD3
+!s100 dIS;8[24DZJFY7J6engQb1
+R10
+31
+R50
+!i10b 1
+R51
+R78
+R79
+!i113 1
+R15
+R16
+Edecofmt_a
+Z80 w1590150133
+R58
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z81 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoFMT_A.vhd
+Z82 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoFMT_A.vhd
+l0
+L14
+V2L[EgPnI92P`P:UQ9_IX11
+!s100 5eb<PLdaG]emWO<zV@0NA2
+R10
+31
+R46
+!i10b 1
+R47
+Z83 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoFMT_A.vhd|
+Z84 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoFMT_A.vhd|
+!i113 1
+R15
+R16
+Acompor
+R58
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 9 decofmt_a 0 22 2L[EgPnI92P`P:UQ9_IX11
+l26
+L24
+VU=Mzgh;DHL6e;m`mb<IlT3
+!s100 Ge2P62=?2Oo>^nJ>iK90>1
+R10
+31
+R46
+!i10b 1
+R47
+R83
+R84
+!i113 1
+R15
+R16
+Edecofmt_dl
+Z85 w1590150161
+R58
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z86 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoFMT_DL.vhd
+Z87 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoFMT_DL.vhd
+l0
+L14
+V;8RF;aAm7YjiQdBKY?TiP3
+!s100 L8:YzQfggBmAN:XQoUdQo3
+R10
+31
+R46
+!i10b 1
+R47
+Z88 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoFMT_DL.vhd|
+Z89 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoFMT_DL.vhd|
+!i113 1
+R15
+R16
+Acompor
+R58
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 10 decofmt_dl 0 22 ;8RF;aAm7YjiQdBKY?TiP3
+l24
+L22
+V]NK[F1om3_@XmjUB`BPg_0
+!s100 YM`]VWch]a6UgL]<T@Hi>2
+R10
+31
+R46
+!i10b 1
+R47
+R88
+R89
+!i113 1
+R15
+R16
+Edecomem_a
+Z90 w1590150135
+R58
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z91 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoMem_A.vhd
+Z92 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoMem_A.vhd
+l0
+L14
+V8Yfc=@k_;mMBoEaff=@RR2
+!s100 8D@GBCaaoF0<K0mYm2z^P3
+R10
+31
+R46
+!i10b 1
+R47
+Z93 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoMem_A.vhd|
+Z94 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoMem_A.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R58
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 9 decomem_a 0 22 8Yfc=@k_;mMBoEaff=@RR2
+l24
+L22
+VGA0WJ8mC@e9WcT0=i_E6j0
+!s100 Bmkef_?<6K?NIKL@8hSTS3
+R10
+31
+R46
+!i10b 1
+R47
+R93
+R94
+!i113 1
+R15
+R16
+Edecomem_dl
+Z95 w1590150165
+R58
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z96 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoMem_DL.vhd
+Z97 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoMem_DL.vhd
+l0
+L14
+V82SmZ@dQ4Ye4KA`ESDRXf1
+!s100 [iHSm5VSI@1O1cQ;U57h`2
+R10
+31
+R46
+!i10b 1
+R47
+Z98 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoMem_DL.vhd|
+Z99 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoMem_DL.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R58
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 10 decomem_dl 0 22 82SmZ@dQ4Ye4KA`ESDRXf1
+l24
+L22
+V`HRfShQiSA>jU>fm6JkN@2
+!s100 OX9T?]7:AXQkPA;;8kRH<0
+R10
+31
+R46
+!i10b 1
+R47
+R98
+R99
+!i113 1
+R15
+R16
+Edecoopalu
+Z100 w1590150168
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z101 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd
+Z102 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd
+l0
+L13
+Vc>YMO^_09g5[<OObNbd9A2
+!s100 M?lQi^0lbQ2][:c^d>8i;2
+R10
+31
+R50
+!i10b 1
+R51
+Z103 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd|
+Z104 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 9 decoopalu 0 22 c>YMO^_09g5[<OObNbd9A2
+l27
+L19
+V_[cS=^WzZ9;Dm0L3fMo;?1
+!s100 gWRDYL;nl^KRI@[MmhH;i1
+R10
+31
+R50
+!i10b 1
+R51
+R103
+R104
+!i113 1
+R15
+R16
+Edecosec
+Z105 w1590150138
+R58
+R4
+R2
+R5
+R6
+R7
+R0
+Z106 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoSec.vhd
+Z107 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoSec.vhd
+l0
+L14
+VXn]06ST560GkZkdBh89e51
+!s100 V^U8g^I<APE]2HFEnP`YN2
+R10
+31
+R46
+!i10b 1
+R47
+Z108 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoSec.vhd|
+Z109 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoSec.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R58
+R4
+R2
+R5
+R6
+R7
+DEx4 work 7 decosec 0 22 Xn]06ST560GkZkdBh89e51
+l25
+L24
+VO;Rm=;:Z52XcT3]RaHj7o0
+!s100 zhb5chQmI]O;?_n7UCi3D0
+R10
+31
+R46
+!i10b 1
+R47
+R108
+R109
+!i113 1
+R15
+R16
+Eensamblado_procesador
+Z110 w1590151466
+Z111 DPx4 work 22 componentes_procesador 0 22 F3bSUYTacmP`Q@>]BbfGL3
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+Z112 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/ensamblado_procesador.vhd
+Z113 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/ensamblado_procesador.vhd
+l0
+L15
+VOS8R^o8IoC4^k=0nLIkHH3
+!s100 gPF_>YW1cPCbVg`U^lfkn1
+R10
+31
+R46
+!i10b 1
+R47
+Z114 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/ensamblado_procesador.vhd|
+Z115 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador/ensamblado_procesador.vhd|
+!i113 1
+R15
+R16
+Acompor
+R111
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 21 ensamblado_procesador 0 22 OS8R^o8IoC4^k=0nLIkHH3
+l47
+L28
+Vfo[5?VjYnRil3kc^]M1D<0
+!s100 GWkY?nafPXm;j9O4:LDd50
+R10
+31
+R46
+!i10b 1
+R47
+R114
+R115
+!i113 1
+R15
+R16
+Eensambladouc
+Z116 w1590151488
+Z117 DPx4 work 13 componentesuc 0 22 54f:cE7z[9D13>ni>;gz_1
+R2
+R3
+R4
+R6
+R7
+R0
+Z118 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/ensambladoUC.vhd
+Z119 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/ensambladoUC.vhd
+l0
+L14
+V`kNhh:MLDbn8ADT7AJZ180
+!s100 LRzCUUad9j6V:^EenB?6Q2
+R10
+31
+R46
+!i10b 1
+R47
+Z120 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/ensambladoUC.vhd|
+Z121 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC/ensambladoUC.vhd|
+!i113 1
+R15
+R16
+Acompor
+R117
+R2
+R3
+R4
+R6
+R7
+DEx4 work 12 ensambladouc 0 22 `kNhh:MLDbn8ADT7AJZ180
+l81
+L58
+VOU73z>PlVCS4gSS7QG1cj0
+!s100 95Q>Io?cDMaUa0lgA?UAo1
+R10
+31
+R46
+!i10b 1
+R47
+R120
+R121
+!i113 1
+R15
+R16
+Eensambladoup
+Z122 w1590151423
+Z123 DPx4 work 13 componentesup 0 22 4`CX6GmndU[A]S7J>AeB=3
+R2
+R3
+R4
+R6
+R7
+R0
+Z124 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd
+Z125 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd
+l0
+L14
+Vf`jX=1f88J=81RhOMTAcK3
+!s100 OMELCTB[59i3P1M9:[lb30
+R10
+31
+R46
+!i10b 1
+R47
+Z126 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd|
+Z127 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd|
+!i113 1
+R15
+R16
+Acompor
+R123
+R2
+R3
+R4
+R6
+R7
+DEx4 work 12 ensambladoup 0 22 f`jX=1f88J=81RhOMTAcK3
+l69
+L58
+VQjjH:i1`de7TUd1K8COA01
+!s100 Fc@fnfkgV3Sggl6@:PUWC1
+R10
+31
+R46
+!i10b 1
+R47
+R126
+R127
+!i113 1
+R15
+R16
+Eetapaa
+Z128 w1590150017
+Z129 DPx4 work 18 componentes_etapaa 0 22 c?Y7KbHI_cb@ON7Mf;U?:0
+R2
+R3
+R4
+R6
+R7
+R0
+Z130 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd
+Z131 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd
+l0
+L13
+VOMUY3^[H<[IK0EkV242V:0
+!s100 0UQS^<YLL7N;D5MJ4;0Gk3
+R10
+31
+R46
+!i10b 1
+R47
+Z132 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd|
+Z133 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd|
+!i113 1
+R15
+R16
+Acompor
+R129
+R2
+R3
+R4
+R6
+R7
+DEx4 work 6 etapaa 0 22 OMUY3^[H<[IK0EkV242V:0
+l30
+L27
+V5V`H:I4f2M=;8zSdPn0lO0
+!s100 hDoedj7__cWL::JlLCi2a3
+R10
+31
+R46
+!i10b 1
+R47
+R132
+R133
+!i113 1
+R15
+R16
+Eetapab
+Z134 w1590150041
+Z135 DPx4 work 18 componentes_etapab 0 22 @CBz]M_eQ9[n0Y5bH@6a@0
+R2
+R3
+R4
+R6
+R7
+R0
+Z136 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/etapaB.vhd
+Z137 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/etapaB.vhd
+l0
+L13
+VVUKj`2^J?9aZJ0A6;gDkI3
+!s100 UEe6eNRfPgSdkNNRN[>cD2
+R10
+31
+R46
+!i10b 1
+R47
+Z138 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/etapaB.vhd|
+Z139 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/etapaB.vhd|
+!i113 1
+R15
+R16
+Acompor
+R135
+R2
+R3
+R4
+R6
+R7
+DEx4 work 6 etapab 0 22 VUKj`2^J?9aZJ0A6;gDkI3
+l31
+L26
+VjEL=@mnQC3@;4>7`T3f4l2
+!s100 VU@Ikm9^;n=MEniD7ZLVD3
+R10
+31
+R46
+!i10b 1
+R47
+R138
+R139
+!i113 1
+R15
+R16
+Eetapacp
+Z140 w1590150052
+Z141 DPx4 work 19 componentes_etapacp 0 22 f<biPV9nI17]SfSB4gO6G3
+R2
+R3
+R4
+R6
+R7
+R0
+Z142 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/etapaCP.vhd
+Z143 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/etapaCP.vhd
+l0
+L13
+V`S11EOeEI7hR2GkCB81TA3
+!s100 PLI4<83K]d7W35WTCMZEf3
+R10
+31
+R46
+!i10b 1
+R47
+Z144 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/etapaCP.vhd|
+Z145 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/etapaCP.vhd|
+!i113 1
+R15
+R16
+Acompor
+R141
+R2
+R3
+R4
+R6
+R7
+DEx4 work 7 etapacp 0 22 `S11EOeEI7hR2GkCB81TA3
+l29
+L24
+VE6BFg0[kI8=z_o_cPaLl]0
+!s100 5_A@[36=6aCgAZWOWOnSK1
+R10
+31
+R46
+!i10b 1
+R47
+R144
+R145
+!i113 1
+R15
+R16
+Eetapadl
+Z146 w1590151386
+Z147 DPx4 work 19 componentes_etapadl 0 22 Wk`9^6=X1;eB^bRYK>H3e2
+R2
+R3
+R4
+R6
+R7
+R0
+Z148 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd
+Z149 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd
+l0
+L13
+VXoJZ5VFDRzjdK2BGhk6gF2
+!s100 5^RbS8PbCJaKLOco[dHdQ0
+R10
+31
+R46
+!i10b 1
+R47
+Z150 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd|
+Z151 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd|
+!i113 1
+R15
+R16
+Acompor
+R147
+R2
+R3
+R4
+R6
+R7
+DEx4 work 7 etapadl 0 22 XoJZ5VFDRzjdK2BGhk6gF2
+l30
+L26
+VC@0Oz`T>O@NUz]7Q5Zm302
+!s100 n0k2fhYdW:;LjJ`0bb@P92
+R10
+31
+R46
+!i10b 1
+R47
+R150
+R151
+!i113 1
+R15
+R16
+Eetapaf
+Z152 w1590150082
+Z153 DPx4 work 18 componentes_etapaf 0 22 FWe?N2mh6zV`=gdC2@04E2
+R2
+R3
+R4
+R6
+R7
+R0
+Z154 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd
+Z155 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd
+l0
+L13
+VRiooHb=ILi4Y>VFV^cGHM2
+!s100 XJ_o5khJ]b41b9e50>>X42
+R10
+31
+R46
+!i10b 1
+R47
+Z156 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd|
+Z157 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd|
+!i113 1
+R15
+R16
+Acompor
+R153
+R2
+R3
+R4
+R6
+R7
+DEx4 work 6 etapaf 0 22 RiooHb=ILi4Y>VFV^cGHM2
+l26
+L24
+VOWAQgT_Gijg5^NTzE^cl;1
+!s100 JDfda5l2hSRANbaO>c1:H3
+R10
+31
+R46
+!i10b 1
+R47
+R156
+R157
+!i113 1
+R15
+R16
+Eetapam
+Z158 w1590150093
+Z159 DPx4 work 18 componentes_etapam 0 22 1ifmOfgICXD<=I[^XaEWl0
+R2
+R3
+R4
+R6
+R7
+R0
+Z160 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/etapaM.vhd
+Z161 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/etapaM.vhd
+l0
+L13
+VD@U__lNH^NMnM<PAK2<?m3
+!s100 0;iXYco2Yf1V;G8e22YjG0
+R10
+31
+R46
+!i10b 1
+R47
+Z162 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/etapaM.vhd|
+Z163 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/etapaM.vhd|
+!i113 1
+R15
+R16
+Acompor
+R159
+R2
+R3
+R4
+R6
+R7
+DEx4 work 6 etapam 0 22 D@U__lNH^NMnM<PAK2<?m3
+l26
+L22
+V:KHHzjn9T^oYBUaVD[Q:@0
+!s100 ncDa0GVnPN[FJB>XT2fXE2
+R10
+31
+R46
+!i10b 1
+R47
+R162
+R163
+!i113 1
+R15
+R16
+Eeval
+Z164 w1590150024
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+Z165 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/EVAL.vhd
+Z166 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/EVAL.vhd
+l0
+L13
+V9k^FQmH3MDZVSk[h4S3zA2
+!s100 FUPamV32SgZ9YeP?UUaSF2
+R10
+31
+R11
+!i10b 1
+R12
+Z167 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/EVAL.vhd|
+Z168 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/EVAL.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 4 eval 0 22 9k^FQmH3MDZVSk[h4S3zA2
+l20
+L18
+Vo9`n2WjeMRc;VzD1h;K9g2
+!s100 >^^;eVX^d616=cM]0SZnf1
+R10
+31
+R11
+!i10b 1
+R12
+R167
+R168
+!i113 1
+R15
+R16
+Efifo
+Z169 w1590150045
+R2
+R3
+R4
+R5
+Z170 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z171 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R6
+R7
+R0
+Z172 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/fifo.vhd
+Z173 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/fifo.vhd
+l0
+L14
+V?T77@A<SIF49og^LmEmLC1
+!s100 [`gW6C;1b8nDHTZN7L^^b3
+R10
+31
+R11
+!i10b 1
+R12
+Z174 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/fifo.vhd|
+Z175 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/fifo.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R5
+R170
+R171
+R6
+R7
+DEx4 work 4 fifo 0 22 ?T77@A<SIF49og^LmEmLC1
+l30
+L24
+V`<b0F2fQaCHigN6[N^3Lo0
+!s100 clODi0?9MoZ<[1=icD[h^1
+R10
+31
+R11
+!i10b 1
+R12
+R174
+R175
+!i113 1
+R15
+R16
+Efmte
+Z176 w1590150027
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z177 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/FMTE.vhd
+Z178 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/FMTE.vhd
+l0
+L13
+VS`h[m<<aOaQiH6XdA88:j1
+!s100 P5nC[`kPUmO`TBBe>Z3hQ2
+R10
+31
+R11
+!i10b 1
+R12
+Z179 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/FMTE.vhd|
+Z180 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/FMTE.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 4 fmte 0 22 S`h[m<<aOaQiH6XdA88:j1
+l22
+L20
+V@z<IX5I93gRSAa:8H^PTG1
+!s100 0O06AMK`k]3k;j4m;R`m33
+R10
+31
+R11
+!i10b 1
+R12
+R179
+R180
+!i113 1
+R15
+R16
+Efmti
+Z181 w1590150072
+R3
+R4
+R2
+R6
+R7
+R0
+Z182 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/FMTI.vhd
+Z183 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/FMTI.vhd
+l0
+L12
+V>3^c31kXLZ25cFHX5F0[Y1
+!s100 DAJ?NbOANV>l>kbza=Qcb3
+R10
+31
+R11
+!i10b 1
+R12
+Z184 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/FMTI.vhd|
+Z185 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/FMTI.vhd|
+!i113 1
+R15
+R16
+Acompor
+R3
+R4
+R2
+R6
+R7
+DEx4 work 4 fmti 0 22 >3^c31kXLZ25cFHX5F0[Y1
+l19
+L18
+VCgTe]Cl4chB3l3RX>WXiR2
+!s100 La:j;GBei[nUj]2_lEDKV0
+R10
+31
+R11
+!i10b 1
+R12
+R184
+R185
+!i113 1
+R15
+R16
+Efmtl
+Z186 w1590150084
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+Z187 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/COMPONENTES/FMTL.vhd
+Z188 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/COMPONENTES/FMTL.vhd
+l0
+L13
+V>b^hUFKPYB1n9ho06V:zB3
+!s100 3=emo^9DdNhUazaC@VSFg0
+R10
+31
+R11
+!i10b 1
+R51
+Z189 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/COMPONENTES/FMTL.vhd|
+Z190 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/COMPONENTES/FMTL.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R3
+R4
+R2
+R5
+R6
+R7
+DEx4 work 4 fmtl 0 22 >b^hUFKPYB1n9ho06V:zB3
+l23
+L21
+VF1o0@95[?idh^^K4Sa[222
+!s100 WD][e:hMb=CVD5FlLQc@03
+R10
+31
+R11
+!i10b 1
+R51
+R189
+R190
+!i113 1
+R15
+R16
+Efuerza_bit_0
+Z191 w1590150029
+R2
+R3
+R4
+R6
+R7
+R0
+Z192 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/fuerza_bit_0.vhd
+Z193 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/fuerza_bit_0.vhd
+l0
+L12
+Vk2BcX0WiTOLYNT>93^QIX2
+!s100 5zzzTFG7agdJJX`k:O]2^1
+R10
+31
+R50
+!i10b 1
+R51
+Z194 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/fuerza_bit_0.vhd|
+Z195 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/fuerza_bit_0.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R6
+R7
+DEx4 work 12 fuerza_bit_0 0 22 k2BcX0WiTOLYNT>93^QIX2
+l21
+L20
+VgAA?jEYzWGj`GYTKHlZB_2
+!s100 @[<FYUbSEHOWSej0:TUNX0
+R10
+31
+R50
+!i10b 1
+R51
+R194
+R195
+!i113 1
+R15
+R16
+Elib
+Z196 w1590150176
+R2
+R3
+R4
+R6
+R7
+R0
+Z197 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/LIB/LIB.vhd
+Z198 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/LIB/LIB.vhd
+l0
+L12
+VfGP9J[PdNX;>[dVhED_9=0
+!s100 eH;@B`dON8<4MFkSJ4YVD3
+R10
+31
+R50
+!i10b 1
+R51
+Z199 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/LIB/LIB.vhd|
+Z200 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/LIB/LIB.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R6
+R7
+DEx4 work 3 lib 0 22 fGP9J[PdNX;>[dVhED_9=0
+l22
+L20
+VI:R=aAhlXNzdY5TeiXLXI2
+!s100 EHgaPP`oHN19O?PZXAGnP2
+R10
+31
+R50
+!i10b 1
+R51
+R199
+R200
+!i113 1
+R15
+R16
+Emem
+Z201 w1590149723
+R2
+R4
+Z202 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R170
+R171
+R5
+R6
+R7
+R0
+Z203 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd
+Z204 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd
+l0
+L16
+VB6SoC=a`8JoPm?6TmlbNa0
+!s100 8ZBU:QnYCzLG;XTa`:VL62
+R10
+31
+R46
+!i10b 1
+R47
+Z205 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd|
+Z206 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R4
+R202
+R170
+R171
+R5
+R6
+R7
+DEx4 work 3 mem 0 22 B6SoC=a`8JoPm?6TmlbNa0
+l50
+L30
+VOR5Vl9eQ>Z=iWdADgeX<R0
+!s100 8E];94Q^AdJDJG:MT=]]@3
+R10
+31
+R46
+!i10b 1
+R47
+R205
+R206
+!i113 1
+R15
+R16
+Emux2_1
+Z207 w1590149955
+R3
+R2
+R4
+R5
+R6
+R7
+R0
+Z208 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_1.vhd
+Z209 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_1.vhd
+l0
+L13
+V[[e3jb^TOF44g17XQ<E0d3
+!s100 Z4lOmNK3[bRjNeXB;cZkP0
+R10
+31
+R50
+!i10b 1
+R51
+Z210 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_1.vhd|
+Z211 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_1.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R3
+R2
+R4
+R5
+R6
+R7
+DEx4 work 6 mux2_1 0 22 [[e3jb^TOF44g17XQ<E0d3
+l20
+L19
+Vz]ELoh`@kIAb2z8PkQeHK1
+!s100 :DNJmcK@3SVa66ZT2<OjR0
+R10
+31
+R50
+!i10b 1
+R51
+R210
+R211
+!i113 1
+R15
+R16
+Emux2_32
+Z212 w1590149960
+R3
+R2
+R4
+R5
+R6
+R7
+R0
+Z213 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_32.vhd
+Z214 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_32.vhd
+l0
+L13
+VbgMi;GGBMfKH7XSISc<9Q0
+!s100 O0Sb[]l7RXJ]6`6>YgXoL0
+R10
+31
+R11
+!i10b 1
+R12
+Z215 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_32.vhd|
+Z216 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_32.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R3
+R2
+R4
+R5
+R6
+R7
+DEx4 work 7 mux2_32 0 22 bgMi;GGBMfKH7XSISc<9Q0
+l20
+L19
+VGVgB6Hag]@mST80dE2YcO3
+!s100 KFJYz0nI0zQeYkc6@4^=b3
+R10
+31
+R11
+!i10b 1
+R12
+R215
+R216
+!i113 1
+R15
+R16
+Emux4_32
+Z217 w1590149966
+R2
+R4
+R5
+R6
+R7
+R0
+Z218 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux4_32.vhd
+Z219 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux4_32.vhd
+l0
+L12
+V_IG5DRN2hnl1O;RGCaWGQ2
+!s100 QV97VcDoUZG83Hihf6VRf1
+R10
+31
+R11
+!i10b 1
+R12
+Z220 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux4_32.vhd|
+Z221 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux4_32.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R4
+R5
+R6
+R7
+DEx4 work 7 mux4_32 0 22 _IG5DRN2hnl1O;RGCaWGQ2
+l19
+L18
+VgUH`hzhW[in;BHI?R:_W10
+!s100 1Og78]=:KYXhW1353Z[X21
+R10
+31
+R11
+!i10b 1
+R12
+R220
+R221
+!i113 1
+R15
+R16
+Eram
+Z222 w1590149727
+R2
+R4
+R202
+R170
+R171
+R5
+R6
+R7
+R0
+Z223 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd
+Z224 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd
+l0
+L43
+V=Xfn8P417P_Pfz^eI22em0
+!s100 A>lIP=PnngBM7XEGX<5fL3
+R10
+31
+R46
+!i10b 1
+R47
+Z225 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd|
+Z226 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R4
+R202
+R170
+R171
+R5
+R6
+R7
+DEx4 work 3 ram 0 22 =Xfn8P417P_Pfz^eI22em0
+l77
+L55
+V<J1A0f7B`SFDVn`9dH<3h2
+!s100 Ccm@Ei:mePlPgLeNkEQT?2
+R10
+31
+R46
+!i10b 1
+R47
+R225
+R226
+!i113 1
+R15
+R16
+Ereg1
+Z227 w1590149969
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z228 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1.vhd
+Z229 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1.vhd
+l0
+L13
+VHWO@KA=55hMVg8BeBa6c_1
+!s100 eR;5gD`WC5i`Vj6_S?TZ50
+R10
+31
+R50
+!i10b 1
+R51
+Z230 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1.vhd|
+Z231 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 4 reg1 0 22 HWO@KA=55hMVg8BeBa6c_1
+l20
+L19
+VILj?IAomCHB[J35HKGfXe3
+!s100 TSBdPR4]LlfbQ@lUla?j03
+R10
+31
+R50
+!i10b 1
+R51
+R230
+R231
+!i113 1
+R15
+R16
+Ereg1pe
+Z232 w1590149972
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z233 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1pe.vhd
+Z234 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1pe.vhd
+l0
+L13
+V@04D;AYE6XN6XV:7`CGkN3
+!s100 [hmfZ3P1hEjdK@0omU4^g0
+R10
+31
+R11
+!i10b 1
+R12
+Z235 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1pe.vhd|
+Z236 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1pe.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 6 reg1pe 0 22 @04D;AYE6XN6XV:7`CGkN3
+l21
+L20
+V4:UT4bND6Zlo8jT_gA;hV2
+!s100 _KNc_@beiSNY9Bb:0CW1?0
+R10
+31
+R11
+!i10b 1
+R12
+R235
+R236
+!i113 1
+R15
+R16
+Ereg32
+Z237 w1590149980
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z238 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32.vhd
+Z239 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32.vhd
+l0
+L13
+VLNE]0^GO@R[]Vbg>zTcnc3
+!s100 iR=N61<=mm2nLDjoPzahF0
+R10
+31
+R11
+!i10b 1
+R12
+Z240 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32.vhd|
+Z241 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 5 reg32 0 22 LNE]0^GO@R[]Vbg>zTcnc3
+l20
+L19
+V8flXKEZnGjP^obC;DliMG0
+!s100 ;=`h1``FA:=B66mRF19mg3
+R10
+31
+R11
+!i10b 1
+R12
+R240
+R241
+!i113 1
+R15
+R16
+Ereg32pe
+Z242 w1590149983
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z243 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32pe.vhd
+Z244 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32pe.vhd
+l0
+L13
+VP>:`YS_X_o?V:i>Rc;Pb12
+!s100 @VHP26djcO^OXe?;GA7^j0
+R10
+31
+R11
+!i10b 1
+R12
+Z245 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32pe.vhd|
+Z246 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32pe.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 7 reg32pe 0 22 P>:`YS_X_o?V:i>Rc;Pb12
+l21
+L20
+VB:LH;DD<hTQbB^cZ@N[KC1
+!s100 >6AGOZQP^@:B1QKQc=U1[1
+R10
+31
+R11
+!i10b 1
+R12
+R245
+R246
+!i113 1
+R15
+R16
+Ereg5
+Z247 w1590149975
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z248 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5.vhd
+Z249 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5.vhd
+l0
+L13
+VjSJ8gf4NaEUlIaW[i8[=>3
+!s100 JUVjLUI80IY33E1YU6n5O2
+R10
+31
+R50
+!i10b 1
+R51
+Z250 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5.vhd|
+Z251 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 4 reg5 0 22 jSJ8gf4NaEUlIaW[i8[=>3
+l20
+L19
+VM__39dljaRU2=[0kCBk^42
+!s100 91BhJ0@0U:bjH_nmKj8Q73
+R10
+31
+R50
+!i10b 1
+R51
+R250
+R251
+!i113 1
+R15
+R16
+Ereg5pe
+Z252 w1590149977
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z253 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5pe.vhd
+Z254 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5pe.vhd
+l0
+L13
+VW034h@ZeU29_=?QC2I3BX0
+!s100 269lcPb>IT_4PNzZV=3j_0
+R10
+31
+R11
+!i10b 1
+R12
+Z255 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5pe.vhd|
+Z256 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5pe.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 6 reg5pe 0 22 W034h@ZeU29_=?QC2I3BX0
+l21
+L20
+V^625R`4P0n:h]QkES85`c0
+!s100 YH@DnbheRlO_GhTA<[8z@3
+R10
+31
+R11
+!i10b 1
+R12
+R255
+R256
+!i113 1
+R15
+R16
+Eregn
+Z257 w1590149985
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z258 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regN.vhd
+Z259 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regN.vhd
+l0
+L13
+VDSKdFhz[>31P[J4=IKJjz3
+!s100 13M:8U:JJCiY:Ye>k^V4M2
+R10
+31
+R50
+!i10b 1
+R51
+Z260 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regN.vhd|
+Z261 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regN.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 4 regn 0 22 DSKdFhz[>31P[J4=IKJjz3
+l22
+L21
+VQoV4oMNik<bNefa8B_:n12
+!s100 aLRVH?1SNfMgmBnR2iX862
+R10
+31
+R50
+!i10b 1
+R51
+R260
+R261
+!i113 1
+R15
+R16
+Eregnpe
+Z262 w1590149987
+R2
+R4
+R3
+R5
+R6
+R7
+R0
+Z263 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regNpe.vhd
+Z264 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regNpe.vhd
+l0
+L13
+V@:^T6H4=dgBG290a2JCGV1
+!s100 i=FCM9bJK]oTLzFG^aCZC3
+R10
+31
+R50
+!i10b 1
+R51
+Z265 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regNpe.vhd|
+Z266 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regNpe.vhd|
+!i113 1
+R15
+R16
+Acomportamiento
+R2
+R4
+R3
+R5
+R6
+R7
+DEx4 work 6 regnpe 0 22 @:^T6H4=dgBG290a2JCGV1
+l23
+L22
+V?olCS`@:zc3Hf=_Y9SgAH2
+!s100 Ie;K5190CiPLEfRn?i=?Y3
+R10
+31
+R50
+!i10b 1
+R51
+R265
+R266
+!i113 1
+R15
+R16
+Pretardos
+R4
+R6
+R7
+w1590149758
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/retardos.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/retardos.vhd
+l0
+L9
+V>SgKT?5e2=LTBF2VVdcQN2
+!s100 Nd^:6SjaCzOdUU<WcDoK^1
+R10
+31
+R50
+!i10b 1
+R51
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/retardos.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/retardos.vhd|
+!i113 1
+R15
+R16
+Eriesgo_datos
+Z267 w1590151519
+R2
+R3
+R4
+R6
+R7
+R0
+Z268 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/riesgo_datos.vhd
+Z269 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/riesgo_datos.vhd
+l0
+L12
+VPQFSLGe_71I5gKMFBbTao3
+!s100 gfcI<H;2ULdM:1z5ACX:g0
+R10
+31
+R50
+!i10b 1
+R51
+Z270 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/riesgo_datos.vhd|
+Z271 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/riesgo_datos.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R6
+R7
+DEx4 work 12 riesgo_datos 0 22 PQFSLGe_71I5gKMFBbTao3
+l23
+L20
+V6hKDNHW[H63@V2BD28N7M3
+!s100 F`NXI2OXbKdfF;Lm96_^91
+R10
+31
+R50
+!i10b 1
+R51
+R270
+R271
+!i113 1
+R15
+R16
+Esumador4
+Z272 w1590150055
+R2
+R3
+R4
+R170
+R171
+R6
+R7
+R0
+Z273 8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/COMPONENTES/sumador4.vhd
+Z274 F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/COMPONENTES/sumador4.vhd
+l0
+L13
+Vb9gjP^SCI37H:;Bk;G:gg0
+!s100 ?O;Z[G^HoF925GfRAO9lm1
+R10
+31
+R11
+!i10b 1
+R12
+Z275 !s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/COMPONENTES/sumador4.vhd|
+Z276 !s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/COMPONENTES/sumador4.vhd|
+!i113 1
+R15
+R16
+Acompor
+R2
+R3
+R4
+R170
+R171
+R6
+R7
+DEx4 work 8 sumador4 0 22 b9gjP^SCI37H:;Bk;G:gg0
+l21
+L20
+VPl`SmeaILOSWd44bm2Gj90
+!s100 bSJ0Q4jTRP2Sa=ABNI?=g3
+R10
+31
+R11
+!i10b 1
+R12
+R275
+R276
+!i113 1
+R15
+R16
+Etestbench
+w1590149731
+R3
+R4
+R2
+R5
+R6
+R7
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/testbench/testbench.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/testbench/testbench.vhd
+l0
+L13
+V54;VRn2PRLjz4D<jkVLd`2
+!s100 2@=Jff]49>h:6i9UnE<f@1
+R10
+31
+!s110 1590658139
+!i10b 1
+R47
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/testbench/testbench.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip_pruebas/QUARTUS/../PRUEBAS/testbench/testbench.vhd|
+!i113 1
+R15
+R16
+Ptipos
+R4
+R6
+R7
+w1590658114
+R0
+8/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/tipos.vhd
+F/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/tipos.vhd
+l0
+L9
+V>c5PBk;9ZKGVRk[ee[I0R3
+!s100 8hF?c=ULOc3j?CGeSXKO[2
+R10
+31
+R50
+!i10b 1
+R51
+!s90 -reportprogress|300|-93|-work|work|/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/tipos.vhd|
+!s107 /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/tipos.vhd|
+!i113 1
+R15
+R16

@@ -1,0 +1,327 @@
+Info: Starting: Create testbench Platform Designer system
+Info: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/disenyo_qsys.ipx
+Info: qsys-generate /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys.qsys --testbench=SIMPLE --output-directory=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading disenyo_qsys/disenyo_qsys.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 19.1]
+Progress: Parameterizing module clk_0
+Progress: Adding ensamblado_procesador_0 [ensamblado_procesador 1.0]
+Progress: Parameterizing module ensamblado_procesador_0
+Progress: Adding master_0 [altera_jtag_avalon_master 19.1]
+Progress: Parameterizing module master_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 19.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding sys_sdram_pll_0 [altera_up_avalon_sys_sdram_pll 18.0]
+Progress: Parameterizing module sys_sdram_pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: disenyo_qsys.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: disenyo_qsys.sys_sdram_pll_0: Refclk Freq: 50.0
+Info: qsys-generate succeeded.
+Info: Loading IP catalog for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (2) searching /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/root_components.ipx
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/root_components.ipx: Loading now from components.ipx
+Info: Reading index /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/ip_component_categories.ipx
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/ip_component_categories.ipx described 0 plugins, 0 paths, in 0.00 seconds
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.00 seconds
+Info: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/ip/**/* matched 0 files in 0.00 seconds
+Progress: Loading testbench/disenyo_qsys_tb.qsys
+Info: Reading index /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/disenyo_qsys.ipx
+Progress: Loading disenyo_qsys/procesador_hw.tcl
+Progress: Loading disenyo_qsys/mm_reloj_hw.tcl
+Progress: Loading disenyo_qsys/disenyo_qsys.qsys
+Info: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/* matched 11 files in 0.03 seconds
+Info: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/ip/**/* matched 0 files in 0.00 seconds
+Info: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/*/* matched 19 files in 0.00 seconds
+Info: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/disenyo_qsys.ipx described 0 plugins, 3 paths, in 0.03 seconds
+Info: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/* matched 12 files in 0.03 seconds
+Info: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/*/* matched 17 files in 0.00 seconds
+Info: /root/.altera.quartus/ip/19.1/**/* matched 0 files in 0.00 seconds
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0.00 seconds
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0.00 seconds
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0.00 seconds
+Info: Reading index /home/gerard/intelFPGA_lite/19.1/ip/altera/altera_components.ipx
+Info: /home/gerard/intelFPGA_lite/19.1/ip/altera/altera_components.ipx described 1973 plugins, 0 paths, in 0.10 seconds
+Info: /home/gerard/intelFPGA_lite/19.1/ip/**/* matched 108 files in 0.10 seconds
+Info: /home/gerard/intelFPGA_lite/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/builtin.ipx
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/builtin.ipx described 83 plugins, 0 paths, in 0.01 seconds
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/**/* matched 9 files in 0.01 seconds
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/common/librarian/factories/**/* matched 0 files in 0.00 seconds
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/root_components.ipx described 0 plugins, 13 paths, in 0.14 seconds
+Info: /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.14 seconds
+Progress: 
+Progress: 
+Progress: 
+Info: Running script /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/tbgen.tcl
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: disenyo_qsys
+Info: TB_Gen: System design is: disenyo_qsys
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in
+Info: get_interface_property reset EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in_reset
+Info: get_interface_property sdram_clk EXPORT_OF
+Info: get_instance_property sys_sdram_pll_0 CLASS_NAME
+Info: get_instance_assignment sys_sdram_pll_0 testbench.partner.map.sdram_clk
+Info: get_interface_property sdram_wire EXPORT_OF
+Info: get_instance_property new_sdram_controller_0 CLASS_NAME
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.wire
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.wire
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.wire
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.class
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.version
+Info: get_instance_assignments new_sdram_controller_0
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.CAS_LATENCY
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.CONTR_NAME
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.SDRAM_BANK_WIDTH
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.SDRAM_COL_WIDTH
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.SDRAM_DATA_WIDTH
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.SDRAM_NUM_CHIPSELECTS
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.my_partner.parameter.SDRAM_ROW_WIDTH
+Info: send_message Info TB_Gen: Interface 'sdram_wire' partner_name: 'new_sdram_controller_0_my_partner'
+Info: TB_Gen: Interface 'sdram_wire' partner_name: 'new_sdram_controller_0_my_partner'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' sdram_wire.partner_intf: 'conduit'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' sdram_wire.partner_intf: 'conduit'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_class: 'altera_sdram_partner_module'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_class: 'altera_sdram_partner_module'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_version: ''
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_version: ''
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.CAS_LATENCY: '3'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.CAS_LATENCY: '3'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.CONTR_NAME: 'disenyo_qsys_new_sdram_controller_0'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.CONTR_NAME: 'disenyo_qsys_new_sdram_controller_0'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_BANK_WIDTH: '2'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_BANK_WIDTH: '2'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_COL_WIDTH: '10'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_COL_WIDTH: '10'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_DATA_WIDTH: '32'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_DATA_WIDTH: '32'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_NUM_CHIPSELECTS: '1'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_NUM_CHIPSELECTS: '1'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_ROW_WIDTH: '13'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_param.SDRAM_ROW_WIDTH: '13'
+Info: send_message Info TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_params: 'CAS_LATENCY CONTR_NAME SDRAM_BANK_WIDTH SDRAM_COL_WIDTH SDRAM_DATA_WIDTH SDRAM_NUM_CHIPSELECTS SDRAM_ROW_WIDTH'
+Info: TB_Gen: Interface 'new_sdram_controller_0_my_partner' partner_params: 'CAS_LATENCY CONTR_NAME SDRAM_BANK_WIDTH SDRAM_COL_WIDTH SDRAM_DATA_WIDTH SDRAM_NUM_CHIPSELECTS SDRAM_ROW_WIDTH'
+Info: get_instance_assignments new_sdram_controller_0
+Info: get_instance_interfaces new_sdram_controller_0
+Info: get_instance_interfaces new_sdram_controller_0
+Info: get_interface_property clk EXPORT_OF
+Info: get_interface_property reset EXPORT_OF
+Info: get_interface_property sdram_clk EXPORT_OF
+Info: get_interface_property sdram_wire EXPORT_OF
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.clk
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.clk
+Info: get_instance_assignment new_sdram_controller_0 testbench.partner.map.clk
+Info: get_instance_interface_property new_sdram_controller_0 clk CLASS_NAME
+Info: get_instance_interface_parameter_value new_sdram_controller_0 clk clockRate
+Info: get_instance_interface_property new_sdram_controller_0 clk CLASS_NAME
+Info: get_interface_property clk EXPORT_OF
+Info: get_interface_property reset EXPORT_OF
+Info: get_interface_property sdram_clk EXPORT_OF
+Info: get_interface_property sdram_wire EXPORT_OF
+Info: get_instance_property sys_sdram_pll_0 CLASS_NAME
+Info: get_interface_property clk EXPORT_OF
+Info: get_interface_property reset EXPORT_OF
+Info: get_interface_property sdram_clk EXPORT_OF
+Info: get_interface_property sdram_wire EXPORT_OF
+Info: get_instance_property ensamblado_procesador_0 CLASS_NAME
+Info: get_instance_property master_0 CLASS_NAME
+Info: get_instance_property new_sdram_controller_0 CLASS_NAME
+Info: get_instance_interface_parameter_value sys_sdram_pll_0 sys_clk clockRate
+Info: send_message Info TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' partner_implicit_name: 'new_sdram_controller_0_my_partner'
+Info: TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' partner_implicit_name: 'new_sdram_controller_0_my_partner'
+Info: send_message Info TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' partner_implicit_clks: 'clk'
+Info: TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' partner_implicit_clks: 'clk'
+Info: send_message Info TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' clk.partner_implicit_clk_rate: '50000000.0'
+Info: TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' clk.partner_implicit_clk_rate: '50000000.0'
+Info: send_message Info TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' clk.partner_implicit_clk_export: ''
+Info: TB_Gen: Implicit assignment 'new_sdram_controller_0_my_partner' clk.partner_implicit_clk_export: ''
+Info: get_instance_property new_sdram_controller_0 CLASS_NAME
+Info: send_message Info TB_Gen: Creating testbench system : disenyo_qsys_tb with clock and reset BFMs
+Info: TB_Gen: Creating testbench system : disenyo_qsys_tb with clock and reset BFMs
+Info: create_system disenyo_qsys_tb
+Info: add_instance disenyo_qsys_inst disenyo_qsys 
+Info: set_use_testbench_naming_pattern true disenyo_qsys
+Info: get_instance_interfaces disenyo_qsys_inst
+Info: get_instance_interface_property disenyo_qsys_inst clk CLASS_NAME
+Info: get_instance_interface_property disenyo_qsys_inst reset CLASS_NAME
+Info: get_instance_interface_property disenyo_qsys_inst sdram_clk CLASS_NAME
+Info: get_instance_interface_property disenyo_qsys_inst sdram_wire CLASS_NAME
+Info: get_instance_interface_property disenyo_qsys_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property disenyo_qsys_inst clk CLASS_NAME
+Info: add_instance disenyo_qsys_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property disenyo_qsys_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value disenyo_qsys_inst clk clockRate
+Info: set_instance_parameter_value disenyo_qsys_inst_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value disenyo_qsys_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property disenyo_qsys_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property disenyo_qsys_inst clk CLASS_NAME
+Info: get_instance_interfaces disenyo_qsys_inst_clk_bfm
+Info: get_instance_interface_property disenyo_qsys_inst_clk_bfm clk CLASS_NAME
+Info: add_connection disenyo_qsys_inst_clk_bfm.clk disenyo_qsys_inst.clk
+Info: get_instance_interface_property disenyo_qsys_inst reset CLASS_NAME
+Info: send_message Info TB_Gen: reset_sink found: reset
+Info: TB_Gen: reset_sink found: reset
+Info: get_instance_interface_property disenyo_qsys_inst reset CLASS_NAME
+Info: add_instance disenyo_qsys_inst_reset_bfm altera_avalon_reset_source 
+Info: get_instance_property disenyo_qsys_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_ports disenyo_qsys_inst reset
+Info: get_instance_interface_port_property disenyo_qsys_inst reset reset_reset_n ROLE
+Info: get_instance_interface_port_property disenyo_qsys_inst reset reset_reset_n ROLE
+Info: set_instance_parameter_value disenyo_qsys_inst_reset_bfm ASSERT_HIGH_RESET 0
+Info: set_instance_parameter_value disenyo_qsys_inst_reset_bfm INITIAL_RESET_CYCLES 50
+Info: get_instance_property disenyo_qsys_inst_reset_bfm CLASS_NAME
+Info: get_instance_interfaces disenyo_qsys_inst_reset_bfm
+Info: get_instance_interface_property disenyo_qsys_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property disenyo_qsys_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_property disenyo_qsys_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value disenyo_qsys_inst reset associatedClock
+Info: get_instance_interfaces disenyo_qsys_inst_clk_bfm
+Info: get_instance_interface_property disenyo_qsys_inst_clk_bfm clk CLASS_NAME
+Info: send_message Warning TB_Gen: disenyo_qsys_inst_reset_bfm is not associated to any clock; connecting disenyo_qsys_inst_reset_bfm to 'disenyo_qsys_inst_clk_bfm.clk'
+Warning: TB_Gen: disenyo_qsys_inst_reset_bfm is not associated to any clock; connecting disenyo_qsys_inst_reset_bfm to 'disenyo_qsys_inst_clk_bfm.clk'
+Info: add_connection disenyo_qsys_inst_clk_bfm.clk disenyo_qsys_inst_reset_bfm.clk
+Info: get_instance_interface_property disenyo_qsys_inst reset CLASS_NAME
+Info: get_instance_interfaces disenyo_qsys_inst_reset_bfm
+Info: get_instance_interface_property disenyo_qsys_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property disenyo_qsys_inst_reset_bfm reset CLASS_NAME
+Info: add_connection disenyo_qsys_inst_reset_bfm.reset disenyo_qsys_inst.reset
+Info: get_instance_interface_property disenyo_qsys_inst sdram_wire CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end (for partner module) found: sdram_wire
+Info: TB_Gen: conduit_end (for partner module) found: sdram_wire
+Info: add_instance new_sdram_controller_0_my_partner altera_sdram_partner_module 
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner CAS_LATENCY 3
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner CONTR_NAME disenyo_qsys_new_sdram_controller_0
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner SDRAM_BANK_WIDTH 2
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner SDRAM_COL_WIDTH 10
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner SDRAM_DATA_WIDTH 32
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner SDRAM_NUM_CHIPSELECTS 1
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner SDRAM_ROW_WIDTH 13
+Info: get_instance_interface_property disenyo_qsys_inst sdram_wire CLASS_NAME
+Info: get_instance_interface_property new_sdram_controller_0_my_partner conduit CLASS_NAME
+Info: get_instance_interface_property disenyo_qsys_inst sdram_wire CLASS_NAME
+Info: get_instance_interface_property new_sdram_controller_0_my_partner conduit CLASS_NAME
+Info: add_connection new_sdram_controller_0_my_partner.conduit disenyo_qsys_inst.sdram_wire
+Info: get_instance_interface_property new_sdram_controller_0_my_partner clk CLASS_NAME
+Info: get_instance_interface_property new_sdram_controller_0_my_partner clk CLASS_NAME
+Info: add_instance new_sdram_controller_0_my_partner_clk_bfm altera_avalon_clock_source 
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value new_sdram_controller_0_my_partner_clk_bfm CLOCK_UNIT 1
+Info: get_instance_interface_property new_sdram_controller_0_my_partner clk CLASS_NAME
+Info: get_instance_interfaces new_sdram_controller_0_my_partner_clk_bfm
+Info: get_instance_interface_property new_sdram_controller_0_my_partner_clk_bfm clk CLASS_NAME
+Info: add_connection new_sdram_controller_0_my_partner_clk_bfm.clk new_sdram_controller_0_my_partner.clk
+Info: send_message Info TB_Gen: Saving testbench system: disenyo_qsys_tb.qsys
+Info: TB_Gen: Saving testbench system: disenyo_qsys_tb.qsys
+Info: save_system disenyo_qsys_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/disenyo_qsys_tb.qsys
+Info: Done
+Info: qsys-generate /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys.qsys --simulation=VHDL --allow-mixed-language-simulation --testbench=SIMPLE --testbench-simulation=VHDL --allow-mixed-language-testbench-simulation --output-directory=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/disenyo_qsys_tb/simulation --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading testbench/disenyo_qsys_tb.qsys
+Progress: Reading input file
+Progress: Adding disenyo_qsys_inst [disenyo_qsys 1.0]
+Progress: Parameterizing module disenyo_qsys_inst
+Progress: Adding disenyo_qsys_inst_clk_bfm [altera_avalon_clock_source 19.1]
+Progress: Parameterizing module disenyo_qsys_inst_clk_bfm
+Progress: Adding disenyo_qsys_inst_reset_bfm [altera_avalon_reset_source 19.1]
+Progress: Parameterizing module disenyo_qsys_inst_reset_bfm
+Progress: Adding new_sdram_controller_0_my_partner [altera_sdram_partner_module 11.0]
+Progress: Parameterizing module new_sdram_controller_0_my_partner
+Progress: Adding new_sdram_controller_0_my_partner_clk_bfm [altera_avalon_clock_source 19.1]
+Progress: Parameterizing module new_sdram_controller_0_my_partner_clk_bfm
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: disenyo_qsys_tb.disenyo_qsys_inst.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: disenyo_qsys_tb.disenyo_qsys_inst.sys_sdram_pll_0: Refclk Freq: 50.0
+Info: disenyo_qsys_tb.disenyo_qsys_inst_clk_bfm: Elaborate: altera_clock_source
+Info: disenyo_qsys_tb.disenyo_qsys_inst_clk_bfm:            $Revision: #1 $
+Info: disenyo_qsys_tb.disenyo_qsys_inst_clk_bfm:            $Date: 2018/11/07 $
+Info: disenyo_qsys_tb.disenyo_qsys_inst_reset_bfm: Elaborate: altera_reset_source
+Info: disenyo_qsys_tb.disenyo_qsys_inst_reset_bfm:            $Revision: #1 $
+Info: disenyo_qsys_tb.disenyo_qsys_inst_reset_bfm:            $Date: 2018/11/07 $
+Info: disenyo_qsys_tb.disenyo_qsys_inst_reset_bfm: Reset is negatively asserted.
+Info: disenyo_qsys_tb.new_sdram_controller_0_my_partner_clk_bfm: Elaborate: altera_clock_source
+Info: disenyo_qsys_tb.new_sdram_controller_0_my_partner_clk_bfm:            $Revision: #1 $
+Info: disenyo_qsys_tb.new_sdram_controller_0_my_partner_clk_bfm:            $Date: 2018/11/07 $
+Info: disenyo_qsys_tb: Generating disenyo_qsys_tb "disenyo_qsys_tb" for SIM_VHDL
+Info: disenyo_qsys_inst: "disenyo_qsys_tb" instantiated disenyo_qsys "disenyo_qsys_inst"
+Info: disenyo_qsys_inst_clk_bfm: "disenyo_qsys_tb" instantiated altera_avalon_clock_source "disenyo_qsys_inst_clk_bfm"
+Info: disenyo_qsys_inst_reset_bfm: "disenyo_qsys_tb" instantiated altera_avalon_reset_source "disenyo_qsys_inst_reset_bfm"
+Info: new_sdram_controller_0_my_partner: Starting RTL generation for partner module 'altera_sdram_partner_module'
+Info: new_sdram_controller_0_my_partner:   Generation command is [exec /home/gerard/intelFPGA_lite/19.1/quartus/linux64/perl/bin/perl -I /home/gerard/intelFPGA_lite/19.1/quartus/linux64/perl/lib -I /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/europa -I /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/perl_lib -I /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin -I /home/gerard/intelFPGA_lite/19.1/ip/altera/alt_mem_if/alt_mem_if_mem_models/altera_sdram_partner_module/ -I /home/gerard/intelFPGA_lite/19.1/quartus/../ip/altera/sopc_builder_ip/altera_sdram_partner_module -- /home/gerard/intelFPGA_lite/19.1/ip/altera/alt_mem_if/alt_mem_if_mem_models/altera_sdram_partner_module//em_altera_sodimm.pl --output_dir=/tmp/alt8414_5610966439726451197.dir/0120_sopcgen/ --quartus_dir=/home/gerard/intelFPGA_lite/19.1/quartus --language=vhdl --sdram_data_width=32 --sdram_bank_width=2 --sdram_col_width=10 --sdram_row_width=13 --sdram_num_chipselects=1 --module_name=altera_sdram_partner_module --cas_latency=3]
+Info: new_sdram_controller_0_my_partner: # 2020.06.01 14:46:46 (*) Starting SDRAM Simulation Partner Module generation
+Info: new_sdram_controller_0_my_partner: Done RTL generation for module 'altera_sdram_partner_module'
+Info: new_sdram_controller_0_my_partner: "disenyo_qsys_tb" instantiated altera_sdram_partner_module "new_sdram_controller_0_my_partner"
+Info: ensamblado_procesador_0: "disenyo_qsys_inst" instantiated ensamblado_procesador "ensamblado_procesador_0"
+Info: master_0: "disenyo_qsys_inst" instantiated altera_jtag_avalon_master "master_0"
+Info: new_sdram_controller_0: Starting RTL generation for module 'disenyo_qsys_new_sdram_controller_0'
+Info: new_sdram_controller_0:   Generation command is [exec /home/gerard/intelFPGA_lite/19.1/quartus/linux64/perl/bin/perl -I /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/europa -I /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin -I /home/gerard/intelFPGA_lite/19.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/gerard/intelFPGA_lite/19.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- /home/gerard/intelFPGA_lite/19.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=disenyo_qsys_new_sdram_controller_0 --dir=/tmp/alt8414_5610966439726451197.dir/0122_new_sdram_controller_0_gen/ --quartus_dir=/home/gerard/intelFPGA_lite/19.1/quartus --vhdl --config=/tmp/alt8414_5610966439726451197.dir/0122_new_sdram_controller_0_gen//disenyo_qsys_new_sdram_controller_0_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8414_5610966439726451197.dir/0122_new_sdram_controller_0_gen/  ]
+Info: new_sdram_controller_0: Done RTL generation for module 'disenyo_qsys_new_sdram_controller_0'
+Info: new_sdram_controller_0: "disenyo_qsys_inst" instantiated altera_avalon_new_sdram_controller "new_sdram_controller_0"
+Info: sys_sdram_pll_0: "disenyo_qsys_inst" instantiated altera_up_avalon_sys_sdram_pll "sys_sdram_pll_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "disenyo_qsys_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "disenyo_qsys_inst" instantiated altera_reset_controller "rst_controller"
+Info: jtag_phy_embedded_in_jtag_master: "master_0" instantiated altera_jtag_dc_streaming "jtag_phy_embedded_in_jtag_master"
+Info: timing_adt: "master_0" instantiated timing_adapter "timing_adt"
+Info: fifo: "master_0" instantiated altera_avalon_sc_fifo "fifo"
+Info: b2p: "master_0" instantiated altera_avalon_st_bytes_to_packets "b2p"
+Info: p2b: "master_0" instantiated altera_avalon_st_packets_to_bytes "p2b"
+Info: transacto: "master_0" instantiated altera_avalon_packets_to_master "transacto"
+Info: b2p_adapter: "master_0" instantiated channel_adapter "b2p_adapter"
+Info: p2b_adapter: "master_0" instantiated channel_adapter "p2b_adapter"
+Info: sys_pll: "sys_sdram_pll_0" instantiated altera_up_altpll "sys_pll"
+Info: reset_from_locked: "sys_sdram_pll_0" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: ensamblado_procesador_0_avalon_master_B_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "ensamblado_procesador_0_avalon_master_B_translator"
+Info: new_sdram_controller_0_s1_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "new_sdram_controller_0_s1_translator"
+Info: ensamblado_procesador_0_avalon_master_B_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "ensamblado_procesador_0_avalon_master_B_agent"
+Info: new_sdram_controller_0_s1_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "new_sdram_controller_0_s1_agent"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/disenyo_qsys_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: disenyo_qsys_tb: Done "disenyo_qsys_tb" with 33 modules, 113 files
+Info: qsys-generate succeeded.
+Info: sim-script-gen --spd=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys_tb.spd --output-directory=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys_tb.spd --output-directory=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	32 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create testbench Platform Designer system

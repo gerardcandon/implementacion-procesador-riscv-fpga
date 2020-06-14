@@ -1,0 +1,51 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/gerard/Desktop/clase/TFG/proyecto/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Edisenyo_qsys
+Z0 w1592055741
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 d/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Z5 8./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys.vhd
+Z6 F./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys.vhd
+l0
+L9
+VM:?3HTfbY5P0CA[_[70Fj1
+!s100 gd<N0CAFg?:JjdH:z`PDQ1
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1592056255
+!i10b 1
+Z9 !s108 1592056255.000000
+Z10 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys.vhd|-work|disenyo_qsys_inst|
+Z11 !s107 ./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys.vhd|
+!i113 1
+Z12 o-work disenyo_qsys_inst
+Z13 tExplicit 1 CvgOpt 0
+Artl
+R1
+R2
+R3
+Z14 DEx4 work 12 disenyo_qsys 0 22 M:?3HTfbY5P0CA[_[70Fj1
+l477
+L44
+Z15 VV6J3Alzk5^=OmK3FPfJT[1
+Z16 !s100 FML1YohV;YG]RV4TXENRW3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13

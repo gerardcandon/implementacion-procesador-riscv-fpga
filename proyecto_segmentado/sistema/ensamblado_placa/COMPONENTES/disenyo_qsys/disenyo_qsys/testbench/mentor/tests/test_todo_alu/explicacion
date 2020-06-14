@@ -1,0 +1,3 @@
+todo_alu
+
+Este test comprueba que se realice correctamente una ráfaga de instrucciones OP con riesgos de datos. Los registros han de contener los 31 primero términos de la secuencia de Fibonacci al terminar el test.

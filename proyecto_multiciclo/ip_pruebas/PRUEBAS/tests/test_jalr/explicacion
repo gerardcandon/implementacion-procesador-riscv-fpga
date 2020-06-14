@@ -1,0 +1,15 @@
+Este test comprueba el correcto funcionamiento de la instrucción jalr. En concreto se comprueba que funcione cuando se usa el mismo registro operando y destino y que se fuerze el bit de menor peso de la dirección destino a 0.
+
+lui r1, 0x00001
+jalr r2, r0, 0x000C
+nop
+jalr r1, r1, 0x0005
+
+COMPROBACION:
+El test se ha superado si las dos instrucciones jalr se han ejecutado seguidas y el contenido de los registros tras consolidar la última instrucción jalr es el siguiente:
+
+CP: 0x00001004
+r1: 0x00000010
+r2: 0x00000008
+
+

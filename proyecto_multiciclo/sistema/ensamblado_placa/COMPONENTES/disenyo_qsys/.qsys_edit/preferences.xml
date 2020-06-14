@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="disenyo_qsys.clk" showClockDomains="1" showResetDomains="0">
+  <columns>
+   <connections preferredWidth="255" />
+   <irq preferredWidth="34" />
+   <inputclock preferredWidth="30" />
+   <name preferredWidth="233" />
+   <export preferredWidth="102" />
+   <baseaddress preferredWidth="104" />
+  </columns>
+ </systemtable>
+ <library expandedCategories="Library,Project" />
+ <window width="1330" height="768" x="36" y="0" />
+ <generation
+   synthesis="VHDL"
+   path="_PROJECT_NAME_"
+   testbench_simulation="VHDL"
+   testbench_system="SIMPLE"
+   simulation="VHDL"
+   block_symbol_file="0" />
+ <hdlexample language="VERILOG" />
+</preferences>

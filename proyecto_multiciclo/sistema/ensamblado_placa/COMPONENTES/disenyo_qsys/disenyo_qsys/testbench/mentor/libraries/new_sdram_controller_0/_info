@@ -1,0 +1,206 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/gerard/Desktop/clase/TFG/proyecto/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Edisenyo_qsys_new_sdram_controller_0
+Z0 w1592055743
+Z1 DPx9 altera_mf 20 altera_mf_components 0 22 @6M>I48X_jBQDo@?W=TN93
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx6 altera 25 altera_europa_support_lib 0 22 0fe0fih?=>]L^>K=F;U9l3
+Z8 d/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/testbench/mentor
+Z9 8./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_new_sdram_controller_0.vhd
+Z10 F./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_new_sdram_controller_0.vhd
+l0
+L167
+VFlTFhM]N@;e^78106lnNk0
+!s100 @S3nlSCPXKo_7SGGfTTEc0
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1592056251
+!i10b 1
+Z13 !s108 1592056251.000000
+Z14 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_new_sdram_controller_0.vhd|-work|new_sdram_controller_0|
+Z15 !s107 ./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_new_sdram_controller_0.vhd|
+!i113 1
+Z16 o-work new_sdram_controller_0
+Z17 tExplicit 1 CvgOpt 0
+Aeuropa
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z18 DEx4 work 35 disenyo_qsys_new_sdram_controller_0 0 22 FlTFhM]N@;e^78106lnNk0
+l279
+L196
+Z19 VJzJTFBocFKO[T=ho[OKkl2
+Z20 !s100 W6jhO20lIUX:WU52LeO_Y2
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Edisenyo_qsys_new_sdram_controller_0_input_efifo_module
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+l0
+L29
+V4bZgR28J0A5X[^FPB3o5?0
+!s100 hbo07hGhj<?gD0XBkLSRG0
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Aeuropa
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z21 DEx4 work 54 disenyo_qsys_new_sdram_controller_0_input_efifo_module 0 22 4bZgR28J0A5X[^FPB3o5?0
+l58
+L48
+Z22 VECImL@E14[Qb<2K2jd>ZO2
+Z23 !s100 JoXDcz3n6H50dRo4j0WBm0
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Edisenyo_qsys_new_sdram_controller_0_test_component
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z24 8./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_new_sdram_controller_0_test_component.vhd
+Z25 F./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_new_sdram_controller_0_test_component.vhd
+l0
+L357
+VJZP[jkF?A3ZnbKJL=l[3U1
+!s100 1FCdTN^M69>58C:b8GKCo0
+R11
+32
+R12
+!i10b 1
+R13
+Z26 !s90 -reportprogress|300|./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_new_sdram_controller_0_test_component.vhd|-work|new_sdram_controller_0|
+Z27 !s107 ./../disenyo_qsys_tb/simulation/submodules/disenyo_qsys_new_sdram_controller_0_test_component.vhd|
+!i113 1
+R16
+R17
+Aeuropa
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 50 disenyo_qsys_new_sdram_controller_0_test_component 0 22 JZP[jkF?A3ZnbKJL=l[3U1
+l427
+L376
+VI>=F?id41@j[=e2<Ifhn@2
+!s100 i@MoRbT537O;SNa0AJ[FO3
+R11
+32
+R12
+!i10b 1
+R13
+R26
+R27
+!i113 1
+R16
+R17
+Edisenyo_qsys_new_sdram_controller_0_test_component_ram_module
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R24
+R25
+l0
+L29
+Vc@bK3O>11JTRG>GR_UoM`1
+!s100 ZA2X3@OXg;iMJ<1=[^z:V0
+R11
+32
+R12
+!i10b 1
+R13
+R26
+R27
+!i113 1
+R16
+R17
+Aeuropa
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 61 disenyo_qsys_new_sdram_controller_0_test_component_ram_module 0 22 c@bK3O>11JTRG>GR_UoM`1
+l129
+L45
+V<@6l@G8f?dFg<@?BN@e133
+!s100 5>5dUV[kn5z[zK73;UDo00
+R11
+32
+R12
+!i10b 1
+R13
+R26
+R27
+!i113 1
+R16
+R17

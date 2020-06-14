@@ -1,0 +1,21 @@
+alu_y_load
+
+Este test comprueba que se entrelacen correctamente instrucciones OP con instrucciones load.
+Para ello se han usado los tests todo_alu y load.
+
+El test se ha superado si los 15 primeros registros del banco de registros contienen los 15
+primeros términos de la sucesión de Fibonacci, y los siguientes registros contienen:
+
+r16: 0x04838201
+r17: 0x00008201
+r18: 0x00000483
+r19: 0xffff8201
+r20: 0x00000483
+r21: 0x00000001
+r22: 0x00000082
+r23: 0x00000083
+r24: 0x00000004
+r25: 0x00000001
+r26: 0xffffff82
+r27: 0xffffff83
+r28: 0x00000004

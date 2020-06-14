@@ -1,0 +1,40 @@
+
+todo_alu_y_salto.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00000000 <main>:
+   0:	00000fb7          	lui	x31,0x0
+   4:	001f8f93          	addi	x31,x31,1 # 1 <main+0x1>
+   8:	00100093          	addi	x1,x0,1
+   c:	00100113          	addi	x2,x0,1
+  10:	002081b3          	add	x3,x1,x2
+  14:	00310233          	add	x4,x2,x3
+  18:	004182b3          	add	x5,x3,x4
+  1c:	00520333          	add	x6,x4,x5
+  20:	006283b3          	add	x7,x5,x6
+  24:	00730433          	add	x8,x6,x7
+  28:	008384b3          	add	x9,x7,x8
+  2c:	00940533          	add	x10,x8,x9
+  30:	00a485b3          	add	x11,x9,x10
+  34:	00b50633          	add	x12,x10,x11
+  38:	00c586b3          	add	x13,x11,x12
+  3c:	00d60733          	add	x14,x12,x13
+  40:	00e687b3          	add	x15,x13,x14
+  44:	00f70833          	add	x16,x14,x15
+  48:	010788b3          	add	x17,x15,x16
+  4c:	01180933          	add	x18,x16,x17
+  50:	012889b3          	add	x19,x17,x18
+  54:	01390a33          	add	x20,x18,x19
+  58:	01498ab3          	add	x21,x19,x20
+  5c:	015a0b33          	add	x22,x20,x21
+  60:	016a8bb3          	add	x23,x21,x22
+  64:	017b0c33          	add	x24,x22,x23
+  68:	018b8cb3          	add	x25,x23,x24
+  6c:	019c0d33          	add	x26,x24,x25
+  70:	01ac8db3          	add	x27,x25,x26
+  74:	01bd0e33          	add	x28,x26,x27
+  78:	01cd8eb3          	add	x29,x27,x28
+  7c:	01de0f33          	add	x30,x28,x29
+  80:	f85ff06f          	jal	x0,4 <main+0x4>

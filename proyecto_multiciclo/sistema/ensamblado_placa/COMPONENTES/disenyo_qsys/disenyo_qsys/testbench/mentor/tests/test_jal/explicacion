@@ -1,0 +1,13 @@
+Este test comprueba el correcto funcionamiento de la instrucción jal.
+
+lui r1, 0x00001
+jal r1, 0x0008
+nop
+halt
+
+COMPROBACION:
+El test se ha superado si el contenido de los registros mostrados es el siguiente tras iniciar la búsqueda de la siguiente instrucción a jal.
+
+CP: 0x0000000c
+r1: 0x00000008
+

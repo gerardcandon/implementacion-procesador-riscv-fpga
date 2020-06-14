@@ -1,0 +1,657 @@
+Analysis & Elaboration report for ensamblado
+Mon Jun  1 15:18:02 2020
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regNpe:RA_opALU
+  5. Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regNpe:RA_mEBR_sel
+  6. Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regNpe:RM_fmtl_tipo
+  7. Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regNpe:RM_fmtl_ext_sig
+  8. Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regNpe:RM_mEBR_sel
+  9. Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regN:RF_fmtl_tipo
+ 10. Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regN:RF_fmtl_ext_sig
+ 11. Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regN:RF_mEBR_sel
+ 12. Analysis & Elaboration Settings
+ 13. Port Connectivity Checks: "ensambladoUP:UP|etapaDL:eDL|mux2_32:minyec_DL"
+ 14. Port Connectivity Checks: "ensambladoUP:UP|etapaCP:eCP|mux2_32:mreset"
+ 15. Port Connectivity Checks: "ensambladoUP:UP|etapaCP:eCP|reg32pe:RCP"
+ 16. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_val_F"
+ 17. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_PBR_F"
+ 18. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_write_M"
+ 19. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_read_M"
+ 20. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_val_M"
+ 21. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_PBR_M"
+ 22. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_write_A"
+ 23. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_read_A"
+ 24. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_val_A"
+ 25. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_PBR_A"
+ 26. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_32:minyec_instr_A"
+ 27. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_DL"
+ 28. Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont"
+ 29. Analysis & Elaboration Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                                   ;
++------------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status      ; Successful - Mon Jun  1 15:18:02 2020       ;
+; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Revision Name                      ; ensamblado                                  ;
+; Top-level Entity Name              ; ensamblado_procesador                       ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regNpe:RA_opALU ;
++----------------+-------+----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                       ;
++----------------+-------+----------------------------------------------------------------------------+
+; tam            ; 5     ; Signed Integer                                                             ;
++----------------+-------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regNpe:RA_mEBR_sel ;
++----------------+-------+-------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                          ;
++----------------+-------+-------------------------------------------------------------------------------+
+; tam            ; 2     ; Signed Integer                                                                ;
++----------------+-------+-------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regNpe:RM_fmtl_tipo ;
++----------------+-------+--------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                           ;
++----------------+-------+--------------------------------------------------------------------------------+
+; tam            ; 2     ; Signed Integer                                                                 ;
++----------------+-------+--------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regNpe:RM_fmtl_ext_sig ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; tam            ; 3     ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regNpe:RM_mEBR_sel ;
++----------------+-------+-------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                          ;
++----------------+-------+-------------------------------------------------------------------------------+
+; tam            ; 2     ; Signed Integer                                                                ;
++----------------+-------+-------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regN:RF_fmtl_tipo ;
++----------------+-------+------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                         ;
++----------------+-------+------------------------------------------------------------------------------+
+; tam            ; 2     ; Signed Integer                                                               ;
++----------------+-------+------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regN:RF_fmtl_ext_sig ;
++----------------+-------+---------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                            ;
++----------------+-------+---------------------------------------------------------------------------------+
+; tam            ; 3     ; Signed Integer                                                                  ;
++----------------+-------+---------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ensambladoUC:UC|camino_control:camcont|regN:RF_mEBR_sel ;
++----------------+-------+-----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                        ;
++----------------+-------+-----------------------------------------------------------------------------+
+; tam            ; 2     ; Signed Integer                                                              ;
++----------------+-------+-----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Analysis & Elaboration Settings                                                                               ;
++------------------------------------------------------------------+-----------------------+--------------------+
+; Option                                                           ; Setting               ; Default Value      ;
++------------------------------------------------------------------+-----------------------+--------------------+
+; Device                                                           ; EP4CE115F29C7         ;                    ;
+; Top-level entity name                                            ; ensamblado_procesador ; ensamblado         ;
+; Family name                                                      ; Cyclone IV E          ; Cyclone V          ;
+; Use smart compilation                                            ; Off                   ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                    ; On                 ;
+; Enable compact report table                                      ; Off                   ; Off                ;
+; Restructure Multiplexers                                         ; Auto                  ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                   ; Off                ;
+; Preserve fewer node names                                        ; On                    ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable                ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001          ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993             ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto                  ; Auto               ;
+; Safe State Machine                                               ; Off                   ; Off                ;
+; Extract Verilog State Machines                                   ; On                    ; On                 ;
+; Extract VHDL State Machines                                      ; On                    ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                   ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000                  ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                   ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                    ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                    ; On                 ;
+; Parallel Synthesis                                               ; On                    ; On                 ;
+; DSP Block Balancing                                              ; Auto                  ; Auto               ;
+; NOT Gate Push-Back                                               ; On                    ; On                 ;
+; Power-Up Don't Care                                              ; On                    ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                   ; Off                ;
+; Remove Duplicate Registers                                       ; On                    ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                   ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                   ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                   ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                   ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                   ; Off                ;
+; Ignore SOFT Buffers                                              ; On                    ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                   ; Off                ;
+; Optimization Technique                                           ; Balanced              ; Balanced           ;
+; Carry Chain Length                                               ; 70                    ; 70                 ;
+; Auto Carry Chains                                                ; On                    ; On                 ;
+; Auto Open-Drain Pins                                             ; On                    ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                   ; Off                ;
+; Auto ROM Replacement                                             ; On                    ; On                 ;
+; Auto RAM Replacement                                             ; On                    ; On                 ;
+; Auto DSP Block Replacement                                       ; On                    ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto                  ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto                  ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                    ; On                 ;
+; Strict RAM Replacement                                           ; Off                   ; Off                ;
+; Allow Synchronous Control Signals                                ; On                    ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                   ; Off                ;
+; Auto RAM Block Balancing                                         ; On                    ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                   ; Off                ;
+; Auto Resource Sharing                                            ; Off                   ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                   ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                   ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                   ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                    ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                   ; Off                ;
+; Timing-Driven Synthesis                                          ; On                    ; On                 ;
+; Report Parameter Settings                                        ; On                    ; On                 ;
+; Report Source Assignments                                        ; On                    ; On                 ;
+; Report Connectivity Checks                                       ; On                    ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                   ; Off                ;
+; Synchronization Register Chain Length                            ; 2                     ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation    ; Normal compilation ;
+; HDL message level                                                ; Level2                ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                   ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000                  ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000                  ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                   ; 100                ;
+; Clock MUX Protection                                             ; On                    ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                   ; Off                ;
+; Block Design Naming                                              ; Auto                  ; Auto               ;
+; SDC constraint protection                                        ; Off                   ; Off                ;
+; Synthesis Effort                                                 ; Auto                  ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                    ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                   ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium                ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto                  ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                    ; On                 ;
++------------------------------------------------------------------+-----------------------+--------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUP:UP|etapaDL:eDL|mux2_32:minyec_DL" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUP:UP|etapaCP:eCP|mux2_32:mreset" ;
++-----------+-------+----------+-----------------------------------------+
+; Port      ; Type  ; Severity ; Details                                 ;
++-----------+-------+----------+-----------------------------------------+
+; d1[31..2] ; Input ; Info     ; Stuck at VCC                            ;
+; d1[1..0]  ; Input ; Info     ; Stuck at GND                            ;
++-----------+-------+----------+-----------------------------------------+
+
+
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUP:UP|etapaCP:eCP|reg32pe:RCP" ;
++-------+-------+----------+------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                  ;
++-------+-------+----------+------------------------------------------+
+; pcero ; Input ; Info     ; Stuck at GND                             ;
++-------+-------+----------+------------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_val_F" ;
++------+-------+----------+--------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                      ;
++------+-------+----------+--------------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                                 ;
++------+-------+----------+--------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_PBR_F" ;
++------+-------+----------+--------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                      ;
++------+-------+----------+--------------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                                 ;
++------+-------+----------+--------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_write_M" ;
++------+-------+----------+----------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                        ;
++------+-------+----------+----------------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                                   ;
++------+-------+----------+----------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_read_M" ;
++------+-------+----------+---------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                       ;
++------+-------+----------+---------------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                                  ;
++------+-------+----------+---------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_val_M" ;
++------+-------+----------+--------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                      ;
++------+-------+----------+--------------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                                 ;
++------+-------+----------+--------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_PBR_M" ;
++------+-------+----------+--------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                      ;
++------+-------+----------+--------------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                                 ;
++------+-------+----------+--------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_write_A" ;
++------+-------+----------+----------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                        ;
++------+-------+----------+----------------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                                   ;
++------+-------+----------+----------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_read_A" ;
++------+-------+----------+---------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                       ;
++------+-------+----------+---------------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                                  ;
++------+-------+----------+---------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_val_A" ;
++------+-------+----------+--------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                      ;
++------+-------+----------+--------------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                                 ;
++------+-------+----------+--------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_PBR_A" ;
++------+-------+----------+--------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                      ;
++------+-------+----------+--------------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                                 ;
++------+-------+----------+--------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_32:minyec_instr_A" ;
++------+-------+----------+-----------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                         ;
++------+-------+----------+-----------------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                                    ;
++------+-------+----------+-----------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_DL" ;
++------+-------+----------+-----------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                   ;
++------+-------+----------+-----------------------------------------------------------+
+; d1   ; Input ; Info     ; Stuck at GND                                              ;
++------+-------+----------+-----------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ensambladoUC:UC|camino_control:camcont"                                              ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+; Port  ; Type   ; Severity ; Details                                                                             ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+; val_f ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Elaboration
+    Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+    Info: Processing started: Mon Jun  1 15:17:52 2020
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ensamblado -c ensamblado --analysis_and_elaboration
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd
+    Info (12022): Found design unit 1: decoopALU-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd Line: 19
+    Info (12023): Found entity 1: decoopALU File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoMem_DL.vhd
+    Info (12022): Found design unit 1: decoMem_DL-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoMem_DL.vhd Line: 22
+    Info (12023): Found entity 1: decoMem_DL File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoMem_DL.vhd Line: 14
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoFMT_DL.vhd
+    Info (12022): Found design unit 1: decoFMT_DL-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoFMT_DL.vhd Line: 22
+    Info (12023): Found entity 1: decoFMT_DL File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoFMT_DL.vhd Line: 14
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decocamino.vhd
+    Info (12022): Found design unit 1: decocamino-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decocamino.vhd Line: 25
+    Info (12023): Found entity 1: decocamino File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decocamino.vhd Line: 13
+Info (12021): Found 2 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_procedimientos_pkg.vhd
+    Info (12022): Found design unit 1: decoder_procedimientos_pkg File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_procedimientos_pkg.vhd Line: 11
+    Info (12022): Found design unit 2: decoder_procedimientos_pkg-body File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_procedimientos_pkg.vhd Line: 29
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd
+    Info (12022): Found design unit 1: decoder_DL-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd Line: 44
+    Info (12023): Found entity 1: decoder_DL File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd Line: 14
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/componentes_decoder_DL.vhd
+    Info (12022): Found design unit 1: componentes_decoder_DL File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/componentes_decoder_DL.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoSec.vhd
+    Info (12022): Found design unit 1: decoSec-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoSec.vhd Line: 24
+    Info (12023): Found entity 1: decoSec File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoSec.vhd Line: 14
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoMem_A.vhd
+    Info (12022): Found design unit 1: decoMem_A-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoMem_A.vhd Line: 22
+    Info (12023): Found entity 1: decoMem_A File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoMem_A.vhd Line: 14
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoFMT_A.vhd
+    Info (12022): Found design unit 1: decoFMT_A-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoFMT_A.vhd Line: 24
+    Info (12023): Found entity 1: decoFMT_A File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/COMPONENTES/decoFMT_A.vhd Line: 14
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd
+    Info (12022): Found design unit 1: decoder_A-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd Line: 40
+    Info (12023): Found entity 1: decoder_A File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd Line: 14
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/componentes_decoder_A.vhd
+    Info (12022): Found design unit 1: componentes_decoder_A File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/componentes_decoder_A.vhd Line: 11
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/componentes_camino_control.vhd
+    Info (12022): Found design unit 1: componentes_camino_control File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/componentes_camino_control.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd
+    Info (12022): Found design unit 1: camino_control-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 45
+    Info (12023): Found entity 1: camino_control File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 14
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/riesgo_datos.vhd
+    Info (12022): Found design unit 1: riesgo_datos-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/riesgo_datos.vhd Line: 20
+    Info (12023): Found entity 1: riesgo_datos File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/riesgo_datos.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/LIB.vhd
+    Info (12022): Found design unit 1: LIB-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/LIB.vhd Line: 20
+    Info (12023): Found entity 1: LIB File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/LIB.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_M.vhd
+    Info (12022): Found design unit 1: bloqueo_M-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_M.vhd Line: 19
+    Info (12023): Found entity 1: bloqueo_M File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_M.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_CP.vhd
+    Info (12022): Found design unit 1: bloqueo_CP-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_CP.vhd Line: 19
+    Info (12023): Found entity 1: bloqueo_CP File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_CP.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_A.vhd
+    Info (12022): Found design unit 1: bloqueo_A-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_A.vhd Line: 19
+    Info (12023): Found entity 1: bloqueo_A File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/bloqueo_A.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd
+    Info (12022): Found design unit 1: ensambladoUC-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd Line: 58
+    Info (12023): Found entity 1: ensambladoUC File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd Line: 14
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/componentesUC.vhd
+    Info (12022): Found design unit 1: componentesUC File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/componentesUC.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/COMPONENTES/FMTL.vhd
+    Info (12022): Found design unit 1: FMTL-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/COMPONENTES/FMTL.vhd Line: 21
+    Info (12023): Found entity 1: FMTL File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/COMPONENTES/FMTL.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd
+    Info (12022): Found design unit 1: etapaF-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd Line: 24
+    Info (12023): Found entity 1: etapaF File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd Line: 13
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/componentes_etapaF.vhd
+    Info (12022): Found design unit 1: componentes_etapaF File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/componentes_etapaF.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/etapaM.vhd
+    Info (12022): Found design unit 1: etapaM-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/etapaM.vhd Line: 22
+    Info (12023): Found entity 1: etapaM File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/etapaM.vhd Line: 13
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/componentes_etapaM.vhd
+    Info (12022): Found design unit 1: componentes_etapaM File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaM/componentes_etapaM.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/fuerza_bit_0.vhd
+    Info (12022): Found design unit 1: fuerza_bit_0-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/fuerza_bit_0.vhd Line: 20
+    Info (12023): Found entity 1: fuerza_bit_0 File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/fuerza_bit_0.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/FMTE.vhd
+    Info (12022): Found design unit 1: FMTE-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/FMTE.vhd Line: 20
+    Info (12023): Found entity 1: FMTE File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/FMTE.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/EVAL.vhd
+    Info (12022): Found design unit 1: EVAL-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/EVAL.vhd Line: 18
+    Info (12023): Found entity 1: EVAL File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/EVAL.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/ALU.vhd
+    Info (12022): Found design unit 1: ALU-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/ALU.vhd Line: 20
+    Info (12023): Found entity 1: ALU File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/COMPONENTES/ALU.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd
+    Info (12022): Found design unit 1: etapaA-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd Line: 27
+    Info (12023): Found entity 1: etapaA File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd Line: 13
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/componentes_etapaA.vhd
+    Info (12022): Found design unit 1: componentes_etapaA File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/componentes_etapaA.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/FMTI.vhd
+    Info (12022): Found design unit 1: FMTI-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/FMTI.vhd Line: 18
+    Info (12023): Found entity 1: FMTI File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/FMTI.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/control_cortocircuitos.vhd
+    Info (12022): Found design unit 1: control_cortocircuitos-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/control_cortocircuitos.vhd Line: 21
+    Info (12023): Found entity 1: control_cortocircuitos File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/control_cortocircuitos.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd
+    Info (12022): Found design unit 1: BR_y_corto-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd Line: 24
+    Info (12023): Found entity 1: BR_y_corto File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR.vhd
+    Info (12022): Found design unit 1: BR-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR.vhd Line: 25
+    Info (12023): Found entity 1: BR File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd
+    Info (12022): Found design unit 1: etapaDL-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd Line: 26
+    Info (12023): Found entity 1: etapaDL File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd Line: 13
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/componentes_etapaDL.vhd
+    Info (12022): Found design unit 1: componentes_etapaDL File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/componentes_etapaDL.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/COMPONENTES/fifo.vhd
+    Info (12022): Found design unit 1: fifo-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/COMPONENTES/fifo.vhd Line: 24
+    Info (12023): Found entity 1: fifo File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/COMPONENTES/fifo.vhd Line: 14
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/etapaB.vhd
+    Info (12022): Found design unit 1: etapaB-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/etapaB.vhd Line: 26
+    Info (12023): Found entity 1: etapaB File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/etapaB.vhd Line: 13
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/componentes_etapaB.vhd
+    Info (12022): Found design unit 1: componentes_etapaB File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/componentes_etapaB.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/COMPONENTES/sumador4.vhd
+    Info (12022): Found design unit 1: sumador4-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/COMPONENTES/sumador4.vhd Line: 20
+    Info (12023): Found entity 1: sumador4 File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/COMPONENTES/sumador4.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/etapaCP.vhd
+    Info (12022): Found design unit 1: etapaCP-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/etapaCP.vhd Line: 24
+    Info (12023): Found entity 1: etapaCP File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/etapaCP.vhd Line: 13
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/componentes_etapaCP.vhd
+    Info (12022): Found design unit 1: componentes_etapaCP File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/componentes_etapaCP.vhd Line: 11
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/componentesUP.vhd
+    Info (12022): Found design unit 1: componentesUP File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/componentesUP.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd
+    Info (12022): Found design unit 1: ensambladoUP-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd Line: 58
+    Info (12023): Found entity 1: ensambladoUP File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd Line: 14
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador.vhd
+    Info (12022): Found design unit 1: ensamblado_procesador-compor File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador.vhd Line: 28
+    Info (12023): Found entity 1: ensamblado_procesador File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador.vhd Line: 15
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_procesador.vhd
+    Info (12022): Found design unit 1: componentes_procesador File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_procesador.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regNpe.vhd
+    Info (12022): Found design unit 1: regNpe-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regNpe.vhd Line: 22
+    Info (12023): Found entity 1: regNpe File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regNpe.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regN.vhd
+    Info (12022): Found design unit 1: regN-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regN.vhd Line: 21
+    Info (12023): Found entity 1: regN File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/regN.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32pe.vhd
+    Info (12022): Found design unit 1: reg32pe-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32pe.vhd Line: 20
+    Info (12023): Found entity 1: reg32pe File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32pe.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32.vhd
+    Info (12022): Found design unit 1: reg32-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32.vhd Line: 19
+    Info (12023): Found entity 1: reg32 File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg32.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5pe.vhd
+    Info (12022): Found design unit 1: reg5pe-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5pe.vhd Line: 20
+    Info (12023): Found entity 1: reg5pe File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5pe.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5.vhd
+    Info (12022): Found design unit 1: reg5-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5.vhd Line: 19
+    Info (12023): Found entity 1: reg5 File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg5.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1pe.vhd
+    Info (12022): Found design unit 1: reg1pe-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1pe.vhd Line: 20
+    Info (12023): Found entity 1: reg1pe File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1pe.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1.vhd
+    Info (12022): Found design unit 1: reg1-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1.vhd Line: 19
+    Info (12023): Found entity 1: reg1 File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/reg1.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux4_32.vhd
+    Info (12022): Found design unit 1: mux4_32-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux4_32.vhd Line: 18
+    Info (12023): Found entity 1: mux4_32 File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux4_32.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux3_32.vhd
+    Info (12022): Found design unit 1: mux3_32-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux3_32.vhd Line: 19
+    Info (12023): Found entity 1: mux3_32 File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux3_32.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_32.vhd
+    Info (12022): Found design unit 1: mux2_32-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_32.vhd Line: 19
+    Info (12023): Found entity 1: mux2_32 File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_32.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_4.vhd
+    Info (12022): Found design unit 1: mux2_4-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_4.vhd Line: 19
+    Info (12023): Found entity 1: mux2_4 File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_4.vhd Line: 13
+Info (12021): Found 2 design units, including 1 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_1.vhd
+    Info (12022): Found design unit 1: mux2_1-comportamiento File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_1.vhd Line: 19
+    Info (12023): Found entity 1: mux2_1 File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/componentes_elementales/mux2_1.vhd Line: 13
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/tipos.vhd
+    Info (12022): Found design unit 1: tipos File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/tipos.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/retardos.vhd
+    Info (12022): Found design unit 1: retardos File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/retardos.vhd Line: 9
+Info (12021): Found 1 design units, including 0 entities, in source file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/constantes.vhd
+    Info (12022): Found design unit 1: constantes File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/parametros/constantes.vhd Line: 8
+Info (12127): Elaborating entity "ensamblado_procesador" for the top level hierarchy
+Info (12128): Elaborating entity "ensambladoUC" for hierarchy "ensambladoUC:UC" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador.vhd Line: 49
+Warning (10036): Verilog HDL or VHDL warning at ensambladoUC.vhd(75): object "s_val_F" assigned a value but never read File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd Line: 75
+Info (12128): Elaborating entity "camino_control" for hierarchy "ensambladoUC:UC|camino_control:camcont" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd Line: 92
+Info (12128): Elaborating entity "mux2_1" for hierarchy "ensambladoUC:UC|camino_control:camcont|mux2_1:minyec_DL" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 73
+Info (12128): Elaborating entity "reg1pe" for hierarchy "ensambladoUC:UC|camino_control:camcont|reg1pe:RDL_val" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 76
+Info (12128): Elaborating entity "mux2_32" for hierarchy "ensambladoUC:UC|camino_control:camcont|mux2_32:minyec_instr_A" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 80
+Info (12128): Elaborating entity "reg32pe" for hierarchy "ensambladoUC:UC|camino_control:camcont|reg32pe:RA_instr" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 87
+Info (12128): Elaborating entity "regNpe" for hierarchy "ensambladoUC:UC|camino_control:camcont|regNpe:RA_opALU" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 91
+Info (12128): Elaborating entity "regNpe" for hierarchy "ensambladoUC:UC|camino_control:camcont|regNpe:RA_mEBR_sel" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 100
+Info (12128): Elaborating entity "reg5pe" for hierarchy "ensambladoUC:UC|camino_control:camcont|reg5pe:RA_IDE" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 103
+Info (12128): Elaborating entity "regNpe" for hierarchy "ensambladoUC:UC|camino_control:camcont|regNpe:RM_fmtl_ext_sig" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 128
+Info (12128): Elaborating entity "reg1" for hierarchy "ensambladoUC:UC|camino_control:camcont|reg1:RF_val" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 145
+Info (12128): Elaborating entity "regN" for hierarchy "ensambladoUC:UC|camino_control:camcont|regN:RF_fmtl_tipo" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 146
+Info (12128): Elaborating entity "regN" for hierarchy "ensambladoUC:UC|camino_control:camcont|regN:RF_fmtl_ext_sig" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 148
+Info (12128): Elaborating entity "reg5" for hierarchy "ensambladoUC:UC|camino_control:camcont|reg5:RF_IDE" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/camino_control/camino_control.vhd Line: 152
+Info (12128): Elaborating entity "decoder_DL" for hierarchy "ensambladoUC:UC|decoder_DL:dec_DL" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd Line: 110
+Info (12128): Elaborating entity "decocamino" for hierarchy "ensambladoUC:UC|decoder_DL:dec_DL|decocamino:camino" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd Line: 59
+Info (12128): Elaborating entity "decoopALU" for hierarchy "ensambladoUC:UC|decoder_DL:dec_DL|decoopALU:ALU" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd Line: 63
+Warning (10631): VHDL Process Statement warning at decoopALU.vhd(29): inferring latch(es) for signal or variable "opALU", which holds its previous value in one or more paths through the process File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd Line: 29
+Info (10041): Inferred latch for "opALU[0]" at decoopALU.vhd(29) File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd Line: 29
+Info (10041): Inferred latch for "opALU[1]" at decoopALU.vhd(29) File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd Line: 29
+Info (10041): Inferred latch for "opALU[2]" at decoopALU.vhd(29) File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd Line: 29
+Info (10041): Inferred latch for "opALU[3]" at decoopALU.vhd(29) File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd Line: 29
+Info (10041): Inferred latch for "opALU[4]" at decoopALU.vhd(29) File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/COMPONENTES/decoopALU.vhd Line: 29
+Info (12128): Elaborating entity "decoMem_DL" for hierarchy "ensambladoUC:UC|decoder_DL:dec_DL|decoMem_DL:MEMORIA_DL" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd Line: 65
+Info (12128): Elaborating entity "decoFMT_DL" for hierarchy "ensambladoUC:UC|decoder_DL:dec_DL|decoFMT_DL:FMT_DL" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_DL/decoder_DL.vhd Line: 67
+Info (12128): Elaborating entity "decoder_A" for hierarchy "ensambladoUC:UC|decoder_A:dec_A" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd Line: 115
+Info (12128): Elaborating entity "decoMem_A" for hierarchy "ensambladoUC:UC|decoder_A:dec_A|decoMem_A:MEMORIA_A" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd Line: 50
+Info (12128): Elaborating entity "decoFMT_A" for hierarchy "ensambladoUC:UC|decoder_A:dec_A|decoFMT_A:FMT_A" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd Line: 53
+Info (12128): Elaborating entity "decoSec" for hierarchy "ensambladoUC:UC|decoder_A:dec_A|decoSec:SEC" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER_A/decoder_A.vhd Line: 57
+Info (12128): Elaborating entity "bloqueo_CP" for hierarchy "ensambladoUC:UC|bloqueo_CP:bloqCP" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd Line: 120
+Info (12128): Elaborating entity "bloqueo_A" for hierarchy "ensambladoUC:UC|bloqueo_A:bloqA" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd Line: 123
+Info (12128): Elaborating entity "bloqueo_M" for hierarchy "ensambladoUC:UC|bloqueo_M:bloqM" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd Line: 126
+Info (12128): Elaborating entity "riesgo_datos" for hierarchy "ensambladoUC:UC|riesgo_datos:riesgDatos" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd Line: 130
+Info (12128): Elaborating entity "LIB" for hierarchy "ensambladoUC:UC|LIB:LIBloq" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd Line: 135
+Info (12128): Elaborating entity "ensambladoUP" for hierarchy "ensambladoUP:UP" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/ensamblado_procesador.vhd Line: 63
+Info (12128): Elaborating entity "etapaCP" for hierarchy "ensambladoUP:UP|etapaCP:eCP" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd Line: 71
+Info (12128): Elaborating entity "sumador4" for hierarchy "ensambladoUP:UP|etapaCP:eCP|sumador4:mas4" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaCP/etapaCP.vhd Line: 53
+Info (12128): Elaborating entity "etapaB" for hierarchy "ensambladoUP:UP|etapaB:eB" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd Line: 73
+Info (12128): Elaborating entity "fifo" for hierarchy "ensambladoUP:UP|etapaB:eB|fifo:buff" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaB/etapaB.vhd Line: 35
+Info (12128): Elaborating entity "etapaDL" for hierarchy "ensambladoUP:UP|etapaDL:eDL" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd Line: 78
+Info (12128): Elaborating entity "BR_y_corto" for hierarchy "ensambladoUP:UP|etapaDL:eDL|BR_y_corto:BRycorto" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd Line: 42
+Info (12128): Elaborating entity "control_cortocircuitos" for hierarchy "ensambladoUP:UP|etapaDL:eDL|BR_y_corto:BRycorto|control_cortocircuitos:contCorto" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd Line: 63
+Info (12128): Elaborating entity "BR" for hierarchy "ensambladoUP:UP|etapaDL:eDL|BR_y_corto:BRycorto|BR:BancoR" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd Line: 67
+Info (12128): Elaborating entity "reg32" for hierarchy "ensambladoUP:UP|etapaDL:eDL|BR_y_corto:BRycorto|reg32:RDE" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/COMPONENTES/BR_y_corto.vhd Line: 70
+Info (12128): Elaborating entity "FMTI" for hierarchy "ensambladoUP:UP|etapaDL:eDL|FMTI:fmtimm" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaDL/etapaDL.vhd Line: 44
+Info (12128): Elaborating entity "etapaA" for hierarchy "ensambladoUP:UP|etapaA:eA" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd Line: 83
+Info (12128): Elaborating entity "EVAL" for hierarchy "ensambladoUP:UP|etapaA:eA|EVAL:ev" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd Line: 41
+Info (12128): Elaborating entity "ALU" for hierarchy "ensambladoUP:UP|etapaA:eA|ALU:al" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd Line: 42
+Info (12128): Elaborating entity "fuerza_bit_0" for hierarchy "ensambladoUP:UP|etapaA:eA|fuerza_bit_0:fb0" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd Line: 43
+Info (12128): Elaborating entity "FMTE" for hierarchy "ensambladoUP:UP|etapaA:eA|FMTE:fmtent" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaA/etapaA.vhd Line: 44
+Info (12128): Elaborating entity "etapaM" for hierarchy "ensambladoUP:UP|etapaM:eM" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd Line: 89
+Info (12128): Elaborating entity "etapaF" for hierarchy "ensambladoUP:UP|etapaF:eF" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd Line: 92
+Info (12128): Elaborating entity "FMTL" for hierarchy "ensambladoUP:UP|etapaF:eF|FMTL:fmtlec" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd Line: 33
+Info (12128): Elaborating entity "mux4_32" for hierarchy "ensambladoUP:UP|etapaF:eF|mux4_32:mEBR" File: /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/ip/procesador/COMPONENTES/UP/COMPONENTES/etapaF/etapaF.vhd Line: 34
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 1271 megabytes
+    Info: Processing ended: Mon Jun  1 15:18:02 2020
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:22
+
+

@@ -1,0 +1,10 @@
+Este test comprueba el correcto funcionamiento de la instruccion mret
+
+mret
+
+COMPROBACION:
+El test se ha superado si tras consolidar la instrucción mret se ha saltado a ejecutar la instrucción con la dirección 0x0000024c, el modo de ejecución ha pasado a ser U, y el contenido de mstatus es el siguiente:
+
+mstatus: 0x00000088
+
+

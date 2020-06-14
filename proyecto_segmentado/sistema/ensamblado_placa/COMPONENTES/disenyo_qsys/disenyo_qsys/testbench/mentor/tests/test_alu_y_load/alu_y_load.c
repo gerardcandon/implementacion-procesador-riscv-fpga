@@ -1,0 +1,34 @@
+int __attribute((naked)) main(void) {
+	asm("lui x0, 0x0");
+	asm("addi x1, x0, 0x1");
+	asm("addi x2, x0, 0x1");
+	int *ptr;
+	ptr = (int *)0x90;
+	*ptr = 0x04838201;
+	asm("lw  x16 , 0x90(x0)");
+	asm("add x3, x1, x2");
+	asm("lhu x17 , 0x90(x0)");
+	asm("add x4, x2, x3");
+	asm("lhu x18 , 0x92(x0)");
+	asm("add x5, x3, x4");
+	asm("lh  x19 , 0x90(x0)");
+	asm("add x6, x4, x5");
+	asm("lh  x20 , 0x92(x0)");
+	asm("add x7, x5, x6");
+	asm("lbu x21 , 0x90(x0)");
+	asm("add x8, x6, x7");
+	asm("lbu x22 , 0x91(x0)");
+	asm("add x9, x7, x8");
+	asm("lbu x23 , 0x92(x0)");
+	asm("add x10, x8, x9");
+	asm("lbu x24 , 0x93(x0)");
+	asm("add x11, x9, x10");
+	asm("lb  x25, 0x90(x0)");
+	asm("add x12, x10, x11");
+	asm("lb  x26, 0x91(x0)");
+	asm("add x13, x11, x12");
+	asm("lb  x27, 0x92(x0)");
+	asm("add x14, x12, x13");
+	asm("lb  x28, 0x93(x0)");
+	asm("add x15, x13, x14");
+}

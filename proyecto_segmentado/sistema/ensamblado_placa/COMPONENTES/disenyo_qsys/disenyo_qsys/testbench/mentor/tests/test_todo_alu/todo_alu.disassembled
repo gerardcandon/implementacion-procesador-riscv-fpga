@@ -1,0 +1,40 @@
+
+todo_alu.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00000000 <main>:
+   0:	00100093          	addi	x1,x0,1
+   4:	00100113          	addi	x2,x0,1
+   8:	002081b3          	add	x3,x1,x2
+   c:	00310233          	add	x4,x2,x3
+  10:	004182b3          	add	x5,x3,x4
+  14:	00520333          	add	x6,x4,x5
+  18:	006283b3          	add	x7,x5,x6
+  1c:	00730433          	add	x8,x6,x7
+  20:	008384b3          	add	x9,x7,x8
+  24:	00940533          	add	x10,x8,x9
+  28:	00a485b3          	add	x11,x9,x10
+  2c:	00b50633          	add	x12,x10,x11
+  30:	00c586b3          	add	x13,x11,x12
+  34:	00d60733          	add	x14,x12,x13
+  38:	00e687b3          	add	x15,x13,x14
+  3c:	00f70833          	add	x16,x14,x15
+  40:	010788b3          	add	x17,x15,x16
+  44:	01180933          	add	x18,x16,x17
+  48:	012889b3          	add	x19,x17,x18
+  4c:	01390a33          	add	x20,x18,x19
+  50:	01498ab3          	add	x21,x19,x20
+  54:	015a0b33          	add	x22,x20,x21
+  58:	016a8bb3          	add	x23,x21,x22
+  5c:	017b0c33          	add	x24,x22,x23
+  60:	018b8cb3          	add	x25,x23,x24
+  64:	019c0d33          	add	x26,x24,x25
+  68:	01ac8db3          	add	x27,x25,x26
+  6c:	01bd0e33          	add	x28,x26,x27
+  70:	01cd8eb3          	add	x29,x27,x28
+  74:	01de0f33          	add	x30,x28,x29
+  78:	01ee8fb3          	add	x31,x29,x30
+  7c:	00000793          	addi	x15,x0,0
+  80:	00078513          	addi	x10,x15,0

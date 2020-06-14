@@ -1,0 +1,955 @@
+# do ensamblado_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying /home/gerard/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/../modelsim.ini
+# 
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/constantes.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:26 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/constantes.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package constantes
+# End time: 15:40:26 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/tipos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:26 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/tipos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Compiling package tipos
+# End time: 15:40:26 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/retardos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:26 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/parametros/retardos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Compiling package retardos
+# End time: 15:40:26 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_procesador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:26 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_procesador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_procesador
+# End time: 15:40:26 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/recolectorEventos/recolectorEventos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:26 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/recolectorEventos/recolectorEventos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity recolectorEventos
+# -- Compiling architecture compor of recolectorEventos
+# End time: 15:40:26 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/automata_estado_SYS/automata_estado_SYS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:26 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/automata_estado_SYS/automata_estado_SYS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity automata_estado_SYS
+# -- Compiling architecture compor of automata_estado_SYS
+# End time: 15:40:26 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoExcep_SYS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:26 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoExcep_SYS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling entity decoExcep_SYS
+# -- Compiling architecture compor of decoExcep_SYS
+# End time: 15:40:26 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoCamino_SYS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:26 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/COMPONENTES/decoCamino_SYS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity decoCamino_SYS
+# -- Compiling architecture compor of decoCamino_SYS
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/componentes_decoSYS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/componentes_decoSYS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_decoSYS
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/componentes_control_SYS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/componentes_control_SYS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_control_SYS
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/COMPONENTES/ALU_CSR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/COMPONENTES/ALU_CSR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity ALU_CSR
+# -- Compiling architecture compor of ALU_CSR
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/componentes_camino_SYS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/componentes_camino_SYS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_camino_SYS
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR_procedimientos.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR_procedimientos.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package BR_CSR_procedimientos_pkg
+# -- Compiling package body BR_CSR_procedimientos_pkg
+# -- Loading package BR_CSR_procedimientos_pkg
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/componentesSYS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/componentesSYS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentesUSYS
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado_procedimientos_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado_procedimientos_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package automata_estado_procedimientos_pkg
+# -- Compiling package body automata_estado_procedimientos_pkg
+# -- Loading package automata_estado_procedimientos_pkg
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoopALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoopALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity decoopALU
+# -- Compiling architecture compor of decoopALU
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/componentes_decoder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/componentes_decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentes_decoder
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder_procedimientos_pkg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder_procedimientos_pkg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package decoder_procedimientos_pkg
+# -- Compiling package body decoder_procedimientos_pkg
+# -- Loading package decoder_procedimientos_pkg
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/componentesUC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/componentesUC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentesUC
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/fuerza_bit_0.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/fuerza_bit_0.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity fuerza_bit_0
+# -- Compiling architecture compor of fuerza_bit_0
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTL.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTL.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity FMTL
+# -- Compiling architecture comportamiento of FMTL
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTI.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTI.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity FMTI
+# -- Compiling architecture compor of FMTI
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTE.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/FMTE.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity FMTE
+# -- Compiling architecture comportamiento of FMTE
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/BR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/BR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity BR
+# -- Compiling architecture compor of BR
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/COMPONENTES/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity ALU
+# -- Compiling architecture compor of ALU
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/componentesUP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/componentesUP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling package componentesUP
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32pe.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32pe.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity reg32pe
+# -- Compiling architecture comportamiento of reg32pe
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/reg32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity reg32
+# -- Compiling architecture comportamiento of reg32
+# End time: 15:40:27 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux3_32.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:27 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux3_32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity mux3_32
+# -- Compiling architecture comportamiento of mux3_32
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux2_32.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/componentes_elementales/mux2_32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity mux2_32
+# -- Compiling architecture comportamiento of mux2_32
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/ensamblado_procesador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/ensamblado_procesador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentes_procesador
+# -- Compiling entity ensamblado_procesador
+# -- Compiling architecture compor of ensamblado_procesador
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/decoSYS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/COMPONENTES/decoSYS/decoSYS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package componentes_decoSYS
+# -- Compiling entity decoSYS
+# -- Compiling architecture compor of decoSYS
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/control_SYS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/control_SYS/control_SYS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentes_control_SYS
+# -- Compiling entity control_SYS
+# -- Compiling architecture compor of control_SYS
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/camino_SYS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/camino_SYS/camino_SYS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package componentes_camino_SYS
+# -- Compiling entity camino_SYS
+# -- Compiling architecture compor of camino_SYS
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/COMPONENTES/BR_CSR/BR_CSR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package BR_CSR_procedimientos_pkg
+# -- Compiling entity BR_CSR
+# -- Compiling architecture compor of BR_CSR
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/ensambladoSYS.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/USYS/ensambladoSYS.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentesUSYS
+# -- Compiling entity ensambladoUSYS
+# -- Compiling architecture compor of ensambladoUSYS
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/automata_estado/automata_estado.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package automata_estado_procedimientos_pkg
+# -- Compiling entity automata_estado
+# -- Compiling architecture compor of automata_estado
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoSec.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoSec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package decoder_procedimientos_pkg
+# -- Compiling entity decoSec
+# -- Compiling architecture comportamiento of decoSec
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoMem.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoMem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package decoder_procedimientos_pkg
+# -- Compiling entity decoMem
+# -- Compiling architecture comportamiento of decoMem
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoFMT.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoFMT.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package decoder_procedimientos_pkg
+# -- Compiling entity decoFMT
+# -- Compiling architecture compor of decoFMT
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoExcep.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decoExcep.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package decoder_procedimientos_pkg
+# -- Compiling entity decoExcep
+# -- Compiling architecture comportamiento of decoExcep
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decocamino.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/COMPONENTES/decocamino.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package decoder_procedimientos_pkg
+# -- Compiling entity decocamino
+# -- Compiling architecture comportamiento of decocamino
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/COMPONENTES/DECODER/decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Loading package componentes_decoder
+# -- Compiling entity decoder
+# -- Compiling architecture compor of decoder
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UC/ensambladoUC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentesUC
+# -- Compiling entity ensambladoUC
+# -- Compiling architecture compor of ensambladoUC
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip/procesador/COMPONENTES/UP/ensambladoUP.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Loading package componentesUP
+# -- Compiling entity ensambladoUP
+# -- Compiling architecture compor of ensambladoUP
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/mem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling entity mem
+# -- Compiling architecture compor of mem
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package std_logic_textio
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Compiling entity ram
+# -- Compiling architecture compor of ram
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/ensamblado_modelsim.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/ensamblado_modelsim.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package retardos
+# -- Loading package tipos
+# -- Compiling entity ensamblado_modelsim
+# -- Compiling architecture compor of ensamblado_modelsim
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:40:28 on Jun 13,2020
+# vcom -reportprogress 300 -93 -work work /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package constantes
+# -- Loading package tipos
+# -- Loading package retardos
+# -- Compiling entity testbench
+# -- Compiling architecture prueba of testbench
+# End time: 15:40:28 on Jun 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 15:40:28 on Jun 13,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.constantes
+# Loading work.tipos
+# Loading work.retardos
+# Loading work.testbench(prueba)
+# Loading work.ensamblado_modelsim(compor)
+# Loading work.componentes_procesador
+# Loading work.ensamblado_procesador(compor)
+# Loading work.componentesuc
+# Loading work.ensambladouc(compor)
+# Loading work.automata_estado_procedimientos_pkg(body)
+# Loading work.automata_estado(compor)
+# Loading work.componentes_decoder
+# Loading work.decoder(compor)
+# Loading work.decoder_procedimientos_pkg(body)
+# Loading work.decocamino(comportamiento)
+# Loading work.decoopalu(compor)
+# Loading work.decomem(comportamiento)
+# Loading work.decosec(comportamiento)
+# Loading work.decofmt(compor)
+# Loading work.reg32pe(comportamiento)
+# Loading work.decoexcep(comportamiento)
+# Loading work.componentesup
+# Loading work.ensambladoup(compor)
+# Loading work.mux2_32(comportamiento)
+# Loading work.fmte(comportamiento)
+# Loading work.reg32(comportamiento)
+# Loading work.fmtl(comportamiento)
+# Loading work.br(compor)
+# Loading work.fmti(compor)
+# Loading work.mux3_32(comportamiento)
+# Loading work.alu(compor)
+# Loading work.fuerza_bit_0(compor)
+# Loading work.componentesusys
+# Loading work.ensambladousys(compor)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.br_csr_procedimientos_pkg(body)
+# Loading work.br_csr(compor)
+# Loading work.componentes_control_sys
+# Loading work.control_sys(compor)
+# Loading work.componentes_decosys
+# Loading work.decosys(compor)
+# Loading work.decocamino_sys(compor)
+# Loading work.decoexcep_sys(compor)
+# Loading work.automata_estado_sys(compor)
+# Loading work.componentes_camino_sys
+# Loading work.camino_sys(compor)
+# Loading work.alu_csr(compor)
+# Loading work.recolectoreventos(compor)
+# Loading ieee.std_logic_textio(body)
+# Loading work.mem(compor)
+# Loading work.ram(compor)
+# 
+# do /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/formato_ventanas.do
+# transcript on
+# log -r /*
+# if {[batch_mode] == 0} then { do wave.do }
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /testbench/ensam/reloj
+# add wave -noupdate -divider Estado
+# add wave -noupdate /testbench/ensam/ensam/UC/estado_s
+# add wave -noupdate -divider {Excep y Int}
+# add wave -noupdate /testbench/ensam/ensam/USYS/recoEv/excep
+# add wave -noupdate /testbench/ensam/ensam/USYS/recoEv/excep_SYS
+# add wave -noupdate /testbench/ensam/ensam/USYS/recoEv/int_CSR
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/USYS/recoEv/int_causa_CSR
+# add wave -noupdate /testbench/ensam/ensam/USYS/recoEv/excep_CSR
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/USYS/recoEv/excep_causa_CSR
+# add wave -noupdate -divider BRCSR
+# add wave -noupdate /testbench/ensam/ensam/USYS/csr/modo_csr
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/USYS/csr/mstatus
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/USYS/csr/mie
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/USYS/csr/mtvec
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/USYS/csr/mscratch
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/USYS/csr/mepc
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/USYS/csr/mcause
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/USYS/csr/mtval
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/USYS/csr/mip
+# add wave -noupdate -divider {Unidad de Proceso}
+# add wave -noupdate -divider {Banco de Reg}
+# add wave -noupdate /testbench/ensam/ensam/UP/bancoR/IDL1
+# add wave -noupdate /testbench/ensam/ensam/UP/bancoR/IDL2
+# add wave -noupdate /testbench/ensam/ensam/UP/bancoR/IDE
+# add wave -noupdate /testbench/ensam/ensam/UP/bancoR/PE
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/bancoR/DE
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/bancoR/L1
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/bancoR/L2
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/bancoR/registros
+# add wave -noupdate -divider ALU
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/al/a
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/al/b
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/al/s
+# add wave -noupdate /testbench/ensam/ensam/UP/al/me
+# add wave -noupdate /testbench/ensam/ensam/UP/al/meu
+# add wave -noupdate /testbench/ensam/ensam/UP/al/ig
+# add wave -noupdate -divider SDRAM
+# add wave -noupdate /testbench/ensam/sdram/read
+# add wave -noupdate /testbench/ensam/sdram/write
+# add wave -noupdate -radix hexadecimal /testbench/ensam/sdram/address
+# add wave -noupdate -radix hexadecimal /testbench/ensam/sdram/writedata
+# add wave -noupdate /testbench/ensam/sdram/byteenable
+# add wave -noupdate -radix hexadecimal /testbench/ensam/sdram/readdata
+# add wave -noupdate /testbench/ensam/sdram/waitrequest
+# add wave -noupdate /testbench/ensam/sdram/readdatavalid
+# add wave -noupdate -radix hexadecimal /testbench/ensam/sdram/memoria/memoria
+# add wave -noupdate -divider Formateadores
+# add wave -noupdate -divider FMTME
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/fmtentrada/dato_e
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/fmtentrada/dato_s
+# add wave -noupdate -divider FMTML
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/RLDM/e
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/RLDM/s
+# add wave -noupdate -divider FMTI
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/fmtimm/instr
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/fmtimm/s
+# add wave -noupdate -divider Multiplexores
+# add wave -noupdate -divider mCP
+# add wave -noupdate /testbench/ensam/ensam/UP/mCP/SEL
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mCP/d0
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mCP/d1
+# add wave -noupdate -divider mdirsec
+# add wave -noupdate /testbench/ensam/ensam/UP/mdirsec/SEL
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mdirsec/d0
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mdirsec/d1
+# add wave -noupdate -divider mRLDM
+# add wave -noupdate -divider mdir
+# add wave -noupdate /testbench/ensam/ensam/UP/mdir/SEL
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mdir/d0
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mdir/d1
+# add wave -noupdate -divider mEBR
+# add wave -noupdate /testbench/ensam/ensam/UP/mEBR/SEL
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mEBR/d0
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mEBR/d1
+# add wave -noupdate -divider mESCSR
+# add wave -noupdate /testbench/ensam/ensam/UP/mESCSR/SEL
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mESCSR/d0
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mESCSR/d1
+# add wave -noupdate -divider mLa
+# add wave -noupdate /testbench/ensam/ensam/UP/mLa/SEL
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mLa/d0
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mLa/d1
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mLa/d2
+# add wave -noupdate -divider mLb
+# add wave -noupdate /testbench/ensam/ensam/UP/mLb/SEL
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mLb/d0
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mLb/d1
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mLb/d2
+# add wave -noupdate -divider mdato
+# add wave -noupdate /testbench/ensam/ensam/UP/mdato/SEL
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mdato/d0
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/mdato/d1
+# add wave -noupdate -divider msec
+# add wave -noupdate /testbench/ensam/ensam/UP/msec/SEL
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/msec/d0
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/msec/d1
+# add wave -noupdate -divider Registros
+# add wave -noupdate -divider CP
+# add wave -noupdate /testbench/ensam/ensam/UP/CP/pe
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/CP/e
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/CP/s
+# add wave -noupdate -divider CPinst
+# add wave -noupdate /testbench/ensam/ensam/UP/CPinst/pe
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/CPinst/e
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/CPinst/s
+# add wave -noupdate -divider RI
+# add wave -noupdate /testbench/ensam/ensam/UP/RI/pe
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/RI/e
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/RI/s
+# add wave -noupdate -divider RLDM
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/RLDM/e
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/RLDM/s
+# add wave -noupdate -divider Rsec
+# add wave -noupdate /testbench/ensam/ensam/UP/Rsec/pe
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/Rsec/e
+# add wave -noupdate -radix hexadecimal /testbench/ensam/ensam/UP/Rsec/s
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {800000 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 147
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {714922 ps} {992770 ps}
+# set StdArithNoWarnings 1
+# 1
+# set NumericStdNoWarnings 1
+# 1
+# if {[batch_mode] != 0} then { change /prueba_proc_md_mi/pasoapaso false }
+# run 0 ns
+# set StdArithNoWarnings 0
+# 0
+# set NumericStdNoWarnings 0
+# 0
+# run -all
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 1 ns  Iteration: 0  Instance: /testbench/ensam/ensam/UP/al
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 1 ns  Iteration: 0  Instance: /testbench/ensam/ensam/UP/al
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 1 ns  Iteration: 0  Instance: /testbench/ensam/ensam/UP/al
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 2 ns  Iteration: 0  Instance: /testbench/ensam/ensam/UP/al
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 2 ns  Iteration: 0  Instance: /testbench/ensam/ensam/UP/al
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 2 ns  Iteration: 0  Instance: /testbench/ensam/ensam/UP/al
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 301 ns  Iteration: 0  Instance: /testbench/ensam/ensam/UP/bancoR
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 301 ns  Iteration: 0  Instance: /testbench/ensam/ensam/UP/bancoR
+# ** Fatal: (vsim-3734) Index value 67108864 is out of range 0 to 2047.
+#    Time: 1300 ns  Iteration: 1  Process: /testbench/ensam/sdram/memoria/rlj File: /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd
+# Fatal error in Process rlj at /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd line 102
+# 
+# HDL call sequence:
+# Stopped at /home/gerard/Desktop/clase/TFG/proyecto_multiciclo/ip_pruebas/QUARTUS/../PRUEBAS/MEM/ram.vhd 102 Process rlj
+# 
+# 
+# stdin: <EOF>
+# End time: 15:40:58 on Jun 13,2020, Elapsed time: 0:00:30
+# Errors: 2, Warnings: 8

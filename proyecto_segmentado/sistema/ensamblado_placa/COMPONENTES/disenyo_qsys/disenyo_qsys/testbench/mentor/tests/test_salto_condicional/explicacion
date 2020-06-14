@@ -1,0 +1,5 @@
+salto_condicional
+
+Este test comprueba el correcto funcionamiento de las instrucciones de salto condicional.
+
+El test se ha superado si el registro x2 nunca contiene el valor 0x0FFFF000.

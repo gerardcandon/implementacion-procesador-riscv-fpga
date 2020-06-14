@@ -1,0 +1,4 @@
+multi_thread
+
+Éste programa crea dos hilos, y cada uno de ellos calcula el factorial de un número. El hilo 0 calcula 5!, y el hilo 1 calcula 4!.
+El programa de prueba se ha ejecutado correctamente si la dirección 0x02000008 contiene el valor 0x00000078 (5! = 120), y la dirección 0x0200000c contiene el valor 0x00000018 (4! = 24).

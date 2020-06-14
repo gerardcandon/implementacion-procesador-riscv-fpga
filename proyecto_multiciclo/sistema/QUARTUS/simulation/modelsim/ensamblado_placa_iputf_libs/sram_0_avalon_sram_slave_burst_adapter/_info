@@ -1,0 +1,346 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/gerard/Desktop/clase/TFG/proyecto/pruebas_y_quartus/ensamblado_placa/QUARTUS/simulation/modelsim
+valtera_avalon_st_pipeline_base
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1581783608
+!i10b 1
+!s100 IZ246NSd;dW2a7WAUFMLa1
+ISVQC9YXVA8W<9WSnfPDAO2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 altera_avalon_st_pipeline_base_v_unit
+S1
+R0
+Z4 w1581778891
+8/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_avalon_st_pipeline_base.v
+F/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_avalon_st_pipeline_base.v
+Z5 L0 22
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1581783608.000000
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|-sv|/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_avalon_st_pipeline_base.v|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+Z8 o-sv -work sram_0_avalon_sram_slave_burst_adapter
+Z9 tCvgOpt 0
+valtera_avalon_st_pipeline_stage
+R1
+R2
+!i10b 1
+!s100 0[eR^H<[LF9R7ZA?d`HaW2
+IizmN:17;Qh878kD83]AeX1
+R3
+!s105 altera_avalon_st_pipeline_stage_sv_unit
+S1
+R0
+R4
+8/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_avalon_st_pipeline_stage.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_avalon_st_pipeline_stage.sv|
+!s90 -reportprogress|300|-sv|/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_avalon_st_pipeline_stage.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_default_burst_converter
+R1
+R2
+!i10b 1
+!s100 EmN7^KGFmnmba?3NNCWgU0
+Ifa<A<_NgC0`Z7I0ZL424a2
+R3
+!s105 altera_default_burst_converter_sv_unit
+S1
+R0
+R4
+8/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_default_burst_converter.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_default_burst_converter.sv
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_default_burst_converter.sv|
+!s90 -reportprogress|300|-sv|/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_default_burst_converter.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_incr_burst_converter
+R1
+R2
+!i10b 1
+!s100 9gP0R0To835oQO4JK^zb<3
+Ig1>l7kQV1c82C[3WU5OYU1
+R3
+!s105 altera_incr_burst_converter_sv_unit
+S1
+R0
+R4
+8/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_incr_burst_converter.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_incr_burst_converter.sv
+L0 28
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_incr_burst_converter.sv|
+!s90 -reportprogress|300|-sv|/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_incr_burst_converter.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_address_alignment
+R1
+R2
+!i10b 1
+!s100 ;A9^i^d]cR@BAQXEG>h_<3
+IFNfjJ=EFiN;^BhQ[Eh]1m1
+R3
+!s105 altera_merlin_address_alignment_sv_unit
+S1
+R0
+R4
+8/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_address_alignment.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_address_alignment.sv
+L0 26
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_address_alignment.sv|
+!s90 -reportprogress|300|-sv|/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_address_alignment.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter
+R1
+R2
+!i10b 1
+!s100 OCc70X^k:B?GW6i71n`L_3
+ILA8W6>;DzOI_:cd2R]zO@0
+R3
+!s105 altera_merlin_burst_adapter_sv_unit
+S1
+R0
+R4
+8/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter.sv
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter.sv|
+!s90 -reportprogress|300|-sv|/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_13_1
+R1
+R2
+!i10b 1
+!s100 iQDJAL[b9z>XeokOb35D]1
+IO524@d]ETzJ;`zf:]DV>I2
+R3
+Z10 !s105 altera_merlin_burst_adapter_13_1_sv_unit
+S1
+R0
+R4
+Z11 8/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_13_1.sv
+Z12 F/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_13_1.sv
+L0 264
+R6
+r1
+!s85 0
+31
+R7
+Z13 !s107 /home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_13_1.sv|
+Z14 !s90 -reportprogress|300|-sv|/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_13_1.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_adder
+R1
+R2
+!i10b 1
+!s100 cJB8e]Mn>T^mE[9iEE1jk1
+I:Waec0g[jRG`6>n=h=nzz1
+R3
+R10
+S1
+R0
+R4
+R11
+R12
+L0 55
+R6
+r1
+!s85 0
+31
+R7
+R13
+R14
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_burstwrap_increment
+R1
+R2
+!i10b 1
+!s100 ILP^RoOQ^]Ef]XAJeF<SX0
+I8PAEPFge8:OTI;ANRSATR0
+R3
+R10
+S1
+R0
+R4
+R11
+R12
+L0 40
+R6
+r1
+!s85 0
+31
+R7
+R13
+R14
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_min
+R1
+R2
+!i10b 1
+!s100 5OK?oF?>S0i7IYQi<IKhS1
+IbkiZh8d<_4Oc6:]5jI<hZ2
+R3
+R10
+S1
+R0
+R4
+R11
+R12
+L0 98
+R6
+r1
+!s85 0
+31
+R7
+R13
+R14
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_new
+R1
+R2
+!i10b 1
+!s100 eY?@Ti=8ZUfaj_BZGBf:M0
+IINVm1lOYJZT6Hfj[b`2DK3
+R3
+!s105 altera_merlin_burst_adapter_new_sv_unit
+S1
+R0
+R4
+8/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_new.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_new.sv
+L0 25
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_new.sv|
+!s90 -reportprogress|300|-sv|/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_new.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_subtractor
+R1
+R2
+!i10b 1
+!s100 3nMfY`gC_:azzfSULAX8f2
+IVH8O?5S;edUnkdU?:`L>n0
+R3
+R10
+S1
+R0
+R4
+R11
+R12
+L0 77
+R6
+r1
+!s85 0
+31
+R7
+R13
+R14
+!i113 1
+R8
+R9
+valtera_merlin_burst_adapter_uncompressed_only
+R1
+R2
+!i10b 1
+!s100 STH]BdUM[JDMJZNJGXCd>0
+I5goL1c9JRoJCXF8C23RhI1
+R3
+!s105 altera_merlin_burst_adapter_uncmpr_sv_unit
+S1
+R0
+R4
+8/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv
+L0 39
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!s90 -reportprogress|300|-sv|/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9
+valtera_wrap_burst_converter
+R1
+R2
+!i10b 1
+!s100 NPBYN=]<L:km?aGk_2fQE3
+IcXeR3f?embA0hn8S>kRNI3
+R3
+!s105 altera_wrap_burst_converter_sv_unit
+S1
+R0
+R4
+8/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_wrap_burst_converter.sv
+F/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_wrap_burst_converter.sv
+L0 27
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_wrap_burst_converter.sv|
+!s90 -reportprogress|300|-sv|/home/gerard/Desktop/clase/TFG/proyecto/CODIGO/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_wrap_burst_converter.sv|-work|sram_0_avalon_sram_slave_burst_adapter|
+!i113 1
+R8
+R9

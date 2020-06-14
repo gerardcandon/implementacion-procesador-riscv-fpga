@@ -1,0 +1,134 @@
+Info: Starting: Create simulation model
+Info: qsys-generate /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys.qsys --simulation=VHDL --allow-mixed-language-simulation --output-directory=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading disenyo_qsys/disenyo_qsys.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 19.1]
+Progress: Parameterizing module clk_0
+Progress: Adding ensamblado_procesador_0 [ensamblado_procesador 1.0]
+Progress: Parameterizing module ensamblado_procesador_0
+Progress: Adding master_0 [altera_jtag_avalon_master 19.1]
+Progress: Parameterizing module master_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 19.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding sys_sdram_pll_0 [altera_up_avalon_sys_sdram_pll 18.0]
+Progress: Parameterizing module sys_sdram_pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: disenyo_qsys.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: disenyo_qsys.sys_sdram_pll_0: Refclk Freq: 50.0
+Info: disenyo_qsys: Generating disenyo_qsys "disenyo_qsys" for SIM_VHDL
+Info: ensamblado_procesador_0: "disenyo_qsys" instantiated ensamblado_procesador "ensamblado_procesador_0"
+Info: master_0: "disenyo_qsys" instantiated altera_jtag_avalon_master "master_0"
+Info: new_sdram_controller_0: Starting RTL generation for module 'disenyo_qsys_new_sdram_controller_0'
+Info: new_sdram_controller_0:   Generation command is [exec /home/gerard/intelFPGA_lite/19.1/quartus/linux64/perl/bin/perl -I /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/europa -I /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin -I /home/gerard/intelFPGA_lite/19.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/gerard/intelFPGA_lite/19.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- /home/gerard/intelFPGA_lite/19.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=disenyo_qsys_new_sdram_controller_0 --dir=/tmp/alt8400_1096929926624283453.dir/0005_new_sdram_controller_0_gen/ --quartus_dir=/home/gerard/intelFPGA_lite/19.1/quartus --vhdl --config=/tmp/alt8400_1096929926624283453.dir/0005_new_sdram_controller_0_gen//disenyo_qsys_new_sdram_controller_0_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8400_1096929926624283453.dir/0005_new_sdram_controller_0_gen/  ]
+Info: new_sdram_controller_0: Done RTL generation for module 'disenyo_qsys_new_sdram_controller_0'
+Info: new_sdram_controller_0: "disenyo_qsys" instantiated altera_avalon_new_sdram_controller "new_sdram_controller_0"
+Info: sys_sdram_pll_0: "disenyo_qsys" instantiated altera_up_avalon_sys_sdram_pll "sys_sdram_pll_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "disenyo_qsys" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "disenyo_qsys" instantiated altera_reset_controller "rst_controller"
+Info: jtag_phy_embedded_in_jtag_master: "master_0" instantiated altera_jtag_dc_streaming "jtag_phy_embedded_in_jtag_master"
+Info: timing_adt: "master_0" instantiated timing_adapter "timing_adt"
+Info: fifo: "master_0" instantiated altera_avalon_sc_fifo "fifo"
+Info: b2p: "master_0" instantiated altera_avalon_st_bytes_to_packets "b2p"
+Info: p2b: "master_0" instantiated altera_avalon_st_packets_to_bytes "p2b"
+Info: transacto: "master_0" instantiated altera_avalon_packets_to_master "transacto"
+Info: b2p_adapter: "master_0" instantiated channel_adapter "b2p_adapter"
+Info: p2b_adapter: "master_0" instantiated channel_adapter "p2b_adapter"
+Info: sys_pll: "sys_sdram_pll_0" instantiated altera_up_altpll "sys_pll"
+Info: reset_from_locked: "sys_sdram_pll_0" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: ensamblado_procesador_0_avalon_master_B_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "ensamblado_procesador_0_avalon_master_B_translator"
+Info: new_sdram_controller_0_s1_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "new_sdram_controller_0_s1_translator"
+Info: ensamblado_procesador_0_avalon_master_B_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "ensamblado_procesador_0_avalon_master_B_agent"
+Info: new_sdram_controller_0_s1_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "new_sdram_controller_0_s1_agent"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: disenyo_qsys: Done "disenyo_qsys" with 29 modules, 107 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/disenyo_qsys.spd --output-directory=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/disenyo_qsys.spd --output-directory=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	28 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys.qsys --synthesis=VHDL --output-directory=/home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading disenyo_qsys/disenyo_qsys.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 19.1]
+Progress: Parameterizing module clk_0
+Progress: Adding ensamblado_procesador_0 [ensamblado_procesador 1.0]
+Progress: Parameterizing module ensamblado_procesador_0
+Progress: Adding master_0 [altera_jtag_avalon_master 19.1]
+Progress: Parameterizing module master_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 19.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Adding sys_sdram_pll_0 [altera_up_avalon_sys_sdram_pll 18.0]
+Progress: Parameterizing module sys_sdram_pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: disenyo_qsys.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: disenyo_qsys.sys_sdram_pll_0: Refclk Freq: 50.0
+Info: disenyo_qsys: Generating disenyo_qsys "disenyo_qsys" for QUARTUS_SYNTH
+Info: ensamblado_procesador_0: "disenyo_qsys" instantiated ensamblado_procesador "ensamblado_procesador_0"
+Info: master_0: "disenyo_qsys" instantiated altera_jtag_avalon_master "master_0"
+Info: new_sdram_controller_0: Starting RTL generation for module 'disenyo_qsys_new_sdram_controller_0'
+Info: new_sdram_controller_0:   Generation command is [exec /home/gerard/intelFPGA_lite/19.1/quartus/linux64/perl/bin/perl -I /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin/europa -I /home/gerard/intelFPGA_lite/19.1/quartus/sopc_builder/bin -I /home/gerard/intelFPGA_lite/19.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/gerard/intelFPGA_lite/19.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- /home/gerard/intelFPGA_lite/19.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=disenyo_qsys_new_sdram_controller_0 --dir=/tmp/alt8400_1096929926624283453.dir/0030_new_sdram_controller_0_gen/ --quartus_dir=/home/gerard/intelFPGA_lite/19.1/quartus --verilog --config=/tmp/alt8400_1096929926624283453.dir/0030_new_sdram_controller_0_gen//disenyo_qsys_new_sdram_controller_0_component_configuration.pl  --do_build_sim=0  ]
+Info: new_sdram_controller_0: Done RTL generation for module 'disenyo_qsys_new_sdram_controller_0'
+Info: new_sdram_controller_0: "disenyo_qsys" instantiated altera_avalon_new_sdram_controller "new_sdram_controller_0"
+Info: sys_sdram_pll_0: "disenyo_qsys" instantiated altera_up_avalon_sys_sdram_pll "sys_sdram_pll_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "disenyo_qsys" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "disenyo_qsys" instantiated altera_reset_controller "rst_controller"
+Info: jtag_phy_embedded_in_jtag_master: "master_0" instantiated altera_jtag_dc_streaming "jtag_phy_embedded_in_jtag_master"
+Info: timing_adt: "master_0" instantiated timing_adapter "timing_adt"
+Info: fifo: "master_0" instantiated altera_avalon_sc_fifo "fifo"
+Info: b2p: "master_0" instantiated altera_avalon_st_bytes_to_packets "b2p"
+Info: p2b: "master_0" instantiated altera_avalon_st_packets_to_bytes "p2b"
+Info: transacto: "master_0" instantiated altera_avalon_packets_to_master "transacto"
+Info: b2p_adapter: "master_0" instantiated channel_adapter "b2p_adapter"
+Info: p2b_adapter: "master_0" instantiated channel_adapter "p2b_adapter"
+Info: sys_pll: "sys_sdram_pll_0" instantiated altera_up_altpll "sys_pll"
+Info: reset_from_locked: "sys_sdram_pll_0" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: ensamblado_procesador_0_avalon_master_B_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "ensamblado_procesador_0_avalon_master_B_translator"
+Info: new_sdram_controller_0_s1_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "new_sdram_controller_0_s1_translator"
+Info: ensamblado_procesador_0_avalon_master_B_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "ensamblado_procesador_0_avalon_master_B_agent"
+Info: new_sdram_controller_0_s1_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "new_sdram_controller_0_s1_agent"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/gerard/Desktop/clase/TFG/proyecto_segmentado_siempre_lec/sistema/ensamblado_placa/COMPONENTES/disenyo_qsys/disenyo_qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: disenyo_qsys: Done "disenyo_qsys" with 29 modules, 107 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
