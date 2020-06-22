@@ -1,6 +1,0 @@
-euclides
-
-Éste programa computa el mínimo común denominador entre dos operandos mediante el algoritmo de Euclides.
-En éste caso, los operandos son 1071 y 462.
-El programa se ha ejecutado correctamente si la posición 0x02000008 contiene el valor 
-0x00000015 (mcd(1071,462) = 21)

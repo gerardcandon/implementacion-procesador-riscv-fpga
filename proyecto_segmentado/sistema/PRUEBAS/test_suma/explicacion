@@ -1,7 +1,6 @@
 suma
 
 Éste programa realiza la suma de los elementos de un vector con 10 valores de tipo 'int'.
-de la burbuja.
 
 Inicialmente, el vector se inicializa a partir de la dirección 0x04000000 con los siguientes valores:
 0x00000001 0x00000002 0x00000003 0x00000004 0x00000005 0x00000006 0x00000007 0x00000008 0x00000009 0x0000000a 

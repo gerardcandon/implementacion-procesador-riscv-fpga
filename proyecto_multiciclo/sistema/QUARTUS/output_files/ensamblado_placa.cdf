@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE115F29) Path("/home/gerard/Desktop/clase/TFG/proyecto/sistema/QUARTUS/output_files/") File("ensamblado_placa.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE115F29) Path("/home/gerard/Desktop/clase/TFG/proyecto_multiciclo/sistema/QUARTUS/output_files/") File("ensamblado_placa.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

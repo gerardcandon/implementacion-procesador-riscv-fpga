@@ -1,7 +1,6 @@
 suma_sshort8
 
 Éste programa realiza la suma de los elementos de un vector con 10 valores de tipo 'signed char'.
-de la burbuja.
 
 Inicialmente, el vector se inicializa a partir de la dirección 0x04000000 con los siguientes valores:
 0xfc030201 0x08f90605 0x00000a09

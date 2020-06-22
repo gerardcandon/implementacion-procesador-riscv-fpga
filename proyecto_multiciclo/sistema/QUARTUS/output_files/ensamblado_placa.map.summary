@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Sat Jun 13 15:45:33 2020
+Analysis & Synthesis Status : Successful - Wed Jun 17 13:29:03 2020
 Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 Revision Name : ensamblado_placa
 Top-level Entity Name : ensamblado_placa
 Family : Cyclone IV E
-Total logic elements : 10,742
-    Total combinational functions : 6,479
-    Dedicated logic registers : 7,082
-Total registers : 7082
+Total logic elements : 7,688
+    Total combinational functions : 5,758
+    Dedicated logic registers : 4,298
+Total registers : 4298
 Total pins : 135
 Total virtual pins : 0
-Total memory bits : 314,112
+Total memory bits : 23,296
 Embedded Multiplier 9-bit elements : 0
 Total PLLs : 2

@@ -1,0 +1,118 @@
+
+sort_sin_eventos.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text.inici:
+
+00000000 <entry>:
+   0:	03000117          	auipc	sp,0x3000
+   4:	00010113          	addi	sp,sp,0 # 3000000 <__mem_top__>
+   8:	f8410113          	addi	sp,sp,-124
+   c:	000002b3          	add	t0,zero,zero
+  10:	00000333          	add	t1,zero,zero
+  14:	000003b3          	add	t2,zero,zero
+  18:	00000433          	add	s0,zero,zero
+  1c:	000004b3          	add	s1,zero,zero
+  20:	00000533          	add	a0,zero,zero
+  24:	000005b3          	add	a1,zero,zero
+  28:	00000633          	add	a2,zero,zero
+  2c:	000006b3          	add	a3,zero,zero
+  30:	00000733          	add	a4,zero,zero
+  34:	000007b3          	add	a5,zero,zero
+  38:	00000833          	add	a6,zero,zero
+  3c:	000008b3          	add	a7,zero,zero
+  40:	00000933          	add	s2,zero,zero
+  44:	000009b3          	add	s3,zero,zero
+  48:	00000a33          	add	s4,zero,zero
+  4c:	00000ab3          	add	s5,zero,zero
+  50:	00000b33          	add	s6,zero,zero
+  54:	00000bb3          	add	s7,zero,zero
+  58:	00000c33          	add	s8,zero,zero
+  5c:	00000cb3          	add	s9,zero,zero
+  60:	00000d33          	add	s10,zero,zero
+  64:	00000db3          	add	s11,zero,zero
+  68:	00000e33          	add	t3,zero,zero
+  6c:	00000eb3          	add	t4,zero,zero
+  70:	00000f33          	add	t5,zero,zero
+  74:	00000fb3          	add	t6,zero,zero
+  78:	088000ef          	jal	ra,100 <main>
+  7c:	00000013          	addi	zero,zero,0
+  80:	00000013          	addi	zero,zero,0
+  84:	00000013          	addi	zero,zero,0
+  88:	00000013          	addi	zero,zero,0
+  8c:	00000013          	addi	zero,zero,0
+  90:	00100073          	ebreak
+
+Disassembly of section .text:
+
+00000100 <main>:
+ 100:	fe010113          	addi	sp,sp,-32
+ 104:	00812e23          	sw	s0,28(sp)
+ 108:	02010413          	addi	s0,sp,32
+ 10c:	fe042623          	sw	zero,-20(s0)
+ 110:	01400713          	addi	a4,zero,20
+ 114:	20e02c23          	sw	a4,536(zero) # 218 <__heap>
+ 118:	fe042223          	sw	zero,-28(s0)
+ 11c:	fe042423          	sw	zero,-24(s0)
+ 120:	0c40006f          	jal	zero,1e4 <main+0xe4>
+ 124:	020007b7          	lui	a5,0x2000
+ 128:	fe842703          	lw	a4,-24(s0)
+ 12c:	00271713          	slli	a4,a4,0x2
+ 130:	00078793          	addi	a5,a5,0 # 2000000 <vector>
+ 134:	00f707b3          	add	a5,a4,a5
+ 138:	0007a703          	lw	a4,0(a5)
+ 13c:	fe842783          	lw	a5,-24(s0)
+ 140:	00178693          	addi	a3,a5,1
+ 144:	020007b7          	lui	a5,0x2000
+ 148:	00269693          	slli	a3,a3,0x2
+ 14c:	00078793          	addi	a5,a5,0 # 2000000 <vector>
+ 150:	00f687b3          	add	a5,a3,a5
+ 154:	0007a783          	lw	a5,0(a5)
+ 158:	08e7d063          	bge	a5,a4,1d8 <main+0xd8>
+ 15c:	020007b7          	lui	a5,0x2000
+ 160:	fe842703          	lw	a4,-24(s0)
+ 164:	00271713          	slli	a4,a4,0x2
+ 168:	00078793          	addi	a5,a5,0 # 2000000 <vector>
+ 16c:	00f707b3          	add	a5,a4,a5
+ 170:	0007a783          	lw	a5,0(a5)
+ 174:	fef42023          	sw	a5,-32(s0)
+ 178:	fe842783          	lw	a5,-24(s0)
+ 17c:	00178713          	addi	a4,a5,1
+ 180:	020007b7          	lui	a5,0x2000
+ 184:	00271713          	slli	a4,a4,0x2
+ 188:	00078793          	addi	a5,a5,0 # 2000000 <vector>
+ 18c:	00f707b3          	add	a5,a4,a5
+ 190:	0007a703          	lw	a4,0(a5)
+ 194:	020007b7          	lui	a5,0x2000
+ 198:	fe842683          	lw	a3,-24(s0)
+ 19c:	00269693          	slli	a3,a3,0x2
+ 1a0:	00078793          	addi	a5,a5,0 # 2000000 <vector>
+ 1a4:	00f687b3          	add	a5,a3,a5
+ 1a8:	00e7a023          	sw	a4,0(a5)
+ 1ac:	fe842783          	lw	a5,-24(s0)
+ 1b0:	00178713          	addi	a4,a5,1
+ 1b4:	020007b7          	lui	a5,0x2000
+ 1b8:	00271713          	slli	a4,a4,0x2
+ 1bc:	00078793          	addi	a5,a5,0 # 2000000 <vector>
+ 1c0:	00f707b3          	add	a5,a4,a5
+ 1c4:	fe042703          	lw	a4,-32(s0)
+ 1c8:	00e7a023          	sw	a4,0(a5)
+ 1cc:	fe442783          	lw	a5,-28(s0)
+ 1d0:	00178793          	addi	a5,a5,1
+ 1d4:	fef42223          	sw	a5,-28(s0)
+ 1d8:	fe842783          	lw	a5,-24(s0)
+ 1dc:	00178793          	addi	a5,a5,1
+ 1e0:	fef42423          	sw	a5,-24(s0)
+ 1e4:	21802703          	lw	a4,536(zero) # 218 <__heap>
+ 1e8:	fec42783          	lw	a5,-20(s0)
+ 1ec:	40f707b3          	sub	a5,a4,a5
+ 1f0:	fff78793          	addi	a5,a5,-1
+ 1f4:	fe842703          	lw	a4,-24(s0)
+ 1f8:	f2f746e3          	blt	a4,a5,124 <main+0x24>
+ 1fc:	fec42783          	lw	a5,-20(s0)
+ 200:	00178793          	addi	a5,a5,1
+ 204:	fef42623          	sw	a5,-20(s0)
+ 208:	fe442783          	lw	a5,-28(s0)
+ 20c:	f00796e3          	bne	a5,zero,118 <main+0x18>
+ 210:	00000073          	ecall
+ 214:	0000006f          	jal	zero,214 <main+0x114>

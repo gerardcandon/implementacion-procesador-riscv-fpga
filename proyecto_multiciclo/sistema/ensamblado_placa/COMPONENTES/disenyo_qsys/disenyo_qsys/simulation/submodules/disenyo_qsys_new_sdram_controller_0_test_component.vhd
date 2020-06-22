@@ -280,12 +280,12 @@ end europa;
 --      );
 --    PORT (
 --    signal q : OUT STD_LOGIC_VECTOR (31 DOWNTO 0);
---        signal rdclken : IN STD_LOGIC;
+--        signal data : IN STD_LOGIC_VECTOR (31 DOWNTO 0);
 --        signal wren : IN STD_LOGIC;
 --        signal wrclock : IN STD_LOGIC;
 --        signal wraddress : IN STD_LOGIC_VECTOR (24 DOWNTO 0);
---        signal rdaddress : IN STD_LOGIC_VECTOR (24 DOWNTO 0);
---        signal data : IN STD_LOGIC_VECTOR (31 DOWNTO 0)
+--        signal rdclken : IN STD_LOGIC;
+--        signal rdaddress : IN STD_LOGIC_VECTOR (24 DOWNTO 0)
 --      );
 --  end component lpm_ram_dp;
 --                signal internal_q :  STD_LOGIC_VECTOR (31 DOWNTO 0);

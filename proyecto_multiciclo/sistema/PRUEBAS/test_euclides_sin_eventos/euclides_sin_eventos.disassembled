@@ -1,0 +1,83 @@
+
+euclides_sin_eventos.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text.inici:
+
+00000000 <entry>:
+   0:	03000117          	auipc	sp,0x3000
+   4:	00010113          	addi	sp,sp,0 # 3000000 <__mem_top__>
+   8:	f8410113          	addi	sp,sp,-124
+   c:	000002b3          	add	t0,zero,zero
+  10:	00000333          	add	t1,zero,zero
+  14:	000003b3          	add	t2,zero,zero
+  18:	00000433          	add	s0,zero,zero
+  1c:	000004b3          	add	s1,zero,zero
+  20:	00000533          	add	a0,zero,zero
+  24:	000005b3          	add	a1,zero,zero
+  28:	00000633          	add	a2,zero,zero
+  2c:	000006b3          	add	a3,zero,zero
+  30:	00000733          	add	a4,zero,zero
+  34:	000007b3          	add	a5,zero,zero
+  38:	00000833          	add	a6,zero,zero
+  3c:	000008b3          	add	a7,zero,zero
+  40:	00000933          	add	s2,zero,zero
+  44:	000009b3          	add	s3,zero,zero
+  48:	00000a33          	add	s4,zero,zero
+  4c:	00000ab3          	add	s5,zero,zero
+  50:	00000b33          	add	s6,zero,zero
+  54:	00000bb3          	add	s7,zero,zero
+  58:	00000c33          	add	s8,zero,zero
+  5c:	00000cb3          	add	s9,zero,zero
+  60:	00000d33          	add	s10,zero,zero
+  64:	00000db3          	add	s11,zero,zero
+  68:	00000e33          	add	t3,zero,zero
+  6c:	00000eb3          	add	t4,zero,zero
+  70:	00000f33          	add	t5,zero,zero
+  74:	00000fb3          	add	t6,zero,zero
+  78:	088000ef          	jal	ra,100 <main>
+  7c:	00000013          	addi	zero,zero,0
+  80:	00000013          	addi	zero,zero,0
+  84:	00000013          	addi	zero,zero,0
+  88:	00000013          	addi	zero,zero,0
+  8c:	00000013          	addi	zero,zero,0
+  90:	00100073          	ebreak
+
+Disassembly of section .text:
+
+00000100 <main>:
+ 100:	ff010113          	addi	sp,sp,-16
+ 104:	00812623          	sw	s0,12(sp)
+ 108:	01010413          	addi	s0,sp,16
+ 10c:	0540006f          	jal	zero,160 <main+0x60>
+ 110:	020007b7          	lui	a5,0x2000
+ 114:	0007a703          	lw	a4,0(a5) # 2000000 <a>
+ 118:	020007b7          	lui	a5,0x2000
+ 11c:	0047a783          	lw	a5,4(a5) # 2000004 <b>
+ 120:	02e7f263          	bgeu	a5,a4,144 <main+0x44>
+ 124:	020007b7          	lui	a5,0x2000
+ 128:	0007a703          	lw	a4,0(a5) # 2000000 <a>
+ 12c:	020007b7          	lui	a5,0x2000
+ 130:	0047a783          	lw	a5,4(a5) # 2000004 <b>
+ 134:	40f70733          	sub	a4,a4,a5
+ 138:	020007b7          	lui	a5,0x2000
+ 13c:	00e7a023          	sw	a4,0(a5) # 2000000 <a>
+ 140:	0200006f          	jal	zero,160 <main+0x60>
+ 144:	020007b7          	lui	a5,0x2000
+ 148:	0047a703          	lw	a4,4(a5) # 2000004 <b>
+ 14c:	020007b7          	lui	a5,0x2000
+ 150:	0007a783          	lw	a5,0(a5) # 2000000 <a>
+ 154:	40f70733          	sub	a4,a4,a5
+ 158:	020007b7          	lui	a5,0x2000
+ 15c:	00e7a223          	sw	a4,4(a5) # 2000004 <b>
+ 160:	020007b7          	lui	a5,0x2000
+ 164:	0007a703          	lw	a4,0(a5) # 2000000 <a>
+ 168:	020007b7          	lui	a5,0x2000
+ 16c:	0047a783          	lw	a5,4(a5) # 2000004 <b>
+ 170:	faf710e3          	bne	a4,a5,110 <main+0x10>
+ 174:	020007b7          	lui	a5,0x2000
+ 178:	0007a703          	lw	a4,0(a5) # 2000000 <a>
+ 17c:	020007b7          	lui	a5,0x2000
+ 180:	00e7a423          	sw	a4,8(a5) # 2000008 <mcd>
+ 184:	00000073          	ecall
+ 188:	0000006f          	jal	zero,188 <main+0x88>

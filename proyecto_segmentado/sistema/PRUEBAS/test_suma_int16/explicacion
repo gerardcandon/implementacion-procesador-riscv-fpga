@@ -1,7 +1,6 @@
 suma_int16
 
 Éste programa realiza la suma de los elementos de un vector con 10 valores de tipo 'short int'.
-de la burbuja.
 
 Inicialmente, el vector se inicializa a partir de la dirección 0x04000000 con los siguientes valores:
 0x00020001 0x00040003 0x00060005 0x00080007 0x000a0009

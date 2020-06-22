@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="disenyo_qsys" kind="disenyo_qsys" version="1.0" fabric="QSYS">
  <!-- Format version 19.1 670 (Future versions may contain additional information.) -->
- <!-- 2020.06.13.15:44:15 -->
+ <!-- 2020.06.17.13:28:07 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1592055855</value>
+  <value>1592393286</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -809,7 +809,7 @@ parameters are a RESULT of the module parameters. -->
     <slaveName>avalon_slave_0</slaveName>
     <name>mm_reloj_0.avalon_slave_0</name>
     <baseAddress>150994944</baseAddress>
-    <span>64</span>
+    <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
@@ -1529,7 +1529,7 @@ parameters are a RESULT of the module parameters. -->
     <slaveName>avalon_slave_0</slaveName>
     <name>mm_reloj_0.avalon_slave_0</name>
     <baseAddress>150994944</baseAddress>
-    <span>64</span>
+    <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
@@ -1667,7 +1667,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="addressSpan">
     <type>java.math.BigInteger</type>
-    <value>64</value>
+    <value>16</value>
     <derived>true</derived>
     <enabled>true</enabled>
     <visible>false</visible>
@@ -1675,7 +1675,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="addressUnits">
     <type>com.altera.sopcmodel.avalon.EAddrBurstUnits</type>
-    <value>WORDS</value>
+    <value>SYMBOLS</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>
@@ -1739,7 +1739,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="burstcountUnits">
     <type>com.altera.sopcmodel.avalon.EAddrBurstUnits</type>
-    <value>WORDS</value>
+    <value>SYMBOLS</value>
     <derived>false</derived>
     <enabled>true</enabled>
     <visible>true</visible>

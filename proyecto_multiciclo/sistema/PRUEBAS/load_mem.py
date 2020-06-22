@@ -41,7 +41,7 @@ for line in dhex_file:
 syshex_file = open(syshex_name, "r")
 sysbin_file = open(sysbin_name, "w+b")
 
-for line in dhex_file:
+for line in syshex_file:
     sysbin_file.write(binascii.unhexlify(line[6]+line[7]+line[4]+line[5]+line[2]+line[3]+line[0]+line[1]))
 
 #generamos el archivo .tcl
