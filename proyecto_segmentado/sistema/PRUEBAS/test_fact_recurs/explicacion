@@ -1,4 +1,0 @@
-fact_recurs
-
-Éste programa calcula el valor factorial de un número. En éste caso, se calcula 5!.
-El programa de prueba se ha ejecutado correctamente si la dirección 0x04000004 contiene el valor 0x00000078 (120, resultado de 5!).

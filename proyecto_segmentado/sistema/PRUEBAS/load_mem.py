@@ -3,7 +3,8 @@ import os
 import sys
 
 INSTR_ADDR = "0x00000000"
-DATA_ADDR = "0x04000000"
+DATA_ADDR  = "0x02000000"
+SYS_ADDR   = "0x04000000"
 
 #comprobamos el numero de argumentos
 if len(sys.argv) != 2:
@@ -14,10 +15,13 @@ if len(sys.argv) != 2:
 test_name = sys.argv[1]
 cwd = os.getcwd()
 
-ihex_name = cwd + '/test_' + test_name + '/' + test_name + '_imem.hex'
-ibin_name = cwd + '/test_' + test_name + '/' + test_name + '_imem.bin'
-dhex_name = cwd + '/test_' + test_name + '/' + test_name + '_dmem.hex'
-dbin_name = cwd + '/test_' + test_name + '/' + test_name + '_dmem.bin'
+ihex_name   = cwd + '/test_' + test_name + '/' + test_name + '_imem.hex'
+ibin_name   = cwd + '/test_' + test_name + '/' + test_name + '_imem.bin'
+dhex_name   = cwd + '/test_' + test_name + '/' + test_name + '_dmem.hex'
+dbin_name   = cwd + '/test_' + test_name + '/' + test_name + '_dmem.bin'
+syshex_name = cwd + '/test_' + test_name + '/' + test_name + '_sysmem.hex'
+sysbin_name = cwd + '/test_' + test_name + '/' + test_name + '_sysmem.bin'
+
 
 #escribimos el programa pasando las instrucciones de texto ascii a hexadecimal, para memoria de instrucciones
 ihex_file = open(ihex_name, "r")
@@ -33,13 +37,21 @@ dbin_file = open(dbin_name, "w+b")
 for line in dhex_file:
     dbin_file.write(binascii.unhexlify(line[6]+line[7]+line[4]+line[5]+line[2]+line[3]+line[0]+line[1]))
 
+#escribimos el programa pasando las instrucciones de texto ascii a hexadecimal, para memoria de sistema
+syshex_file = open(syshex_name, "r")
+sysbin_file = open(sysbin_name, "w+b")
+
+for line in syshex_file:
+    sysbin_file.write(binascii.unhexlify(line[6]+line[7]+line[4]+line[5]+line[2]+line[3]+line[0]+line[1]))
+
 #generamos el archivo .tcl
 tcl_name = cwd + '/test_' + test_name + '/init.tcl'
 tcl_file = open(tcl_name, "w+")
 script = """set master [claim_service "master" [lindex [get_service_paths "master"] 0] ""]; 
 master_write_from_file $master {} {};
 master_write_from_file $master {} {};
-""".format(ibin_name, INSTR_ADDR, dbin_name, DATA_ADDR)
+master_write_from_file $master {} {};
+""".format(ibin_name, INSTR_ADDR, dbin_name, DATA_ADDR, sysbin_name, SYS_ADDR)
 
 tcl_file.write(script)
 

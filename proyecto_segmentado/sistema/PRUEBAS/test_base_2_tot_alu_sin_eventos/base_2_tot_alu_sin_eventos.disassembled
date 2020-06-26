@@ -1,0 +1,110 @@
+
+base_2_tot_alu_sin_eventos.bin:     file format elf32-littleriscv
+
+
+Disassembly of section .text.inici:
+
+00000000 <entry>:
+   0:	03000117          	auipc	sp,0x3000
+   4:	00010113          	addi	sp,sp,0 # 3000000 <__mem_top__>
+   8:	f8410113          	addi	sp,sp,-124
+   c:	000002b3          	add	t0,zero,zero
+  10:	00000333          	add	t1,zero,zero
+  14:	000003b3          	add	t2,zero,zero
+  18:	00000433          	add	s0,zero,zero
+  1c:	000004b3          	add	s1,zero,zero
+  20:	00000533          	add	a0,zero,zero
+  24:	000005b3          	add	a1,zero,zero
+  28:	00000633          	add	a2,zero,zero
+  2c:	000006b3          	add	a3,zero,zero
+  30:	00000733          	add	a4,zero,zero
+  34:	000007b3          	add	a5,zero,zero
+  38:	00000833          	add	a6,zero,zero
+  3c:	000008b3          	add	a7,zero,zero
+  40:	00000933          	add	s2,zero,zero
+  44:	000009b3          	add	s3,zero,zero
+  48:	00000a33          	add	s4,zero,zero
+  4c:	00000ab3          	add	s5,zero,zero
+  50:	00000b33          	add	s6,zero,zero
+  54:	00000bb3          	add	s7,zero,zero
+  58:	00000c33          	add	s8,zero,zero
+  5c:	00000cb3          	add	s9,zero,zero
+  60:	00000d33          	add	s10,zero,zero
+  64:	00000db3          	add	s11,zero,zero
+  68:	00000e33          	add	t3,zero,zero
+  6c:	00000eb3          	add	t4,zero,zero
+  70:	00000f33          	add	t5,zero,zero
+  74:	00000fb3          	add	t6,zero,zero
+  78:	130000ef          	jal	ra,1a8 <main>
+  7c:	00000013          	addi	zero,zero,0
+  80:	00000013          	addi	zero,zero,0
+  84:	00000013          	addi	zero,zero,0
+  88:	00000013          	addi	zero,zero,0
+  8c:	00000013          	addi	zero,zero,0
+  90:	00100073          	ebreak
+
+Disassembly of section .text:
+
+00000100 <mult>:
+ 100:	fc010113          	addi	sp,sp,-64
+ 104:	02812e23          	sw	s0,60(sp)
+ 108:	04010413          	addi	s0,sp,64
+ 10c:	fca42623          	sw	a0,-52(s0)
+ 110:	fcb42423          	sw	a1,-56(s0)
+ 114:	fcc42783          	lw	a5,-52(s0)
+ 118:	00f79793          	slli	a5,a5,0xf
+ 11c:	fef42023          	sw	a5,-32(s0)
+ 120:	fc842703          	lw	a4,-56(s0)
+ 124:	000107b7          	lui	a5,0x10
+ 128:	fff78793          	addi	a5,a5,-1 # ffff <__stack_size__+0xfbff>
+ 12c:	00f777b3          	and	a5,a4,a5
+ 130:	fef42623          	sw	a5,-20(s0)
+ 134:	fe042223          	sw	zero,-28(s0)
+ 138:	0500006f          	jal	zero,188 <mult+0x88>
+ 13c:	fec42783          	lw	a5,-20(s0)
+ 140:	0017f793          	andi	a5,a5,1
+ 144:	fcf42e23          	sw	a5,-36(s0)
+ 148:	fec42783          	lw	a5,-20(s0)
+ 14c:	0017d793          	srli	a5,a5,0x1
+ 150:	fef42623          	sw	a5,-20(s0)
+ 154:	fe042423          	sw	zero,-24(s0)
+ 158:	fdc42703          	lw	a4,-36(s0)
+ 15c:	00100793          	addi	a5,zero,1
+ 160:	00f71663          	bne	a4,a5,16c <mult+0x6c>
+ 164:	fe042783          	lw	a5,-32(s0)
+ 168:	fef42423          	sw	a5,-24(s0)
+ 16c:	fec42703          	lw	a4,-20(s0)
+ 170:	fe842783          	lw	a5,-24(s0)
+ 174:	00f707b3          	add	a5,a4,a5
+ 178:	fef42623          	sw	a5,-20(s0)
+ 17c:	fe442783          	lw	a5,-28(s0)
+ 180:	00178793          	addi	a5,a5,1
+ 184:	fef42223          	sw	a5,-28(s0)
+ 188:	fe442703          	lw	a4,-28(s0)
+ 18c:	00f00793          	addi	a5,zero,15
+ 190:	fae7d6e3          	bge	a5,a4,13c <mult+0x3c>
+ 194:	fec42783          	lw	a5,-20(s0)
+ 198:	00078513          	addi	a0,a5,0
+ 19c:	03c12403          	lw	s0,60(sp)
+ 1a0:	04010113          	addi	sp,sp,64
+ 1a4:	00008067          	jalr	zero,0(ra)
+
+000001a8 <main>:
+ 1a8:	ff010113          	addi	sp,sp,-16
+ 1ac:	00112623          	sw	ra,12(sp)
+ 1b0:	00812423          	sw	s0,8(sp)
+ 1b4:	01010413          	addi	s0,sp,16
+ 1b8:	08000713          	addi	a4,zero,128
+ 1bc:	1ee02823          	sw	a4,496(zero) # 1f0 <__heap>
+ 1c0:	00200713          	addi	a4,zero,2
+ 1c4:	1ee02a23          	sw	a4,500(zero) # 1f4 <multiplicador>
+ 1c8:	1f002703          	lw	a4,496(zero) # 1f0 <__heap>
+ 1cc:	1f402783          	lw	a5,500(zero) # 1f4 <multiplicador>
+ 1d0:	00078593          	addi	a1,a5,0
+ 1d4:	00070513          	addi	a0,a4,0
+ 1d8:	f29ff0ef          	jal	ra,100 <mult>
+ 1dc:	00050713          	addi	a4,a0,0
+ 1e0:	020007b7          	lui	a5,0x2000
+ 1e4:	00e7a023          	sw	a4,0(a5) # 2000000 <resultado>
+ 1e8:	00000073          	ecall
+ 1ec:	0000006f          	jal	zero,1ec <main+0x44>

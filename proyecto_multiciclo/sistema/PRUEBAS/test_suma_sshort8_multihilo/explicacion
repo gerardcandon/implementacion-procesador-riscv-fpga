@@ -1,0 +1,13 @@
+suma_sshort8
+
+Éste programa realiza la suma de los elementos de dos vectores con 10 valores de tipo 'signed char'.
+
+Inicialmente, el vector se inicializa a partir de la dirección 0x02000000 con los siguientes valores:
+0xfc030201 0x08f90605 0x00000a09
+Y a partir de la dirección 0x0200000c con los siguientes valores:
+0xf20d0c0b 0x12ef100f 0x00001413
+
+El programa se ha ejecutado correctamente si el valor de la posición 0x02000018 de memoria tiene el valor
+0x00000021 (1+2+3-4+5+6-7+8+9+10 = 33)
+Y la posición 0x0200001c de memoria tiene el valor
+0x0000005d (11+12+13-14+15+16-17+18+19+20 = 93)

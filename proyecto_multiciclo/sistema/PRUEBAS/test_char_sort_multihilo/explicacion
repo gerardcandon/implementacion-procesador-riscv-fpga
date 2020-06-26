@@ -1,0 +1,14 @@
+char_sort
+
+Éste programa realiza la ordenación de dos vectore con 20 valores de tipo 'char' mediante el algoritmo
+de la burbuja.
+
+Inicialmente, el vector se inicializa a partir de la dirección 0x02000000 con los siguientes valores:
+0x1110ee14 0xf60df714 0x02000204 0x0df80a04 0x13101214 
+
+y a partir de la dirección 0x02000064 con los siguientes valores:
+0xf9fd1e19 0x2f21a4d2 0x0dd3ff03 0x36ae3856 0x810eb6c8
+
+El programa se ha ejecutado correctamente si el valor de los vectores ha pasado a ser el siguiente:
+0x04020200 0x0d0d0a04 0x12111010 0x14141413 0xf8f7f6ee
+0x190e0d03 0x362f211e 0xa4815638 0xd2c8b6ae 0xfffdf9d3

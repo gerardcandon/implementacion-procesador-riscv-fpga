@@ -1,0 +1,6 @@
+base_2_tot_alu
+
+Éste programa calcula la multiplicación entre dos operandos de 16 bits en base 2.
+En éste caso los operandos son 128 y 2.
+El programa se ha ejecutado correctamente si la entrada 0x02000000 de memoria tiene el valor
+0x00000100 (128 * 2 = 256).
